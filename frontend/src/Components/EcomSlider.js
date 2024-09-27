@@ -169,7 +169,7 @@ const EcomSlider = () => {
               <div className="bg-[#635AD9]  sm:py-2 md:py-0 flex sm:flex-col md:flex-row gap-5 justify-between md:pl-10 items-center text-white md:rounded-l-full">
                 {statistics.map((stat, statIndex) => (
                   <div key={statIndex} className="text-center flex flex-col items-center">
-                    <img className="w-10 md:ml-10" src={stat.icon} alt="" />
+                    <img className="w-10 md:ml-5" src={stat.icon} alt="" />
                     <div className="md:text-3xl sm:text-xl font-bold">{stat.number}</div>
                     <div>{stat.text}</div>
                   </div>
@@ -223,7 +223,22 @@ const EcomSlider = () => {
               </div>
             </div>
           </div>
-
+          <div className="flex justify-end mt-8">
+            <div className="md:w-[90%] w-full">
+              <div className="bg-[#635AD9]  sm:py-2 md:py-0 flex sm:flex-col md:flex-row gap-5 justify-between md:pl-10 items-center text-white md:rounded-l-full">
+                {statistics.map((stat, statIndex) => (
+                  <div key={statIndex} className="text-center flex flex-col items-center">
+                    <img className="w-10 md:ml-5" src={stat.icon} alt="" />
+                    <div className="md:text-3xl sm:text-xl font-bold">{stat.number}</div>
+                    <div>{stat.text}</div>
+                  </div>
+                ))}
+                <div className="sm:hidden md:block">
+                  <img className="w-60 h-[13rem]" src={img13} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
           
         </div>
       </Slider>

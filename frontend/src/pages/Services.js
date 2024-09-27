@@ -260,7 +260,7 @@ const Services = () => {
             {serviceData.map((service, index) => (
               <div className="">
                 <div
-                  className={`p-6 w-[90%]  shadow-2xl h-auto ml-6 rounded-lg mt-[-50px] z-10 bg-white flex flex-col justify-between`}
+                  className={`p-6 w-[90%] h-auto ml-6 rounded-lg mt-[-50px] z-10 bg-white flex flex-col justify-between`}
                   // onMouseLeave={() => handleClick(null)}
                 >
                   <div
