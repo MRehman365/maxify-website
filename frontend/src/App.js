@@ -15,6 +15,7 @@ import Conservation from "./pages/Conservation";
 import Ecommerce from "./pages/Ecommerce";
 import Graphic from "./pages/Graphic";
 import HRMS from "./pages/HRMS";
+import Healthcare from "./pages/Healthcare";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/graphic" element={<Graphic />} />
         <Route path="/hrms" element={<HRMS />} />
+        <Route path="/healthcare" element={<Healthcare />} />
       </Routes>
       <ContactForm />
       <Footer />

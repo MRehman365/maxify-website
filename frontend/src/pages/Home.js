@@ -230,16 +230,16 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % benifits.length);
-    }, 2000); // Change every 2 seconds
+    }, 2000); 
 
-    return () => clearInterval(interval); // Cleanup interval on unmount
+    return () => clearInterval(interval); 
   }, []);
 
-  // Ensure the index is within bounds
+
   const currentService = benifits[index];
 
   if (!currentService) {
-    return null; // Return nothing if service is undefined
+    return null; 
   }
   return (
     <div className="mt-[80px]">
