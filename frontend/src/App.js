@@ -17,6 +17,7 @@ import Graphic from "./pages/Graphic";
 import HRMS from "./pages/HRMS";
 import Healthcare from "./pages/Healthcare";
 import MarketingSolutions from "./pages/MarketingSolutions";
+import RealEstate from "./pages/RealEstate";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/hrms" element={<HRMS />} />
         <Route path="/healthcare" element={<Healthcare />} />
         <Route path="/marketingsolutions" element={<MarketingSolutions />} />
+        <Route path="/realestate" element={<RealEstate />} />
       </Routes>
       <ContactForm />
       <Footer />

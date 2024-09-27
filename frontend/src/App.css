@@ -132,63 +132,70 @@ body {
 
 /* BG */
 .bg-img {
-  /* background-image: url(./Assets/Image\\(2\).png); */
+  /* background-image: url('./Assets/Image\ \(2\).png'); */
   background-position: center;
 }
 .company-bg {
-  background-image: url(./Assets/circle-550x550.png.png);
+  background-image: url('./Assets/circle-550x550.png.png');
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: left;
 }
 .bg-slide {
-  /* background-image: url(./Assets/Image\\(1\).png); */
+  /* background-image: url('./Assets/Image\\(1\).png'); */
   background-repeat: no-repeat;
   background-position: left top;
 }
 .bg-contact1 {
-  background-image: url(./Assets/Group\ 164551.png);
+  background-image: url('./Assets/Group\ 164551.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
 }
 .bg-seo {
-  background-image: url(./Assets/Background.png);
+  background-image: url('./Assets/Background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .bg-con {
-  background-image: url(./Assets/Rectangle\ 4485.png);
+  background-image: url('./Assets/Rectangle\ 4485.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg-map {
-  background-image: url(./Assets/Rectangle\ 4599.png);
+  background-image: url('./Assets/Rectangle\ 4599.png');
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg-contact{
-  background-image: url(./Assets/image\ 316.png);
+  background-image: url('./Assets/image\ 316.png');
   background-repeat: no-repeat;
   background-position: center;
 
 }
 .bg-last{
   
-  background-image: url(./Assets/HRMS/Image\ \(21\).png);
+  background-image: url('./Assets/HRMS/Image\ \(21\).png');
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
 }
 .bg-hrms{
   
-  background-image: url(./Assets/HRMS/Background\ \(1\).png);
+  background-image: url('./Assets/HRMS/Background\ \(1\).png');
   background-repeat: no-repeat;
   background-position: center;
 }
+.bg-realestate{
+  background-image: url('./Assets/RealEstate/Rectangle\ 19.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /* contact form */
 
 .contact-container {
