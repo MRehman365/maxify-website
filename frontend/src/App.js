@@ -34,6 +34,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/graphic" element={<Graphic />} />
         <Route path="/hrms" element={<HRMS />} />
+        <Route path="/healthcare" element={<Healthcare />} />
+        <Route path="/marketingsolutions" element={<MarketingSolutions />} />
       </Routes>
       <ContactForm />
       <Footer />
