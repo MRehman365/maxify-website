@@ -122,11 +122,11 @@ const AppDevelopment = () => {
   return (
     <div className="mt-[70px]">
       <div className="md:w-[90%] mx-auto bg-background rounded-lg flex flex-col-reverse lg:flex-row lg:items-center">
-        <div className="lg:w-1/2 sm:px-2 md:px-4 lg:px-6">
-          <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+        <div className="lg:w-1/2 sm:px-4 md:px-4 lg:px-6">
+          <h1 className="sm:text-2xl md:text-5xl lg:text-6xl text-center md:text-left font-bold text-foreground">
             Best App Development Company in Noida
           </h1>
-          <p className="mt-4 text-[18px] text-justify">
+          <p className="mt-4 text-base text-gray-600 md:text-[18px] text-justify">
             Mobile applications have become an essential part of every business.
             Whether you are a startup looking to launch your first app or an
             established business aiming to enhance customer engagement, having a
@@ -135,7 +135,7 @@ const AppDevelopment = () => {
             company in Noida, offering top-notch mobile app solutions that cater
             to your business needs.
           </p>
-          <div className="mt-6 flex space-x-4">
+          <div className="mt-6 flex space-x-4 mb-4">
             <Link
               to=""
               className="bg-[#2334DE] text-white py-3 px-5 rounded-full hover:bg-[#2334DE]/80"
@@ -238,7 +238,7 @@ const AppDevelopment = () => {
                 <div>
                   <HiUserGroup size={25} className="text-[#2334DE]" />
                 </div>
-                <h2 className="text-[15px] ml-1 font-bold">
+                <h2 className="text-sm md:text-[15px] ml-1 font-bold">
                   Experienced and Skilled Team
                 </h2>
               </div>
@@ -254,7 +254,7 @@ const AppDevelopment = () => {
                 <div>
                   <FaHandHoldingHeart size={25} className="text-[#2334DE]" />
                 </div>{" "}
-                <h2 className="text-[15px] ml-1 font-bold">Customized Solutions</h2>
+                <h2 className="text-sm md:text-[15px] ml-1 font-bold">Customized Solutions</h2>
               </div>
               <p className="text-[12px] text-justify">
                 We understand that every business is unique, and so are its app
@@ -266,14 +266,14 @@ const AppDevelopment = () => {
           </div>
           
           <div className="text-center mt-4">
-            <button className="ml-2 text-base rounded-full relative px-8 py-2 text-[#2334DE] bg-none isolation-auto z-10 border-2 border-[#2334DE]
+            <button className="ml-2 text-sm md:text-base rounded-full relative px-8 py-2 text-[#2334DE] bg-none isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
               MORE ABOUT US
             </button>
           </div>
         </div>
-        <div className="lg:w-1/2 sm:w-full flex flex-col gap-4 p-6">
-            <h3 className="text-4xl font-bold">Why Choose Us as Your App Development Partner</h3>
+        <div className="lg:w-1/2 sm:w-full flex flex-col gap-4 p-4 md:p-6">
+            <h3 className="text-2xl md:text-4xl font-bold">Why Choose Us as Your App Development Partner</h3>
             <p className="text-sm text-justify">At Maxify Solution, we stand out as the best mobile app development company in Noida because of our commitment to delivering exceptional results. Here's why you should choose us:</p>
             <img src={img3} alt="" />
         </div>
@@ -283,8 +283,8 @@ const AppDevelopment = () => {
       <div className="bg-[#1c1c1c] bg-app flex sm:flex-col lg:flex-row rounded-lg overflow-hidden md:w-[90%] mx-auto sm:py-[40px] md:py-[60px] md:px-[40px]">
         <div className="flex flex-col sm:items-center lg:items-start sm:justify-center lg:justify-between mb-5">
         <div className=" space-y-4 mb-6 sm:text-center lg:text-left">
-        <p className="text-[20px] text-[#5858ff]">OUR MODEL</p>
-        <h3 className="text-4xl font-bold text-[#ffffff]">How We Do</h3>
+        <p className="text-base md:text-[20px] text-[#5858ff]">OUR MODEL</p>
+        <h3 className="text-2xl md:text-4xl font-bold text-[#ffffff]">How We Do</h3>
         <p className=" text-[#e2e2e2] text-sm">Save Time and Money with our Powerful Method</p>
         </div>
         <div>
@@ -301,15 +301,15 @@ const AppDevelopment = () => {
 
       {/* 4th section */}
       <div className="max-w-6xl mx-auto px-4 py-8 mt-5">
-      <h2 className="text-3xl font-bold text-center text-primary">Our App Development Services</h2>
-      <p className="mt-4 text-muted-foreground text-center">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-primary">Our App Development Services</h2>
+      <p className="mt-4 text-sm md:text-base  text-justify">
         At Maxify, we offer a comprehensive range of app development services that cater to various industries and business sizes. Whether you need a simple app for internal use or a complex,
         feature-rich app for your customers, we have the expertise to deliver.
       </p>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2">
         <button
           onClick={() => handleClick('Android App Development')}
-          className={`bg-secondary text-sm p-2 rounded-lg ${
+          className={`bg-secondary text-sm p-2 rounded-sm ${
             activeService === 'Android App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
@@ -317,7 +317,7 @@ const AppDevelopment = () => {
         </button>
         <button
           onClick={() => handleClick('iOS App Development')}
-          className={`bg-secondary text-sm p-2 rounded-lg ${
+          className={`bg-secondary text-sm p-2 rounded-sm ${
             activeService === 'iOS App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
@@ -325,7 +325,7 @@ const AppDevelopment = () => {
         </button>
         <button
           onClick={() => handleClick('Cross-Platform App Development')}
-          className={`bg-secondary text-sm p-2 rounded-lg ${
+          className={`bg-secondary text-sm p-2 rounded-sm ${
             activeService === 'Cross-Platform App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
@@ -333,7 +333,7 @@ const AppDevelopment = () => {
         </button>
         <button
           onClick={() => handleClick('App Design and User Experience (UX)')}
-          className={`bg-secondary text-sm p-2 rounded-lg ${
+          className={`bg-secondary text-sm p-2 rounded-sm ${
             activeService === 'App Design and User Experience (UX)' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
@@ -341,7 +341,7 @@ const AppDevelopment = () => {
         </button>
         <button
           onClick={() => handleClick('App Testing and Quality Assurance')}
-          className={`bg-secondary text-sm p-2 rounded-lg ${
+          className={`bg-secondary text-sm p-2 rounded-sm ${
             activeService === 'App Testing and Quality Assurance' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
@@ -373,7 +373,7 @@ const AppDevelopment = () => {
         {/* Left Section */}
         <div className="lg:w-1/2 sm:p-2 md:p-5 lg:p-12">
           <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">Projects</h3>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">The App Development Process</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">The App Development Process</h1>
           <p className="text-gray-700 text-sm text-justify mb-8">
             Our app development process is designed to be efficient, transparent, and client-focused. 
             Here's a step-by-step overview of how we bring your app idea to life:
@@ -393,7 +393,7 @@ const AppDevelopment = () => {
               </li>
             ))}
           </ul>
-          <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+          <button className="mt-8 rounded-full flex items-center text-sm md:text-base relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
             Learn More <span className="ml-2"><GoArrowRight /></span>
           </button>
@@ -431,9 +431,9 @@ const AppDevelopment = () => {
     </div>
     {/* section 6 */}
     <div className="bg-white sm:p-2 md:p-8  w-full flex sm:flex-col lg:flex-row items-center mt-10">
-    <div className="lg:w-1/2 space-y-5 sm:flex md:block justify-center flex-col items-center sm:text-center md:text-left">
+    <div className="lg:w-1/2 space-y-5 sm:flex md:block justify-center flex-col items-start  md:text-left">
           <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">Consulting Excellence</h3>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">Why We Are the Best App Development Company in Noida</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">Why We Are the Best App Development Company in Noida</h1>
           <ul className="space-y-4 mb-8">
             {steps.map((step) => (
               <li

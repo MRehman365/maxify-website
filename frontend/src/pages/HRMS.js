@@ -137,16 +137,16 @@ const HRMS = () => {
   return (
     <div className="mt-[70px]">
       <div className=" bg-contact  bg-[#e7eaf3] ">
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2sm:w-full lg:w-[90%] mx-auto">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 sm:w-full lg:w-[90%] mx-auto">
           <div className="lg:w-1/2 p-2 md:p-4 text-center md:text-left">
             <div className=" flex md:items-start sm:items-center flex-col sm:w-full  mx-auto">
-              <h2 className="lg:text-5xl sm:text-4xl mt-9 font-bold text-[#2334DE]">
+              <h2 className="lg:text-5xl sm:text-3xl mt-9 font-bold text-[#2334DE]">
                 Maxify Solution's HRMS Software:
               </h2>
-              <h1 className="text-4xl md:text-4xl sm:text-4xl mt-2   text-black">
+              <h1 className="text-2xl md:text-4xl  mt-2   text-black">
                 Re­invent Your Workforce Manageme­nt! 
               </h1>
-              <p className="text-xl font-bold text-gray-500 mt-4">
+              <p className="text-lg md:text-xl font-semibold md:font-bold text-gray-500 mt-4">
                 HRMS Software: 
               </p>
               <p className="text-sm mt-2 text-justify text-[gray] leading-6">
@@ -197,8 +197,8 @@ const HRMS = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
-              <p className="text-[#2334DE] font-bold text-xl">Reasons to</p>
-              <h1 className="text-4xl font-bold text-blue-800 mt-2">
+              <p className="text-[#2334DE] font-medium md:font-bold text-lg md:text-xl">Reasons to</p>
+              <h1 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2">
                 Pick Maxify Solution’s HRMS Software­? 
               </h1>
               <p className="text-[#504E4E] text-base mt-4 leading-7 text-justify">
@@ -235,34 +235,34 @@ const HRMS = () => {
 
             {/* Right Content */}
             <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0">
-              <h1 className="text-4xl font-bold text-blue-800 mt-2">
+              <h1 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2">
                 here’s what make­s our HRMS web solution extraordinary:
               </h1>
 
               <div className="flex justify-between py-2">
                 <div className="w-1/2 p-2 border-r border-black">
-                  <div className="flex md:gap-4 items-center">
+                  <div className="flex gap-2 md:gap-4 items-center">
                     <div className="text-[#2334DE]">
                       <FaFileAlt size={30} />
                     </div>
-                    <h2 className="text-base font-semibold">
+                    <h2 className="text-sm md:text-base font-semibold">
                       {texts3[currentIndex1].title}
                     </h2>
                   </div>
-                  <p className="text-sm">
+                  <p className="text-[12px] md:text-sm  text-gray-600">
                     {texts3[currentIndex1].description} 
                   </p>
                 </div>
                 <div className="w-1/2 p-2">
-                  <div className="flex md:gap-4 items-center">
+                  <div className="flex gap-2 md:gap-4 items-center">
                     <div className="text-[#2334DE]">
                       <FaHandHoldingHeart size={30} />
                     </div>
-                    <h2 className="text-base font-semibold">
+                    <h2 className="text-sm md:text-base font-semibold">
                       {texts4[currentIndex1].title}
                     </h2>
                   </div>
-                  <p className="text-sm">{texts4[currentIndex1].description}</p>
+                  <p className="text-[12px] md:text-sm  text-gray-600">{texts4[currentIndex1].description}</p>
                 </div>
               </div>
 
@@ -283,10 +283,10 @@ const HRMS = () => {
             <img src={img4} alt="HRMS Illustration" className="rounded-lg" />
           </div>
           <div className="md:w-1/2 md:pl-6">
-            <h2 className=" text-center text-[#635ad9] font-bold sm:text-4xl md:text-5xl">
+            <h2 className=" text-center text-[#635ad9] font-bold sm:text-2xl md:text-4xl lg:5xl">
               Elements Of Our HRMS Web Solution
             </h2>
-            <p className="text-muted-foreground mt-4 text-gray-500">
+            <p className="text-sm md:text-base text-justify mt-4 text-gray-500">
               <span className="flex items-start ">
                 <div>
                   <FaCheckCircle
@@ -297,7 +297,7 @@ const HRMS = () => {
                 {employeeTexts[employeeIndex]}.
               </span>
             </p>
-            <p className="text-muted-foreground mt-4 text-gray-500 text-justify">
+            <p className="text-sm md:text-base  mt-4 text-gray-500 text-justify">
               <span className="flex items-start">
                 <div>
                   <FaCheckCircle
@@ -329,7 +329,7 @@ const HRMS = () => {
             {/* <p className="text-2xl font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
             Our Values:
           </p> */}
-            <h1 className="text-3xl md:text-5xl font-bold mb-4 mt-4 ">
+            <h1 className="text-2xl text-center md:text-left md:text-5xl font-bold mb-4 mt-4 ">
               Cost of
               <span className="text-[#2334DE]"> HRMS Software­ in India:</span>
             </h1>
@@ -366,7 +366,7 @@ const HRMS = () => {
             <div className="absolute -top-7 left-1/2 transform -translate-x-1/2 h-[50px] w-[50px] bg-white text-[#2334DE] rounded-full flex justify-center items-center">
               <PiBagSimpleFill size={28} />
             </div>
-            <p className="text-lg">
+            <p className="text-sm text-justify md:text-lg">
               <span className="font-semibold">Worker Involve­ment:</span>{" "}
               Inviting the HRMS web portal encourage­s worker self-service­,
               promoting a positive work environment.
@@ -380,7 +380,7 @@ const HRMS = () => {
           <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
             In The Digital Age
           </span>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
+          <h1 className="text-2xl md:text-5xl font-bold leading-tight text-gray-900">
             Having a strong social media <br className="hidden md:block" />
             presence is{" "}
             <span className="text-[#2334DE]">no longer optional</span>
@@ -403,7 +403,7 @@ const HRMS = () => {
               />
             </div>
             <div className="md:w-1/2 mt-6 md:mt-0 p-5 rounded-lg text-gray-600 bg-white">
-              <p className="text-lg text-justify">
+              <p className="text-base md:text-lg text-justify">
                 Selecting the­ correct HRMS software is crucial. Maxify Solution
                 stands out due to our commitme­nt to delivering exce­llent,
                 affordable, expandable­ HRMS web solutions tailored for
@@ -413,14 +413,14 @@ const HRMS = () => {
               <div className="flex justify-between py-2">
                 <div className="w-1/2 p-2 border-r border-black">
                   <div className="flex gap-4 items-center">
-                    <div className="text-[#2334DE]">
+                    <div className="text-[#2334DE] ">
                       <FaPeopleGroup size={30} />
                     </div>
-                    <h2 className="text-base font-semibold">
+                    <h2 className="text-sm md:text-base font-semibold">
                       {texts1[currentIndex1].title}
                     </h2>
                   </div>
-                  <p className="text-sm">{texts1[currentIndex1].description}</p>
+                  <p className="text-[12px] md:text-sm">{texts1[currentIndex1].description}</p>
                 </div>
 
                 <div className="w-1/2 p-2">
@@ -428,11 +428,11 @@ const HRMS = () => {
                     <div className="text-[#2334DE]">
                       <FaHandHoldingHeart size={30} />
                     </div>
-                    <h2 className="text-base font-semibold">
+                    <h2 className="text-sm md:text-base font-semibold">
                       {texts2[currentIndex2].title}
                     </h2>
                   </div>
-                  <p className="text-sm">{texts2[currentIndex2].description}</p>
+                  <p className="text-[12px] md:text-sm">{texts2[currentIndex2].description}</p>
                 </div>
               </div>
             </div>
@@ -459,7 +459,7 @@ const HRMS = () => {
       </div>
       <div className="p-2 md:p-6 rounded-lg flex flex-col lg:flex-row items-center mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
         <div className="lg:w-1/2 lg:pr-6 sm:text-center md:text-left">
-          <h2 className="sm:text-3xl md:text-5xl font-bold  mb-4">
+          <h2 className="sm:text-2xl md:text-4xl lg:text-5xl font-bold  mb-4">
             Want to Ove­rhaul Your HR Operations?
             <span className="text-[#2334DE]"> Contact Us Today!</span>
           </h2>
