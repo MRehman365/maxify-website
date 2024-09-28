@@ -17,7 +17,7 @@ function NextArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="absolute top-4 right-4 z-10 cursor-pointer text-3xl text-white bg-[#635ad9] flex justify-center items-center h-12 w-12 rounded-full"
+      className="absolute top-4 right-4 z-10 cursor-pointer text-2xl md:text-3xl text-white bg-[#635ad9] flex justify-center items-center sm:h-8 sm:w-8 md:h-12 md:w-12 rounded-full"
       onClick={onClick}
     >
       <GoArrowRight />
@@ -30,7 +30,7 @@ function PrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="absolute top-4 right-20 z-10 cursor-pointer text-3xl text-[#635ad9] flex justify-center items-center h-12 w-12 rounded-full border border-[#635ad9]"
+      className="absolute top-4 right-20 z-10 cursor-pointer text-2xl md:text-3xl text-[#635ad9] flex justify-center items-center sm:h-8 sm:w-8 md:h-12 md:w-12 rounded-full border border-[#635ad9]"
       onClick={onClick}
     >
       <GoArrowLeft />
@@ -119,8 +119,8 @@ const EcomSlider = () => {
         {/* First Slide */}
         <div className="bg-image bg-cover w-full">
           <div className="w-[90%] mx-auto py-10">
-            <div className="sm:w-[100%] md:w-[70%]">
-              <h2 className="text-5xl">
+            <div className="sm:w-[100%] md:w-[70%] mt-5 md:mt-0">
+              <h2 className="text-2xl md:text-5xl">
                 <span className="gradient-text2 font-bold">
                   Our Portfolio :{" "}
                 </span>{" "}
@@ -142,7 +142,7 @@ const EcomSlider = () => {
           </div>
           <div className="w-[90%] mx-auto">
             <div className="card">
-              <div className="text-4xl font-bold">
+              <div className="sm:text-2xl md:text-4xl font-bold">
                 <h2 className="gradient-text2">Case Study :</h2>
               </div>
               {/* Display 3 case studies on the first slide */}
@@ -153,10 +153,10 @@ const EcomSlider = () => {
                     className="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-gray-600 hover:bg-[#635AD9] hover:text-white transition duration-300 ease-in-out"
                   >
                     <img className="w-14" src={study.icone} alt="" />
-                    <h3 className="text-xl font-bold text-purple-800 mb-2 mt-5">
+                    <h3 className="text-lg md:text-xl font-bold text-purple-800 mb-2 mt-5">
                       {study.title}
                     </h3>
-                    <p>{study.description}</p>
+                    <p className="text-sm md:text-base">{study.description}</p>
                   </div>
                 ))}
               </div>
@@ -185,16 +185,16 @@ const EcomSlider = () => {
         {/* Second Slide */}
         <div className="bg-image bg-cover w-full">
           <div className="w-[90%] mx-auto py-10">
-            <div className="w-[70%]">
-              <h2 className="text-5xl">
-                <span className="gradient-text2 font-bold">
+            <div className="w-[100%]">
+              <h2 className="text-2xl md:text-5xl sm:mt-5 md:mt-0 text-center md:text-left">
+                <span className="gradient-text font-bold">
                   Customer Reviews :{" "}
                 </span>{" "}
                 <span className="font-normal">
                   The Things Our Customers Have to Say About Us
                 </span>
               </h2>
-              <p className="mt-5 text-sm leading-7">
+              <p className="mt-5 text-sm leading-7 text-justify">
                 At Maxify Solutions, client satisfaction is our top priority.
                 What some of our clients had to say about their interactions
                 with us is included below:
@@ -203,7 +203,7 @@ const EcomSlider = () => {
           </div>
           <div className="w-[90%] mx-auto">
             <div className="card">
-              <div className="text-4xl font-bold">
+              <div className="text-2xl md:text-4xl font-bold">
                 <h2 className="gradient-text2">Case Studies :</h2>
               </div>
               {/* Display next 3 case studies on the second slide */}
@@ -214,10 +214,10 @@ const EcomSlider = () => {
                     className="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-gray-600 hover:bg-[#635AD9] hover:text-white transition duration-300 ease-in-out"
                   >
                     <img className="w-14" src={study.icone} alt="" />
-                    <h3 className="text-xl font-bold text-purple-800 mb-2 mt-5">
+                    <h3 className="text-lg md:text-xl font-bold text-purple-800 mb-2 mt-5">
                       {study.title}
                     </h3>
-                    <p>{study.description}</p>
+                    <p className="text-sm md:text-base text-justify">{study.description}</p>
                   </div>
                 ))}
               </div>

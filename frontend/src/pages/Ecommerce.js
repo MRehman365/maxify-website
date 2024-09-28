@@ -46,13 +46,13 @@ const Ecommerce = () => {
   ];
 
   return (
-    <div className="mt-20 w-full">
+    <div className="mt-[70px] w-full">
       <div
-        className={`top md:pt-20 flex flex-col w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
+        className={`top md:pt-20 py-3 flex sm:flex-col-reverse md:flex-col w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
       >
         <div className="w-[80%] mx-auto">
-          <div className="heading">
-            <h2 className="text-4xl font-bold uppercase sm:text-center md:text-left">
+          <div className="heading sm:mt-2 md:mt-0">
+            <h2 className="text-2xl md:text-4xl font-bold uppercase sm:text-center md:text-left">
               <span>Transform </span>{" "}
               <span className="text-[#2334DE]">Your Business </span>{" "}
               <span>with Cutting-Edge</span>{" "}
@@ -72,15 +72,15 @@ const Ecommerce = () => {
               your mark or an established business aiming to enhance your online
               presence, our team of experts is here to help you succeed.
             </p>
-            <div className="w-[40%] mt-3">
+            <div className="w-[40%] mt-3 sm:hidden md:block">
               <button className="p-2 w-[100%] rounded-full border-[#C21EFC] border-[1px]">
                 our services
               </button>
             </div>
           </div>
         </div>
-        <div className="w-[90%] lg:h-auto sm:h-[300px] mx-auto mt-10">
-          <img className="w-[100%] lg:h-auto sm:h-[300px]" src="images/img2.png" alt="" />
+        <div className=" md:w-[90%] lg:h-auto sm:h-[300px] mx-auto md:mt-10">
+          <img className="md:w-[100%] lg:h-auto sm:h-[300px]" src="images/img2.png" alt="" />
         </div>
       </div>
 
@@ -106,7 +106,7 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 sm:text-center md:text-left">
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 sm:text-center md:text-left">
                 <span>
                   Why Choose Maxify <br /> Solutions for{" "}
                 </span>
@@ -115,7 +115,7 @@ const Ecommerce = () => {
                 </span>
               </h2>
               <div className="bg-white rounded-lg">
-                <h3 className="text-xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left" >
+                <h3 className="text-lg md:text-xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left" >
                   Expertise You Can Trust
                 </h3>
                 <p className="text-gray-700 mb-4 text-[13px] text-justify ">
@@ -131,7 +131,7 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-                <button className="gradient-background text-white font-normal text-sm px-0 rounded-full py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
+                <button className="gradient-background w-1/2 text-white font-normal text-sm px-0 rounded-full py-3  md:w-52 hover:bg-[#2334DE] transition duration-300">
                   EXPLORE MORE
                 </button>
               </div>
@@ -167,7 +167,7 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-                <button className="gradient-background text-white font-normal text-sm px-0 rounded-full py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
+                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  md:w-52 hover:bg-[#2334DE] transition duration-300">
                   EXPLORE MORE
                 </button>
               </div>
@@ -190,7 +190,7 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white mt-10">
+        <div className="bg-white md:mt-10">
           <div className="flex flex-col md:flex-row  lg:p-8 md:px-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start mt-20">
@@ -205,12 +205,12 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
                 <p className="gradient-text">End-to-End E-</p>
                 <p>Commerce Development</p>
               </h2>
-              <div className="bg-white rounded-lg sm:text-justify">
-                <h3 className="text-lg mb-2 text-gray-600">
+              <div className="bg-white rounded-lg sm:text-justify text-sm md:text-base">
+                <h3 className=" mb-2 text-gray-600">
                   From concept to launch, Maxify Solutions offers end-to-end{" "}
                   <span> </span>
                   <span className="text-gray-900">
@@ -220,7 +220,7 @@ const Ecommerce = () => {
                   include:
                 </h3>
                 <ul className="flex flex-col gap-2 list-disc">
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       Custom E-commerce Website Design{" "}
                     </span>
@@ -230,7 +230,7 @@ const Ecommerce = () => {
                       resonate with your target audience.
                     </span>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       Responsive Web Development{" "}
                     </span>
@@ -240,7 +240,7 @@ const Ecommerce = () => {
                       experience across all devices.
                     </span>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       Secure Payment Gateway Integration{" "}
                     </span>
@@ -250,17 +250,17 @@ const Ecommerce = () => {
                       encourage repeat business
                     </span>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       SEO Optimizatio{" "}
                     </span>
                     : <span>E-commerce websites opt</span>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     imized for search engines to drive organic traffic and boost
                     sales.
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       CMS Integration{" "}
                     </span>
@@ -271,7 +271,7 @@ const Ecommerce = () => {
                       effortlessly.
                     </span>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <span className="text-gray-950 font-bold">
                       Ongoing Support and Maintenance{" "}
                     </span>
@@ -289,14 +289,14 @@ const Ecommerce = () => {
       </section>
 
       {/* image section */}
-      <div className="imge w-[90%] mx-auto border-2 rounded-t-3xl shadow-xl">
+      <div className="imge w-[90%] mx-auto md:border-2 rounded-t-3xl md:shadow-xl">
         <div className="">
           <img className="w-full object-cover object-center h-[30rem]" src={img8} alt="" />
         </div>
         <div>
-          <div className="heading p-10">
+          <div className="heading p-4 md:p-10">
             <div>
-              <h3 className="text-4xl sm:text-center md:text-left">
+              <h3 className="text-3xl md:text-4xl sm:text-center md:text-left">
                 <span className="gradient-text font-bold">Our Approach :</span>
                 <span className="font-medium">
                   {" "}
@@ -304,11 +304,11 @@ const Ecommerce = () => {
                 </span>
               </h3>
             </div>
-            <div className="text-2xl font-bold text-[#2334DE] mt-4  sm:text-center md:text-left">
+            <div className="text-xl md:text-2xl font-[600] md:font-bold text-[#2334DE] mt-4  sm:text-center md:text-left">
               <h2>User-Centric Design</h2>
             </div>
             <div className="mt-5">
-              <p className="leading-8 text-justify">
+              <p className="md:leading-8 leading-6 text-justify text-sm md:text-base">
                 At Maxify Solutions, we believe that the success of an
                 e-commerce website lies in its ability to provide a seamless and
                 enjoyable shopping experience. Our design philosophy is centered
@@ -367,7 +367,7 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-                <button className="gradient-background text-white font-normal text-sm px-0 rounded-full py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
+                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  md:w-52 hover:bg-[#2334DE] transition duration-300">
                   EXPLORE MORE
                 </button>
               </div>
@@ -378,9 +378,9 @@ const Ecommerce = () => {
           <div className="flex flex-col md:flex-row justify-between items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
-              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2">
+              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-800 mb-6 sm:mb-2 sm:text-center md:text-left">
                 <span>
-                  Integrated Digital <br /> Marketing Services
+                  Integrated Digital  Marketing Services
                 </span>
               </h2>
               <div className="bg-white rounded-lg">
@@ -397,7 +397,7 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-                <button className="gradient-background text-white font-normal text-sm px-0 rounded-full py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
+                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3 md:w-52 hover:bg-[#2334DE] transition duration-300">
                   EXPLORE MORE
                 </button>
               </div>
