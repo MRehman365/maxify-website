@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
 .group:hover .main-content,
 .group:hover .button-container {
   display: none;
@@ -96,3 +100,28 @@ text-transform: capitalize;
   font-weight: 900;
   font-style: normal;
 }
+
+
+.quicksand-Quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.mbg {
+  background-image: url("../Assets/mbg.png");
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Full width */
+  height: 100%;
+  margin: auto; /* Centers the section */
+}
+
+.mbg2{
+  background-image: url("../Assets//CTA.png");
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Full width */
+  height: 100%;
+  margin: auto; /* Centers the section */
+  /* padding: 0px 100px; */
+}
+
+
