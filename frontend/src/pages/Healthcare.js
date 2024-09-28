@@ -45,8 +45,8 @@ const Healthcare = () => {
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 py-4 md:p-8 sm:px-3">
-          <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-2">
-            <span className="text-black  leading-[60px]">
+          <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2 sm:text-center md:text-left">
+            <span className="text-black  md:leading-[60px]">
               Healthcare Web Development Solutions By{" "}
             </span>
             <span className=" font-medium  leading-[60px]">
@@ -54,7 +54,7 @@ const Healthcare = () => {
               Maxify Solution
             </span>
           </h1>
-          <p className="sm:text-base md:text-xl text-justify  text-gray-600 mb-6">
+          <p className="sm:text-base md:text-xl text-justify  text-gray-600 mb-6 ">
             In the fast-evolving landscape of healthcare, the combination of
             electronic technology is no longer an option—it's a necessity. At
             Maxify Option, we understand the distinct difficulties dealt with by
@@ -67,11 +67,11 @@ const Healthcare = () => {
           </p>
 
           <button
-            className="mt-8 rounded-full flex items-center relative px-8 py-2 text-black bg-gray-200 isolation-auto z-10 border-2 border-black
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-black before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
+            className="mt-8 rounded-full flex items-center justify-between gap-5 relative px-2 py-2 font-[500] text-black bg-gray-200 isolation-auto z-10
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700"
           >
-            Learn More{" "}
-            <span className="ml-2">
+            Get Your Design
+            <span className=" bg-white rounded-full p-2 transform -rotate-[45deg]">
               <GoArrowRight />
             </span>
           </button>
@@ -89,16 +89,16 @@ const Healthcare = () => {
 
       {/* second section */}
       <div class="w-[100%] mx-auto md:w-[90%] lg:w-[90%] lg:p-6 mt-5">
-        <h1 class="text-4xl lg:text-6xl md:leading-[70px] font-bold text-center mb-4">
-          Why SelectMaxify Solution for <br />
+        <h1 class="text-3xl lg:text-6xl md:leading-[70px] font-bold text-center md:mb-4">
+          Why Select Maxify Solution for <br />
           <span class="text-blue-600">Healthcare Internet Development?</span>
         </h1>
-        <div class="flex flex-col lg:flex-row items-center justify-between mt-2 space-x-4">
+        <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
             <img src={img2} alt="Healthcare icons" class="rounded-lg" />
           </div>
           <div class="md:w-1/2 px-6">
-            <ul class="list-disc text-justify text-base space-y-3">
+            <ul class="list-disc text-justify text-sm md:text-base space-y-3">
               <li class=" text-zinc-800">
                 <strong>Patient-Centric Designs:</strong> Prioritizing customer
                 experience to ensure simplicity of access and engagement for
@@ -126,7 +126,7 @@ const Healthcare = () => {
       </div>
       {/* 3rd section */}
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
-        <div className="lg:w-1/2 p-4">
+        <div className="lg:w-1/2 p-2 md:p-4">
           <img
             src={img3}
             alt="Team meeting"
@@ -173,10 +173,10 @@ const Healthcare = () => {
       {/* 4th section */}
       <div class="flex flex-col lg:flex-row items-center justify-between mt-2 space-x-4 sm:w-full md:w-[90%] mx-auto">
         <div class="lg:w-1/2 px-6">
-          <h2 className="text-5xl sm:text-4xl font-bold">
+          <h2 className="md:text-5xl sm:text-2xl font-bold text-center md:text-left">
             Advanced Technologies We Make Use Of in Healthcare Web Development
           </h2>
-          <p className="text-base leading-7 text-zinc-500 py-3  text-justify">
+          <p className="text-sm md:text-base leading-7 text-zinc-500 py-3  text-justify">
             At Maxify Solution, we leverage the current technological
             innovations to provide advanced healthcare web development services.
           </p>
@@ -231,12 +231,12 @@ const Healthcare = () => {
         <div class="lg:w-1/2 relative sm:h-[320px] md:h-[300px] w-full">
           <div className="flex gap-1 justify-between items-start">
             <div className="md:w-[70%] w-full">
-              <h2 className="text-4xl font-bold">
+              <h2 className="sm:text-3xl text-center md:text-left md:text-4xl font-bold">
                 Key Advantages of Partnering with{" "}
                 <span className="text-[#2334DE]"> Maxify Service</span>
               </h2>
               <button
-                className="mt-8 py-3 text-[14px] font-[300] px-6 rounded-lg relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+                className="mt-8 sm:mb-4 md:mb-0 py-3 text-[14px] font-[300] px-6 rounded-lg relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
               >
                 Get Started
@@ -248,8 +248,8 @@ const Healthcare = () => {
             </div>
           </div>
           <div className="shadow-md bg-white p-4">
-            <p className="text-base text-gray-600">
-              <span className="font-[600]">{benifits[index].title}</span>{" "}
+            <p className="text-sm md:text-base text-gray-600">
+              <span className="font-[600] text-sm md:text-base">{benifits[index].title}</span>{" "}
               {benifits[index].text}
             </p>
           </div>
@@ -257,13 +257,13 @@ const Healthcare = () => {
       </div>
 
       {/* 7th */}
-      <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-6">
-        <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
+      <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
+        <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
           <img src={img9} alt="Healthcare icons" class="rounded-lg" />
         </div>
-        <div class="md:w-1/2 px-6">
-        <h2 className="text-4xl font-bold py-2 leading-10"><span className="text-[#2334DE]">Maxify Option:</span> Your Trusted Partner in Healthcare Web Growth</h2>
-          <p class="list-disc text-justify text-base space-y-3 text-gray-500 leading-7">
+        <div class="md:w-1/2 md:px-6">
+        <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10"><span className="text-[#2334DE]">Maxify Option:</span> Your Trusted Partner in Healthcare Web Growth</h2>
+          <p class="list-disc text-justify text-sm md:text-base space-y-3 text-gray-500 leading-7">
             At Maxify Option, we are committed to supplying healthcare web
             development services that not only fulfill the present needs of the
             sector but also prepare healthcare companies for future
@@ -276,7 +276,7 @@ const Healthcare = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center bg-white py-12 px-6 md:px-16">
+      <div className="flex flex-col md:flex-row justify-center items-center bg-white md:py-12 px-6 md:px-16">
       {/* Left Section: Image */}
       <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
         <img
@@ -289,8 +289,8 @@ const Healthcare = () => {
       {/* Right Section: Text Content */}
       <div className="bg-blue-600 md:w-1/2 w-full p-8 md:rounded-r-lg text-white">
       
-      <h2 className="text-3xl font-bold mb-4 text-center">Contact Us Today</h2>
-        <p className="text-lg leading-relaxed leading-7">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Contact Us Today</h2>
+        <p className="md:text-lg leading-relaxed sm:text-base text-justify">
           Ready to transform your medical care experiment into advanced digital
           remedies? Call Maxify Remedy today to learn more about how our
           healthcare web development services can aid you in accomplishing your

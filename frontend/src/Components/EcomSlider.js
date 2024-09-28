@@ -107,9 +107,9 @@ const EcomSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true, // Enable fade effect
-    nextArrow: <NextArrow />, // Custom next arrow
-    prevArrow: <PrevArrow />, // Custom previous arrow
+    fade: true, 
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />, 
     waitForAnimate: false,
   };
 
