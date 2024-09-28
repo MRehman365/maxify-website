@@ -344,7 +344,7 @@ const RealEstate = () => {
                   <h2 className="text-[15px] font-semibold mb-4">
                     {service.title}
                   </h2>
-                  <p className=" mb-6 text-[10px] text-justify">
+                  <p className=" mb-6 text-[13px] leading-6 text-justify">
                     {service.description}
                   </p>
                 </div>
@@ -377,7 +377,7 @@ const RealEstate = () => {
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-1/2 relative">
-            <div className="bg-teal-500 rounded-tr-[100px] rounded-bl-[100px] p-4 md:p-8">
+            <div className="bg-[#37937e] rounded-tr-[100px] rounded-bl-[100px] p-4 md:p-8">
               <img
                 src={img9}
                 alt="Real estate website development"
