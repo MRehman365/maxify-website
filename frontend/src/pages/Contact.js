@@ -40,8 +40,8 @@ const Contact = () => {
           />
         </div>
         <div className="lg:w-1/2 py-4 px-2 md:px-10">
-          <h2 className="text-lg text-[#6C6A72]">Who We Are:</h2>
-          <h3 className=" font-semibold sm:text-4xl md:text-5xl">
+          <h2 className="text-base md:text-lg text-[#6C6A72]">Who We Are:</h2>
+          <h3 className=" font-semibold sm:text-3xl md:text-5xl">
             Your Trusted Partner
             <br /> in{" "}
             <span className="text-[#2334DE] font-bold">Digital Excellence</span>
@@ -96,7 +96,7 @@ const Contact = () => {
               />
             </div>
             <div className="md:w-1/2 mt-6 md:mt-0 p-5 rounded-r-lg  text-[#6C6A72] bg-white">
-              <p className="text-[20x] leading-7 text-justify">
+              <p className="text-[20x] leading-7 text-justify text-sm md:text-base">
                 Being top Web Design Company in India we make the most user
                 friendly and responsive designs so that any device can become
                 your hurdle to touch heights. Be it a dynamic website,
@@ -115,7 +115,7 @@ const Contact = () => {
 
         {/* Bottom Section with Solid Blue Background */}
         <div className="bg-[#2334DE] text-white text-center py-6">
-          <p className=" sm:text-xl md:text-2xl ">
+          <p className=" sm:text-lg md:text-2xl ">
             What We Do: All your digital solution in one place
           </p>
         </div>
@@ -179,7 +179,7 @@ const Contact = () => {
                 <h3 className="text-sm font-[500] text-black">
                   Problem Solving
                 </h3>
-                <p className="text-[12px] text-justify">
+                <p className="text-[12px] text-gray-600 text-justify">
                   Aliquam erat volutpat <br />Nullam imperdiet
                 </p>
               </div>
@@ -189,10 +189,10 @@ const Contact = () => {
                 <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
               </div>
               <div>
-                <h3 className="text-sm font-[500] text-black">
+                <h3 className="text-sm font-[500]  text-black">
                   Mission & Vision
                 </h3>
-                <p className="text-[12px] text-justify">
+                <p className="text-[12px] text-gray-600 text-justify">
                   Ut vehiculadictumst.<br /> Maecenas ante.
                 </p>
               </div>
@@ -215,11 +215,11 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 py-4 md:p-8 sm:px-3">
-          <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-2">
+          <h1 className="text-3xl md:text-6xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]">SEO </span>And{" "}
             <span className="text-[#2334DE]">Marketing:</span>
           </h1>
-          <p className="text-[18px] font-[500] text-[gray] mb-4">
+          <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
              Apparent In Extreme Traffic Boost And Conversions
           </p>
           <p className="text-sm text-justify  text-gray-600 mb-6">
@@ -247,7 +247,7 @@ const Contact = () => {
               <div className="h-[60px] w-[60px] bg-[#f0effc] flex justify-center items-center">
                 <MdImportantDevices className="text-[30px] text-[#2334DE]" />
               </div>
-              <p className="font-semibold lg:text-[16px] md:text-[16px]">
+              <p className="font-semibold text-gray-700 lg:text-[16px] md:text-[16px]">
                 Business
                 <br /> Growth
               </p>
@@ -256,7 +256,7 @@ const Contact = () => {
               <div className="h-[60px] w-[60px] bg-[#f0effc] flex justify-center items-center">
                 <AiOutlineSolution className="text-[30px] text-[#2334DE]" />
               </div>
-              <p className="font-semibold lg:text-[16px] md:text-[16px]">
+              <p className="font-semibold text-gray-700 lg:text-[16px] md:text-[16px]">
                 Technology <br />
                 Consultancy
               </p>
@@ -290,7 +290,7 @@ const Contact = () => {
           <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]">PPC </span>Ads :
           </h1>
-          <p className="text-[18px] font-[500] text-[gray] mb-4">
+          <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
              How to get the most out of your marketing money
           </p>
           <p className="text-sm text-justify  text-gray-600 mb-6">
@@ -309,7 +309,7 @@ const Contact = () => {
                 <LuFocus className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
-                <h3 className="text-2xl font-[700] text-black">99%</h3>
+                <h3 className="text-xl md:text-2xl font-[700] text-black">99%</h3>
                 <p className="text-sm font-[300] text-justify">SMS Marketing</p>
               </div>
             </div>
@@ -318,7 +318,7 @@ const Contact = () => {
                 <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
-                <h3 className="text-2xl font-[700] text-black">65%</h3>
+                <h3 className="text-xl md:text-2xl font-[700] text-black">65%</h3>
                 <p className="text-sm font-[300] text-justify">
                   Cover Marketing
                 </p>
@@ -339,9 +339,9 @@ const Contact = () => {
               <p className="text-[#2334DE] font-bold text-xl">
                 CHECK THIS LINK:
               </p>
-              <h1 className="text-5xl font-bold text-blue-800 mt-2">SMO :</h1>
-              <p className="text-[#504E4E] text-base mt-4 leading-7">
-                <span className="text-xl">
+              <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-800 mt-2">SMO :</h1>
+              <p className="text-[#504E4E] text-sm text-justify md:text-base mt-4 leading-7">
+                <span className="text-base text-justify md:text-xl">
                   {" "}
                   Strong presence in social media into process.
                 </span>{" "}
@@ -378,7 +378,7 @@ const Contact = () => {
 
             {/* Right Content */}
             <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0">
-              <p className="text-[#504E4E] text-base mt-4 leading-7">
+              <p className="text-[#504E4E] text-sm md:text-base text-justify mt-4 leading-7">
                 Our SMO Services Make Sure That You Have Right Social Media
                 Marketing Plan In Place And Helps To Create A Strong Network Of
                 Connections So Similar Brands Know About Your Offerings. We Know
@@ -389,11 +389,11 @@ const Contact = () => {
 
               <div className="flex justify-center lg:justify-start mt-4">
                 <ul className="text-base leading-7 text-black">
-                  <li className="flex items-center">
+                  <li className="flex items-center text-sm md:text-base text-gray-700">
                     <FiCheckCircle className="text-[#2334DE] mr-2" /> Various
                     analysis options.
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center text-sm md:text-base text-gray-700">
                     <FiCheckCircle className="text-[#2334DE] mr-2" /> Page Load
                     (time, size, number of requests).
                   </li>

@@ -34,13 +34,13 @@ const Conservation = () => {
         </div>
         <div className="lg:w-[65%] py-5 px-2 flex flex-col justify-around h-{100%} ">
           {/* <h2 className="text-lg text-[#6C6A72]">Who We Are:</h2> */}
-          <h3 className=" font-semibold sm:text-4xl md:text-5xl">
+          <h3 className=" font-semibold sm:text-3xl md:text-5xl text-center md:text-left">
             <span className="text-[#2334DE] font-bold">
               Let’s Start a Conversation:{" "}
             </span>
             We’re Here to Help Your Business Thrive
           </h3>
-          <p className="mt-4 text-base leading-9 text-justify text-[#6C6A72]">
+          <p className="mt-4 text-sm leading-6 md:text-base md:leading-9 text-justify text-[#6C6A72]">
             At Maxify Solutions, we believe that great partnerships start with a
             simple conversation. Whether you’re ready to elevate your digital
             presence, optimize your website, or launch a targeted marketing
@@ -49,14 +49,14 @@ const Conservation = () => {
             Development, SEO, SMO, and PPC Ads can help your business achieve
             new heights.
           </p>
-          <div className=" md:flex justify-end gap-5">
-            <p className="flex items-center gap-1 text-[#6C6A72]">
+          <div className=" flex md:flex-row flex-col justify-end gap-4">
+            <p className="flex items-center gap-1 text-sm leading-6 md:text-base text-[#6C6A72]">
               <span className="bg-[#e2e2fa] text-[#2334DE] rounded-full h-10 w-10 flex items-center justify-center">
                 <BsTelephoneFill />
               </span>{" "}
               +91 742 830 9119
             </p>
-            <p className="flex items-center gap-1 text-[#6C6A72]">
+            <p className="flex items-center gap-1 text-sm leading-6 md:text-base text-[#6C6A72]">
               <span className="bg-[#e2e2fa] text-[#2334DE] rounded-full h-10 w-10 flex items-center justify-center">
                 <BiLogoTelegram />
               </span>{" "}
@@ -70,7 +70,7 @@ const Conservation = () => {
       <div className="bg-con">
         <div className="mt-10 px-6 sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
           {/* Title */}
-          <h2 className="text-center text-[#2334DE] text-4xl font-bold mb-8">
+          <h2 className="text-center text-[#2334DE] text-3xl md:text-4xl font-bold mb-8">
             Why Reach Out To Maxify Solutions?
           </h2>
 
@@ -79,7 +79,7 @@ const Conservation = () => {
             {/* Text Content (60%) */}
             <div className="lg:w-[70%] bg-whiterounded-lg shadow-md flex bg-white">
               <div className="p-4">
-                <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
+                <h3 className="text-[#2334DE] font-semibold text-lg md:text-xl mb-2">
                   Customized Solutions For Every Business
                 </h3>
                 <p className="text-gray-600 text-sm leading-7">
@@ -102,7 +102,7 @@ const Conservation = () => {
 
             {/* Image (40%) */}
             <div className="lg:w-[30%] sm:w-full bg-white p-6 rounded-lg shadow-md h-[100%]">
-              <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
+              <h3 className="text-[#2334DE] font-semibold text-lg md:text-xl mb-2">
                 Expert Guidance from Industry Leaders
               </h3>
               <p className="text-gray-600 text-sm">
@@ -117,7 +117,7 @@ const Conservation = () => {
           <div className="flex flex-col lg:flex-row items-center gap-6 mb-6">
             {/* Image (40%) */}
             <div className="lg:w-[30%] sm:w-full bg-white p-6 rounded-lg h-auto shadow-md">
-              <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
+              <h3 className="text-[#2334DE] font-semibold text-lg md:text-xl mb-2">
                 Quick and Easy Communication
               </h3>
               <p className="text-gray-600 text-sm">
@@ -132,7 +132,7 @@ const Conservation = () => {
             {/* Text Content (60%) */}
             <div className="lg:w-[70%] sm:w-full bg-whiterounded-lg shadow-md flex justify-between bg-white">
               <div className="p-4">
-                <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
+                <h3 className="text-[#2334DE] font-semibold text-lg md:text-xl mb-2">
                   How to Reach Us:
                 </h3>
                 <p className="text-gray-600 text-sm leading-7">
@@ -159,10 +159,10 @@ const Conservation = () => {
           {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-4xl md:text-6xl font-semibold text-[black] mt-4">
+          <h1 className="sm:text-3xl md:text-6xl font-semibold text-[black] mt-4">
             Customized Solutions for Every Business
           </h1>
-          <p className="mt-4 text-base text-gray-500 leading-7 text-justify">
+          <p className="mt-4 text-sm md:text-base text-gray-500 leading-6 md:leading-7 text-justify">
             At Maxify Solutions, we take the time to understand your unique
             challenges and goals. Our team of experts will work closely with you
             to create customized strategies that deliver measurable results.
@@ -194,10 +194,10 @@ const Conservation = () => {
           {/* <span className="text-sm bg-[#e5e5ff] text-[black] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-4xl md:text-6xl font-semibold text-[black] mt-4">
+          <h1 className="sm:text-3xl md:text-6xl font-semibold text-[black] mt-4">
             Expert Guidance from Industry Leaders
           </h1>
-          <p className="mt-4 text-base text-gray-500 leading-7 text-justify">
+          <p className="mt-4 text-sm md:text-base text-gray-500 leading-6 md:leading-7 text-justify">
             Maxify Solutions has established itself as a leader in the digital
             marketing and web development industry. Our team of seasoned
             professionals is here to provide you with the expert guidance you
@@ -221,10 +221,10 @@ const Conservation = () => {
           {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-4xl md:text-6xl font-semibold text-[black] mt-4">
+          <h1 className="sm:text-3xl md:text-6xl font-semibold text-[black] mt-4">
             Quick and Easy Communication
           </h1>
-          <p className="mt-4 text-base text-gray-500 leading-7 text-justify">
+          <p className="mt-4 text-sm md:text-base text-gray-500 leading-6 md:leading-7 text-justify">
             We value your time and understand the importance of quick and
             efficient communication. That’s why we’ve made it easy for you to
             Email Us or Send Your Enquiry through our user-friendly contact
@@ -252,10 +252,10 @@ const Conservation = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
             <div className="lg:w-1/2 text-center lg:text-left flex flex-col items-center">
-              <h1 className="text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
+              <h1 className="text-3xl md:text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
                 Contact Us via Phone
               </h1>
-              <p className="text-[#504E4E] text-sm mt-4 leading-7">
+              <p className="text-[#504E4E] text-justify text-sm mt-4 leading-7">
                 Prefer to speak with us directly? If you give us a call, one of
                 our helpful staff members will be pleased to help you. We’re
                 here to answer your questions, discuss your project, and help
@@ -296,10 +296,10 @@ const Conservation = () => {
 
             {/* Right Content */}
             <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0 flex flex-col items-center">
-              <h1 className="text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
+              <h1 className="text-3xl md:text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
                 Email Us for Detailed Inquiries
               </h1>
-              <p className="text-[#504E4E] text-sm mt-4 leading-7">
+              <p className="text-[#504E4E] text-sm text-justify mt-4 leading-7">
                 Please email us if you have more specific questions or if you
                 would rather communicate by letter. Whether you have questions
                 about our services, need a quote, or want to discuss a potential
@@ -330,8 +330,8 @@ const Conservation = () => {
             className=""
           />
         </div>
-        <div className="lg:w-1/2 lg:pr-6">
-          <h2 className="text-5xl font-bold text-[#2334DE] mb-4">
+        <div className="lg:w-1/2 lg:pr-6 mt-5 md:mt-0">
+          <h2 className="text-2xl text-center md:text-5xl font-bold text-[#2334DE] md:mb-4">
             Send Your Enquiry Online
           </h2>
           <p className="text-[#504E4E] text-sm leading-7 mb-6">
@@ -431,7 +431,7 @@ const Conservation = () => {
           <h3 className="text-lg font-[600] mb-2">
             Our Commitment to You: Excellence in Every Interaction
           </h3>
-          <p className="text-sm">
+          <p className="text-sm  text-justify">
             At Maxify Solutions, our commitment to excellence extends beyond the
             services we offer. Our goal is to deliver outstanding customer
             service at every point of contact. When you Contact Us, you can
@@ -451,7 +451,7 @@ const Conservation = () => {
           />
           <div className="p-3">
             <h3 className="text-lg font-semibold mt-4 mb-3">Prompt Responses:</h3>
-            <p className="text-sm">
+            <p className="text-sm text-gray-600 text-justify">
               We know your time is valuable. So we make it a priority to respond
               to your inquiries quickly and efficiently.
             </p>
@@ -468,7 +468,7 @@ const Conservation = () => {
           <h3 className="text-lg font-semibold mt-4 mb-3">
             Clear Communication:
           </h3>
-          <p className="text-sm">
+          <p className="text-sm text-gray-600 text-justify">
             We’re here to make your experience as seamless as possible. We’ll
             provide clear, straightforward answers to your questions and keep
             you informed every step of the way.
@@ -484,7 +484,7 @@ const Conservation = () => {
           />
           <div  className="p-3">
           <h3 className="text-lg font-semibold mt-4 mb-3">Dedicated Support:</h3>
-          <p className="text-sm">
+          <p className="text-sm text-gray-600 text-justify">
             Our team is passionate about helping your business succeed. When you
             reach us, you’ll be connected with professionals who are dedicated
             to understanding your needs and delivering the best possible
@@ -498,10 +498,10 @@ const Conservation = () => {
           <div className=" p-6 rounded-lg flex flex-col lg:flex-row items-center mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
       
         <div className="lg:w-1/2 lg:pr-6">
-          <h2 className="text-5xl font-bold  mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold  mb-4">
           Ready to Take the Next Step? <span className="text-[#2334DE]"> Contact Us Today!</span>
           </h2>
-          <p className="text-[#504E4E] text-sm leading-7 mb-6">
+          <p className="text-[#504E4E] text-justify text-sm leading-7 mb-6">
           One step will get you started on the path to digital success. Reach Us today, and let’s start working together to create a powerful online presence for your business. Whether you’re just starting out or looking to take your existing digital strategy to the next level, Maxify Solutions is here to help. Send Your Enquiry or Email Us now, and let’s begin a partnership that drives results.
           </p>
         </div>
