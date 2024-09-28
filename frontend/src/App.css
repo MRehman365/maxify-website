@@ -321,7 +321,7 @@ body {
 
 /* BG */
 .bg-img {
-  /* background-image: url('./Assets/Image\ \(2\).png'); */
+  background-image: url('./Assets/Image\ 2222.png');
   background-position: center;
 }
 .company-bg {
@@ -331,7 +331,7 @@ body {
   background-position: left;
 }
 .bg-slide {
-  /* background-image: url('./Assets/Image\\(1\).png'); */
+  background-image: url('./Assets/Image\ 1111.png');
   background-repeat: no-repeat;
   background-position: left top;
 }

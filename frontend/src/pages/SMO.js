@@ -23,12 +23,12 @@ const SMO = () => {
     setOpenItem(openItem === index ? null : index);
   };
   return (
-    <div>
+    <div className="mt-[70px]">
       <div className="header-smo text-white text-center flex flex-col items-center p-2 sm:py-[70px] md:py-[120px] justify-center" >
-        <h1 className="sm:text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="sm:text-3xl md:text-6xl font-bold mb-4">
           Elevate Your Online Presence
         </h1>
-        <h2 className="sm:text-4xl md:text-6xl font-bold mb-4">
+        <h2 className="sm:text-3xl md:text-6xl font-bold mb-4">
           With SMO Services In India
         </h2>
         <p className="sm:text-[17px] md:text-[20px] mb-6 md:max-w-[800px]">
@@ -80,7 +80,7 @@ const SMO = () => {
               <MdNoiseAware size={40} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Enhanced Brand Awareness:</p>
-            <p className="text-sm text-justify">
+            <p className="text-sm text-justify text-gray-600">
               SMO helps in creating a strong online presence, making your brand
               more recognizable and trustworthy.
             </p>
@@ -92,7 +92,7 @@ const SMO = () => {
               <BsGraphUpArrow size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Increased Traffic:</p>
-            <p className="text-sm text-justify">
+            <p className="text-sm text-justify text-gray-600">
               By optimizing your social media profiles and content, SMO drives
               more traffic to your website, improving your search engine
               rankings.
@@ -105,7 +105,7 @@ const SMO = () => {
               <TbCirclesRelation size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Better Engagement:</p>
-            <p className="text-sm text-justify">
+            <p className="text-sm text-justify text-gray-600">
               SMO enables you to connect with your audience on a personal level,
               fostering loyalty and long-term relationships.
             </p>
@@ -117,7 +117,7 @@ const SMO = () => {
               <IoPricetagsOutline size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Cost-Effective Marketing:</p>
-            <p className="text-sm text-justify">
+            <p className="text-sm text-justify text-gray-600">
               SMO is a budget-friendly marketing strategy that delivers high
               returns on investment by reaching a larger audience with minimal
               costs.
@@ -134,13 +134,13 @@ const SMO = () => {
             <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 mb-4 rounded-lg mb-4">
               About Us
             </span>
-            <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 mt-4">
+            <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 mt-4">
               Our SMO <br /> Services{" "}
               <span className="text-[#2334DE] border-[2px] border-[#2334DE] px-4 rounded-full">
                 in India
               </span>
             </h1>
-            <p className="text-gray-600 mt-5">
+            <p className="text-gray-600 mt-5 text-justify">
               At Maxify Solution, we offer a comprehensive range of SMO services
               tailored to meet the unique needs of your business. Our team of
               professionals uses modern technologies and strategies to improve
@@ -171,10 +171,10 @@ const SMO = () => {
         <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
           Ask Question
         </button>
-        <h1 className="text-4xl lg:text-5xl font-bold mt-4 mb-4">
+        <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
           Social Media <br /> Profile <span className="text-[#2334DE]">Optimization</span>
         </h1>
-        <p className="text-gray-600 mt-4">
+        <p className="text-gray-600 mt-4 text-justify">
           Your social media profiles are the first impression potential customers have of your brand. We optimize your profiles on platforms like Facebook, Instagram, Twitter, LinkedIn, and more, ensuring they are complete, professional, and aligned with your brand identity.
         </p>
         <div className="mt-6 rounded-lg p-4 flex items-center">
@@ -194,14 +194,14 @@ const SMO = () => {
             className="flex justify-between items-center cursor-pointer"
             onClick={() => toggleAccordion(1)}
           >
-            <h2 className="text-lg font-semibold">Keyword Integration:</h2>
+            <h2 className="text-base md:text-lg font-semibold">Keyword Integration:</h2>
             {openItem === 1 ? <FaMinus /> : <FaPlus />}
           </div>
           <div
             className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 1 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
           >
             {openItem === 1 && (
-              <div className="text-gray-600">
+              <div className="text-gray-600 text-sm md:text-base">
                 We incorporate relevant keywords in your profiles to enhance searchability.
               </div>
             )}
@@ -212,14 +212,14 @@ const SMO = () => {
             className="flex justify-between items-center cursor-pointer"
             onClick={() => toggleAccordion(2)}
           >
-            <h2 className="text-lg font-semibold">How Do You Manage Consulting Effectively?</h2>
+            <h2 className="sm:text-base md:text-lg font-semibold">How Do You Manage Consulting Effectively?</h2>
             {openItem === 2 ? <FaMinus /> : <FaPlus />}
           </div>
           <div
             className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 2 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
           >
             {openItem === 2 && (
-              <div className="text-gray-600">
+              <div className="text-gray-600 text-sm md:text-base">
                 Detailed content on managing consulting effectively goes here.
               </div>
             )}
@@ -230,14 +230,14 @@ const SMO = () => {
             className="flex justify-between items-center cursor-pointer"
             onClick={() => toggleAccordion(3)}
           >
-            <h2 className="text-lg font-semibold">Bio And Description:</h2>
+            <h2 className="sm:text-base md:text-lg font-semibold">Bio And Description:</h2>
             {openItem === 3 ? <FaMinus /> : <FaPlus />}
           </div>
           <div
             className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 3 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
           >
             {openItem === 3 && (
-              <div className="text-gray-600">
+              <div className="text-gray-600 text-sm md:text-base">
                 Detailed content on bio and description goes here.
               </div>
             )}
@@ -248,9 +248,9 @@ const SMO = () => {
 
     {/* section 6 */}
     <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8 bg-background md:w-[94%] lg:w-[80%] mx-auto">
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 w-full">
         <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">Why CHOOSE US</span>
-        <h3 className="text-5xl mt-8  font-bold">
+        <h3 className="text-3xl md:text-5xl mt-8  font-bold">
           For SMO <br /> Services  <span className="text-[#2334DE]">in India?</span>
         </h3>
         <ul className="mt-8 space-y-2 leading-8">
@@ -406,7 +406,7 @@ const SMO = () => {
           />
         </div>
         <div className="md:w-1/2 mt-6 md:mt-0 p-5 rounded-lg text-gray-600 bg-white">
-          <p className="text-lg">
+          <p className="text-sm text-justify md:text-lg">
             It’s essential. As the leading SMO services company in India, Maxify web solution is committed to helping you build and maintain a powerful online presence that drives growth and success. Whether you’re looking to enhance your brand awareness, engage with your audience, or increase website traffic, our expert team is here to help.
           </p>
         </div>
@@ -415,7 +415,7 @@ const SMO = () => {
 
       {/* Bottom Section with Solid Blue Background */}
       <div className="bg-[#2334DE] text-white text-center py-6">
-        <p className="text-lg font-semibold">
+        <p className="text-base md:text-lg font-semibold">
           Contact us today to learn more about our SMO services and how we can help your business thrive in the competitive digital landscape.
         </p>
       </div>

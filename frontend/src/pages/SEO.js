@@ -185,7 +185,7 @@ const SEO = () => {
       <div className="right-banner sm:h-auto bg-seo pt-3">
         <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
           <div className="md:w-1/2 flex flex-col justify-center px-2 lg:px-10 text-white">
-            <h2 className="text-4xl font-extrabold mb-5">
+            <h2 className="text-2xl md:text-4xl font-bold md:font-extrabold mb-5 sm:text-center md:text-left">
               Our Comprehensive SEO Services
             </h2>
             <p className="mb-6 text-sm text-justify font-[300] leading-6">
@@ -241,7 +241,7 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     On-Page SEO <br />
                     <span className="text-[#2334DE] mt-2">Optimization</span>
                   </h1>
@@ -316,7 +316,7 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     Technical <span className="text-[#2334DE] mt-2">Seo</span>
                   </h1>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
@@ -380,7 +380,7 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     Off-Page SEO &{" "}
                     <span className="text-[#2334DE] mt-2">Link Building</span>
                   </h1>
@@ -451,11 +451,11 @@ const SEO = () => {
       {/* section 6 */}
       <div className="bg-[#e7effe]">
         <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8  md:w-[94%] lg:w-[80%] mx-auto">
-          <div className="md:w-1/2">
+          <div className="w-full md:w-1/2">
             <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">
               Why CHOOSE US
             </span>
-            <h3 className="sm:text-4xl md:text-5xl mt-8  font-bold">
+            <h3 className="sm:text-3xl md:text-5xl mt-8  font-bold">
               For SMO <br /> Services{" "}
               <span className="text-[#2334DE]">in India?</span>
             </h3>
@@ -831,7 +831,7 @@ const SEO = () => {
             />
           </div>
           <div className="relative md:w-1/2 lg:p-16 sm:mt-6 md:mt-0">
-            <h2 className="sm:text-3xl md:text-4xl font-bold">
+            <h2 className="sm:text-2xl md:text-4xl font-bold text-center md:text-left">
               Get Started with the Best SEO Services Company in Noida
             </h2>
             <p className="text-justify text-sm mt-6">
