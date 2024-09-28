@@ -7,6 +7,8 @@ import img5 from "../Assets/RealEstate/Group 164554.png";
 import img6 from "../Assets/RealEstate/image (3).png";
 import img7 from "../Assets/RealEstate/image (4).png";
 import img8 from "../Assets/RealEstate/Mask group.png";
+import img9 from "../Assets/RealEstate/image (6).png";
+import img10 from "../Assets/RealEstate/image (7).png";
 import { IoSearch } from "react-icons/io5";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
@@ -17,6 +19,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const features = [
   {
@@ -309,7 +312,7 @@ const RealEstate = () => {
        <span className="text-[#ffbf00]"> Benefits of Partnering with</span> Maxify Solution for Real Estate Website Development
         </h2>
         <Swiper
-          slidesPerView={1} // Default slides per view for small screens
+          slidesPerView={1}
           spaceBetween={30}
           loop={true}
           autoplay={{
@@ -318,11 +321,11 @@ const RealEstate = () => {
           }}
           breakpoints={{
             768: {
-              // At 768px (md screen) and above
+           
               slidesPerView: 2,
             },
             1024: {
-              // At 1024px and above (lg screen)
+            
               slidesPerView: 3,
             },
           }}
@@ -341,7 +344,7 @@ const RealEstate = () => {
                   <h2 className="text-[15px] font-semibold mb-4">
                     {service.title}
                   </h2>
-                  <p className=" mb-6 text-[10px] text-justify">
+                  <p className=" mb-6 text-[13px] leading-6 text-justify">
                     {service.description}
                   </p>
                 </div>
@@ -363,6 +366,68 @@ const RealEstate = () => {
         </div>
       </div>
       </div>
+      {/*  */}
+      <section className="container mx-auto px-4 py-12 md:py-24">
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-6">
+          <span className="text-yellow-400">Maxify Solution:</span> You're Relied On Companion
+        </h1>
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-center mb-12">
+          in Real Estate Website Development
+        </h2>
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="w-full md:w-1/2 relative">
+            <div className="bg-[#37937e] rounded-tr-[100px] rounded-bl-[100px] p-4 md:p-8">
+              <img
+                src={img9}
+                alt="Real estate website development"
+                width={500}
+                height={300}
+                className="rounded-tr-[80px] rounded-bl-[80px] object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-full md:w-1/2">
+            <p className="text-gray-700 text-lg border p-4 text-justify">
+              At Maxify Remedy, we are dedicated to offering innovative and detailed real estate website development services that equip realty experts to be successful in the electronic age. Whether you are a property agent seeking to enhance your online visibility, a building programmer wishing to display your latest tasks, or a broker agent company seeking to enhance procedures, we have the proficiency and experience to bring your vision to life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* last section */}
+    <div className="bg-[#87beb2] rounded-lg p-8 md:w-[90%] mx-auto flex flex-col md:flex-row items-center">
+      <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
+        <h2 className="sm:text-3xl md:text-5xl font-bold text-white mb-4 p-2">Get In Touch With Us Today</h2>
+        <p className="text-white sm:text-lg md:text-2xl mb-6 text-justify p-2">
+          All set to transform your property service with a powerful and interesting website? Contact Maxify Remedy today to find out more regarding our real estate website development services and just how we can help you achieve your digital objectives in the competitive real estate market.
+        </p>
+        <form className="flex  w-[50%]">
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="flex-grow px-4 py-2 rounded-l-md focus:outline-none"
+            required
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-6 py-2 rounded-r-md hover:bg-blue-700 transition duration-300"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+      <div className="md:w-1/3">
+        <div className=" rounded-lg p-4 relative">
+          <img
+            src={img10}
+            alt="Hand holding smartphone"
+            className="w-full h-auto rounded"
+          />
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
