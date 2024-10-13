@@ -1,203 +1,320 @@
-import React, { useState } from "react";
-import { FaBars, FaPhone } from "react-icons/fa";
-import { MdExpandMore } from "react-icons/md";
-import { Link } from "react-router-dom";
-import logo from '../Assets/image 1.png'
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
+import React, { useState, useEffect } from "react";
+import "./navbar.css";
+import { Link, useNavigate } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
+import { FaBars } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
+import { NaveData } from "./NavData";
+import "./navbar.css";
+import { Bounce } from "react-awesome-reveal";
 
-  const toggleDropdown = (dropdown) => {
-    setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
+import logo from '../Assets/image 1.png'
+
+const Navbar = () => {
+  const navigate = useNavigate();
+  const [scrolled, setScrolled] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const [click, setClick] = useState(false);
+  const [subActive, setSubActive] = useState(null);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null);
+    }
+    setSelected(i);
   };
 
+  const handleClick = () => {
+    setClick(!click);
+    if (click) {
+      setSubActive(null);
+      setSelected(null);
+    }
+  };
+
+  const handleSubActive = (i) => {
+    if (subActive === i) {
+      return setSubActive(null);
+    }
+    setSubActive(i);
+  };
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 100) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleMouseLeave = () => {
+    setIsHovered(true);
+    setTimeout(() => {
+      setIsHovered(false);
+    }, 2000);
+  };
+
+  let x = ["navbar"];
+  if (scrolled) {
+    x.push("scrolled");
+  }
+
   return (
-    <nav className="bg-black text-white sm:p-4 md:p-5 fixed top-0 z-50 w-full">
-      <div className=" mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <div className="flex items-center">
-          <img src={logo} className="h-[50px] w-auto" alt="" />
-        </div>
-
-        {/* Main Menu */}
-        <div className="hidden md:flex space-x-8 items-center">
-          <Link to="/" className="hover:text-gray-400 transition duration-300">
-            Home
-          </Link>
-
-          {/* Dropdown for Services */}
-          <div className="relative group">
-          <p className="bg-[#a656f7] text-white px-1 text-[10px] absolute right-0 top-[-12px] rounded-sm">New</p>
-            <Link
-              to="/servise"
-              className="flex items-center hover:text-gray-400 transition duration-300"
-            >
-              Services <MdExpandMore className="ml-1" />
-            </Link>
-            {/* <div className="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-2 rounded shadow-lg w-48">
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 1
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 2
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 3
-              </a>
-            </div> */}
-          </div>
-
-          {/* Dropdown for Industries */}
-          <div className="relative group">
-          <Link
-              to="/seo"
-              className="flex items-center hover:text-gray-400 transition duration-300"
-            >
-              Industries <MdExpandMore className="ml-1" />
-            </Link>
-            {/* <div className="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-2 rounded shadow-lg w-48">
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Industry 1
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Industry 2
-              </a>
-            </div> */}
-          </div>
-
-          {/* Dropdown for Success Stories */}
-          <div className="relative group">
-          <p className="bg-[#38e382] text-white px-1 text-[10px] absolute right-0 top-[-12px] rounded-sm">Exclusive</p>
-            <Link
-              to="/contact"
-              className="flex items-center hover:text-gray-400 transition duration-300"
-            >
-              Success Stories <MdExpandMore className="ml-1" />
-            </Link>
-            {/* <div className="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-2 rounded shadow-lg w-48">
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 1
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 2
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 3
-              </a>
-            </div> */}
-          </div>
-          <div className="relative group">
-            <Link
-              to="/conservation"
-              className="flex items-center hover:text-gray-400 transition duration-300"
-            >
-              About us <MdExpandMore className="ml-1" />
-            </Link>
-            {/* <div className="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-2 rounded shadow-lg w-48">
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 1
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 2
-              </a>
-              <a href="#" className="px-4 py-2 hover:bg-gray-100">
-                Service 3
-              </a>
-            </div> */}
-          </div>
-        </div>
-
-        {/* Contact and Quote Button */}
-        <div className="hidden md:flex space-x-4 items-center">
-          <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-sm hover:from-purple-600 hover:to-[#2334DE] transition duration-300">
-            Get A Quote
-          </button>
-          <div className="flex items-center">
-            <FaPhone className="mr-2 bg-[#2334DE] rounded-full text-white h-[35px] w-[35px] leading-[16px] p-2 text-[12px]" />
-            <div>
-              <p className="text-[11px]">Call Any Time</p>
-              <p className="text-[13px] font-semibold">+91 89050 54141</p>
+    <>
+      <header className={x.join(" ")}>
+        <div className={`navbar-main-box bg-[#3d3b40] lg:hover:bg-[#3d3b40] ${click ? "sm:bg-[#3d3b40]" : ""}`}>
+          {/* <Bounce duration={1000}> */}
+            <div className="logo" onClick={() => navigate("/")}>
+              <img
+                loading="lazy"
+                src={logo}
+                alt=""
+              />
             </div>
-          </div>
-        </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-2xl"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <FaBars />
-        </button>
-      </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-black text-white mt-4">
-          <div className="flex flex-col space-y-4">
-            <a href="#" className="block">
-              Home
-            </a>
-
-            {/* Mobile Dropdown for Services */}
-            <div>
-              <Link to=""
-                className="flex items-center justify-between w-full"
-                onClick={() => toggleDropdown("services")}
+          {/* </Bounce> */}
+          <nav className="navigation">
+            <ul className="lg:flex hidden font-[500] text-[1rem] items-center gap-8 leading-5 navmanu">
+              {NaveData.map((item, i) => (
+                <li
+                  className={item.submenu ? "nav-item small-nav" : "nav-item"}
+                  key={i}
+                  onClick={() => handleSubActive(i)}
+                >
+                  <Link to={item.url}>
+                    {item.name}
+                    {item.submenu && (
+                      <span>
+                        <IoIosArrowDown />
+                      </span>
+                    )}
+                    {item.subservicemenu && (
+                      <span>
+                        <IoIosArrowDown />
+                      </span>
+                    )}
+                  </Link>
+                  {item.subservicemenu && (
+                    <>
+                      <ul
+                        id={isHovered ? "show-drop" : "not-show-drop"}
+                        className={
+                          subActive === i
+                            ? "dropdowns img-dropdowns active-submenu"
+                            : "dropdowns img-dropdowns"
+                        }
+                      >
+                        <div
+                          className={
+                            i === 1
+                              ? "xl:ml-[15%] lg:ml-[5%] drop-menu"
+                              : "ml-[10%] xl:ml-[20%] drop-menu"
+                          }
+                        >
+                          {item.insideName.map((data, i) => (
+                            <>
+                              {data.dMenu && (
+                                <li className="first-box">
+                                  <h3>{data?.dText?.dName}</h3>
+                                  <p>{data?.dText?.text}</p>
+                                  <button
+                                    onClick={() => {
+                                      navigate(item.url);
+                                      handleMouseLeave();
+                                    }}
+                                  >
+                                    {data?.dText?.b}
+                                  </button>
+                                </li>
+                              )}
+                              <li
+                                key={i}
+                                className={data.link ? "d-block" : "d-none"}
+                                onClick={() => {
+                                  toggle(i);
+                                  navigate(data.link);
+                                  handleMouseLeave();
+                                }}
+                              >
+                                <img
+                                  className="nav-images"
+                                  src={data.img}
+                                  alt=""
+                                />
+                                <span className="submenu-names">
+                                  {data.names}
+                                </span>
+                              </li>
+                            </>
+                          ))}
+                        </div>
+                      </ul>
+                    </>
+                  )}
+                  {item.submenu && (
+                    <>
+                      <ul
+                        id={isHovered ? "show-drop" : "not-show-drop"}
+                        className={
+                          subActive === i
+                            ? "dropdowns active-submenu"
+                            : "dropdowns"
+                        }
+                      >
+                        {item.insideName.map((data, i) => (
+                          <li key={i} onClick={() => toggle(i)}>
+                            <Link
+                              to={data.link}
+                              className={selected === i ? "active" : ""}
+                            >
+                              {data.names}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </li>
+              ))}
+              <button
+                className="nav-btn1 ms-5"
+                onClick={() => navigate("contact-us")}
               >
-                Services{" "}
-                <MdExpandMore
-                  className={`ml-1 transform ${
-                    activeDropdown === "services" ? "rotate-180" : ""
-                  }`}
-                />
-              </Link>
-            </div>
-
-            {/* Mobile Dropdown for Industries */}
-            <div>
-              <Link
-                className="flex items-center justify-between w-full"
-                onClick={() => toggleDropdown("industries")}
+                Contact us
+              </button>
+            </ul>
+            <ul
+              className={`lg:hidden bg-[#3d3b40] fixed w-full top-0 overflow-y-auto bottom-0 py-10 px-10 sm:mt-[55px] md:mt-[80px] duration-500 ${
+                click ? "right-0 z-50" : "right-[-100%]"
+              }`}
+            >
+              {NaveData.map((item, i) => (
+                <li
+                  className={item.submenu ? "nav-item small-nav" : "nav-item"}
+                  key={i}
+                  onClick={() => handleSubActive(i)}
+                >
+                  <Link to={item.url}>
+                    {item.name}
+                    {item.submenu && (
+                      <span>
+                        <IoIosArrowDown />
+                      </span>
+                    )}
+                    {item.subservicemenu && (
+                      <span>
+                        <IoIosArrowDown />
+                      </span>
+                    )}
+                  </Link>
+                  {item.subservicemenu && (
+                    <>
+                      <ul
+                        id={isHovered ? "show-drop" : "not-show-drop"}
+                        className={
+                          subActive === i
+                            ? "dropdowns img-dropdowns active-submenu"
+                            : "dropdowns img-dropdowns"
+                        }
+                      >
+                        <div
+                          className={
+                            i === 1
+                              ? "xl:ml-[15%] lg:ml-[5%] drop-menu"
+                              : "ml-[10%] xl:ml-[20%] drop-menu"
+                          }
+                        >
+                          {item.insideName.map((data, i) => (
+                            <>
+                              {data.dMenu && (
+                                <li className="first-box">
+                                  <h3>{data?.dText?.dName}</h3>
+                                  <p>{data?.dText?.text}</p>
+                                  <button
+                                    onClick={() => {
+                                      navigate(item.url);
+                                      handleMouseLeave();
+                                    }}
+                                  >
+                                    {data?.dText?.b}
+                                  </button>
+                                </li>
+                              )}
+                              <li
+                                key={i}
+                                className={data.link ? "d-block" : "d-none"}
+                                onClick={() => {
+                                  toggle(i);
+                                  navigate(data.link);
+                                  handleMouseLeave();
+                                  handleClick();
+                                }}
+                              >
+                                <img
+                                  className="nav-images"
+                                  src={data.img}
+                                  alt=""
+                                />
+                                <span className="submenu-names">
+                                  {data.names}
+                                </span>
+                              </li>
+                            </>
+                          ))}
+                        </div>
+                      </ul>
+                    </>
+                  )}
+                  {item.submenu && (
+                    <>
+                      <ul
+                        id={isHovered ? "show-drop" : "not-show-drop"}
+                        className={
+                          subActive === i
+                            ? "dropdowns active-submenu"
+                            : "dropdowns"
+                        }
+                      >
+                        {item.insideName.map((data, i) => (
+                          <li key={i} onClick={() => toggle(i)}>
+                            <Link
+                              to={data.link}
+                              className={selected === i ? "active" : ""}
+                            >
+                              {data.names}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </li>
+              ))}
+              <button
+                className="nav-btn1 sm:ms-0 md:ms-5"
+                onClick={() => {
+                  navigate("contact-us");
+                  handleClick();
+                }}
               >
-                Industries{" "}
-                <MdExpandMore
-                  className={`ml-1 transform ${
-                    activeDropdown === "industries" ? "rotate-180" : ""
-                  }`}
-                />
-              </Link>
-            </div>
-
-            {/* Mobile Dropdown for Success Stories */}
-            <div>
-              <Link
-                className="flex items-center justify-between w-full"
-                onClick={() => toggleDropdown("success")}
-              >
-                Success Stories{" "}
-                <MdExpandMore
-                  className={`ml-1 transform ${
-                    activeDropdown === "success" ? "rotate-180" : ""
-                  }`}
-                />
-              </Link>
-            </div>
-
-            <Link to="" className="block">
-              About Us
-            </Link>
-
-            <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-lg">
-              Get A Quote
-            </button>
-            <div className="flex items-center justify-center">
-              <FaPhone />
-              <span className="ml-2">+91 89050 54141</span>
-            </div>
-          </div>
+                Contact us
+              </button>
+            </ul>
+            <span className="bar-section" onClick={handleClick}>
+              {click ? <RxCross1 className="cross-iconss" /> : <FaBars />}
+            </span>
+          </nav>
         </div>
-      )}
-    </nav>
+      </header>
+    </>
   );
 };
 

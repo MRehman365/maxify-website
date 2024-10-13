@@ -18,6 +18,9 @@ import HRMS from "./pages/HRMS";
 import Healthcare from "./pages/Healthcare";
 import MarketingSolutions from "./pages/MarketingSolutions";
 import RealEstate from "./pages/RealEstate";
+import DigitalMarketing from "./pages/DigitalMarketing";
+import Banking from "./pages/Banking";
+import Education from "./pages/Education";
 
 function App() {
   return (
@@ -28,6 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/servise" element={<Services />} />
         <Route path="/app" element={<AppDevelopment />} />
+        <Route path="/digitalmarketing" element={<DigitalMarketing />} />
         <Route path="/smo" element={<SMO />} />
         <Route path="/seo" element={<SEO />} />
         <Route path="/conservation" element={<Conservation />} />
@@ -38,6 +42,8 @@ function App() {
         <Route path="/healthcare" element={<Healthcare />} />
         <Route path="/marketingsolutions" element={<MarketingSolutions />} />
         <Route path="/realestate" element={<RealEstate />} />
+        <Route path="/banking" element={<Banking />} />
+        <Route path="/education" element={<Education />} />
       </Routes>
       <ContactForm />
       <Footer />
