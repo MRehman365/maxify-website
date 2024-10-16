@@ -12,24 +12,24 @@ import img10 from '../Assets/image 339.png'
 import img12 from '../Assets/image 339.png'
 import img14 from '../Assets/image 339.png'
 export const NaveData = [
-  // {
-  //     url: "/",
-  //     name: "Home"
-  // },
   {
-    url: "/services/",
+      url: "/",
+      name: "Home"
+  },
+  {
+    url: "",
     name: "Services",
     subservicemenu: true,
 
     insideName: [
-      {
-        dMenu: true,
-        dText: {
-          dName: "Services",
-          text: "Explore exponential services catering to your business!.",
-          b: "VIEW ALL SERVIES",
-        },
-      },
+      // {
+      //   dMenu: true,
+      //   dText: {
+      //     dName: "Services",
+      //     text: "Explore exponential services catering to your business!.",
+      //     b: "VIEW ALL SERVIES",
+      //   },
+      // },
 
       {
         link: "/web-development/",
@@ -46,6 +46,31 @@ export const NaveData = [
         link: "/digital-marketing/",
         img: img3,
         names: "Digital Marketing",
+      },
+      {
+        link: "/seo",
+        img: img3,
+        names: "SEO",
+      },
+      {
+        link: "/digital-marketing/",
+        img: img3,
+        names: "SMO",
+      },
+      {
+        link: "/digital-marketing/",
+        img: img3,
+        names: "Graphic Designing",
+      },
+      {
+        link: "/digital-marketing/",
+        img: img3,
+        names: "3D Design",
+      },
+      {
+        link: "/digital-marketing/",
+        img: img3,
+        names: "HRMS",
       },
     ],
   },
@@ -84,36 +109,36 @@ export const NaveData = [
       },
     ],
   },
-  {
-    url: "/success/",
-    name: "Success Stories",
-    subservicemenu: true,
-    insideName: [
-      {
-        dMenu: true,
-        dText: {
-          dName: "Success Stories",
-          text: "Explore Success and get a board of yours in our journey!.",
-          b: "VIEW ALL SUCCESS STORIES",
-        },
-      },
-      {
-        link: "/sharda-university/",
-        img: img7,
-        names: "Sharda University",
-      },
-      {
-        link: "/eye-care/",
-        img: img8,
-        names: "Delhi Eye Care",
-      },
-      {
-        link: "/chhota-school/",
-        img: img9,
-        names: "Chhota School",
-      },
-    ],
-  },
+  // {
+  //   url: "/success/",
+  //   name: "Success Stories",
+  //   subservicemenu: true,
+  //   insideName: [
+  //     {
+  //       dMenu: true,
+  //       dText: {
+  //         dName: "Success Stories",
+  //         text: "Explore Success and get a board of yours in our journey!.",
+  //         b: "VIEW ALL SUCCESS STORIES",
+  //       },
+  //     },
+  //     {
+  //       link: "/sharda-university/",
+  //       img: img7,
+  //       names: "Sharda University",
+  //     },
+  //     {
+  //       link: "/eye-care/",
+  //       img: img8,
+  //       names: "Delhi Eye Care",
+  //     },
+  //     {
+  //       link: "/chhota-school/",
+  //       img: img9,
+  //       names: "Chhota School",
+  //     },
+  //   ],
+  // },
   {
     url: "/about-company/",
     name: "About us",

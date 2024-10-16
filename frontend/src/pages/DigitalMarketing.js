@@ -5,13 +5,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
+import img1 from '../Assets/digital marketing/Frame 91.png'
+import img2 from '../Assets/digital marketing/image (36).png'
+import img3 from '../Assets/digital marketing/image (37).png'
+import img4 from '../Assets/digital marketing/image (38).png'
+import img5 from '../Assets/digital marketing/image (39).png'
+import img6 from '../Assets/digital marketing/image (40).png'
+import img7 from '../Assets/digital marketing/image (41).png'
+import img8 from '../Assets/digital marketing/image (42).png'
+import img9 from '../Assets/digital marketing/image (43).png'
+
 const DigitalMarketing = () => {
   const slides = [
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
+    img2,
+    img4,
+   img5,
+    img6,
+   img7,
   ];
   const sliderSettings = {
     dots: true,
@@ -58,11 +68,8 @@ const DigitalMarketing = () => {
         </div>
       </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
-        <div className="md:w-[70%]">
-          <img src="" alt="img1" />
-        </div>
-        <div className="md:w-[30%]">
-          <img src="" alt="img2" />
+        <div className="w-full">
+          <img src={img1} alt="img1" />
         </div>
       </div>
       {/* 3rd section */}
@@ -119,7 +126,7 @@ const DigitalMarketing = () => {
                   <img
                     src={slide}
                     alt={`Digital Marketing Slide ${index + 1}`}
-                    className="rounded-lg shadow-lg w-full h-auto"
+                    className="rounded-lgw-full h-auto"
                   />
                 </div>
               ))}
@@ -142,9 +149,9 @@ const DigitalMarketing = () => {
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] h-full p-6 flex flex-col">
             <img
-              src="/placeholder.svg?height=200&width=400"
+              src={img9}
               alt="SEO visualization"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover rounded-lg"
             />
             <div className="flex flex-col items-center flex-grow">
               <h3 className="text-4xl text-center text-gray-900 mb-2">
@@ -161,9 +168,9 @@ const DigitalMarketing = () => {
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] min-h-[400px] p-6 flex flex-col">
             <img
-              src="/placeholder.svg?height=200&width=400"
+              src={img8}
               alt="PPC analytics on smartphone"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover rounded-lg"
             />
             <div className="flex flex-col items-center justify-between  h-1/2">
               <div>
@@ -184,7 +191,7 @@ const DigitalMarketing = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-          <img src="" alt="" className="sm:w-full md:w-[70%]" />
+          <img src={img3} alt="" className="sm:w-full md:w-[80%]" />
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">

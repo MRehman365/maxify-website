@@ -50,7 +50,7 @@
 }
 
 .logo img {
-  width: 15rem;
+  width: 10rem;
   cursor: pointer;
 }
 
@@ -121,7 +121,7 @@
   text-decoration: none;
   color: inherit;
   display: flex;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 700;
   color: white;
   align-items: center;
@@ -186,10 +186,10 @@ a:focus {
 }
 
 .navigation ul li ul.dropdowns.img-dropdowns .drop-menu {
-  display: flex;
-  flex-direction: row !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Each row will have 3 items */
   gap: 10px;
-  width: 80%;
+  width: 70%;
   /* margin-left: 15%; */
 }
 
@@ -217,7 +217,7 @@ a:focus {
     position: relative;
     margin: 0 6px;
     padding: 0;
-    width: 24%;
+    width: 95%;
     /* overflow: hidden; */
   }
 }
@@ -226,7 +226,7 @@ a:focus {
     position: relative;
     margin: 0 6px;
     padding: 0;
-    width: 18%;
+    width: 95%;
     /* overflow: hidden; */
   }
 }
@@ -294,11 +294,11 @@ a:focus {
   margin-left: 45px;
 }
 .nav-btn1 {
-  background: #ffac05;
-  font-size: 18px;
+  background: #6d05ff;
+  font-size: 16px;
   font-weight: 700;
-  padding: 12px 16px;
-  border: 1px solid #ffac05 !important;
+  padding: 10px 16px;
+  border: 1px solid #7e05ff !important;
   /* margin-left: 45px; */
   border-radius: 0px;
 }

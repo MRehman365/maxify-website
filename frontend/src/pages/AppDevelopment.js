@@ -171,19 +171,19 @@ const AppDevelopment = () => {
               <div className="bg-card w-1/2 py-6 px-4 rounded-lg shadow-md lg:mb-0 flex  justify-center items-center bg-white">
                 <div className="flex items-center">
                   <img
-                    src="https://placehold.co/40x40"
+                    src={img10}
                     alt="Expert 1"
-                    className="rounded-full md:size-[40px] sm:size-[20px] relative z-10"
+                    className="rounded-full md:size-[40px] sm:size-[20px] relative z-10 object-cover"
                   />
                   <img
-                    src="https://placehold.co/40x40"
+                    src={img11}
                     alt="Expert 2"
-                    className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-3 z-20"
+                    className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-5 z-20 object-cover"
                   />
                   <img
-                    src="https://placehold.co/40x40"
+                    src={img12}
                     alt="Expert 3"
-                    className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-3 z-30 mr-2"
+                    className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-5 z-30 mr-2 object-cover"
                   />
                 </div>
                 <span className="sm:text-[10px] md:text-sm">

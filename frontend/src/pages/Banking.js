@@ -3,6 +3,21 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaCheckCircle, FaArrowUpRight } from 'react-icons/fa';
 import { GoArrowUpRight } from "react-icons/go";
 
+import img1 from '../Assets/banking/Container (12).png'
+import img2 from '../Assets/banking/Container (13).png'
+import img3 from '../Assets/banking/Container (14).png'
+import img4 from '../Assets/banking/feature-img-1.png (2).png'
+import img5 from '../Assets/banking/feature-img-2.png (3).png'
+import img6 from '../Assets/banking/image (36).png'
+import img7 from '../Assets/banking/image (37).png'
+import img8 from '../Assets/banking/image (38).png'
+import img9 from '../Assets/banking/image (39).png'
+import img10 from '../Assets/banking/image (40).png'
+import img11 from '../Assets/banking/image (41).png'
+import img12 from '../Assets/banking/image-Photoroom (18) 1.png'
+import img13 from '../Assets/banking/image-Photoroom (19) 1.png'
+
+
 const Banking = () => {
     const [activeService, setActiveService] = useState('Android App Development');
 
@@ -16,7 +31,7 @@ const Banking = () => {
       'Social Media Advertising And Marketing: Take advantage of social media platforms to connect with clients, promote services, and build a strong online presence in the banking and finance sector.',
       'Email Advertising Campaigns: Create tailored email marketing campaigns to support leads and retain clients within the banking and finance industry.',
     ],
-    imgSrc: "img", // Replace with the actual image path
+    imgSrc: img6, // Replace with the actual image path
   },
   'iOS App Development': {
     title: 'Web Site Advancement for Financial and Financial Institutions',
@@ -27,7 +42,7 @@ const Banking = () => {
       'Custom Web Growth: Custom-made websites that mirror your brands identity and deal with the specific demands of your banks within the banking and finance sector.',
       'Assimilation with Monetary Devices: Seamlessly incorporate financial and economic tools, such as funding calculators, stock market updates, and money converters, to enhance user experience in banking and finance.',
     ],
-    imgSrc: "img", // Replace with the actual image path
+    imgSrc: img10, // Replace with the actual image path
   },
   'Cross-Platform App Development': {
     title: 'E-Commerce Solutions And Marketing for Banking and Finance',
@@ -38,7 +53,7 @@ const Banking = () => {
       'Financial Investment Systems: Develop comprehensive investment systems that provide real-time data and analytics to help customers make informed choices within banking and finance.',
       'Financial Product Catalogs: Develop digital catalogs for financial products such as loans, insurance policies, and investment strategies, making it easier for customers to explore and buy in the banking and finance industry.',
     ],
-    imgSrc: "img", // Replace with the actual image path
+    imgSrc: img9, // Replace with the actual image path
   },
   'App Design and User Experience (UX)': {
     title: 'Custom Software Application Growth for Financial and Finance',
@@ -49,7 +64,7 @@ const Banking = () => {
       'Consumer Relationship Management (CRM) Systems: Develop CRM systems tailored to the needs of financial institutions and banks to manage consumer information and improve customer support within banking and finance.',
       'Financial Reporting Tools: Create financial reporting tools to provide real-time information and analytics, aiding organizations to make informed business decisions in the banking and finance industry.',
     ],
-    imgSrc: "img", // Replace with the actual image path
+    imgSrc: img8, // Replace with the actual image path
   },
   'App Testing and Quality Assurance': {
     title: 'Digital Makeover for Financial Institutions',
@@ -60,7 +75,7 @@ const Banking = () => {
       'AI and Artificial Intelligence: Use AI and machine learning to automate processes, enhance client service, and drive insights from data in banking and finance.',
       'Blockchain Solutions: Develop blockchain-based solutions for secure and transparent financial transactions in the banking and finance industry.',
     ],
-    imgSrc: "img", // Replace with the actual image path
+    imgSrc: img11, // Replace with the actual image path
   },
 };
 
@@ -70,10 +85,11 @@ const handleClick = (service) => {
   return (
     <div className="mt-[70px]">
       <div className="bg-[#0d0d1d] py-5">
-        <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
+        <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background min-h-max rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
           {/* Right side with video */}
-          <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-            <img src="img1" alt="" className="sm:w-full md:w-[70%]" />
+          <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start h-[70vh] w-full ">
+          <div className="w-[70%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
+            <img src={img12} alt="" className="sm:w-full h-full top-0 right-0 z-50 absolute" />
           </div>
           {/* Left side content */}
           <div className="md:w-1/2 p-4 md:px-8">
@@ -147,22 +163,24 @@ const handleClick = (service) => {
             </span>{" "}
             Our Emphasis Is On Constructing Lasting Collaborations By Supplying Value-Driven Services That Boost Development And Consumer Satisfaction In The Banking And Financial Industry.
           </p>
-          <div className="flex gap-2 items-center">
+          <div className="flex  items-center mt-2">
           <button
-            className="mt-8 py-3 text-sm md:text-[14px] font-[500] px-8 rounded-full  relative text-[#229ae3] bg-[#e9f2f7] isolation-auto z-10 border-2 border-[#e9f2f7]
+            className=" py-3  md:text-[14px] font-[500] px-8 rounded-full relative text-[#229ae3] bg-[#e9f2f7] isolation-auto z-10 border-2 border-[#e9f2f7]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#229ae3] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#e9f2f7]"
           >
             About us
 
           </button>
-          <div className="  ">
-          <BsArrowRight className="mt-8 bg-[#229ae3] rounded-full p-1 text-white h-[45px] w-[45px] transform -rotate-[30deg] font-[200]" />
+          <div className=" h-[45px] w-[45px] bg-[#229ae3]  rounded-full flex justify-center items-center">
+          <BsArrowRight className="  text-[30px] p-1 text-white  transform -rotate-[40deg] font-[200]" />
           </div>
           </div>
         </div>
 
-        <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-          <img src="img1" alt="" className="sm:w-full md:w-[70%]" />
+        <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center h-full">
+        <div className="relative sm:h-[330px] sm:w-[330px] md:h-[400px] md:w-[400px]  bg-gradient-to-b from-[#1ad079] to-[#ffffff] flex justify-center items-center bg-gray-400 rounded-[50%]">
+          <img src={img13} alt="" className="sm:h-full mx-auto absolute -top-[90px] -right-[48px]" />
+        </div>
         </div>
       </div>
 
@@ -274,7 +292,7 @@ const handleClick = (service) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-full">
           <img
-            src="/placeholder.svg?height=200&width=400"
+            src={img1}
             alt="Banking Digital Solutions"
             className="rounded-lg  object-cover w-full h-full"
           />
@@ -314,10 +332,10 @@ const handleClick = (service) => {
     {/* section 9 */}
     <section className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* Client-Centric Method Card */}
-      <div className="bg-white rounded-lg shadow-lg p-6">
+      <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
         
         <img
-          src="/placeholder.svg?height=200&width=400"
+          src={img2}
           alt="Client-Centric Method"
           className="rounded-md w-full h-52 object-cover mb-4"
         />
@@ -351,10 +369,10 @@ const handleClick = (service) => {
         </div>
       </div>
 
-      <div className="bg-white rounded-lg shadow-lg p-6">
+      <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
         
         <img
-          src="/placeholder.svg?height=200&width=400"
+          src={img3}
           alt="Competitive Pricing"
           className="rounded-md w-full h-52 object-cover mb-4"
         />
@@ -392,24 +410,24 @@ const handleClick = (service) => {
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src="img"
+              src={img4}
               className="rounded-lg w-1/2"
             />
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src="img"
+              src={img5}
               className="rounded-lg w-1/2"
             />
           </div>
-          <div className="relative md:w-1/2 py-6  sm:mt-6 md:mt-0 sm:px-4 md:px-20 lg:px-40">
+          <div className="relative md:w-1/2 py-6  sm:mt-6 md:mt-0 sm:px-4 md:px-10 lg:px-[5%]">
             <h2 className="sm:text-2xl md:text-4xl font-[400] text-center md:text-left">
             Transform <span className="font-bold">Your Financial and Finance Procedures</span> with Maxify Solutions
             </h2>
             <p className="text-justify text-gray-300 mt-6">
             At Maxify Solution, we recognize that the banking and finance field is swiftly advancing, and staying ahead requires innovation, dexterity, and know-how. Whether you need a robust digital advertising strategy, a safe and user-friendly website, or custom-made software solutions for your banks, we have you covered in banking and financial services in India.
             </p>
-            <div className="flex  items-center">
+            <div className="flex  items-center mt-2">
           <button
             className=" py-3  md:text-[14px] font-[500] px-8 rounded-full relative text-[#229ae3] bg-[#e9f2f7] isolation-auto z-10 border-2 border-[#e9f2f7]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#229ae3] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#e9f2f7]"
@@ -429,9 +447,9 @@ const handleClick = (service) => {
      
       <div className="w-full">
         <img
-          src="/placeholder.svg?height=200&width=400"
+          src={img7}
           alt="Contact us"
-          className="rounded-lg border-2 border-green-500"
+          className="rounded-lg w-[80%] mx-auto"
         />
       </div>
 

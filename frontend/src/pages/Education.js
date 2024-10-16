@@ -1,80 +1,86 @@
 import React from "react";
-import img from "../Assets/Rectangle 4601.png"
+import img1 from "../Assets/education/bg34.jpg (1).png"
+import img2 from "../Assets/education/Container (12).png"
+import img3 from "../Assets/education/Container (13).png"
+import img4 from "../Assets/education/Container (14).png"
+import img5 from "../Assets/education/Frame 1707481776.png"
+import img6 from "../Assets/education/Group 1171275258.png"
+import img7 from "../Assets/education/image (36).png"
+import img8 from "../Assets/education/image (37).png"
+import img9 from "../Assets/education/image (38).png"
+import img10 from "../Assets/education/image (39).png"
+import img11 from "../Assets/education/image (40).png"
+import img12 from "../Assets/education/image-Photoroom (17) 1.png"
 
 const Education = () => {
   return (
     <div className="mt-[70px]">
-      <div className="w-full md:w-[90%] lg:w-[80%] mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          {/* Left Side Content */}
-          <div className="space-y-6 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold">
-              <span className="text-blue-600">Education</span>
-              <br />
-              <span className="text-blue-600">Internet Site</span>
-              <br />
-              <span className="text-blue-600">Growth</span>
-            </h1>
-            <p className="text-2xl md:text-5xl font-[300]">
-              by Maxify Solution
-            </p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg rounded-md">
-              Get started
-            </button>
-            <div className="mt-8">
-              <img
-                src="/placeholder.svg"
-                alt="Primary school website design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-          <div className="relative">
-            <div className="aspect-[4/3]">
-              <img
-                src="/placeholder.svg"
-                alt="Futuristic classroom"
-                width={600}
-                height={800}
-                className="rounded-lg"
-              />
-            </div>
-            <div className="absolute top-0 right-0 w-1/3 -mt-4 -mr-4">
-              <img
-                src="/placeholder.svg"
-                alt="Students collaborating"
-                width={200}
-                height={200}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-4">
-              <p className="text-sm text-justify">
-                In today's electronic age, education and learning have
-                transcended the traditional classroom. Institutions,
-                instructors, and EdTech companies need a robust online presence
-                to reach and engage students worldwide. At Maxify Service, we
-                focus on education website development customized to satisfy the
-                unique needs of schools, universities, and e-learning platforms.
-                Our goal is to create engaging, interactive, and user-friendly
-                websites that enhance the learning experience and drive academic
-                growth.
-              </p>
-            </div>
-          </div>
-        </div>
+     <div className="w-full md:w-[90%] lg:w-[80%] mx-auto px-4 py-8">
+  <div className="grid grid-cols-1 lg:grid-cols-[35%_65%] gap-8 items-start">
+    {/* Left Side Content */}
+    <div className="space-y-6 text-center">
+      <h1 className="text-4xl md:text-6xl font-bold">
+        <span className="text-blue-600">Education</span>
+        <br />
+        <span className="text-blue-600">Internet Site</span>
+        <br />
+        <span className="text-blue-600">Growth</span>
+      </h1>
+      <p className="text-2xl md:text-5xl font-[300]">
+        by Maxify Solution
+      </p>
+      <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg rounded-md">
+        Get started
+      </button>
+      <div className="mt-8">
+        <img
+          src={img9}
+          alt="Primary school website design"
+          width={500}
+          height={300}
+          className="rounded-lg shadow-md"
+        />
       </div>
+    </div>
+
+    {/* Right Side Content */}
+    <div className="relative h-full">
+      <div className="h-full object-cover w-[70%]">
+        <img
+          src={img10}
+          alt="Futuristic classroom"
+          width={600}
+          height={800}
+          className="rounded-lg"
+        />
+      </div>
+      <div className="absolute top-4 right-0 w-[30%] -mr-4">
+        <img
+          src={img11}
+          alt="Students collaborating"
+          width={200}
+          height={200}
+          className="rounded-lg shadow-lg"
+        />
+      </div>
+      <div className="absolute bottom-0 right-0 bg-white p-4 w-[80%] rounded-md">
+        <p className="text-[12px] text-justify">
+          In today's electronic age, education and learning have transcended the traditional classroom. Institutions, instructors, and EdTech companies need a robust online presence to reach and engage students worldwide. At Maxify Service, we focus on education website development customized to satisfy the unique needs of schools, universities, and e-learning platforms. Our goal is to create engaging, interactive, and user-friendly websites that enhance the learning experience and drive academic growth.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
       {/* section 2 */}
       <div className="w-full md:w-[70%] lg:w-[60%] mx-auto flex flex-col items-center gap-4 p-4">
         <div className="text-center">
           <p className="text-sm text-gray-400 mb-4">Education Services</p>
-          <h1 className="text-[#2334de] text-4xl md:text-5xl font-semibold">
+          <h1 className="text-[#2334de] text-3xl md:text-5xl font-semibold">
             Why Pick Maxify Service for Education Website Development?
           </h1>
         </div>
-        <p className="text-xl leading-7 text-[#807e85] text-justify md:px-20">
+        <p className="text-base md:text-xl leading-7 text-[#807e85] text-justify md:px-20">
           Maxify Service brings over 15 years of experience in electronic
           improvement within the education and learning field. We recognize the
           distinct obstacles dealt with by universities and online understanding
@@ -88,15 +94,15 @@ const Education = () => {
       {/* section 3 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full md:w-[80%] lg:w-[70%] mx-auto p-4">
         {/* Card 1 */}
-        <div className="bg-white rounded-lg shadow-md p-4 flex flex-col">
+        <div className="bg-white rounded-lg shadow-md flex flex-col">
           <img
             aria-hidden="true"
             alt="Custom-made Designs"
-            src="https://openui.fly.dev/openui/300x200.svg?text=Custom+Designs"
+            src={img3}
             className="rounded-t-lg"
           />
 
-          <div className="flex flex-col justify-between items-center h-full">
+          <div className="flex flex-col justify-between items-center h-full p-4">
             <h2 className="text-xl text-center font-semibold mt-2">
               Custom-made Designs for Improved Learning:
             </h2>
@@ -112,14 +118,14 @@ const Education = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-lg shadow-md p-4 flex flex-col">
+        <div className="bg-white rounded-lg shadow-md flex flex-col">
           <img
             aria-hidden="true"
             alt="User-Friendly Interfaces"
-            src="https://openui.fly.dev/openui/300x200.svg?text=User+Friendly"
+            src={img2}
             className="rounded-t-lg"
           />
-          <div className="flex flex-col justify-between items-center h-full">
+          <div className="flex flex-col justify-between items-center h-full p-4">
             <h2 className="text-xl text-center font-semibold mt-2">
               User-Friendly Interfaces:
             </h2>
@@ -134,14 +140,14 @@ const Education = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white rounded-lg shadow-md p-4 flex flex-col">
+        <div className="bg-white rounded-lg shadow-md flex flex-col">
           <img
             aria-hidden="true"
             alt="Safe and Certified Platforms"
-            src="https://openui.fly.dev/openui/300x200.svg?text=Safe+Platforms"
+            src={img1}
             className="rounded-t-lg"
           />
-          <div className="flex flex-col justify-between items-center h-full">
+          <div className="flex flex-col justify-between items-center p-4 h-full">
             <h2 className="text-xl text-center font-semibold mt-2">
               Safe and Certified Platforms:
             </h2>
@@ -156,14 +162,14 @@ const Education = () => {
         </div>
 
         {/* Card 4 */}
-        <div className="bg-white rounded-lg shadow-md p-4 flex flex-col">
+        <div className="bg-white rounded-lg shadow-md flex flex-col">
           <img
             aria-hidden="true"
             alt="Safe and Certified Platforms"
-            src="https://openui.fly.dev/openui/300x200.svg?text=Safe+Platforms"
+            src={img2}
             className="rounded-t-lg"
           />
-          <div className="flex flex-col justify-between items-center ">
+          <div className="flex flex-col justify-between items-center p-4">
             <h2 className="text-xl text-center font-semibold mt-2">
               Safe and Certified Platforms:
             </h2>
@@ -182,7 +188,7 @@ const Education = () => {
       <div className="bg-white sm:p-4 md:p-10 w-full md:w-[90%] lg:w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h1 className="text-4xl font-bold text-blue-700 mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
               Advanced Technologies{" "}
               <span className="font-[500] text-gray-600">
                 We Make Use Of in Education Website Development
@@ -220,7 +226,7 @@ const Education = () => {
           </div>
           <div className="lg:w-1/2">
             <img
-              src="/path-to-image/ai-technology.png"
+              src={img6}
               alt="AI Technology"
               className="rounded-lg"
             />
@@ -232,13 +238,13 @@ const Education = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2">
             <img
-              src="/path-to-image/ai-technology.png"
+              src={img5}
               alt="AI Technology"
               className="rounded-lg"
             />
           </div>
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h1 className="text-4xl font-bold text-blue-700 mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
               Advantages of Partnering{" "}
               <span className="font-[500] text-gray-600">
                 {" "}
@@ -291,12 +297,12 @@ const Education = () => {
      
       <div className="w-full md:w-1/2 relative space-y-8">
       <div className="h-full w-full">
-      <img src="ig" alt="img" className="h-[100%] w-[100%] z-10" /></div>
+      <img src={img12} alt="img" className="h-[100%] w-[100%] z-10" /></div>
       <div className="absolute rounded-lg -z-10 inset-0 bg-gradient-to-br from-purple-600 via-purple-500 to-blue-500 transform -skew-x-12 -left-1/4 w-[100%]" /></div>
     
         <div className="w-full md:w-1/2 space-y-4 text-left p-4">
         <p className="text-purple-500 font-semibold text-xl">MAXIFY SOLUTIONS</p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight">
             Your Trusted Partner 
             <span className="text-gray-800 font-[500]"> In Education Website Development</span>
           </h1>
@@ -304,7 +310,7 @@ const Education = () => {
           <p className="text-sm md:text-lg text-justify text-gray-500 leading-relaxed">
             At Maxify Service, we are dedicated to providing education website development solutions that not only satisfy the existing demands of the industry but also prepare schools for future difficulties. Whether you are an institution seeking to boost your electronic visibility, a college aiming to provide online training courses, or an EdTech startup with a distinct idea, we have the expertise and experience to change your vision into truth.
           </p>
-          <img src="" className="w-full h-[100px] object-cover" alt="img here" />
+          <img src={img7} className="w-full h-[100px] object-cover rounded-lg rou" alt="img here" />
           
           <h2 className="text-3xl md:text-5xl font-bold text-gray-600">
             Get In Touch With Us Today
