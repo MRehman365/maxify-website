@@ -32,18 +32,18 @@ export const NaveData = [
       // },
 
       {
-        link: "/web-development/",
+        link: "/service/",
         img: img1,
         names: "Web Development",
       },
 
       {
-        link: "/application-development/",
+        link: "/app",
         img: img2,
         names: "App Development",
       },
       {
-        link: "/digital-marketing/",
+        link: "/digitalmarketing",
         img: img3,
         names: "Digital Marketing",
       },
@@ -53,22 +53,22 @@ export const NaveData = [
         names: "SEO",
       },
       {
-        link: "/digital-marketing/",
+        link: "/smo",
         img: img3,
         names: "SMO",
       },
       {
-        link: "/digital-marketing/",
+        link: "/graphic",
         img: img3,
         names: "Graphic Designing",
       },
       {
-        link: "/digital-marketing/",
+        link: "/marketingsolutions",
         img: img3,
         names: "3D Design",
       },
       {
-        link: "/digital-marketing/",
+        link: "/hrms",
         img: img3,
         names: "HRMS",
       },
@@ -90,22 +90,27 @@ export const NaveData = [
       {
         link: "/ecommerce-services/",
         img: img4,
-        names: "E-Commerce",
-      },
-      {
-        link: "/health-care/",
-        img: img5,
         names: "Health Care",
       },
       {
-        link: "/education/",
-        img: img6,
+        link: "/healthcare",
+        img: img5,
         names: "Education",
       },
       {
-        link: "/banking-finance/",
+        link: "/realestate",
+        img: img6,
+        names: "Real Estate",
+      },
+      {
+        link: "/banking",
         img: img11,
-        names: "Banking & Finance",
+        names: "Banking",
+      },
+      {
+        link: "/ecommerces",
+        img: img11,
+        names: "E-Commerce",
       },
     ],
   },
@@ -139,42 +144,42 @@ export const NaveData = [
   //     },
   //   ],
   // },
-  {
-    url: "/about-company/",
-    name: "About us",
-    // submenu: true,
-    subservicemenu: true,
-    insideName: [
-      {
-        dMenu: true,
-        dText: {
-          dName: "About Us",
-          text: "Know more about us through Maxify Lens",
-          b: "VIEW ALL ABOUT US",
-        },
-      },
-
-      {
-        link: "/about-company/",
-        img: img10,
-        names: "Company",
-      },
-
-      {
-        link: "/leadership-team/",
-        img: img12,
-        names: "Leadership Team",
-      },
-      {
-        link: "/career/",
-        img: img14,
-        names: "Career",
-      },
-    ],
-  },
-
   // {
-  //     url: "/blog",
-  //     name: "Blog"
+  //   url: "/about-company/",
+  //   name: "About us",
+  //   submenu: true,
+  //   subservicemenu: true,
+  //   insideName: [
+  //     {
+  //       dMenu: true,
+  //       dText: {
+  //         dName: "About Us",
+  //         text: "Know more about us through Maxify Lens",
+  //         b: "VIEW ALL ABOUT US",
+  //       },
+  //     },
+
+  //     {
+  //       link: "/about-company/",
+  //       img: img10,
+  //       names: "Company",
+  //     },
+
+  //     {
+  //       link: "/leadership-team/",
+  //       img: img12,
+  //       names: "Leadership Team",
+  //     },
+  //     {
+  //       link: "/career/",
+  //       img: img14,
+  //       names: "Career",
+  //     },
+  //   ],
   // },
+
+  {
+      url: "/about",
+      name: "About"
+  },
 ];

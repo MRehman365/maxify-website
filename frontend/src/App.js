@@ -29,14 +29,14 @@ function App() {
       <BacktoTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/servise" element={<Services />} />
+        <Route path="/service" element={<Services />} />
         <Route path="/app" element={<AppDevelopment />} />
         <Route path="/digitalmarketing" element={<DigitalMarketing />} />
         <Route path="/smo" element={<SMO />} />
         <Route path="/seo" element={<SEO />} />
         <Route path="/conservation" element={<Conservation />} />
         <Route path="/ecommerces" element={<Ecommerce />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<Contact />} />
         <Route path="/graphic" element={<Graphic />} />
         <Route path="/hrms" element={<HRMS />} />
         <Route path="/healthcare" element={<Healthcare />} />
