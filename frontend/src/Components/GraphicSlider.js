@@ -178,7 +178,7 @@ const GraphicSlider = () => {
   };
 
   return (
-    <div className="slider-container relative">
+    <div className="slider-container relative hidden md:block">
       <Slider {...settings}>
         {/* First Slide */}
         <div className="bg-cover w-full">

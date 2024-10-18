@@ -87,7 +87,7 @@ const handleClick = (service) => {
       <div className="bg-[#0d0d1d] py-5">
         <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background min-h-max rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
           {/* Right side with video */}
-          <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start h-[70vh] w-full ">
+          <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start lg:h-[70vh] w-full ">
           <div className="w-[70%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
             <img src={img12} alt="" className="sm:w-full h-full top-0 right-0 z-50 absolute" />
           </div>
@@ -253,7 +253,7 @@ const handleClick = (service) => {
           {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-4xl md:text-5xl font-semibold text-[black] mt-4">
+          <h1 className="sm:text-3xl md:text-5xl font-semibold text-[black] mt-4">
             Benefits of Partnering with{" "}
             <span className="text-[#37937e]">Maxify Solution</span>
           </h1>
@@ -283,7 +283,7 @@ const handleClick = (service) => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-          <img src="img here" alt="img" className="sm:w-full md:w-[70%]" />
+          <img src={img4} alt="img" className="sm:w-full md:w-[70%]" />
         </div>
       </div>
 

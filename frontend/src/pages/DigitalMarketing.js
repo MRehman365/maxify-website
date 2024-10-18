@@ -20,8 +20,6 @@ const DigitalMarketing = () => {
     img2,
     img4,
    img5,
-    img6,
-   img7,
   ];
   const sliderSettings = {
     dots: true,
@@ -33,19 +31,19 @@ const DigitalMarketing = () => {
 
   return (
     <div className="mt-[90px]">
-      <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
+      <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-2 md:p-4 mt-6">
         <div className="md:w-[60%]">
-          <h2 className="text-4xl md:text-6xl lg:text-7xl text-[#2334de] font-bold text-center md:px-10">
-            <span className="text-black font-medium text-4xl md:text-5xl">
+          <h2 className="text-3xl md:text-6xl lg:text-7xl text-[#2334de] font-bold text-center md:px-10">
+            <span className="text-black font-medium text-3xl md:text-5xl">
               Grow Your
             </span>{" "}
             Business{" "}
-            <span className="text-black font-medium text-4xl md:text-5xl">
+            <span className="text-black font-medium text-3xl md:text-5xl">
               {" "}
               with the
             </span>{" "}
             Best Digital Marketing Company
-            <span className="text-black font-medium text-4xl md:text-5xl">
+            <span className="text-black font-medium text-3xl md:text-5xl">
               {" "}
               in{" "}
             </span>

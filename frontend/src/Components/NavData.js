@@ -179,6 +179,10 @@ export const NaveData = [
   // },
 
   {
+      url: "/contact",
+      name: "Contact"
+  },
+  {
       url: "/about",
       name: "About"
   },

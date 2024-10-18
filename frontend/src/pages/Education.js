@@ -11,6 +11,15 @@ import img9 from "../Assets/education/image (38).png"
 import img10 from "../Assets/education/image (39).png"
 import img11 from "../Assets/education/image (40).png"
 import img12 from "../Assets/education/image-Photoroom (17) 1.png"
+import img13 from "../Assets/education/image-Photoroom (17) 1.png"
+import img14 from "../Assets/education/image-Photoroom (17) 1.png"
+import img15 from "../Assets/education/image-Photoroom (17) 1.png"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { FaLongArrowAltLeft } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const Education = () => {
   return (
@@ -184,11 +193,155 @@ const Education = () => {
         </div>
       </div>
 
+      {/* slider */}
+      <h2 className="w-full md:w-[90%] lg:w-[80%] mx-auto text-black text-3xl md:text-5xl font-bold text-center">Our Comprehensive Education And Learning Web Development Solutions</h2>
+      <div className="h-auto p-2 md:p-8 ">
+        <div className=" mx-auto rounded-lg overflow-hidden relative">
+         
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            navigation={{
+              nextEl: ".swiper-button-next-custom",
+              prevEl: ".swiper-button-prev-custom",
+            }}
+            modules={[Navigation, Autoplay]}
+            className="mySwiper relative"
+          >
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row mt-2 items-center">
+                
+                <div className="md:w-1/2 p-2 md:p-6 space-y-3">
+                  <h2 className="text-2xl md:text-3xl font-semibold lg:w-full text-[#3343e0] mb-4 sm:text-center md:text-left">
+                  Personalized Education Website Development
+                  </h2>
+                  <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
+                  A well-designed website is necessary for any type of school or online discovery system. At Maxify Service, we offer custom education website development services that surpass simply aesthetic appeal. We create sites that are functional, engaging, and optimized for performance.
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
+                    <li>
+                    <strong>Receptive and Mobile-Optimized Layouts:</strong> Guarantee a seamless individual experience throughout all gadgets—desktop computers, tablet computers, and smartphones.
+                    </li>
+                    <li>
+                   <strong> SEO-Friendly Framework:</strong> Our websites are built following search engine optimization's finest practices to aid you in placing greater on search engines and attracting even more natural web traffic.
+                    </li>
+                    <li>
+                    <strong>Interactive Understanding Qualities:</strong> We integrate interactive components such as quizzes, conversation online forums, and live courses to improve the knowing experience.
+                    </li>
+                  </ul>
+                </div>
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img4} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row mt-2 items-center">
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img11} alt="Real Estate" className=" inset-0" />
+                </div>
+                <div className="md:w-1/2 p-2 md:p-6 space-y-3">
+                  <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
+                    2. Real Estate CRM Integration for Effective Website
+                    Development
+                  </h2>
+                  <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
+                    Client Partnership Management (CRM) is essential for any
+                    real estate company. Our real estate website development
+                    solutions include CRM integration, enabling you to handle
+                    leads, track client communications, and enhance sales
+                    processes.
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
+                    <li>
+                      Central Lead Monitoring: Effectively handle leads from
+                      multiple resources and automate follow-ups
+                    </li>
+                    <li>
+                      Automated Advertising And Marketing Campaigns: Run
+                      automated e-mail marketing campaigns to nurture leads and
+                      keep customersE
+                    </li>
+                    <li>
+                      Customer Interaction: Streamline communication with
+                      possible clients through incorporated messaging and
+                      notification systems.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row mt-2 items-center">
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img12} alt="Real Estate" className=" inset-0" />
+                </div>
+                <div className="md:w-1/2 p-2 md:p-6 space-y-3">
+                  <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
+                    3. Building Management System (PMS) for Real Estate Website
+                    Development
+                  </h2>
+                  <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
+                    A durable Property Administration System (PMS) can
+                    considerably improve home monitoring procedures. We offer
+                    PMS services that integrate flawlessly with your website,
+                    enabling much better building management and client service.
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
+                    <li>
+                      Comprehensive Property Listings: Manage residential
+                      property listings successfully with functions such as bulk
+                      uploads, automated updates, and indepth residential
+                      property infoE
+                    </li>
+                    <li>
+                      Tenant and Proprietor Portals: Dedicated portals for
+                      lessees and property owners for streamlined communication
+                      and solution management
+                    </li>
+                    <li>
+                      Upkeep Request Management: Streamlined maintenance request
+                      handling, enhancing renter fulfillment and functional
+                      efficiency.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+           
+            <div className="absolute bottom-4 right-[100px]">
+            
+    <div className="swiper-button-prev-custom">
+      <FaLongArrowAltRight
+        size={34}
+        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+      />
+    </div>
+  </div>
+            <div className="absolute bottom-4 right-2">
+            
+    <div className="swiper-button-next-custom">
+      <FaLongArrowAltLeft
+        size={34}
+        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+      />
+    </div>
+  </div>
+          </Swiper>
+          
+        </div>
+      </div>
+
       {/* section */}
       <div className="bg-white sm:p-4 md:p-10 w-full md:w-[90%] lg:w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
+            <h1 className="text-2xl md:text-4xl font-bold text-blue-700 mb-4">
               Advanced Technologies{" "}
               <span className="font-[500] text-gray-600">
                 We Make Use Of in Education Website Development

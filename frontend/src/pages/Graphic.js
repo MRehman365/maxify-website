@@ -56,7 +56,7 @@ function Graphic() {
           </div>
         </div>
         <div className="lg:w-[40%] py-4 px-2 md:px-10">
-          <h3 className=" font-[500] sm:text-[36px] md:text-5xl text-[#37937e] leading-10">
+          <h3 className=" font-[500] sm:text-[30px] md:text-5xl text-[#37937e] leading-10">
             Maxify Solution: <span className="text-black">Expert</span> Graphic
             Design <span className="text-black">Services</span>
           </h3>
@@ -110,7 +110,7 @@ function Graphic() {
               <div className="w-3 h-3 bg-[#37937e] rounded-full mr-2"></div>
               <span className="text-gray-500 font-medium">Services</span>
             </div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-3xl md:text-5xl font-bold">
               Our <span className="text-[#37937e]">Graphic Design</span>{" "}
               Services
             </h1>
@@ -118,7 +118,7 @@ function Graphic() {
 
           {/* Right Side - Description */}
           <div className=" md:w-1/2 ">
-            <p className="text-gray-500 mt-2 md:mt-[6rem] ">
+            <p className="text-gray-500 mt-2 md:mt-[6rem] text-justify">
               This book delves into the intricacies of wealth management,
               offering readers comprehensive strategies to grow and protect
               their assets. It covers topics ranging from investment
@@ -142,7 +142,7 @@ function Graphic() {
           />
         </div>
         <div className="lg:w-[50%] py-4 px-2">
-          <h3 className=" font-[700] sm:text-[36px] md:text-4xl text-center text-[#37937e] leading-10">
+          <h3 className=" font-[700] sm:text-[30px] md:text-4xl text-center text-[#37937e] leading-8">
             Our Graphic Design Process
           </h3>
           <p className="mt-4 text-[14px]  text-justify leading-6 text-[#6C6A72]">
@@ -235,12 +235,12 @@ function Graphic() {
           {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-4xl md:text-5xl font-semibold text-[black] mt-4">
+          <h1 className="sm:text-3xl md:text-5xl font-semibold text-[black] mt-4">
             Benefits of Partnering with{" "}
             <span className="text-[#37937e]">Maxify Solution</span> for{" "}
             <span className="text-[#37937e]">Graphic</span> Design
           </h1>
-          <ul className="text-[16px] leading-7 list-disc mt-3 text-[#6C6A72]">
+          <ul className="text-[16px] leading-7 list-disc mt-3 text-[#6C6A72] text-justify">
             <li>
               Customized Solutions: Tailored graphic design solutions to meet
               your unique business needs.
@@ -311,7 +311,7 @@ function Graphic() {
         </div>
       </div>
 
-      <div className="mt-8 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
+      <div className="mt-8 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%] hidden md:block">
         <img src={img9} alt="" className="w-full h-auto" />
         <img
           src={img10}
@@ -400,7 +400,7 @@ function Graphic() {
           <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Get in touch
           </span>
-          <h1 className="text-4xl font-semibold text-[black] mt-4">
+          <h1 className="text-2xl md:text-4xl font-semibold text-[black] mt-4">
             Partner with Maxify Solution – Your Trusted
             <span className="text-[#2334DE]"> Graphic Design Agency</span>
           </h1>

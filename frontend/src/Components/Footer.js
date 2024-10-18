@@ -37,13 +37,13 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Services</h3>
           <ul>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/">App Development</Link>
+              <Link to="/app">App Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/">Web Development</Link>
+              <Link to="/web">Web Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/">Digital Marketing</Link>
+              <Link to="/digitalmarketing">Digital Marketing</Link>
             </li>
           </ul>
         </div>
@@ -51,13 +51,13 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Explore</h3>
           <ul>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/">Projects</Link>
+              <Link to="/services">Services</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/">Contact</Link>
+              <Link to="/conservation">Contact</Link>
             </li>
           </ul>
         </div>

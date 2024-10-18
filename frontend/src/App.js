@@ -21,6 +21,7 @@ import RealEstate from "./pages/RealEstate";
 import DigitalMarketing from "./pages/DigitalMarketing";
 import Banking from "./pages/Banking";
 import Education from "./pages/Education";
+import Servicesmain from "./pages/Servicesmain";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <BacktoTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/service" element={<Services />} />
+        <Route path="/web" element={<Services />} />
         <Route path="/app" element={<AppDevelopment />} />
         <Route path="/digitalmarketing" element={<DigitalMarketing />} />
         <Route path="/smo" element={<SMO />} />
@@ -44,6 +45,7 @@ function App() {
         <Route path="/realestate" element={<RealEstate />} />
         <Route path="/banking" element={<Banking />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/services" element={<Servicesmain />} />
       </Routes>
       <ContactForm />
       <Footer />
