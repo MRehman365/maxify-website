@@ -88,12 +88,12 @@ export const NaveData = [
         },
       },
       {
-        link: "/ecommerce-services/",
+        link: "/healthcare",
         img: img4,
         names: "Health Care",
       },
       {
-        link: "/healthcare",
+        link: "/education",
         img: img5,
         names: "Education",
       },
