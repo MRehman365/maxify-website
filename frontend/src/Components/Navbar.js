@@ -353,88 +353,88 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-  <div className="md:hidden bg-black text-white mt-4">
-    <div className="flex flex-col space-y-4">
-      <Link to="/" className="block">
-        Home
-      </Link>
+        <div className="md:hidden bg-black text-white mt-4">
+          <div className="flex flex-col space-y-4">
+            <Link to="/" className="block">
+              Home
+            </Link>
 
-      {/* Mobile Dropdown for Services */}
-      <div>
-        <button
-          className="flex items-center justify-between w-full"
-          onClick={() => toggleDropdown("services")}
-        >
-          Services{" "}
-          <MdExpandMore
-            className={`ml-1 transform ${
-              activeDropdown === "services" ? "rotate-180" : ""
-            }`}
-          />
-        </button>
-        {activeDropdown === "services" && (
-          <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[30vh] overflow-scroll">
-            {/* Service 1 */}
-            <Link
-              to="/web"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={icon2} alt="Web Development" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Web Development</h4>
-                <p className="text-[12px]">
-                  Delivering responsive and dynamic websites tailored to your business needs.
-                </p>
-              </div>
-            </Link>
-            {/* Service 2 */}
-            <Link
-              to="/app"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={icon1} alt="App Development" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">App Development</h4>
-                <p className="text-[12px]">
-                  Custom mobile app solutions for Android and iOS.
-                </p>
-              </div>
-            </Link>
-            {/* Service 3 */}
-            <Link
-              to="/graphic"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={icon8} alt="Graphic Design" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Graphic Design</h4>
-                <p className="text-[12px]">
-                  Creative design solutions to make your brand stand out.
-                </p>
-              </div>
-            </Link>
-            {/* Service 4 */}
-            <Link
-              to="/marketingsolutions"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={icon4} alt="Marketing Solutions" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Marketing Solutions</h4>
-                <p className="text-[12px]">
-                  Strategic digital marketing to boost your online presence.
-                </p>
-              </div>
-            </Link>
-            <Link
+            {/* Mobile Dropdown for Services */}
+            <div>
+              <button
+                className="flex items-center justify-between w-full"
+                onClick={() => toggleDropdown("services")}
+              >
+                <Link to="/services">Services</Link>{" "}
+                <MdExpandMore
+                  className={`ml-1 transform ${
+                    activeDropdown === "services" ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+              {activeDropdown === "services" && (
+                <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[40vh] overflow-scroll">
+                  <Link
+                    to="/web"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={icon2} alt="Web Development" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">Web Development</h4>
+                      <p className="text-[12px]">
+                        Delivering responsive and dynamic websites tailored to
+                        your business needs.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    to="/app"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={icon1} alt="App Development" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">App Development</h4>
+                      <p className="text-[12px]">
+                        Custom mobile app solutions for Android and iOS.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    to="/graphic"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={icon8} alt="Graphic Design" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">Graphic Design</h4>
+                      <p className="text-[12px]">
+                        Creative design solutions to make your brand stand out.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    to="/marketingsolutions"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={icon4} alt="Marketing Solutions" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">
+                        Marketing Solutions
+                      </h4>
+                      <p className="text-[12px]">
+                        Strategic digital marketing to boost your online
+                        presence.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
                     to="/marketingsolutions"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -498,72 +498,71 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
-          </div>
-        )}
-      </div>
+                </div>
+              )}
+            </div>
 
-      {/* Mobile Dropdown for Industries */}
-      <div className="">
-        <button
-          className="flex items-center justify-between w-full"
-          onClick={() => toggleDropdown("industries")}
-        >
-          Industries{" "}
-          <MdExpandMore
-            className={`ml-1 transform ${
-              activeDropdown === "industries" ? "rotate-180" : ""
-            }`}
-          />
-        </button>
-        {activeDropdown === "industries" && (
-          <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[40vh] overflow-scroll">
-            {/* Industry 1 */}
-            <Link
-              to="/healthcare"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={in1} alt="Healthcare" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Healthcare</h4>
-                <p className="text-[12px]">
-                  Solutions for enhancing patient engagement through telemedicine apps and more.
-                </p>
-              </div>
-            </Link>
-            {/* Industry 2 */}
-            <Link
-              to="/education"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={in2} alt="Education" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Education</h4>
-                <p className="text-[12px]">
-                  E-learning platforms and tools to facilitate teaching and learning.
-                </p>
-              </div>
-            </Link>
-            {/* Industry 3 */}
-            <Link
-              to="/realestate"
-              className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
-            >
-              <div className="h-auto w-[60px]">
-                <img src={in3} alt="Real Estate" />
-              </div>
-              <div>
-                <h4 className="font-semibold text-lg">Real Estate</h4>
-                <p className="text-[12px]">
-                  Tailored solutions for managing property listings and CRM systems.
-                </p>
-              </div>
-            </Link>
-            {/* Industry 4 */}
-            <Link
+            {/* Mobile Dropdown for Industries */}
+            <div className="">
+              <button
+                className="flex items-center justify-between w-full"
+                onClick={() => toggleDropdown("industries")}
+              >
+                Industries{" "}
+                <MdExpandMore
+                  className={`ml-1 transform ${
+                    activeDropdown === "industries" ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+              {activeDropdown === "industries" && (
+                <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[40vh] overflow-scroll">
+                  <Link
+                    to="/healthcare"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={in1} alt="Healthcare" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">Healthcare</h4>
+                      <p className="text-[12px]">
+                        Solutions for enhancing patient engagement through
+                        telemedicine apps and more.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    to="/education"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={in2} alt="Education" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">Education</h4>
+                      <p className="text-[12px]">
+                        E-learning platforms and tools to facilitate teaching
+                        and learning.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    to="/realestate"
+                    className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
+                  >
+                    <div className="h-auto w-[60px]">
+                      <img src={in3} alt="Real Estate" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-lg">Real Estate</h4>
+                      <p className="text-[12px]">
+                        Tailored solutions for managing property listings and
+                        CRM systems.
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
                     to="/banking"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -597,29 +596,27 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
+                </div>
+              )}
+            </div>
+
+            <Link to="/conservation" className="block">
+              Contact
+            </Link>
+            <Link to="/about" className="block">
+              About Us
+            </Link>
+
+            <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-lg">
+              Get A Quote
+            </button>
+            <div className="flex items-center justify-center">
+              <FaPhone />
+              <span className="ml-2">+91 89050 54141</span>
+            </div>
           </div>
-        )}
-      </div>
-
-      <Link to="/conservation" className="block">
-        Contact
-      </Link>
-      <Link to="/about" className="block">
-        About Us
-      </Link>
-
-      <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-lg">
-        Get A Quote
-      </button>
-      <div className="flex items-center justify-center">
-        <FaPhone />
-        <span className="ml-2">+91 89050 54141</span>
-      </div>
-    </div>
-  </div>
-)}
-
-
+        </div>
+      )}
     </nav>
   );
 };

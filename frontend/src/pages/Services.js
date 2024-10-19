@@ -586,7 +586,7 @@ const Services = () => {
 
       {/* seo section */}
 
-      <div className="mb-[200px]">
+      <div className="mb-[100vh] md:mb-[50vh]">
         <section className="bg-images text-white py-8">
           <div className="container mx-auto sm:px-0 md:px-[11rem]">
             <div className="text-center md:mb-12 sm:mb-5">
