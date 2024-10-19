@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaPhone } from "react-icons/fa";
+import { FaBars,FaTimes, FaPhone } from "react-icons/fa";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
 import logo from "../Assets/image 1.png";
@@ -38,6 +38,14 @@ const Navbar = () => {
     setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
   };
 
+  const handlenavClick =() => {
+    setIsOpen(false)
+  }
+
+  const handleNavClick = () => {
+    setActiveDropdown(null);
+  };
+
   return (
     <nav className="bg-black text-white sm:p-4 md:p-5 fixed top-0 z-50 w-full">
       <div className="mx-auto flex justify-between items-center">
@@ -48,29 +56,33 @@ const Navbar = () => {
 
         {/* Main Menu */}
         <div className="hidden md:flex space-x-8 items-center">
-          <Link to="/" className="hover:text-gray-400 transition duration-300">
-            Home
-          </Link>
+      <Link to="/" className="hover:text-gray-400 transition duration-300">
+        Home
+      </Link>
 
-          {/* Dropdown for Services */}
-          <div className=" group">
-            <div className="flex relative items-center hover:text-gray-400 transition duration-300 cursor-pointer">
-              Services <MdExpandMore className="ml-1" />
+      {/* Services Dropdown */}
+      <div className="group">
+        <div
+          className="flex relative items-center hover:text-gray-400 transition duration-300 cursor-pointer"
+          onClick={() => toggleDropdown('services')} // Toggle Services dropdown
+        >
+          <Link to="/services">Services</Link>
+          <MdExpandMore className="ml-1" />
+        </div>
+        {activeDropdown === 'services' && (
+          <div className="absolute left-0 w-full top-[80px] mt-2 flex gap-3 bg-[#c4d7ff] text-black p-6 shadow-lg">
+            <div>
+              <img src={img1} alt="img" className="h-auto w-[800px]" />
             </div>
-            {/* Hover Dropdown Content */}
-            <div className="absolute left-0 w-full top-[40px] mt-2 hidden group-hover:flex gap-3  bg-[#c4d7ff] text-black p-6 shadow-lg">
-              <div>
-                <img src={img1} alt="img" className="h-auto w-[800px]" />
-              </div>
-              <div>
-                <h2 className="text-4xl font-semibold mb-1 leading-9">
-                  Services <br />
-                  Empowering your business with expert solutions.
-                </h2>
-                <div className="grid grid-cols-4 gap-4">
-                  {/* First Row of 4 Boxes */}
-                  <Link
+            <div>
+              <h2 className="text-4xl font-semibold mb-1 leading-9">
+                Services <br />
+                Empowering your business with expert solutions.
+              </h2>
+              <div className="grid grid-cols-4 gap-4">
+              <Link
                     to="/web"
+                  onClick={handleNavClick}
                     className="p-2 bg-white  text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -87,6 +99,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/app"
+                    onClick={handleNavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition flex duration-300 rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -102,6 +115,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                  onClick={handleNavClick}
                     to="/graphic"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -118,6 +132,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                  onClick={handleNavClick}
                     to="/marketingsolutions"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -136,6 +151,7 @@ const Navbar = () => {
 
                   {/* Second Row of 4 Boxes */}
                   <Link
+                  onClick={handleNavClick}
                     to="/seo"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -152,6 +168,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                  onClick={handleNavClick}
                     to="/digitalmarketing"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -169,6 +186,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                  onClick={handleNavClick}
                     to="/smo"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -185,6 +203,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                  onClick={handleNavClick}
                     to="/hrms"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
@@ -200,29 +219,30 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
-                </div>
               </div>
             </div>
           </div>
+        )}
+      </div>
 
-          {/* Dropdown for Industries */}
-          <div className="group">
-            <div className="flex items-center hover:text-gray-400 transition duration-300 cursor-pointer">
-              Industries <MdExpandMore className="ml-1" />
+      {/* Industries Dropdown */}
+      <div className="group">
+        <div
+          className="flex items-center hover:text-gray-400 transition duration-300 cursor-pointer"
+          onClick={() => toggleDropdown('industries')} // Toggle Industries dropdown
+        >
+          Industries
+          <MdExpandMore className="ml-1" />
+        </div>
+        {activeDropdown === 'industries' && (
+          <div className="absolute left-0 w-full top-[80px] mt-2 flex gap-3 bg-[#c4d7ff] text-black p-6 shadow-lg">
+            <div>
+              <img src={in4} alt="industries-img" className="h-auto w-[800px]" />
             </div>
-            {/* Hover Dropdown Content */}
-            <div className="absolute left-0 w-full top-[40px] mt-2 hidden group-hover:flex gap-3 bg-[#c4d7ff] text-black p-6 shadow-lg">
-              <div>
-                <img
-                  src={in4}
-                  alt="industries-img"
-                  className="h-auto w-[800px]"
-                />
-              </div>
-              <div>
-                <div className="grid grid-cols-3 gap-4">
-                  {/* First Row of 3 Boxes */}
-                  <Link
+            <div>
+              <div className="grid grid-cols-3 gap-4">
+              <Link
+                   onClick={handleNavClick}
                     to="/healthcare"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -240,6 +260,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                   onClick={handleNavClick}
                     to="/education"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -257,6 +278,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                   onClick={handleNavClick}
                     to="/realestate"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -276,6 +298,7 @@ const Navbar = () => {
 
                   {/* Second Row of 3 Boxes */}
                   <Link
+                   onClick={handleNavClick}
                     to="/banking"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -293,6 +316,7 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
+                   onClick={handleNavClick}
                     to="/ecommerces"
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
@@ -309,24 +333,19 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
-                </div>
               </div>
             </div>
           </div>
+        )}
+      </div>
 
-          <Link
-            to="/conservation"
-            className="hover:text-gray-400 transition duration-300"
-          >
-            Contact
-          </Link>
-          <Link
-            to="/about"
-            className="hover:text-gray-400 transition duration-300"
-          >
-            About Us
-          </Link>
-        </div>
+      <Link to="/contact" className="hover:text-gray-400 transition duration-300">
+        Contact
+      </Link>
+      <Link to="/about" className="hover:text-gray-400 transition duration-300">
+        About Us
+      </Link>
+    </div>
 
         {/* Contact and Quote Button */}
         <div className="hidden md:flex space-x-4 items-center">
@@ -344,18 +363,18 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-2xl"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <FaBars />
-        </button>
+        className="md:hidden text-2xl"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? <FaTimes /> : <FaBars />} {/* Toggle between FaBars and FaTimes */}
+      </button>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black text-white mt-4">
-          <div className="flex flex-col space-y-4">
-            <Link to="/" className="block">
+        <div className="md:hidden bg-black text-white mt-4 transition-all">
+          <div className="flex flex-col space-y-8 text-lg">
+            <Link to="/"   onClick={handlenavClick} className="block">
               Home
             </Link>
 
@@ -365,7 +384,7 @@ const Navbar = () => {
                 className="flex items-center justify-between w-full"
                 onClick={() => toggleDropdown("services")}
               >
-                <Link to="/services">Services</Link>{" "}
+                <Link to="/services"   onClick={handlenavClick}>Services</Link>{" "}
                 <MdExpandMore
                   className={`ml-1 transform ${
                     activeDropdown === "services" ? "rotate-180" : ""
@@ -376,6 +395,7 @@ const Navbar = () => {
                 <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[40vh] overflow-scroll">
                   <Link
                     to="/web"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -391,6 +411,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/app"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -405,6 +426,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/graphic"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -419,6 +441,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/marketingsolutions"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -436,6 +459,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/marketingsolutions"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -452,6 +476,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/seo"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -468,6 +493,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/smo"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -484,6 +510,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/hrms"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -519,6 +546,7 @@ const Navbar = () => {
                 <div className="grid grid-cols-1 gap-4 mt-2 bg-gray-800 p-3 rounded-md h-[40vh] overflow-scroll">
                   <Link
                     to="/healthcare"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -534,6 +562,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/education"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -549,6 +578,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/realestate"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
@@ -564,6 +594,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/banking"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -581,6 +612,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/ecommerces"
+                    onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
@@ -600,10 +632,10 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link to="/conservation" className="block">
+            <Link to="/conservation"   onClick={handlenavClick} className="block">
               Contact
             </Link>
-            <Link to="/about" className="block">
+            <Link to="/about"   onClick={handlenavClick} className="block">
               About Us
             </Link>
 

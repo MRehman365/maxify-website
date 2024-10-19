@@ -20,6 +20,7 @@ import icon2 from "../Assets/services/2.svg";
 import icon3 from "../Assets/services/3.svg";
 import PricingCard from "../Components/PricingCard";
 import bgimage from "../Assets/services/bg-image.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   // Array to hold service data
@@ -140,9 +141,11 @@ const Services = () => {
             here to help you create a website that not only looks great but also
             delivers outstanding performance.
           </p>
+          <Link to="/contact">
           <button className="bg-[#2334DE] text-white font-semibold lg:px-6 lg:py-3 sm:px-4 sm:py-2 rounded-lg hover:bg-[#2334DE] transition duration-300">
             Get Started Now
           </button>
+          </Link>
         </div>
 
         {/* Right Section */}

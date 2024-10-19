@@ -10,6 +10,7 @@ import img8 from "../Assets/Healthcare/image (3).png";
 import img9 from "../Assets/Healthcare/image (4).png";
 import img10 from "../Assets/Healthcare/Mask group.png";
 import { GoArrowRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 const benifits = [
   {
     title: "Enhanced Individual Experience:",
@@ -235,12 +236,14 @@ const Healthcare = () => {
                 Key Advantages of Partnering with{" "}
                 <span className="text-[#2334DE]"> Maxify Service</span>
               </h2>
+              <Link to="/contact">
               <button
                 className="mt-8 sm:mb-4 md:mb-0 py-3 text-[14px] font-[300] px-6 rounded-lg relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
               >
                 Get Started
               </button>
+              </Link>
             </div>
             <div className="w-[30%] py-4 space-y-2 flex-col items-end sm:hidden md:flex">
               <img src={img7} className="h-[100px]" alt="" />

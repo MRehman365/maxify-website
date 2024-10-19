@@ -60,9 +60,11 @@ const DigitalMarketing = () => {
             your search engine ranks, increase your social media engagement, or
             generate more traffic with PPC ads, we have you covered.
           </p>
+          <Link to="/contact">
           <button className="bg-[#2563eb] text-white rounded-lg px-4 py-1 mt-4 ">
             Get Start
           </button>
+          </Link>
         </div>
       </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
@@ -213,12 +215,14 @@ const DigitalMarketing = () => {
             comprehensive digital marketing strategy, we're here to guide you
             every step of the way.
           </p>
+          <Link to="/contact">
           <button
             className="mt-8 py-2 text-sm md:text-[14px] font-[300] px-8 rounded-full relative text-[white] bg-[#2563EB] isolation-auto z-10 border-2 border-[#2563EB]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2563EB]"
           >
             Get Start
           </button>
+          </Link>
         </div>
       </div>
     </div>

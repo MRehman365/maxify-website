@@ -199,7 +199,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <Link to="/app flex justify-center">
+          <Link to="/contact" className="flex justify-center" >
             <button
               className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"

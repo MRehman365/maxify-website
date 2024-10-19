@@ -161,7 +161,7 @@ const HRMS = () => {
                 firms, and online­ ventures.
               </p>
               <div className="flex gap-5 md:mt-[60px]">
-                <Link to="/app">
+                <Link to="/contact">
                   <button
                     className="mt-8 py-3 text-sm md:text-[14px] font-[300] sm:px-2 md:px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"

@@ -35,7 +35,7 @@ function App() {
         <Route path="/digitalmarketing" element={<DigitalMarketing />} />
         <Route path="/smo" element={<SMO />} />
         <Route path="/seo" element={<SEO />} />
-        <Route path="/conservation" element={<Conservation />} />
+        <Route path="/contact" element={<Conservation />} />
         <Route path="/ecommerces" element={<Ecommerce />} />
         <Route path="/about" element={<Contact />} />
         <Route path="/graphic" element={<Graphic />} />

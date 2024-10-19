@@ -16,6 +16,7 @@ import img10 from '../Assets/banking/image (40).png'
 import img11 from '../Assets/banking/image (41).png'
 import img12 from '../Assets/banking/image-Photoroom (18) 1.png'
 import img13 from '../Assets/banking/image-Photoroom (19) 1.png'
+import { Link } from "react-router-dom";
 
 
 const Banking = () => {
@@ -121,12 +122,14 @@ const handleClick = (service) => {
               streamlining procedures, and increasing customer engagement within
               the banking and financial sector.
             </p>
+            <Link to="/contact">
             <button
               className="mt-8 py-2 text-sm md:text-[14px] font-[300] px-8 rounded-lg relative text-[white] bg-[#1ad079] isolation-auto z-10 border-2 border-[#1ad079]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#1ad079]"
             >
               Get Start
             </button>
+            </Link>
           </div>
         </div>
       </div>

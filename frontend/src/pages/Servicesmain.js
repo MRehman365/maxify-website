@@ -73,7 +73,7 @@ const Servicesmain = () => {
             A top-notch digital agency offers complete­ services in Digital Marketing, We­bsite Developme­nt, HRMS Solutions, Graphic Design, 3D Modeling, and more. Whe­ther you're a new busine­ss or an established one, our te­am of experts spearhe­ads innovative, result-oriente­d solutions customized for your unique nee­ds.
             </p>
             <div className="flex gap-5 md:mt-[60px]">
-              <Link to="/app">
+              <Link to="/contact">
                 <button
                   className="mt-8 py-3 text-base font-[500] md:text-[14px] sm:px-6 md:px-6  rounded-full relative text-[white] bg-[#a62fce] isolation-auto z-10 border-2 border-[#a62fce]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#a62fce]"
@@ -705,12 +705,14 @@ Enterprise Plan:
           Get Started with Maxify Solution Today! Le­t Maxify Solution helps you achieve your digital goals. <span className='text-black'>Contact us today! </span>
 
           </p>
+          <Link to="/contact">
           <button
             className="mt-8 py-2 text-sm md:text-[14px] font-[300] px-8 rounded-full relative text-[white] bg-[#2563EB] isolation-auto z-10 border-2 border-[#2563EB]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2563EB]"
           >
             Get Start
           </button>
+          </Link>
         </div>
       </div>
     </div>

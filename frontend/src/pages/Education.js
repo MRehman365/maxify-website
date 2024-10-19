@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../Assets/education/bg34.jpg (1).png"
 import img2 from "../Assets/education/Container (12).png"
 import img3 from "../Assets/education/Container (13).png"
-import img4 from "../Assets/education/Container (14).png"
+import img4 from "../Assets/education/image11.png"
 import img5 from "../Assets/education/Frame 1707481776.png"
 import img6 from "../Assets/education/Group 1171275258.png"
 import img7 from "../Assets/education/image (36).png"
@@ -11,15 +11,17 @@ import img9 from "../Assets/education/image (38).png"
 import img10 from "../Assets/education/image (39).png"
 import img11 from "../Assets/education/image (40).png"
 import img12 from "../Assets/education/image-Photoroom (17) 1.png"
-import img13 from "../Assets/education/image-Photoroom (17) 1.png"
-import img14 from "../Assets/education/image-Photoroom (17) 1.png"
-import img15 from "../Assets/education/image-Photoroom (17) 1.png"
+import img13 from "../Assets/education/image22.png"
+import img14 from "../Assets/education/image33.png"
+import img15 from "../Assets/education/image44.png"
+import img16 from "../Assets/education/image66.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Navigation, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const Education = () => {
   return (
@@ -38,9 +40,11 @@ const Education = () => {
       <p className="text-2xl md:text-5xl font-[300]">
         by Maxify Solution
       </p>
+      <Link to="/contact">
       <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg rounded-md">
         Get started
       </button>
+      </Link>
       <div className="mt-8">
         <img
           src={img9}
@@ -242,74 +246,155 @@ const Education = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
-                <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img11} alt="Real Estate" className=" inset-0" />
-                </div>
+                
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
-                  <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
-                    2. Real Estate CRM Integration for Effective Website
-                    Development
+                  <h2 className="text-2xl md:text-3xl font-semibold lg:w-full text-[#3343e0] mb-4 sm:text-center md:text-left">
+                  E-Learning  Website <br/>
+Development
                   </h2>
                   <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
-                    Client Partnership Management (CRM) is essential for any
-                    real estate company. Our real estate website development
-                    solutions include CRM integration, enabling you to handle
-                    leads, track client communications, and enhance sales
-                    processes.
+                  The need for Internet education has escalated, and having 
+a durable e-learning website development strategy is 
+important. We concentrate on producing e-learning 
+platforms that satisfy various instructional demands, from 
+K-12 education to higher education and specialist 
+development.
                   </p>
                   <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
                     <li>
-                      Central Lead Monitoring: Effectively handle leads from
-                      multiple resources and automate follow-ups
+                    <strong> Custom Understanding Paths:</strong>  Create personalized 
+                    learning courses to satisfy different learning designs and pacesD
                     </li>
                     <li>
-                      Automated Advertising And Marketing Campaigns: Run
-                      automated e-mail marketing campaigns to nurture leads and
-                      keep customersE
+                   <strong>Gamification Components:</strong>  Involve pupils via gamified 
+learning experiences such as badges, leaderboards, and 
+benefitsD
                     </li>
                     <li>
-                      Customer Interaction: Streamline communication with
-                      possible clients through incorporated messaging and
-                      notification systems.
+                    <strong>Secure Repayment Portals: </strong> Execute protected payment 
+services for program enrollments, registrations, and various 
+other purchases.
                     </li>
                   </ul>
+                </div>
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img13} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
-                <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img12} alt="Real Estate" className=" inset-0" />
-                </div>
+                
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
-                  <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
-                    3. Building Management System (PMS) for Real Estate Website
-                    Development
+                  <h2 className="text-2xl md:text-3xl font-semibold lg:w-full text-[#3343e0] mb-4 sm:text-center md:text-left">
+                  Learning Website   <br/>
+Development
                   </h2>
                   <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
-                    A durable Property Administration System (PMS) can
-                    considerably improve home monitoring procedures. We offer
-                    PMS services that integrate flawlessly with your website,
-                    enabling much better building management and client service.
+                  A specific understanding of learning website development 
+methods is vital for producing interesting, useful, and 
+obtainable sites for educational purposes. We make internet 
+sites that cultivate a comprehensive understanding 
+atmosphere, satisfying diverse understanding needs.
                   </p>
                   <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
                     <li>
-                      Comprehensive Property Listings: Manage residential
-                      property listings successfully with functions such as bulk
-                      uploads, automated updates, and indepth residential
-                      property infoE
+                    <strong>Easily Accessible Style:</strong>  Apply access functions to 
+satisfy students with various needs, guaranteeing 
+conformity with access standards such as WCAG
                     </li>
                     <li>
-                      Tenant and Proprietor Portals: Dedicated portals for
-                      lessees and property owners for streamlined communication
-                      and solution management
+                   <strong>Content Management Systems (CMS):</strong>     Develop 
+internet sites with easy-to-use CMS, permitting teachers 
+and administrators to update content effortlessly
                     </li>
                     <li>
-                      Upkeep Request Management: Streamlined maintenance request
-                      handling, enhancing renter fulfillment and functional
-                      efficiency.
+                    <strong>  Multi-Language Support: </strong>  Assistance with diverse 
+trainee demographics by offering multi-language 
+alternatives on your discovering website
                     </li>
                   </ul>
+                </div>
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img15} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row mt-2 items-center">
+                
+                <div className="md:w-1/2 p-2 md:p-6 space-y-3">
+                  <h2 className="text-2xl md:text-3xl font-semibold lg:w-full text-[#3343e0] mb-4 sm:text-center md:text-left">
+                  Online Learning Platform  <br/>
+Development
+                  </h2>
+                  <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
+                  At Maxify Option, we comprehend that every educational 
+platform has unique needs. Our online learning platform 
+development solutions are customized to produce 
+scalable and interactive platforms that foster learning and 
+cooperation.
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
+                    <li>
+                    <strong> Online Classrooms:</strong> Construct interactive digital 
+classes with video conferencing, chat, and partnership 
+devices to replicate the in-person learning experienceB
+                    </li>
+                    <li>
+                   <strong>Program Management Solutions:</strong>   Integrate robust 
+program management tools that permit teachers to 
+produce, handle, and update course content quicklyB
+                    </li>
+                    <li>
+                    <strong> Data Analytics and Reporting: </strong>  Use sophisticated 
+analytics to track trainee efficiency and interaction, 
+helping educators make data-driven choices.
+                    </li>
+                  </ul>
+                </div>
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img14} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex flex-col md:flex-row mt-2 items-center">
+                
+                <div className="md:w-1/2 p-2 md:p-6 space-y-3">
+                  <h2 className="text-2xl md:text-3xl font-semibold lg:w-full text-[#3343e0] mb-4 sm:text-center md:text-left">
+                  Education Mobile 
+Application   <br/>
+Development
+                  </h2>
+                  <p className="text-gray-600 mb-4 text-justify text-sm md:text-base">
+                  With the growing usage of smart devices, having a devoted 
+mobile app for your academic platform can significantly 
+improve involvement. We provide education mobile 
+application development services that create user-friendly 
+and feature-rich applications for trainees, teachers, and 
+moms and dads.
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-3 text-sm md:text-base text-justify">
+                    <li>
+                    <strong>Interactive Understanding Applications:</strong>  Create 
+applications that supply a large range of learning 
+materials such as videos, tests, and interactive lessons9
+                    </li>
+                    <li>
+                   <strong> Real-Time Alerts:</strong>   Keep trainees and parents 
+educated with real-time updates on assignments, 
+qualities, and institution events9
+                    </li>
+                    <li>
+                    <strong>Offline Accessibility: </strong>  Make It Possible for offline 
+access to finding materials, ensuring pupils can learn 
+anytime, anywhere.
+                    </li>
+                  </ul>
+                </div>
+                <div className="md:w-1/2  flex justify-center items-center">
+                  <img src={img16} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -319,7 +404,7 @@ const Education = () => {
     <div className="swiper-button-prev-custom">
       <FaLongArrowAltRight
         size={34}
-        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+        className="text-3xl sm:none md:block text-white bg-[#0000ff] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
       />
     </div>
   </div>
@@ -328,7 +413,7 @@ const Education = () => {
     <div className="swiper-button-next-custom">
       <FaLongArrowAltLeft
         size={34}
-        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+        className="text-3xl sm:none md:block text-white bg-[#0000ff] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
       />
     </div>
   </div>
