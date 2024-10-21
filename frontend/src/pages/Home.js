@@ -1,14 +1,4 @@
 import React, { useState, useEffect } from "react";
-import img1 from "../Assets/1.webp";
-import img2 from "../Assets/3.webp";
-import img3 from "../Assets/2.webp";
-import img4 from "../Assets/4.webp";
-import img5 from "../Assets/5.webp";
-import img6 from "../Assets/6.webp";
-import img7 from "../Assets/7.webp";
-import img8 from "../Assets/divide6-1.jpg.png";
-import img9 from "../Assets/Path 4 (1).png"
-
 import { Link } from "react-router-dom";
 import { MdImportantDevices } from "react-icons/md";
 import { AiOutlineSolution } from "react-icons/ai";
@@ -245,7 +235,7 @@ const Home = () => {
     <div className="mt-[80px]">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background">
         <div className="sm:w-full lg:w-1/2 sm:p-2 md:p-4 sm:mt-9 md:mt-0">
-        <img src={img9} className="absolute top-0 left-0 -z-20 sm:hidden lg:block" alt="" />
+        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Path_4_1_satfqd.png" className="absolute top-0 left-0 -z-20 sm:hidden lg:block" alt="" />
         <div className="bg-[#2334DE] uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
             <span>IT SOLUTION </span>
             <span className="w-10 mt-[6px]">
@@ -271,7 +261,7 @@ const Home = () => {
         <div className="sm:w-full lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
           <div className="h-[65%] w-[65%] overflow-hidden rounded-lg relative z-10">
             <img
-              src={img1}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/1_oer0q1.webp"
               alt="Person using a tablet"
               className="h-full w-full object-cover rounded-lg"
             />
@@ -295,12 +285,12 @@ const Home = () => {
             </p>
           </div>
           <img
-            src={img5}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
             alt="Left Side"
             className="h-auto right-2 bottom-0 w-[40%] absolute"
           />
           <img
-            src={img2}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
             alt="Left Side"
             className="w-[80%] object-cover h-auto"
           />
@@ -502,7 +492,7 @@ const Home = () => {
           <div className="w-full lg:h-[600px] flex justify-center mt-8 md:mt-0 lg:absolute">
             <div className=" lg:absolute sm:w-full md:w-[55%] right-[00px] top-[-30px]">
               <img
-                src={img8}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/divide6-1.jpg_hbhfyv.png"
                 alt={`${heading} Illustration`}
                 className="w-full md:w-full"
               />
@@ -518,19 +508,19 @@ const Home = () => {
         <div className="flex w-full md:w-1/2 justify-center items-center company-bg relative gap-3">
           <div className="flex flex-col gap-3">
             <img
-              src={img4}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/4_mlz0sf.webp"
               alt={`${heading} Illustration`}
               className="sm:h-[200px] md:h-[250px] sm:w-[150px] rounded-lg object-cover md:w-[200px]"
             />
             <img
-              src={img6}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/6_jtqi46.webp"
               alt={`${heading} Illustration`}
               className="sm:h-[200px] md:h-[250px] sm:w-[150px] md:w-[200px]"
             />
           </div>
           <div>
             <img
-              src={img7}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/7_b87xoc.webp"
               alt={`${heading} Illustration`}
               className="sm:h-[200px] md:h-[300px] sm:w-[150px] rounded-lg object-cover md:w-[200px]"
             />
@@ -574,7 +564,7 @@ const Home = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="w-full md:w-1/2 justify-center items-center relative sm:hidden lg:flex">
           <img
-            src={img3}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/2_ryqv8n.webp"
             alt="Left Side"
             className="w-[70%] object-cover h-[90%] rounded-lg"
           />

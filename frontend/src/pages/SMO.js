@@ -1,19 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import { MdNoiseAware } from "react-icons/md";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { TbCirclesRelation } from "react-icons/tb";
 
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle } from "react-icons/fa";
 import { IoPricetagsOutline } from "react-icons/io5";
-import { FaPlus, FaMinus, FaAward } from 'react-icons/fa';
+import { FaPlus, FaMinus, FaAward } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import img1 from "../Assets/about-three.png.png";
-import img2 from "../Assets/about-three-2.png.png";
-import img3 from "../Assets/about-three-3.png.png";
-import img4 from "../Assets/Image (13).png";
-import img5 from "../Assets/why-chose-us-two.png (1).png";
-import img6 from "../Assets/WhatsApp Image 2024-09-04 at 12.53.53 AM.jpeg";
 import PricingCard from "../Components/PricingCard";
 
 const SMO = () => {
@@ -24,7 +18,7 @@ const SMO = () => {
   };
   return (
     <div className="mt-[70px]">
-      <div className="header-smo text-white text-center flex flex-col items-center p-2 sm:py-[70px] md:py-[120px] justify-center" >
+      <div className="header-smo text-white text-center flex flex-col items-center p-2 sm:py-[70px] md:py-[120px] justify-center">
         <h1 className="sm:text-3xl md:text-6xl font-bold mb-4">
           Elevate Your Online Presence
         </h1>
@@ -156,142 +150,193 @@ const SMO = () => {
         </div>
 
         <div className="md:w-1/2 grid items-center grid-cols-2 gap-4  md:mt-0">
-          <img src={img1} alt="Laptop" className="col-span-1 row-span-2 " />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h1p8fm.webp"
+            alt="Laptop"
+            className="col-span-1 row-span-2 "
+          />
 
-          <img src={img2} alt="Phone" className="col-span-1 " />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-2.png_axadi4.png"
+            alt="Phone"
+            className="col-span-1 "
+          />
 
-          <img src={img3} alt="Social Media Icons" className="col-span-1 " />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-3.png_m3k1ml.png"
+            alt="Social Media Icons"
+            className="col-span-1 "
+          />
         </div>
       </section>
 
       {/* section 5 */}
       <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
-      {/* Left Side Content */}
-      <div className="w-full md:w-1/2 p-6">
-        <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
-          Ask Question
-        </button>
-        <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
-          Social Media <br /> Profile <span className="text-[#2334DE]">Optimization</span>
-        </h1>
-        <p className="text-gray-600 mt-4 text-justify">
-          Your social media profiles are the first impression potential customers have of your brand. We optimize your profiles on platforms like Facebook, Instagram, Twitter, LinkedIn, and more, ensuring they are complete, professional, and aligned with your brand identity.
-        </p>
-        <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
-          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
-            <FaAward className="text-white text-2xl" />
-          </div>
-          <p className="text-3xl font-semibold ml-4">Winning Award</p>
-        </div>
-        </div>
-      </div>
-
-      {/* Right Side Accordion */}
-      <div className="w-full md:w-1/2 p-6">
-        <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-          <div
-            className="flex justify-between items-center cursor-pointer"
-            onClick={() => toggleAccordion(1)}
-          >
-            <h2 className="text-base md:text-lg font-semibold">Keyword Integration:</h2>
-            {openItem === 1 ? <FaMinus /> : <FaPlus />}
-          </div>
-          <div
-            className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 1 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
-          >
-            {openItem === 1 && (
-              <div className="text-gray-600 text-sm md:text-base">
-                We incorporate relevant keywords in your profiles to enhance searchability.
-              </div>
-            )}
-          </div>
-        </div>
-        <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-          <div
-            className="flex justify-between items-center cursor-pointer"
-            onClick={() => toggleAccordion(2)}
-          >
-            <h2 className="sm:text-base md:text-lg font-semibold">How Do You Manage Consulting Effectively?</h2>
-            {openItem === 2 ? <FaMinus /> : <FaPlus />}
-          </div>
-          <div
-            className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 2 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
-          >
-            {openItem === 2 && (
-              <div className="text-gray-600 text-sm md:text-base">
-                Detailed content on managing consulting effectively goes here.
-              </div>
-            )}
-          </div>
-        </div>
-        <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-          <div
-            className="flex justify-between items-center cursor-pointer"
-            onClick={() => toggleAccordion(3)}
-          >
-            <h2 className="sm:text-base md:text-lg font-semibold">Bio And Description:</h2>
-            {openItem === 3 ? <FaMinus /> : <FaPlus />}
-          </div>
-          <div
-            className={`overflow-hidden transition-all duration-500 ease-in-out ${openItem === 3 ? 'max-h-screen bg-white p-4 rounded-lg mt-2' : 'max-h-0'}`}
-          >
-            {openItem === 3 && (
-              <div className="text-gray-600 text-sm md:text-base">
-                Detailed content on bio and description goes here.
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* section 6 */}
-    <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8 bg-background md:w-[94%] lg:w-[80%] mx-auto">
-      <div className="md:w-1/2 w-full">
-        <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">Why CHOOSE US</span>
-        <h3 className="text-3xl md:text-5xl mt-8  font-bold">
-          For SMO <br /> Services  <span className="text-[#2334DE]">in India?</span>
-        </h3>
-        <ul className="mt-8 space-y-2 leading-8">
-          <li className="flex items-center">
-            <FaCheckCircle className="text-[#2334DE]" />
-            <span className="ml-2 text-muted-foreground">Experienced Team</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-[#2334DE]" />
-            <span className="ml-2 text-muted-foreground">Customized Solutions</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-[#2334DE]" />
-            <span className="ml-2 text-muted-foreground">Proven Track Record</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-[#2334DE]" />
-            <span className="ml-2 text-muted-foreground">Testing and Quality Assurance</span>
-          </li>
-        </ul>
-        <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
-            Learn More <span className="ml-2"><GoArrowRight /></span>
+        {/* Left Side Content */}
+        <div className="w-full md:w-1/2 p-6">
+          <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
+            Ask Question
           </button>
+          <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
+            Social Media <br /> Profile{" "}
+            <span className="text-[#2334DE]">Optimization</span>
+          </h1>
+          <p className="text-gray-600 mt-4 text-justify">
+            Your social media profiles are the first impression potential
+            customers have of your brand. We optimize your profiles on platforms
+            like Facebook, Instagram, Twitter, LinkedIn, and more, ensuring they
+            are complete, professional, and aligned with your brand identity.
+          </p>
+          <div className="mt-6 rounded-lg p-4 flex items-center">
+            <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+              <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
+                <FaAward className="text-white text-2xl" />
+              </div>
+              <p className="text-3xl font-semibold ml-4">Winning Award</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side Accordion */}
+        <div className="w-full md:w-1/2 p-6">
+          <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+            <div
+              className="flex justify-between items-center cursor-pointer"
+              onClick={() => toggleAccordion(1)}
+            >
+              <h2 className="text-base md:text-lg font-semibold">
+                Keyword Integration:
+              </h2>
+              {openItem === 1 ? <FaMinus /> : <FaPlus />}
+            </div>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openItem === 1
+                  ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                  : "max-h-0"
+              }`}
+            >
+              {openItem === 1 && (
+                <div className="text-gray-600 text-sm md:text-base">
+                  We incorporate relevant keywords in your profiles to enhance
+                  searchability.
+                </div>
+              )}
+            </div>
+          </div>
+          <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+            <div
+              className="flex justify-between items-center cursor-pointer"
+              onClick={() => toggleAccordion(2)}
+            >
+              <h2 className="sm:text-base md:text-lg font-semibold">
+                How Do You Manage Consulting Effectively?
+              </h2>
+              {openItem === 2 ? <FaMinus /> : <FaPlus />}
+            </div>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openItem === 2
+                  ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                  : "max-h-0"
+              }`}
+            >
+              {openItem === 2 && (
+                <div className="text-gray-600 text-sm md:text-base">
+                  Detailed content on managing consulting effectively goes here.
+                </div>
+              )}
+            </div>
+          </div>
+          <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+            <div
+              className="flex justify-between items-center cursor-pointer"
+              onClick={() => toggleAccordion(3)}
+            >
+              <h2 className="sm:text-base md:text-lg font-semibold">
+                Bio And Description:
+              </h2>
+              {openItem === 3 ? <FaMinus /> : <FaPlus />}
+            </div>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openItem === 3
+                  ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                  : "max-h-0"
+              }`}
+            >
+              {openItem === 3 && (
+                <div className="text-gray-600 text-sm md:text-base">
+                  Detailed content on bio and description goes here.
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
-        <img
-          alt="Laptop displaying SMO services"
-          src={img5}
-        />
+
+      {/* section 6 */}
+      <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8 bg-background md:w-[94%] lg:w-[80%] mx-auto">
+        <div className="md:w-1/2 w-full">
+          <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">
+            Why CHOOSE US
+          </span>
+          <h3 className="text-3xl md:text-5xl mt-8  font-bold">
+            For SMO <br /> Services{" "}
+            <span className="text-[#2334DE]">in India?</span>
+          </h3>
+          <ul className="mt-8 space-y-2 leading-8">
+            <li className="flex items-center">
+              <FaCheckCircle className="text-[#2334DE]" />
+              <span className="ml-2 text-muted-foreground">
+                Experienced Team
+              </span>
+            </li>
+            <li className="flex items-center">
+              <FaCheckCircle className="text-[#2334DE]" />
+              <span className="ml-2 text-muted-foreground">
+                Customized Solutions
+              </span>
+            </li>
+            <li className="flex items-center">
+              <FaCheckCircle className="text-[#2334DE]" />
+              <span className="ml-2 text-muted-foreground">
+                Proven Track Record
+              </span>
+            </li>
+            <li className="flex items-center">
+              <FaCheckCircle className="text-[#2334DE]" />
+              <span className="ml-2 text-muted-foreground">
+                Testing and Quality Assurance
+              </span>
+            </li>
+          </ul>
+          <button
+            className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
+          >
+            Learn More{" "}
+            <span className="ml-2">
+              <GoArrowRight />
+            </span>
+          </button>
+        </div>
+        <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
+          <img
+            alt="Laptop displaying SMO services"
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512526/why-chose-us-two.png_1_nanin6.png"
+          />
+        </div>
       </div>
-    </div>
-     {/* price section  */}
-     <div>
+      {/* price section  */}
+      <div>
         <section className="bg-white dark:bg-gray-900">
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <div>
-              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
-                SMO Packages
-              </span>
+              <div>
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
+                  SMO Packages
+                </span>
               </div>
             </div>
             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -328,7 +373,7 @@ const SMO = () => {
                 index={2}
                 color="bg-black"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 3",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -356,7 +401,7 @@ const SMO = () => {
                 index={3}
                 color="bg-[#2334DE]"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 6",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -383,43 +428,55 @@ const SMO = () => {
         </section>
       </div>
 
-    {/* Section * */}
-    <div className="pt-10 mt-10">
-      <div className=" text-center">
-        <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
-          In The Digital Age
-        </span>
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
-          Having a strong social media <br className="hidden md:block" />
-          presence is <span className="text-[#2334DE]">no longer optional</span>
-        </h1>
-      </div>
-
-      {/* Middle Section with Linear Gradient Background */}
-      <div className=" mt-8 py-10" style={{ background: 'linear-gradient(to bottom, white 50%, #2334DE 50%)'}}>
-      <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
-        <div className="md:w-1/2 flex justify-end">
-          <img
-            src={img4} // Replace with actual image source
-            alt="Team Working"
-            className="rounded-lg shadow-lg"
-          />
+      {/* Section * */}
+      <div className="pt-10 mt-10">
+        <div className=" text-center">
+          <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
+            In The Digital Age
+          </span>
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
+            Having a strong social media <br className="hidden md:block" />
+            presence is{" "}
+            <span className="text-[#2334DE]">no longer optional</span>
+          </h1>
         </div>
-        <div className="md:w-1/2 mt-6 md:mt-0 p-5 rounded-lg text-gray-600 bg-white">
-          <p className="text-sm text-justify md:text-lg">
-            It’s essential. As the leading SMO services company in India, Maxify web solution is committed to helping you build and maintain a powerful online presence that drives growth and success. Whether you’re looking to enhance your brand awareness, engage with your audience, or increase website traffic, our expert team is here to help.
+
+        {/* Middle Section with Linear Gradient Background */}
+        <div
+          className=" mt-8 py-10"
+          style={{
+            background: "linear-gradient(to bottom, white 50%, #2334DE 50%)",
+          }}
+        >
+          <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
+            <div className="md:w-1/2 flex justify-end">
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512505/Image_13_txhljf.png"
+                alt="Team Working"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="md:w-1/2 mt-6 md:mt-0 p-5 rounded-lg text-gray-600 bg-white">
+              <p className="text-sm text-justify md:text-lg">
+                It’s essential. As the leading SMO services company in India,
+                Maxify web solution is committed to helping you build and
+                maintain a powerful online presence that drives growth and
+                success. Whether you’re looking to enhance your brand awareness,
+                engage with your audience, or increase website traffic, our
+                expert team is here to help.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section with Solid Blue Background */}
+        <div className="bg-[#2334DE] text-white text-center py-6">
+          <p className="text-base md:text-lg font-semibold">
+            Contact us today to learn more about our SMO services and how we can
+            help your business thrive in the competitive digital landscape.
           </p>
         </div>
       </div>
-      </div>
-
-      {/* Bottom Section with Solid Blue Background */}
-      <div className="bg-[#2334DE] text-white text-center py-6">
-        <p className="text-base md:text-lg font-semibold">
-          Contact us today to learn more about our SMO services and how we can help your business thrive in the competitive digital landscape.
-        </p>
-      </div>
-    </div>
     </div>
   );
 };

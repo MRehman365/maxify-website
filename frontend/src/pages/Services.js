@@ -2,42 +2,26 @@ import React, { useState } from "react";
 import "./main.css";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaArrowRight } from "react-icons/fa";
-import img1 from "../Assets/services/1.webp";
-import img2 from "../Assets/services/2.webp";
-import img3 from "../Assets/services/3.webp";
-import img4 from "../Assets/services/4.webp";
-import img5 from "../Assets/services/5.webp";
-import img6 from "../Assets/services/6.webp";
-import img7 from "../Assets/services/7.webp";
-import img8 from "../Assets/services/8.webp";
-import img9 from "../Assets/services/9.webp";
-import img10 from "../Assets/services/10.webp";
-import img12 from "../Assets/services/12.webp";
-import img13 from "../Assets/services/13.webp";
-import icon from "../Assets/services/icon.svg";
-import icon1 from "../Assets/services/1.svg";
-import icon2 from "../Assets/services/2.svg";
-import icon3 from "../Assets/services/3.svg";
 import PricingCard from "../Components/PricingCard";
-import bgimage from "../Assets/services/bg-image.png";
+
 import { Link } from "react-router-dom";
 
 const Services = () => {
   // Array to hold service data
   const serviceData = [
     {
-      imageSrc: img7,
+      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513533/7_fw9kkj.webp",
       title: "Custom Website Design And Development",
       description:
         "Our custom website design and development services set us apart as the best website development company in Noida. We do not believe in universally applicable solutions. Instead, we take the time to understand your company's goals, target audience, and brand identity while designing a website that represents your concept.",
       hoverText: "Learn More",
-      icone: icon,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg",
       key1: "Tailored Designs: We create unique, visually appealing designs that resonate with your brand.",
       key2: "Responsive Development: Our websites are fully responsive, ensuring a seamless user experience across all devices.",
       key3: "User-Centric Approach: We focus on creating websites that are not only attractive but also easy to navigate, keeping your audience engaged.",
     },
     {
-      imageSrc: img8,
+      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513535/8_kfag4g.webp",
       title: "E-Commerce Website Development",
       description:
         "In the modern age of online purchasing, a reputable e-commerce platform is necessary. As the best web development company in Noida, we offer top-notch e-commerce website development services that help you sell your products online with ease.",
@@ -47,7 +31,7 @@ const Services = () => {
       key3: "Inventory Management: We build systems that help you manage your inventory efficiently, reducing the chances of stockouts or overstocking",
     },
     {
-      imageSrc: img9,
+      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513537/9_vhdrnm.webp",
       title: "CMS Development",
       description:
         "Content Management Systems (CMS) make it easy for you to update your website content without needing technical expertise. At Maxify Solutions, the leading website development company in Noida, we specialize in CMS development that empowers you to manage your site effectively.",
@@ -57,7 +41,7 @@ const Services = () => {
       key3: "SEO-Friendly: Our CMS solutions are optimized for search engines, helping you rank higher in search results.",
     },
     {
-      imageSrc: img10,
+      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513539/10_zapx0w.webp",
       title: "Website Maintenance And Support",
       description:
         "A website is never truly finished; it requires regular updates and maintenance to stay relevant and functional. As the best web development company in Noida, we offer ongoing maintenance and support services to keep your website running smoothly.",
@@ -74,24 +58,24 @@ const Services = () => {
       title: "Proven Track Record",
       description:
         "Our success as the best website development company in Noida is backed by a strong portfolio of satisfied clients across various industries. We take pride in delivering websites that exceed our clients' expectations.",
-      image: img2,
-      icone: icon1,
+      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513523/2_ywmvhh.webp",
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513517/1_mtulth.svg",
     },
     {
       id: 2,
       title: "Client-Centric Approach",
       description:
         "At Maxify Solutions, we believe that your success is our success. We focus on understanding your needs and goals to deliver a website that is more than just a website; it is an invaluable resource for your company.",
-      image: img3,
-      icone: icon2,
+      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513526/3_fbenhs.webp",
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513520/2_spdpmt.svg",
     },
     {
       id: 3,
       title: "Cutting-Edge Technology",
       description:
         "We stay ahead of the curve by using the latest technologies and tools in web development. Our commitment to innovation ensures that your website is future-proof and ready to adapt to new trends and changes.",
-      image: img6,
-      icone: icon3,
+      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513531/6_dtqgzd.webp",
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513524/3_fsmwyh.svg",
     },
   ];
 
@@ -151,7 +135,7 @@ const Services = () => {
         {/* Right Section */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513525/1_a07tse.webp"
             alt="Team Planning"
             className="rounded-lg shadow-md w-full h-auto"
           />
@@ -166,12 +150,12 @@ const Services = () => {
             <div className="absolute left-0 top-0 bg-[#2334DE] w-2 h-[90%]"></div>
             <div className="relative">
               <img
-                src={img5}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513530/5_xw0wov.webp"
                 alt="Main"
                 className="rounded-lg shadow-md w-full h-[25rem] mb-4 ml-2"
               />
               <img
-                src={img4}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513528/4_wstawy.webp"
                 alt="Secondary"
                 className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
               />
@@ -278,7 +262,7 @@ const Services = () => {
                         {service.title}
                       </h3>
                       <div className="mt-[-10px]">
-                        <img src={icon} alt="" />
+                        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg" alt="" />
                       </div>
                     </div>
                     <p className="text-gray-700 text-[12px] text-justify mb-6">
@@ -358,7 +342,7 @@ const Services = () => {
                           {service.title}
                         </h3>
                         <div className="mt-[-10px]">
-                          <img src={icon} alt="" />
+                          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg" alt="" />
                         </div>
                       </div>
                       <p className="text-gray-700 text-[12px] text-justify mb-6">
@@ -618,7 +602,7 @@ const Services = () => {
             <div className="grid gap-8 md:grid-cols-2">
               {/* Card 1 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
-                <img src={img13} alt="SEO" className="rounded-t-lg mb-6" />
+                <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp" alt="SEO" className="rounded-t-lg mb-6" />
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-4">
                     Search Engine Optimization
@@ -637,7 +621,7 @@ const Services = () => {
               {/* Card 2 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
                 <img
-                  src={img12}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513543/12_uybl6p.webp"
                   alt="User Experience"
                   className="rounded-t-lg mb-6"
                 />

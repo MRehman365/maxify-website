@@ -321,46 +321,46 @@ body {
 
 /* BG */
 .bg-img {
-  background-image: url('./Assets/Image\ 2222.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/Image_2222_wtupqz.png');
   background-position: center;
 }
 .company-bg {
-  background-image: url('./Assets/circle-550x550.png.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/circle-550x550.png_ujr5ov.png');
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: left;
 }
 .bg-slide {
-  background-image: url('./Assets/Image\ 1111.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512513/Image_1111_l2kra6.png');
   background-repeat: no-repeat;
   background-position: left top;
 }
 .bg-contact1 {
-  background-image: url('./Assets/Group\ 164551.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164551_vjgcwa.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
 }
 .bg-seo {
-  background-image: url('./Assets/Background.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/Background_o6wnog.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .bg-con {
-  background-image: url('./Assets/Rectangle\ 4485.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Rectangle_4485_qqtcmx.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg-map {
-  background-image: url('./Assets/Rectangle\ 4599.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512535/Rectangle_4599_f3ew6t.png');
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .bg-contact{
-  background-image: url('./Assets/image\ 316.png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512508/image_316_1_blotff.png');
   background-repeat: no-repeat;
   background-position: center;
 
@@ -675,10 +675,10 @@ input:focus {
   }
 }
 .header-smo {
-  background-image: url(./Assets/WhatsApp\ Image\ 2024-09-04\ at\ 12.53.53\ AM.jpeg);
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512525/WhatsApp_Image_2024-09-04_at_12.53.53_AM_feqsmx.jpg");
 }
 .bg-app {
-  background-image: url(./Assets/line\ circle.svg);
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/line_circle_ydk4lc.svg");
   background-repeat: no-repeat;
 }
 .right-seo {

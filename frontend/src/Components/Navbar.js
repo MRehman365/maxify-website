@@ -2,33 +2,7 @@ import React, { useState } from "react";
 import { FaBars,FaTimes, FaPhone } from "react-icons/fa";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
-import logo from "../Assets/image 1.png";
-import img1 from "../Assets/navbar icon 1/image 588254511.png";
-import icon1 from "../Assets/navbar icon 1/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer.png";
-import icon2 from "../Assets/navbar icon 1/Group 1171275282.png";
-import icon3 from "../Assets/navbar icon 1/Group 1171275284.png";
-import icon4 from "../Assets/navbar icon 1/Group 1171275285.png";
-import icon5 from "../Assets/navbar icon 1/Group 1171275292.png";
-import icon6 from "../Assets/navbar icon 1/Group 1171275296.png";
-import icon7 from "../Assets/navbar icon 1/Group-1.png";
-import icon8 from "../Assets/navbar icon 1/Group.png";
-import in1 from "../Assets/navbar icon 2/Group 1171275300.png";
-import in2 from "../Assets/navbar icon 2/Group 1171275302.png";
-import in3 from "../Assets/navbar icon 2/Group 1171275304.png";
-import in4 from "../Assets/navbar icon 2/image 588254512.png";
-import in5 from "../Assets/navbar icon 2/Vector-1.png";
-import in6 from "../Assets/navbar icon 2/Vector.png";
 
-import {
-  FiCode,
-  FiSmartphone,
-  FiImage,
-  FiLayers,
-  FiGlobe,
-  FiTarget,
-  FiUsers,
-  FiBriefcase,
-} from "react-icons/fi"; // Importing some icons for the services
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +25,7 @@ const Navbar = () => {
       <div className="mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} className="h-[50px] w-auto" alt="Logo" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_1_uazqcb.png" className="h-[50px] w-auto" alt="Logo" />
         </div>
 
         {/* Main Menu */}
@@ -72,7 +46,7 @@ const Navbar = () => {
         {activeDropdown === 'services' && (
           <div className="absolute left-0 w-full top-[80px] mt-2 flex gap-3 bg-[#c4d7ff] text-black p-6 shadow-lg">
             <div>
-              <img src={img1} alt="img" className="h-auto w-[800px]" />
+              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512793/image_588254511_s0ehnn.png" alt="img" className="h-auto w-[800px]" />
             </div>
             <div>
               <h2 className="text-4xl font-semibold mb-1 leading-9">
@@ -86,7 +60,7 @@ const Navbar = () => {
                     className="p-2 bg-white  text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon2} alt="" className="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275282_uif7lm.png" alt="" className="" />
                     </div>
                     <div className="">
                       <h4 className="font-semibold text-lg">Web Development</h4>
@@ -103,7 +77,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition flex duration-300 rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon1} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512809/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer_te3dhz.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">App Development</h4>
@@ -120,7 +94,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon8} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group_thna7x.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Graphic Design</h4>
@@ -137,7 +111,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon4} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512821/Group_1171275285_kj87kb.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">3D Modeling</h4>
@@ -156,7 +130,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon3} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275284_gzfz45.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">SEO</h4>
@@ -173,7 +147,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon6} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275296_t6d3ot.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">
@@ -191,7 +165,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon7} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group-1_ukuldn.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">SMO</h4>
@@ -208,7 +182,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon5} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275292_fy8jmy.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">HRMS</h4>
@@ -237,7 +211,7 @@ const Navbar = () => {
         {activeDropdown === 'industries' && (
           <div className="absolute left-0 w-full top-[80px] mt-2 flex gap-3 bg-[#c4d7ff] text-black p-6 shadow-lg">
             <div>
-              <img src={in4} alt="industries-img" className="h-auto w-[800px]" />
+              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512825/image_588254512_ozjavx.png" alt="industries-img" className="h-auto w-[800px]" />
             </div>
             <div>
               <div className="grid grid-cols-3 gap-4">
@@ -247,7 +221,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in1} alt="Icon 1" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512823/Group_1171275300_toremg.png" alt="Icon 1" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Healthcare</h4>
@@ -265,7 +239,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in2} alt="Icon 2" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275302_mktyz0.png" alt="Icon 2" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Education</h4>
@@ -283,7 +257,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in3} alt="Icon 3" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275304_pqkqy7.png" alt="Icon 3" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Real Estate</h4>
@@ -303,7 +277,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in5} alt="Icon 4" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector-1_oaxx9k.png" alt="Icon 4" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Banking</h4>
@@ -321,7 +295,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in6} alt="Icon 5" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector_k4qu9s.png" alt="Icon 5" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">E-Commerce</h4>
@@ -399,7 +373,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={icon2} alt="Web Development" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275282_uif7lm.png" alt="Web Development" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Web Development</h4>
@@ -415,7 +389,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={icon1} alt="App Development" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512809/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer_te3dhz.png" alt="App Development" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">App Development</h4>
@@ -430,7 +404,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={icon8} alt="Graphic Design" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group_thna7x.png" alt="Graphic Design" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Graphic Design</h4>
@@ -440,16 +414,16 @@ const Navbar = () => {
                     </div>
                   </Link>
                   <Link
-                    to="/marketingsolutions"
+                    to="/digitalmarketing"
                     onClick={handlenavClick}
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={icon4} alt="Marketing Solutions" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275296_t6d3ot.png" alt="Marketing Solutions" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">
-                        Marketing Solutions
+                       Digital Marketing
                       </h4>
                       <p className="text-[12px]">
                         Strategic digital marketing to boost your online
@@ -463,7 +437,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon4} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512821/Group_1171275285_kj87kb.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">3D Modeling</h4>
@@ -480,7 +454,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon3} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275284_gzfz45.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">SEO</h4>
@@ -497,7 +471,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon7} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group-1_ukuldn.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">SMO</h4>
@@ -514,7 +488,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={icon5} alt="" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275292_fy8jmy.png" alt="" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">HRMS</h4>
@@ -550,7 +524,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={in1} alt="Healthcare" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512823/Group_1171275300_toremg.png" alt="Healthcare" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Healthcare</h4>
@@ -566,7 +540,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={in2} alt="Education" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275302_mktyz0.png" alt="Education" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Education</h4>
@@ -582,7 +556,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[60px]">
-                      <img src={in3} alt="Real Estate" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275304_pqkqy7.png" alt="Real Estate" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Real Estate</h4>
@@ -598,7 +572,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in5} alt="Icon 4" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector-1_oaxx9k.png" alt="Icon 4" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">Banking</h4>
@@ -616,7 +590,7 @@ const Navbar = () => {
                     className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                   >
                     <div className="h-auto w-[100px] mt-2">
-                      <img src={in6} alt="Icon 5" />
+                      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector_k4qu9s.png" alt="Icon 5" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">E-Commerce</h4>

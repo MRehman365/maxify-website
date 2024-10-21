@@ -5,21 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-import img1 from '../Assets/digital marketing/Frame 91.png'
-import img2 from '../Assets/digital marketing/image (36).png'
-import img3 from '../Assets/digital marketing/image (37).png'
-import img4 from '../Assets/digital marketing/image (38).png'
-import img5 from '../Assets/digital marketing/image (39).png'
-import img6 from '../Assets/digital marketing/image (40).png'
-import img7 from '../Assets/digital marketing/image (41).png'
-import img8 from '../Assets/digital marketing/image (42).png'
-import img9 from '../Assets/digital marketing/image (43).png'
 
 const DigitalMarketing = () => {
   const slides = [
-    img2,
-    img4,
-   img5,
+    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512971/image_36_oo1rps.png",
+    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_38_hlp4zu.png",
+   "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_39_oupanc.png",
   ];
   const sliderSettings = {
     dots: true,
@@ -69,7 +60,7 @@ const DigitalMarketing = () => {
       </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
         <div className="w-full">
-          <img src={img1} alt="img1" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png" alt="img1" />
         </div>
       </div>
       {/* 3rd section */}
@@ -149,7 +140,7 @@ const DigitalMarketing = () => {
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] h-full p-6 flex flex-col">
             <img
-              src={img9}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512978/image_43_wyn2cv.png"
               alt="SEO visualization"
               className="w-full h-48 object-cover rounded-lg"
             />
@@ -168,7 +159,7 @@ const DigitalMarketing = () => {
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] min-h-[400px] p-6 flex flex-col">
             <img
-              src={img8}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512977/image_42_lsytqj.png"
               alt="PPC analytics on smartphone"
               className="w-full h-48 object-cover rounded-lg"
             />
@@ -191,7 +182,7 @@ const DigitalMarketing = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-          <img src={img3} alt="" className="sm:w-full md:w-[80%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png" alt="" className="sm:w-full md:w-[80%]" />
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">
