@@ -1,19 +1,5 @@
 import React from "react";
-import img3 from "../Assets/Ecommerces/img3.png";
-import img4 from "../Assets/Ecommerces/img4.png";
-import img5 from "../Assets/Ecommerces/img5.png";
-import img6 from "../Assets/Ecommerces/img6.png";
-import img7 from "../Assets/Ecommerces/img7.png";
-import img8 from "../Assets/Ecommerces/img8.png";
-import img9 from "../Assets/Ecommerces/img9.png";
-import img10 from "../Assets/Ecommerces/img10.png";
-import img11 from "../Assets/Ecommerces/img11.png";
-import img12 from "../Assets/Ecommerces/img12.png";
-import img13 from "../Assets/Ecommerces/img13.png";
-import img14 from "../Assets/Ecommerces/img14.png";
-import svg1 from "../Assets/Ecommerces/svg1.svg";
-import svg2 from "../Assets/Ecommerces/svg2.svg";
-import svg3 from "../Assets/Ecommerces/svg3.svg";
+
 
 import EcomSlider from "../Components/EcomSlider";
 
@@ -401,12 +387,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-end sm:mt-10 md:mt-0">
               <div className="relative">
                 <img
-                  src={img11}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513259/img11_ixvin7.png"
                   alt="Main"
                   className="rounded-lg shadow-md w-full h-[25rem] mb-4 ml-2"
                 />
                 <img
-                  src={img12}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513259/img12_oywrm6.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
