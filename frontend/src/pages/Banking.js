@@ -2,20 +2,6 @@ import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { FaCheckCircle, FaArrowUpRight } from 'react-icons/fa';
 import { GoArrowUpRight } from "react-icons/go";
-
-import img1 from '../Assets/banking/Container (12).png'
-import img2 from '../Assets/banking/Container (13).png'
-import img3 from '../Assets/banking/Container (14).png'
-import img4 from '../Assets/banking/feature-img-1.png (2).png'
-import img5 from '../Assets/banking/feature-img-2.png (3).png'
-import img6 from '../Assets/banking/image (36).png'
-import img7 from '../Assets/banking/image (37).png'
-import img8 from '../Assets/banking/image (38).png'
-import img9 from '../Assets/banking/image (39).png'
-import img10 from '../Assets/banking/image (40).png'
-import img11 from '../Assets/banking/image (41).png'
-import img12 from '../Assets/banking/image-Photoroom (18) 1.png'
-import img13 from '../Assets/banking/image-Photoroom (19) 1.png'
 import { Link } from "react-router-dom";
 
 
@@ -32,7 +18,7 @@ const Banking = () => {
       'Social Media Advertising And Marketing: Take advantage of social media platforms to connect with clients, promote services, and build a strong online presence in the banking and finance sector.',
       'Email Advertising Campaigns: Create tailored email marketing campaigns to support leads and retain clients within the banking and finance industry.',
     ],
-    imgSrc: img6, // Replace with the actual image path
+    imgSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/image_36_a071tl.png", // Replace with the actual image path
   },
   'iOS App Development': {
     title: 'Web Site Advancement for Financial and Financial Institutions',
@@ -43,7 +29,7 @@ const Banking = () => {
       'Custom Web Growth: Custom-made websites that mirror your brands identity and deal with the specific demands of your banks within the banking and finance sector.',
       'Assimilation with Monetary Devices: Seamlessly incorporate financial and economic tools, such as funding calculators, stock market updates, and money converters, to enhance user experience in banking and finance.',
     ],
-    imgSrc: img10, // Replace with the actual image path
+    imgSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512933/image_40_syswdq.png", // Replace with the actual image path
   },
   'Cross-Platform App Development': {
     title: 'E-Commerce Solutions And Marketing for Banking and Finance',
@@ -54,7 +40,7 @@ const Banking = () => {
       'Financial Investment Systems: Develop comprehensive investment systems that provide real-time data and analytics to help customers make informed choices within banking and finance.',
       'Financial Product Catalogs: Develop digital catalogs for financial products such as loans, insurance policies, and investment strategies, making it easier for customers to explore and buy in the banking and finance industry.',
     ],
-    imgSrc: img9, // Replace with the actual image path
+    imgSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512927/image_39_cuqd45.png", // Replace with the actual image path
   },
   'App Design and User Experience (UX)': {
     title: 'Custom Software Application Growth for Financial and Finance',
@@ -65,7 +51,7 @@ const Banking = () => {
       'Consumer Relationship Management (CRM) Systems: Develop CRM systems tailored to the needs of financial institutions and banks to manage consumer information and improve customer support within banking and finance.',
       'Financial Reporting Tools: Create financial reporting tools to provide real-time information and analytics, aiding organizations to make informed business decisions in the banking and finance industry.',
     ],
-    imgSrc: img8, // Replace with the actual image path
+    imgSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512925/image_38_anwh1j.png", // Replace with the actual image path
   },
   'App Testing and Quality Assurance': {
     title: 'Digital Makeover for Financial Institutions',
@@ -76,7 +62,7 @@ const Banking = () => {
       'AI and Artificial Intelligence: Use AI and machine learning to automate processes, enhance client service, and drive insights from data in banking and finance.',
       'Blockchain Solutions: Develop blockchain-based solutions for secure and transparent financial transactions in the banking and finance industry.',
     ],
-    imgSrc: img11, // Replace with the actual image path
+    imgSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512931/image_41_qjy0sg.png", // Replace with the actual image path
   },
 };
 
@@ -90,7 +76,7 @@ const handleClick = (service) => {
           {/* Right side with video */}
           <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start lg:h-[70vh] w-full ">
           <div className="w-[70%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
-            <img src={img12} alt="" className="sm:w-full h-full top-0 right-0 z-50 absolute" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512929/image-Photoroom_18_1_mgecit.png" alt="" className="sm:w-full h-full top-0 right-0 z-50 absolute" />
           </div>
           {/* Left side content */}
           <div className="md:w-1/2 p-4 md:px-8">
@@ -182,7 +168,7 @@ const handleClick = (service) => {
 
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center h-full">
         <div className="relative sm:h-[330px] sm:w-[330px] md:h-[400px] md:w-[400px]  bg-gradient-to-b from-[#1ad079] to-[#ffffff] flex justify-center items-center bg-gray-400 rounded-[50%]">
-          <img src={img13} alt="" className="sm:h-full mx-auto absolute -top-[90px] -right-[48px]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512935/image-Photoroom_19_1_kdfs3m.png" alt="" className="sm:h-full mx-auto absolute -top-[90px] -right-[48px]" />
         </div>
         </div>
       </div>
@@ -286,7 +272,7 @@ const handleClick = (service) => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-          <img src={img4} alt="img" className="sm:w-full md:w-[70%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/feature-img-1.png_2_crvjkl.png" alt="img" className="sm:w-full md:w-[70%]" />
         </div>
       </div>
 
@@ -295,7 +281,7 @@ const handleClick = (service) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-full">
           <img
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_12_yvudfq.png"
             alt="Banking Digital Solutions"
             className="rounded-lg  object-cover w-full h-full"
           />
@@ -338,7 +324,7 @@ const handleClick = (service) => {
       <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
         
         <img
-          src={img2}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_13_k9sanb.png"
           alt="Client-Centric Method"
           className="rounded-md w-full h-52 object-cover mb-4"
         />
@@ -375,7 +361,7 @@ const handleClick = (service) => {
       <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
         
         <img
-          src={img3}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_14_fe6hja.png"
           alt="Competitive Pricing"
           className="rounded-md w-full h-52 object-cover mb-4"
         />
@@ -413,13 +399,13 @@ const handleClick = (service) => {
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src={img4}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/feature-img-1.png_2_crvjkl.png"
               className="rounded-lg w-1/2"
             />
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src={img5}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512923/feature-img-2.png_3_njssfi.png"
               className="rounded-lg w-1/2"
             />
           </div>
@@ -450,7 +436,7 @@ const handleClick = (service) => {
      
       <div className="w-full">
         <img
-          src={img7}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512925/image_37_fo9tqe.png"
           alt="Contact us"
           className="rounded-lg w-[80%] mx-auto"
         />

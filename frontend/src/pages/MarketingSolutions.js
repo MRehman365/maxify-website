@@ -1,19 +1,4 @@
 import React, { useState } from "react";
-import img2 from "../Assets/image 339.png";
-import img3 from "../Assets/image 340.png";
-import img4 from "../Assets/image 341.png";
-import img5 from "../Assets/image 342.png";
-import img6 from "../Assets/m1.png";
-import img7 from "../Assets/m2.png";
-import img9 from "../Assets/m3.png";
-import img10 from "../Assets/m4.png";
-import CTA from "../Assets/CTA.png";
-import group1 from "../Assets/Group1.svg";
-import group2 from "../Assets/Group2.svg";
-import group3 from "../Assets/Group3.svg";
-import group4 from "../Assets/Group4.svg";
-import imgwatch from "../Assets/imgwatch.png";
-import img8 from "../Assets/image 349.png";
 import { HiUserGroup } from "react-icons/hi";
 import { IoSearchOutline } from "react-icons/io5";
 import {
@@ -86,7 +71,7 @@ const MarketingSolutions = () => {
       {/* 1st section */}
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[90%] mx-auto py-7 border-t-[2px] border-black">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-6">
-          <img src={img2} alt="img2" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png" alt="img2" />
           <div className="py-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
               <div key={index} className="w-full max-w-lg mb-6">
@@ -153,7 +138,7 @@ const MarketingSolutions = () => {
               visibility and increase engagement.
             </p>
           </div>
-          <img className="rounded-xl" src={img3} alt="" />
+          <img className="rounded-xl" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png" alt="" />
         </div>
       </div>
       {/* 2nd section */}
@@ -163,12 +148,12 @@ const MarketingSolutions = () => {
         <div className="lg:w-1/2 w-full flex justify-center relative">
           <div className="">
             <img
-              src={img5}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512512/image_342_ulz1o4.png"
               alt="3D Modeling"
               className="rounded-lg shadow-md sm:h-[20rem] md:h-full"
             />
             <img
-              src={img4}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_341_vlimrl.png"
               alt="3D Overlay"
               className="absolute top-[15%] left-0 w-[50%] border-4 border-white rounded-lg shadow-lg"
             />
@@ -240,7 +225,7 @@ const MarketingSolutions = () => {
               <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
                 <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                   <img
-                    src={img7} // replace with actual image
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/m2_efsmxt.png"
                     alt="SMO Icon"
                     className="rounded-full w-full h-full block"
                   />
@@ -253,7 +238,7 @@ const MarketingSolutions = () => {
               {/* Left Image */}
               <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
                 <img
-                  src={img6} // replace with actual image
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/m1_ooxvb4.png"
                   alt="Social Media Icons"
                   className="h-[50%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
                 />
@@ -407,13 +392,13 @@ const MarketingSolutions = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex justify-end">
           <div className=" relative">
-            <img className="" src={img8} alt="" />
+            <img className="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png" alt="" />
 
             <div
               className="absolute bottom-0 text-[60px] bg-[#f9f9f9] px-5 text-[#2334DE]"
               style={{ borderRadius: "0px 20px 0px 0px" }}
             >
-              <img src={imgwatch} alt="" />
+              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/imgwatch_eico7g.png" alt="" />
             </div>
           </div>
         </div>
@@ -424,7 +409,7 @@ const MarketingSolutions = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-          <img src={img9} alt="Left Side" className="md:w-[80%] sm:w-full" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
@@ -483,7 +468,7 @@ const MarketingSolutions = () => {
             {/* Image with play button */}
             <div className="relative">
               <img
-                src={img10}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/m4_bvcyl7.png"
                 alt="Teamwork"
                 className="rounded-lg shadow-lg"
               />
@@ -513,7 +498,7 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#2334DE]"
                     }`}
                   >
-                    <img src={group1} alt="" />
+                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group1_lvplle.svg" alt="" />
                   </div>
                   <h4 className=" font-bold roboto-bold text-[16px]">
                     Comprehensive Proficiency
@@ -542,7 +527,7 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src={group2} alt="" />
+                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group2_o4p5ez.svg" alt="" />
                   </div>
                   <h4 className="roboto-bold text-[16px]">
                     Personalized Solutions
@@ -571,7 +556,7 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src={group3} alt="" />
+                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group3_ejksob.svg" alt="" />
                   </div>
                   <h4 className="roboto-bold text-[16px]">
                     Premium Deliverables
@@ -600,7 +585,7 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src={group4} alt="" />
+                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group4_nnws0f.svg" alt="" />
                   </div>
                   <h4 className="roboto-bold text-[16px]">Affordable Rates</h4>
                 </div>

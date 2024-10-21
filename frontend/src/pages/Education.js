@@ -1,20 +1,4 @@
 import React from "react";
-import img1 from "../Assets/education/bg34.jpg (1).png"
-import img2 from "../Assets/education/Container (12).png"
-import img3 from "../Assets/education/Container (13).png"
-import img4 from "../Assets/education/image11.png"
-import img5 from "../Assets/education/Frame 1707481776.png"
-import img6 from "../Assets/education/Group 1171275258.png"
-import img7 from "../Assets/education/image (36).png"
-import img8 from "../Assets/education/image (37).png"
-import img9 from "../Assets/education/image (38).png"
-import img10 from "../Assets/education/image (39).png"
-import img11 from "../Assets/education/image (40).png"
-import img12 from "../Assets/education/image-Photoroom (17) 1.png"
-import img13 from "../Assets/education/image22.png"
-import img14 from "../Assets/education/image33.png"
-import img15 from "../Assets/education/image44.png"
-import img16 from "../Assets/education/image66.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -47,7 +31,7 @@ const Education = () => {
       </Link>
       <div className="mt-8">
         <img
-          src={img9}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512876/image_38_veynfo.png"
           alt="Primary school website design"
           width={500}
           height={300}
@@ -60,7 +44,7 @@ const Education = () => {
     <div className="relative h-full">
       <div className="h-full object-cover w-[70%]">
         <img
-          src={img10}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512880/image_39_jn7ke0.png"
           alt="Futuristic classroom"
           width={600}
           height={800}
@@ -69,7 +53,7 @@ const Education = () => {
       </div>
       <div className="absolute top-4 right-0 w-[30%] -mr-4">
         <img
-          src={img11}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512881/image_40_tca8a9.png"
           alt="Students collaborating"
           width={200}
           height={200}
@@ -111,7 +95,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="Custom-made Designs"
-            src={img3}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_13_b5ew8f.png"
             className="rounded-t-lg"
           />
 
@@ -135,7 +119,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="User-Friendly Interfaces"
-            src={img2}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_12_mr9hxn.png"
             className="rounded-t-lg"
           />
           <div className="flex flex-col justify-between items-center h-full p-4">
@@ -157,7 +141,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="Safe and Certified Platforms"
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512867/bg34.jpg_1_sqdrf0.png"
             className="rounded-t-lg"
           />
           <div className="flex flex-col justify-between items-center p-4 h-full">
@@ -179,7 +163,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="Safe and Certified Platforms"
-            src={img2}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_12_mr9hxn.png"
             className="rounded-t-lg"
           />
           <div className="flex flex-col justify-between items-center p-4">
@@ -240,7 +224,7 @@ const Education = () => {
                   </ul>
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img4} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512883/image11_ztasxk.png" alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -278,7 +262,7 @@ other purchases.
                   </ul>
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img13} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512884/image22_eniezw.png" alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -316,7 +300,7 @@ alternatives on your discovering website
                   </ul>
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img15} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512887/image44_kb518h.png" alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -354,7 +338,7 @@ helping educators make data-driven choices.
                   </ul>
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img14} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512885/image33_ncddbp.png" alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -394,7 +378,7 @@ anytime, anywhere.
                   </ul>
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img16} alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512889/image66_cvirav.png" alt="Real Estate" className=" inset-0 h-[80%] w-[80%]" />
                 </div>
               </div>
             </SwiperSlide>
@@ -464,7 +448,7 @@ anytime, anywhere.
           </div>
           <div className="lg:w-1/2">
             <img
-              src={img6}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512875/Group_1171275258_g95ze4.png"
               alt="AI Technology"
               className="rounded-lg"
             />
@@ -476,7 +460,7 @@ anytime, anywhere.
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2">
             <img
-              src={img5}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512870/Frame_1707481776_yvbswb.png"
               alt="AI Technology"
               className="rounded-lg"
             />
@@ -535,7 +519,7 @@ anytime, anywhere.
      
       <div className="w-full md:w-1/2 relative space-y-8">
       <div className="h-full w-full">
-      <img src={img12} alt="img" className="h-[100%] w-[100%] z-10" /></div>
+      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512889/image-Photoroom_17_1_jpo5b5.png" alt="img" className="h-[100%] w-[100%] z-10" /></div>
       <div className="absolute rounded-lg -z-10 inset-0 bg-gradient-to-br from-purple-600 via-purple-500 to-blue-500 transform -skew-x-12 -left-1/4 w-[100%]" /></div>
     
         <div className="w-full md:w-1/2 space-y-4 text-left p-4">
@@ -548,7 +532,7 @@ anytime, anywhere.
           <p className="text-sm md:text-lg text-justify text-gray-500 leading-relaxed">
             At Maxify Service, we are dedicated to providing education website development solutions that not only satisfy the existing demands of the industry but also prepare schools for future difficulties. Whether you are an institution seeking to boost your electronic visibility, a college aiming to provide online training courses, or an EdTech startup with a distinct idea, we have the expertise and experience to change your vision into truth.
           </p>
-          <img src={img7} className="w-full h-[100px] object-cover rounded-lg rou" alt="img here" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512875/image_36_owjg9b.png" className="w-full h-[100px] object-cover rounded-lg rou" alt="img here" />
           
           <h2 className="text-3xl md:text-5xl font-bold text-gray-600">
             Get In Touch With Us Today

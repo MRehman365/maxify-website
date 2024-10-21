@@ -1,19 +1,4 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../Assets/RealEstate/image (5).png";
-import img2 from "../Assets/RealEstate/image.png";
-import img3 from "../Assets/RealEstate/image (1).png";
-import img4 from "../Assets/RealEstate/image (2).png";
-import img5 from "../Assets/RealEstate/Group 164554.png";
-import img6 from "../Assets/RealEstate/image (3).png";
-import img7 from "../Assets/RealEstate/image (4).png";
-import img8 from "../Assets/RealEstate/Mask group.png";
-import img9 from "../Assets/RealEstate/image (6).png";
-import img10 from "../Assets/RealEstate/image (7).png";
-import img11 from "../Assets/RealEstate/image-1.png";
-import img12 from "../Assets/RealEstate/image-2.png";
-import img13 from "../Assets/RealEstate/image-3.png";
-import img14 from "../Assets/RealEstate/image-4.png";
-import img15 from "../Assets/RealEstate/image-5.png";
 import { IoSearch } from "react-icons/io5";
 import { FaGlobeAmericas, FaLongArrowAltLeft } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
@@ -73,36 +58,36 @@ const features = [
 
 const services = [
   {
-    img: img6,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_3_lawiaz.png",
     title: "Improved Customer Experience:",
     description: `Offer a seamless and interesting customer experience that maintains visitors on your website longer.`,
   },
   {
-    img: img7,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_4_ozybgp.png",
     title: "List Building and Conversion:",
     description: `Use effective devices and functions to bring in and transform even more leads.`,
   },
   {
-    img: img8,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513032/Mask_group_d2wswy.png",
     title: "Increased Presence:",
     description: `With an SEO-optimized website, you can accomplish higher exposure in search engine results.`,
   },
   {
-    img: img6,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_3_lawiaz.png",
     title: "Improved Customer Experience:",
     description: `Offer a seamless and interesting 
 customer experience that maintains 
 visitors on your website longer.`,
   },
   {
-    img: img7,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_4_ozybgp.png",
     title: "Data Safety and Compliance:",
     description: `Our sites abide by the current safety 
 criteria to protect sensitive customer 
 data.`,
   },
   {
-    img: img8,
+    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513032/Mask_group_d2wswy.png",
     title: "Future-Ready Solutions:",
     description: `We develop websites that are not only 
 functional today but likewise versatile 
@@ -132,7 +117,7 @@ const RealEstate = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513021/image_5_oifij8.png"
             alt="Left Side"
             className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
@@ -225,12 +210,12 @@ const RealEstate = () => {
               </div>
             </div>
             <img
-              src={img2}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513024/image_bf7suu.png"
               alt="Left Side"
               className=" object-cover mt-[100px] h-auto rounded-xl mx-auto overflow-hidden"
             />
             <img
-              src={img3}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513016/image_1_vk4vrd.png"
               alt="Left Side"
               className=" object-cover mb-[100px] h-auto rounded-xl mx-auto overflow-hidden"
             />
@@ -299,7 +284,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img4} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513017/image_2_stmled.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -338,7 +323,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img11} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513025/image-1_hozzdq.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -374,7 +359,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img12} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513027/image-2_mvsrvr.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -411,7 +396,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img13} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513030/image-3_sdka5a.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -446,7 +431,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img14} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513029/image-4_g5cwsy.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -482,7 +467,7 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src={img15} alt="Real Estate" className=" inset-0" />
+                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513031/image-5_ssrw6c.png" alt="Real Estate" className=" inset-0" />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-[100%] text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -542,7 +527,7 @@ const RealEstate = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
-          <img src={img5} alt="Left Side" className="md:w-[80%] sm:w-full" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513015/Group_164554_pzaekb.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 flex flex-col justify-around p-4 md:p-4 sm:px-3">
@@ -674,7 +659,7 @@ const RealEstate = () => {
             <div className="w-full md:w-1/2 relative">
               <div className="bg-[#37937e] rounded-tr-[100px] rounded-bl-[100px] p-4 md:p-8">
                 <img
-                  src={img9}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513022/image_6_sa9jil.png"
                   alt="Real estate website development"
                   width={500}
                   height={300}
@@ -729,7 +714,7 @@ const RealEstate = () => {
         <div className="md:w-1/3">
           <div className=" rounded-lg p-4 relative">
             <img
-              src={img10}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513022/image_7_ubi61u.png"
               alt="Hand holding smartphone"
               className="w-full h-auto rounded"
             />

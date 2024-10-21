@@ -1,14 +1,4 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../Assets/Healthcare/image 350.png";
-import img2 from "../Assets/Healthcare/image 351.png";
-import img3 from "../Assets/Healthcare/Container (11).webp";
-import img4 from "../Assets/Healthcare/image.png";
-import img5 from "../Assets/Healthcare/Vector.png";
-import img6 from "../Assets/Healthcare/image (1).png";
-import img7 from "../Assets/Healthcare/image (2).png";
-import img8 from "../Assets/Healthcare/image (3).png";
-import img9 from "../Assets/Healthcare/image (4).png";
-import img10 from "../Assets/Healthcare/Mask group.png";
 import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const benifits = [
@@ -81,7 +71,7 @@ const Healthcare = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_350_tmpbbj.png"
             alt="Left Side"
             className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
@@ -96,7 +86,7 @@ const Healthcare = () => {
         </h1>
         <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
-            <img src={img2} alt="Healthcare icons" class="rounded-lg" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png" alt="Healthcare icons" class="rounded-lg" />
           </div>
           <div class="md:w-1/2 px-6">
             <ul class="list-disc text-justify text-sm md:text-base space-y-3">
@@ -129,7 +119,7 @@ const Healthcare = () => {
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-1/2 p-2 md:p-4">
           <img
-            src={img3}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513057/Container_11_b6ca36.webp"
             alt="Team meeting"
             className="rounded-lg h-full w-auto object-cover"
           />
@@ -208,12 +198,12 @@ const Healthcare = () => {
 
         <div class="lg:w-1/2 mb-6 md:mb-0 mt-6 px-6 relative sm:h-[320px] md:h-[300px] w-full">
           <img
-            src={img5}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513075/Vector_v8ojeh.png"
             alt="Healthcare icons"
             class=" absolute sm:w-[80%] lg:w-[65%] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
           <img
-            src={img4}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513073/image_vsgi2q.png"
             alt="Healthcare icons"
             class=" absolute sm:w-[80%] lg:w-[65%] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
@@ -224,7 +214,7 @@ const Healthcare = () => {
       <div class="flex flex-col lg:flex-row items-center justify-between space-x-4 sm:w-full md:w-[90%] mx-auto mt-10 p-6">
         <div class="lg:w-1/2 relative sm:h-[320px] md:h-[400px] w-full">
           <img
-            src={img6}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513060/image_1_mkmwi5.png"
             alt="Left Side"
             className=" object-cover h-full w-full rounded-xl mx-auto overflow-hidden"
           />
@@ -246,8 +236,8 @@ const Healthcare = () => {
               </Link>
             </div>
             <div className="w-[30%] py-4 space-y-2 flex-col items-end sm:hidden md:flex">
-              <img src={img7} className="h-[100px]" alt="" />
-              <img src={img8} className="h-[100px]" alt="" />
+              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513058/image_2_dmpozw.png" className="h-[100px]" alt="" />
+              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513061/image_3_ld2myz.png" className="h-[100px]" alt="" />
             </div>
           </div>
           <div className="shadow-md bg-white p-4">
@@ -262,7 +252,7 @@ const Healthcare = () => {
       {/* 7th */}
       <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
         <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
-          <img src={img9} alt="Healthcare icons" class="rounded-lg" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png" alt="Healthcare icons" class="rounded-lg" />
         </div>
         <div class="md:w-1/2 md:px-6">
         <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10"><span className="text-[#2334DE]">Maxify Option:</span> Your Trusted Partner in Healthcare Web Growth</h2>
@@ -283,7 +273,7 @@ const Healthcare = () => {
       {/* Left Section: Image */}
       <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
         <img
-          src={img10}
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
           alt="Contact Us"
           className="rounded-lg md:rounded-none w-full h-auto object-cover"
         />

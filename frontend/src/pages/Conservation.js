@@ -1,19 +1,5 @@
 import React from "react";
-import img1 from "../Assets/image (7).png";
-import img2 from "../Assets/image (5).png";
-import img3 from "../Assets/image (6).png";
-import img4 from "../Assets/Group 427320839.png";
-import img5 from "../Assets/Group 427320840.png";
-import img6 from "../Assets/Group 427320841.png";
-import img7 from "../Assets/image (311).png";
-import img8 from "../Assets/image (8).png";
-import img9 from "../Assets/Rectangle 4601.png";
-import img10 from "../Assets/Group.png";
-import img11 from "../Assets/image (9).png";
-import img12 from "../Assets/blog post img.png";
-import img13 from "../Assets/blog post img (1).png";
-import img14 from "../Assets/blog post img (2).png";
-import img15 from "../Assets/Group 164461.png";
+
 import { BsTelephoneFill } from "react-icons/bs";
 import { BsArrowUpRight } from "react-icons/bs";
 import { BiLogoTelegram } from "react-icons/bi";
@@ -27,7 +13,7 @@ const Conservation = () => {
       <div className="flex flex-col lg:flex-row sm:p-2 md:p-6 bg-background rounded-lg h-full  sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
         <div className="lg:w-[35%] sm:w-full p-4">
           <img
-            src={img1}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_7_qfc85w.png"
             alt="Team meeting"
             className="rounded-lg w-full h-auto object-cover"
           />
@@ -94,7 +80,7 @@ const Conservation = () => {
                 </div>
               </div>
               <img
-                src={img2}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_5_mvgk34.png"
                 alt="How to Reach Us"
                 className="  h-[230px] sm:hidden md:block w-auto"
               />
@@ -143,7 +129,7 @@ const Conservation = () => {
                 </div>
               </div>
               <img
-                src={img3}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_6_ydvtn2.png"
                 alt="How to Reach Us"
                 className="  h-[200px] sm:hidden md:block w-auto"
               />
@@ -179,7 +165,7 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-          <img src={img4} alt="" className="sm:w-full md:w-[70%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png" alt="" className="sm:w-full md:w-[70%]" />
         </div>
       </div>
 
@@ -187,7 +173,7 @@ const Conservation = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-          <img src={img5} alt="" className="sm:w-full md:w-[70%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png" alt="" className="sm:w-full md:w-[70%]" />
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">
@@ -241,7 +227,7 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-          <img src={img6} alt="" className="sm:w-full md:w-[70%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png" alt="" className="sm:w-full md:w-[70%]" />
         </div>
       </div>
 
@@ -275,7 +261,7 @@ const Conservation = () => {
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
-                  src={img7} // replace with actual image
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_311_hql7d6.png"
                   alt="SMO Icon"
                   className="rounded-full w-full h-full block"
                 />
@@ -288,7 +274,7 @@ const Conservation = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 py-3 flex justify-center lg:justify-start">
               <img
-                src={img8} // replace with actual image
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_8_fiyaq6.png"
                 alt="Social Media Icons"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
@@ -326,7 +312,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="Customer support team"
-            src={img10}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_bpbapd.png"
             className=""
           />
         </div>
@@ -348,7 +334,7 @@ const Conservation = () => {
         {/* Left Side: Image */}
         <div className="w-full md:w-3/5 flex justify-start mb-6 md:mb-0">
           <div className="relative">
-            <img src={img9} alt="Checklist" className="rounded-lg" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png" alt="Checklist" className="rounded-lg" />
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-full shadow-lg">
@@ -423,7 +409,7 @@ const Conservation = () => {
 
       {/*  */}
       <div className="mt-8 p-2 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
-        <img src={img11} alt="" className="w-full h-auto" />
+        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png" alt="" className="w-full h-auto" />
         <div
           className=" md:absolute p-6 sm:w-[100%] md:w-[60%] h-auto right-0 bottom-0 bg-gradient-to-tl to-[#430243] from-[black]"
           style={{ borderRadius: "20px 0px 20px 0px" }}
@@ -446,7 +432,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="Chat GPT"
-            src={img12}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/blog_post_img_r2ukaz.png"
             className="rounded-t-lg object-cover w-full"
           />
           <div className="p-3">
@@ -461,7 +447,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="Clear Communication"
-            src={img13}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_1_zlyjqq.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div  className="p-3">
@@ -479,7 +465,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="Dedicated Support"
-            src={img14}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_2_vh2moh.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div  className="p-3">
@@ -509,7 +495,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="Customer support team"
-            src={img15}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164461_micubn.png"
             className=""
           />
         </div>

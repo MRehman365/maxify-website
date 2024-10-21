@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
-import img1 from "../Assets/Group 1.webp";
+
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -63,16 +63,8 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold mb-4">Projects</h3>
-          {/* <div className="grid grid-cols-3 self-stretch gap-1">
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 1" />
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 2" />
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 3" />
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 4" />
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 5" />
-            <img src="https://via.placeholder.com/100" className="size-[80px]" alt="Project 6" />
-          </div> */}
           <div>
-            <img src={img1} alt="img" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_1_iq6pv3.webp" alt="img" />
           </div>
         </div>
       </div>

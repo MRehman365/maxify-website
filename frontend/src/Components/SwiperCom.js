@@ -10,11 +10,6 @@ import './Style.css';
 // Import required modules
 import { EffectCoverflow, Navigation } from 'swiper/modules';
 
-import img3 from "../Assets/contact us/image (17).webp"
-import img4 from "../Assets/contact us/image (28).webp"
-import img5 from "../Assets/contact us/image (29).webp"
-import img6 from "../Assets/contact us/image (30).webp"
-import img7 from "../Assets/contact us/image (31).webp"
 export default function App() {
   return (
     <>
@@ -48,22 +43,22 @@ export default function App() {
         className="mySwiper p-4"
       >
         <SwiperSlide className="mySwiper p-4">
-          <img src={img3} alt="Slide 1" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513313/image_17_q6wqwe.webp" alt="Slide 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} alt="Slide 2" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513321/image_28_o2ltfe.webp" alt="Slide 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} alt="Slide 3" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513323/image_29_cre5ig.webp" alt="Slide 3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img6} alt="Slide 4" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513324/image_30_vxa35m.webp" alt="Slide 4" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img7} alt="Slide 5" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513325/image_31_xmv9rc.webp" alt="Slide 5" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} alt="Slide 3" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513323/image_29_cre5ig.webp" alt="Slide 3" />
         </SwiperSlide>
         {/* Add more SwiperSlides if needed */}
       </Swiper>

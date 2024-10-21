@@ -3,16 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import img1 from "../Assets/Graphics/image (6).png";
-import img2 from "../Assets/Graphics/image (7).png";
-import img3 from "../Assets/Graphics/image (8).png";
-import img4 from "../Assets/Graphics/image (9).png";
-import img5 from "../Assets/Graphics/image (11).png";
-import img6 from "../Assets/Graphics/image (12).png";
-import img7 from "../Assets/Graphics/image (13).png";
-import img8 from "../Assets/Graphics/image (14).png";
-import img9 from "../Assets/Graphics/image (16).png";
-import img10 from "../Assets/Graphics/image (17).png";
 
 // Custom Next Arrow Component
 function NextArrow(props) {
@@ -188,7 +178,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
                 <p className="text-xl underline text-center mb-4">Build and Identity Design</p>
                 <img
-                  src={img2}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513210/image_7_q9s5fm.png"
                   alt=""
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -214,7 +204,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src={img1}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513208/image_6_wrvsh2.png"
                   alt=""
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -231,7 +221,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
                 <p className="text-xl underline text-center mb-4">Marketing Collateral Design</p>
                 <img
-                  src={img3}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513211/image_8_ub1oc8.png"
                   alt=""
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -257,7 +247,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src={img4}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513214/image_9_ewrt0g.png"
                   alt=""
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -273,7 +263,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
                 <p className="text-xl underline text-center mb-4">Website and Social Media Graphics</p>
                 <img
-                  src={img5}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513215/image_11_watuuf.png"
                   alt=""
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -299,7 +289,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src={img6}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513218/image_12_ehgg8a.png"
                   alt=""
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -315,7 +305,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
                 <p className="text-xl underline text-center mb-4"> UI/UX Design</p>
                 <img
-                  src={img7}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513220/image_13_v1ylie.png"
                   alt=""
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -341,7 +331,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src={img8}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513221/image_14_htfiky.png"
                   alt=""
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -357,7 +347,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
                 <p className="text-xl underline text-center mb-4">Packaging and Label Design</p>
                 <img
-                  src={img9}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513223/image_16_lh1p37.png"
                   alt=""
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -383,7 +373,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src={img10}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_17_xq6oer.png"
                   alt=""
                   className="w-[80%] h-auto" // Consistent height and width
                 />

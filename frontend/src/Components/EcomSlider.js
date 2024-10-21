@@ -3,14 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import icone1 from "../Assets/Ecommerces/icone5.svg";
-import icone2 from "../Assets/Ecommerces/icone6.svg";
-import icone3 from "../Assets/Ecommerces/icone7.svg";
-import icone4 from "../Assets/Ecommerces/icone8.svg";
-import img13 from "../Assets/Ecommerces/img13.png";
-import svg1 from "../Assets/Ecommerces/svg1.svg";
-import svg2 from "../Assets/Ecommerces/svg2.svg";
-import svg3 from "../Assets/Ecommerces/svg3.svg";
 
 // Custom Next Arrow Component
 function NextArrow(props) {
@@ -42,37 +34,37 @@ const EcomSlider = () => {
   const caseStudies = [
     {
       title: "Fashion Retailer",
-      icone: svg3,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
     },
     {
       title: "Electronics Store",
-      icone: svg1,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
     },
     {
       title: "Healthcare Products",
-      icone: svg2,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
     },
     {
       title: "Food Delivery Service",
-      icone: svg3,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "Developed a scalable and efficient platform for a food delivery service that optimized delivery times and improved user satisfaction.",
     },
     {
       title: "Home Decor Store",
-      icone: svg1,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Built a visually appealing e-commerce platform for a home decor brand that enhanced their customers' online shopping experience.",
     },
     {
       title: "Sports Goods Store",
-      icone: svg2,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "Helped a sports goods retailer streamline their online sales operations and reach a broader audience with a robust e-commerce platform.",
     },
@@ -80,22 +72,22 @@ const EcomSlider = () => {
 
   const statistics = [
     {
-      icon: icone1,
+      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513238/icone5_fa9rtc.svg",
       number: "1000+",
       text: "Satisfied Clients",
     },
     {
-      icon: icone2,
+      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513239/icone6_oorcjg.svg",
       number: "600+",
       text: "Finished Projects",
     },
     {
-      icon: icone3,
+      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513240/icone7_oxwakt.svg",
       number: "100+",
       text: "Skilled Experts",
     },
     {
-      icon: icone4,
+      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513242/icone8_afghju.svg",
       number: "5,90+",
       text: "Media Posts",
     },
@@ -175,7 +167,7 @@ const EcomSlider = () => {
                   </div>
                 ))}
                 <div className="sm:hidden md:block">
-                  <img className="w-60 h-[13rem]" src={img13} alt="" />
+                  <img className="w-60 h-[13rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png" alt="" />
                 </div>
               </div>
             </div>
@@ -234,7 +226,7 @@ const EcomSlider = () => {
                   </div>
                 ))}
                 <div className="sm:hidden md:block">
-                  <img className="w-60 h-[13rem]" src={img13} alt="" />
+                  <img className="w-60 h-[13rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png" alt="" />
                 </div>
               </div>
             </div>

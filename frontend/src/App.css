@@ -367,14 +367,14 @@ body {
 }
 .bg-last{
   
-  background-image: url('./Assets/HRMS/Image\ \(21\).png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513143/Image_21_rcf1zw.png');
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
 }
 .bg-hrms{
   
-  background-image: url('./Assets/HRMS/Background\ \(1\).png');
+  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513138/Background_1_tb1vzc.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -682,7 +682,7 @@ input:focus {
   background-repeat: no-repeat;
 }
 .right-seo {
-  background-image: url(./Assets/SEO/19.webp);
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513479/19_cf7hdo.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 430px;
@@ -690,7 +690,7 @@ input:focus {
 
 @media (max-width: 770px) {
   .right-seo {
-    background-image: url(./Assets/SEO/19.webp);
+    background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513479/19_cf7hdo.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px;

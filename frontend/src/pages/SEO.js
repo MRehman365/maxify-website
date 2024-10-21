@@ -1,27 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../Assets/SEO/20.webp";
-import img2 from "../Assets/SEO/25.webp";
-
-import img3 from "../Assets/SEO/2.webp";
-import img4 from "../Assets/SEO/7.webp";
-import img5 from "../Assets/SEO/13.webp";
-import img6 from "../Assets/SEO/3.webp";
-import img7 from "../Assets/SEO/8.webp";
-import img8 from "../Assets/SEO/14.webp";
-import img9 from "../Assets/SEO/4.webp";
-import img10 from "../Assets/SEO/9.webp";
-import img11 from "../Assets/SEO/15.webp";
-import img12 from "../Assets/SEO/26.webp";
-import img13 from "../Assets/SEO/17.webp";
-import img14 from "../Assets/SEO/18.webp";
-import imgp1 from "../Assets/Screenshot 2024-09-09 101724.png";
-import imgp2 from "../Assets/image.jpg";
-import imgp3 from "../Assets/person2.jpg";
-import imgp4 from "../Assets/person6.jpg";
-import imgp5 from "../Assets/images.jfif";
-
-import vid from "../Assets/WhatsApp Video 2024-09-04 at 11.34.30 PM.mp4";
 import { IoPlayOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { BiSolidCalendarStar } from "react-icons/bi";
@@ -80,7 +58,7 @@ const SEO = () => {
         <div className="lg:w-1/2 mt-8 lg:mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px] right-seo">
           <div className="h-[100%] w-[70%] overflow-hidden flex justify-center items-center rounded-lg right-seo relative  z-10">
             <img
-              src={img1}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513480/20_yjdn8u.webp"
               alt="Person using a tablet"
               className="h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
             />
@@ -89,27 +67,27 @@ const SEO = () => {
             <div className="flex items-center mb-4">
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white"
-                src={imgp1}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512526/Screenshot_2024-09-09_101724_e8npmd.png"
                 alt="Client 1"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src={imgp2}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/person6_lnfxym.jpg"
                 alt="Client 2"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src={imgp3}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/person2_hrxeaf.jpg"
                 alt="Client 3"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src={imgp4}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/images_ixjiwo.jpg"
                 alt="Client 4"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src={imgp5}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_ozglp8.jpg"
                 alt="Client 5"
               />
               <div className="bg-[#2334DE] text-white text-[10px]  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
@@ -161,7 +139,7 @@ const SEO = () => {
           <div className=" relative">
             <video
               className="w-[500px] h-[500px]"
-              src={vid}
+              src="https://res.cloudinary.com/dzt3r5a2b/video/upload/v1729512546/WhatsApp_Video_2024-09-04_at_11.34.30_PM_frdpjf.mp4"
               controls={false}
               autoPlay={true}
               loop={true}
@@ -207,7 +185,7 @@ const SEO = () => {
           <div className="lg:w-1/2 mt-8 lg:mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[570px]">
             <div className=" mb flex justify-center items-center rounded-lg relative  z-10">
               <img
-                src={img2}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513489/25_psbmua.webp"
                 alt="Person using a tablet"
                 className="sm:h-[300px] lg:h-[550px] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
@@ -289,17 +267,17 @@ const SEO = () => {
               {/* Right side - Images */}
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
-                  src={img3}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513450/2_vljukx.webp"
                   alt="Laptop"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
-                  src={img4}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513461/7_jeemdq.webp"
                   alt="Phone"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
-                  src={img5}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513470/13_dt6hpj.webp"
                   alt="Social Media Icons"
                   className="col-span-1 h-full object-cover"
                 />
@@ -355,17 +333,17 @@ const SEO = () => {
               {/* Right side - Images */}
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
-                  src={img6}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513452/3_zetzvf.webp"
                   alt="Laptop"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
-                  src={img7}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513463/8_up40qt.webp"
                   alt="Phone"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
-                  src={img8}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513472/14_dvwpai.webp"
                   alt="Social Media Icons"
                   className="col-span-1 h-full object-cover"
                 />
@@ -422,17 +400,17 @@ const SEO = () => {
               {/* Right side - Images */}
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
-                  src={img9}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513454/4_fy1qhb.webp"
                   alt="Laptop"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
-                  src={img10}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513464/9_emd2hl.webp"
                   alt="Phone"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
-                  src={img11}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513473/15_kcb67f.webp"
                   alt="Social Media Icons"
                   className="col-span-1 h-full object-cover"
                 />
@@ -499,7 +477,7 @@ const SEO = () => {
             <img
               alt="Laptop displaying SMO services"
               className="md:w-[500px] sm:w-[300px] h-auto"
-              src={img12}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513491/26_x84wrr.webp"
             />
           </div>
         </div>
@@ -820,13 +798,13 @@ const SEO = () => {
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src={img14}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513478/18_ub0bnc.webp"
               className="rounded-lg w-1/2"
             />
             <img
               undefinedhidden="true"
               alt="SEO graphics"
-              src={img13}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513477/17_qx9xpp.webp"
               className="rounded-lg w-1/2"
             />
           </div>

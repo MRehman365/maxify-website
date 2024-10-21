@@ -14,32 +14,26 @@ import img14 from "../Assets/Ecommerces/img14.png";
 import svg1 from "../Assets/Ecommerces/svg1.svg";
 import svg2 from "../Assets/Ecommerces/svg2.svg";
 import svg3 from "../Assets/Ecommerces/svg3.svg";
-import icone1 from "../Assets/Ecommerces/icone5.svg";
-import icone2 from "../Assets/Ecommerces/icone6.svg";
-import icone3 from "../Assets/Ecommerces/icone7.svg";
-import icone4 from "../Assets/Ecommerces/icone8.svg";
-import line from "../Assets/Ecommerces/line.svg";
-import bgimage from "../Assets/Ecommerces/bg-image.png";
-import { BiPhoneCall } from "react-icons/bi";
+
 import EcomSlider from "../Components/EcomSlider";
 
 const Ecommerce = () => {
   const caseStudies = [
     {
       title: "Fashion Retailer",
-      icone: svg3,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
     },
     {
       title: "Electronics Store",
-      icone: svg1,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
     },
     {
       title: "Healthcare Products",
-      icone: svg2,
+      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
     },
@@ -92,12 +86,12 @@ const Ecommerce = () => {
             <div className="sm:h-[80%] sm:w-auto md:w-[50%] relative flex sm:ml-0 md:mb-0 sm:justify-center md:justify-start">
               <div className="relative">
                 <img
-                  src={img3}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513246/img3_yh7om5.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4 ml-2"
                 />
                 <img
-                  src={img4}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513247/img4_okfo3a.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
@@ -177,12 +171,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-end">
               <div className="relative">
                 <img
-                  src={img5}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513249/img5_ubdsfv.png"
                   alt="Main"
                   className="rounded-lg shadow-md w-full h-[25rem] mb-4 ml-2"
                 />
                 <img
-                  src={img6}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513250/img6_jbbnr2.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
@@ -196,7 +190,7 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start mt-20">
               <div className="">
                 <img
-                  src={img7}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513254/img7_mvly4u.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4 ml-2"
                 />
@@ -291,7 +285,7 @@ const Ecommerce = () => {
       {/* image section */}
       <div className="imge w-[90%] mx-auto md:border-2 rounded-t-3xl md:shadow-xl">
         <div className="">
-          <img className="w-full object-cover object-center h-[30rem]" src={img8} alt="" />
+          <img className="w-full object-cover object-center h-[30rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513262/img8_ekmraj.png" alt="" />
         </div>
         <div>
           <div className="heading p-4 md:p-10">
@@ -331,12 +325,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start">
               <div className="relative">
                 <img
-                  src={img9}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513255/img9_b80mgw.png"
                   alt="Main"
                   className="rounded-lg w-[90%]  mb-4 ml-2"
                 />
                 <img
-                  src={img10}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513255/img10_zpojlo.png"
                   alt="Secondary"
                   className=" shadow-md h-auto absolute bottom-[-18%] right-[50px] w-40"
                 />
@@ -432,7 +426,7 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start">
               <div className="">
                 <img
-                  src={img14}
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513263/img14_vs7zy1.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4 ml-2"
                 />

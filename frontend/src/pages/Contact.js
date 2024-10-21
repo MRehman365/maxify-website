@@ -5,21 +5,6 @@ import { MdImportantDevices } from "react-icons/md";
 import { AiOutlineSolution } from "react-icons/ai";
 import { LuFocus } from "react-icons/lu";
 import { BsGraphUpArrow } from "react-icons/bs";
-import img1 from "../Assets/contact us/Container (11).webp";
-import img2 from "../Assets/contact us/Image (16).webp";
-import img3 from "../Assets/Group 164554.png";
-import img5 from "../Assets/Group 164555.png";
-import img6 from "../Assets/Group 164558.png";
-import img7 from "../Assets/contact us/Mask group (4).webp";
-import img8 from "../Assets/contact us/Mask group (5).webp";
-import img9 from "../Assets/contact us/Image (35).webp";
-import img10 from "../Assets/contact us/stock-photo-photo-of-curious-inspired-lady-hold-big-one-like-pinata-stand-tiptoe-wear-plaid-shirt-isolated-2083936846-transformed-Photoroom 1.webp";
-import img11 from "../Assets/image 2.png";
-import img12 from "../Assets/image-Photoroom (15) 1.png";
-import img13 from "../Assets/image (4).png";
-import img16 from "../Assets/image (3).png";
-import img14 from "../Assets/image.png";
-import img15 from "../Assets/image 318.png";
 import SwiperCom from "../Components/SwiperCom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules"; // Correct import
@@ -34,7 +19,7 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-1/2 p-4">
           <img
-            src={img1}
+            src='https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp'
             alt="Team meeting"
             className="rounded-lg h-full w-auto object-cover"
           />
@@ -90,7 +75,7 @@ const Contact = () => {
           <div className="md:w-[90%] lg:w-[90%] mx-auto  flex flex-col md:flex-row items-center justify-center">
             <div className="md:w-1/2 flex justify-end">
               <img
-                src={img2} // Replace with actual image source
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513310/Image_16_v7aies.webp"
                 alt="Team Working"
                 className="rounded-lg shadow-lg"
               />
@@ -130,12 +115,12 @@ const Contact = () => {
         <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
         <div className="flex justify-center items-center w-[80%] h-full relative">
           <img
-            src={img13}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
             alt="Left Side"
             className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
           />
           <img
-            src={img16}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
             alt="Left Side"
             className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
           />
@@ -267,7 +252,7 @@ const Contact = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative px-2 bg-contact1">
           <img
-            src={img12}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/image-Photoroom_15_1_o8fpxg.png"
             alt="Left Side"
             className="w-[90%] object-cover h-auto"
           />
@@ -280,7 +265,7 @@ const Contact = () => {
         {/* Left Side */}
         <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
           <img
-            src={img11}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
             alt="Left Side"
             className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
           />
@@ -357,7 +342,7 @@ const Contact = () => {
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
-                  src={img14} // replace with actual image
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/image_hdddor.png"
                   alt="SMO Icon"
                   className="rounded-full w-full h-full block"
                 />
@@ -370,7 +355,7 @@ const Contact = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
-                src={img15} // replace with actual image
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513328/image_318_wsy1tu.webp"
                 alt="Social Media Icons"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
@@ -415,7 +400,7 @@ const Contact = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
           <img
-            src={img3}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_164554_rpbnsj.png"
             alt="Left Side"
             className="md:w-[80%] sm:w-full"
           />
@@ -466,7 +451,7 @@ const Contact = () => {
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
           <img
-            src={img5}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
             alt="Left Side"
             className="md:w-[80%] sm:w-full"
           />
@@ -479,7 +464,7 @@ const Contact = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
         <img
-            src={img6}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512493/Group_164558_hgubrc.png"
             alt="Left Side"
             className="md:w-[80%] sm:w-full"
           />
@@ -510,12 +495,12 @@ const Contact = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-end relative px-2">
           <img
-            src={img9}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513327/Image_35_qskkl2.webp"
             alt="Left Side"
             className=" mx-auto object-cover h-auto"
           />
           <img
-            src={img10}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513341/stock-photo-photo-of-curious-inspired-lady-hold-big-one-like-pinata-stand-tiptoe-wear-plaid-shirt-isolated-2083936846-transformed-Photoroom_1_zc5mci.webp"
             alt="Left Side"
             className=" mx-auto object-cover h-auto absolute"
           />

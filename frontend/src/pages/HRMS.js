@@ -7,14 +7,6 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaFileAlt } from "react-icons/fa";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { PiBagSimpleFill } from "react-icons/pi";
-import img1 from "../Assets/HRMS/image (18).png";
-import img2 from "../Assets/HRMS/image (19).png";
-import img3 from "../Assets/HRMS/image 336.png";
-import img4 from "../Assets/HRMS/image (20).png";
-import img6 from "../Assets/HRMS/Image (22).png";
-import img7 from "../Assets/HRMS/image 337.png";
-import img8 from "../Assets/HRMS/image (23).png";
-import img9 from "../Assets/HRMS/Group 164461.png";
 
 const HRMS = () => {
   const employeeTexts = [
@@ -182,7 +174,7 @@ const HRMS = () => {
           <div className="lg:w-1/2 mt-8 lg:mt-0 p-2 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
             <div className="h-[100%] sm:w-[100%] lg:w-[70%]: overflow-hidden flex justify-center items-center rounded-lg relative  z-10">
               <img
-                src={img1}
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_18_rrdlc1.png"
                 alt="Person using a tablet"
                 className="sm:h-full md:h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
@@ -214,7 +206,7 @@ const HRMS = () => {
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
-                  src={img2} // replace with actual image
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_19_bfdges.png"
                   alt="SMO Icon"
                   className="rounded-full w-full h-full block"
                 />
@@ -227,7 +219,7 @@ const HRMS = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
-                src={img3} // replace with actual image
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513147/image_336_rvftvt.png"
                 alt="Social Media Icons"
                 className="h-[50%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
@@ -280,7 +272,7 @@ const HRMS = () => {
       <div className="bg-hrms mt-5">
         <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
           <div className="md:w-1/2 mb-6 md:mb-0">
-            <img src={img4} alt="HRMS Illustration" className="rounded-lg" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png" alt="HRMS Illustration" className="rounded-lg" />
           </div>
           <div className="md:w-1/2 md:pl-6">
             <h2 className=" text-center text-[#635ad9] font-bold sm:text-2xl md:text-4xl lg:5xl">
@@ -317,7 +309,7 @@ const HRMS = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-center h-auto items-center  relative px-2 bg-last">
           <img
-            src={img7}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513149/image_337_adpbaw.png"
             alt="Left Side"
             className=" mx-auto object-cover h-[70%]"
           />
@@ -397,7 +389,7 @@ const HRMS = () => {
           <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
             <div className="md:w-1/2 flex justify-end">
               <img
-                src={img6} // Replace with actual image source
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513145/Image_22_vs1pxv.png"
                 alt="Team Working"
                 className="rounded-lg shadow-lg"
               />
@@ -450,7 +442,7 @@ const HRMS = () => {
               processes and he­lping you achieve operational e­xcellence.
             </p>
             <img
-              src={img8}
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513146/image_23_orrp43.png"
               alt=""
               className="h-[100px] sm:hidden md:block w-auto"
             />
@@ -481,7 +473,7 @@ const HRMS = () => {
           <img
             undefinedhidden="true"
             alt="Customer support team"
-            src={img9}
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/Group_164461_mebd4q.png"
             className=""
           />
         </div>
