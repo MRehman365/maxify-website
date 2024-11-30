@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.group:hover .main-content,
+.group:hover .button-container {
+  display: none;
+}
+
+.group:hover .show-content {
+  display: flex;
+  transition: 1s;
+}
+
+.show-on-hover {
+  display: none;
+}
+
+.bg-images {
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513546/bg-image_lws9jy.png");
+  background-color: #162235;
+  position: relative;
+  height: 30.5rem;
+}
+
+.gradient-background {
+  background: linear-gradient(to right, #c21efc, #0081ec);
+}
+.gradient-text {
+  background: linear-gradient(to right, #c21efc, #0081ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text2 {
+  background: linear-gradient(to right, #9747ff, #6a40f2, #2334de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-image {
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513237/bg-image_y5kxd4.png");
+}
+
+.text3d{
+  background: linear-gradient(90deg, #635AD9 0%, #219BE4 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.m-s-h{
+  color: #2334DE;
+leading-trim: both;
+text-edge: cap;
+/* font-family: "Plus Jakarta Sans"; */
+/* font-size: 36px; */
+font-style: normal;
+/* font-weight: 800; */
+line-height: normal;
+text-transform: capitalize;
+}
+
+.yantramanav-thin {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.yantramanav-light {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.yantramanav-regular {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yantramanav-medium {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.yantramanav-bold {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.yantramanav-black {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.quicksand-Quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.mbg {
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512521/mbg_z93l3z.png");
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Full width */
+  height: 100%;
+  margin: auto; /* Centers the section */
+ 
+}
+
+.mbg2{
+  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/CTA_hvcpk9.png");
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Full width */
+  height: 100%;
+  margin: auto; /* Centers the section */
+  /* padding: 0px 100px; */
+}
+
+
