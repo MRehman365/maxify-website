@@ -110,7 +110,9 @@ const MarketingSolutions = () => {
       title: "2. 3D Making and Visualization",
       description: "3D making and visualization bring your principles to life with photorealistic photos and animations. We offer high-quality 3D-making solutions to display your designs and items in the most effective possible lighth",
       imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335992/WhatsApp_Image_2024-10-27_at_10.44.51_PM_nuubdk.jpg",
+      altimageUrl:"3d house architecture design",
       overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335978/WhatsApp_Image_2024-10-27_at_10.44.51_PM_4_m8awty.jpg",
+      altoverlayUrl:"3d design architecture",
       list: [
         "Photorealistic Rendering: Ultra-realistic renderings for advertising, advertising, and product demonstration",
         "Exterior And Interior Visualization: Thorough 3D visuals of genuine estate, design, and interior decoration task.",
@@ -121,7 +123,9 @@ const MarketingSolutions = () => {
       title: "3. 3D Animation and Motion Graphics",
       description: "3D computer animation is an effective tool to inform your brand name's tale engagingly and dynamically. Our 3D computer animation solutions cover everything from concept advancement to last manufacturing.",
       imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335966/WhatsApp_Image_2024-10-27_at_10.44.51_PM_1_xaor2f.jpg",
+      altimageUrl1:"professional 3d design software",
       overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335983/WhatsApp_Image_2024-10-27_at_10.44.51_PM_5_yiwt5c.jpg",
+      altoverlayUrl:"expert team for 3d design works",
       list: [
         "Item Animations: Engaging computer animations that show the features and benefits of your product.",
         "Explainer Videos: 3D computer-animated explainer video clips to streamline complicated principles and boost understanding.",
@@ -132,7 +136,10 @@ const MarketingSolutions = () => {
       title: "4. Digital and Enhanc ed Fact ( VR/ AR) Solutions",
       description: "Online and Augmented Facts are transforming the means organizations interact with their consumers. We create customized virtual reality and AR experiences to boost your brand name and astound your target market.",
       imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335969/WhatsApp_Image_2024-10-27_at_10.44.51_PM_2_mtzp3e.jpg",
+      altimageUrl1:"3D advertising and marketing services",
+
       overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_6_kl79pi.jpg",
+      altoverlayUrl:"3d advertising company in noida",
       list: [
         "Online Tours: Interactive digital excursions genuine estate, friendliness, and event place.",
         "AR Product Visualization: Increased Reality options for product visualization and client involvement.",
@@ -143,7 +150,9 @@ const MarketingSolutions = () => {
       title: "5. 3D Mark eting Solutions",
       description: "Maxify Service uses specialized 3D marketing solutions to aid organizations stand apart in a congested digital landscape. Our 3D advertising and marketing solutions are designed to enhance brand exposure, drive involvement, and enhance conversion.",
       imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335973/WhatsApp_Image_2024-10-27_at_10.44.51_PM_3_ar3zm6.jpg",
+      altimageUrl1:"3d models for branding ",
       overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_7_dnubgq.jpg",
+      altoverlayUrl:"3d designs creation",
       list: [
         "3D Ad Creatives: Eye-catching 3D advertisements for electronic advertising and marketing campaign.",
         "3D Social Media Site Material: Compelling 3D visuals and computer animations for social media site systems like Instagram, Facebook, and LinkedIn.",
@@ -161,7 +170,7 @@ const MarketingSolutions = () => {
     return () => clearInterval(interval);
   }, [contentArray.length]);
 
-  const { title, description, imageUrl, overlayUrl, list } = contentArray[currentContent];
+  const { title, description, imageUrl, overlayUrl, altimageUrl1,altoverlayUrl, list } = contentArray[currentContent];
 
   const DataArray = [
     {
@@ -169,30 +178,35 @@ const MarketingSolutions = () => {
       datadescription:
         "We start by learning more about your target audience, job requirements, and organizational goals. This step involves conceptualizing sessions, principle growth, and creating a task roadmap.",
       dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275263_yyuanz.png",
+      altdataimage:"marketing strategy for 3d",
     },
     {
       datatitle: "Step 2: 3D Modeling and Design",
       datadescription:
         "Our gifted 3D developers and modelers bring your ideas to life by developing in-depth 3D models that record the essence of your vision. This phase consists of modeling, texturing, and shading.",
       dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335934/Group_1171275264_fucgmo.png",
+      altdataimage:"3d modeling app sculpt & draw",
     },
     {
       datatitle: "Step 3: Making and Animation",
       datadescription:
         "Once the 3D designs are completed, we proceed with rendering and animation. We utilize advanced rendering software applications and techniques to develop topquality visuals and animations.",
       dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335935/Group_1171275265_aje1ue.png",
+      altdataimage:"3d caracter creation",
     },
     {
       datatitle: "Step 4: Testimonial and Modification",
       datadescription:
         "We offer multiple rounds of revisions to ensure that the final product aligns with your assumptions and objectives. Your responses are critical at this phase, and we function very closely with you to make any kind of needed adjustments.",
       dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335930/Group_1171275266_ohsat6.png",
+      altdataimage:"custom 3d designing",
     },
     {
       datatitle: "Step 5: Shipment and Implementation",
       datadescription:
         "Upon final approval, we supply the last files in the required styles, ready for use throughout different systems and advertising channels.",
       dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335927/Group_1171275267_kx0xgg.png",
+      altdataimage:"easy to implementation",
     },
   ];
 
@@ -206,7 +220,7 @@ const MarketingSolutions = () => {
   }, [DataArray.length]);
   
 
-  const { datatitle, datadescription, dataimage } = DataArray[current3d];
+  const { datatitle, datadescription, dataimage, altdataimage } = DataArray[current3d];
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -216,7 +230,8 @@ const MarketingSolutions = () => {
       {/* 1st section */}
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[90%] mx-auto py-7 border-t-[2px] border-black font-Mulish">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-2 md:p-6">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png" alt="img2" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png" 
+          alt="3d modeling and 3d advertising company in noida" />
           <div className="py-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
               <div key={index} className="w-full max-w-lg mb-6">
@@ -285,7 +300,8 @@ const MarketingSolutions = () => {
               visibility and increase engagement.
             </p>
           </div>
-          <img className="rounded-xl" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png" alt="" />
+          <img className="rounded-xl" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png" 
+          alt="3d modeling services" />
         </div>
       </div>
       {/* 2nd section */}
@@ -296,12 +312,12 @@ const MarketingSolutions = () => {
         <div className="px-10">
           <img
             src={imageUrl}
-            alt="3D Modeling"
+            alt={altimageUrl1}
             className="rounded-lg shadow-md sm:h-[20rem] md:h-full"
           />
           <img
             src={overlayUrl}
-            alt="3D Overlay"
+            alt={ altoverlayUrl}
             className="absolute top-[50%] left-0 w-[40%] transform -translate-y-1/2 border-4 border-white rounded-lg shadow-lg"
           />
         </div>
@@ -356,7 +372,7 @@ const MarketingSolutions = () => {
                 <div className="relative inline-block rounded-full p-[8px] bg-gradient-to-r  w-auto h-[50%] from-[#b300ff] to-[#2334DE]">
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/m2_efsmxt.png"
-                    alt="SMO Icon"
+                    alt="d3 design services in delhi ncr"
                     className="rounded-full w-full h-[full] block"
                   />
                 </div>
@@ -369,7 +385,7 @@ const MarketingSolutions = () => {
       <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
         <img
           src={dataimage}
-          alt=""
+          alt={altdataimage}
           className="h-[50%] w-auto rounded-full"
         />
       </div>
@@ -525,7 +541,8 @@ const MarketingSolutions = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex justify-end">
           <div className=" relative">
-            <img className="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png" alt="" />
+            <img className="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png" 
+            alt="best companies for 3d animation" />
 
             <div
               className="absolute bottom-0 text-[60px] bg-[#f9f9f9] px-5 text-[#2334DE]"
@@ -542,7 +559,8 @@ const MarketingSolutions = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png" 
+          alt="3d animation companies in noida" className="md:w-[80%] sm:w-full" />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
@@ -604,7 +622,7 @@ const MarketingSolutions = () => {
             <div className="relative">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/m4_bvcyl7.png"
-                alt="Teamwork"
+                alt="best it company in delhi ncr for 3d"
                 className="rounded-lg shadow-lg"
               />
               <div className="absolute hidden md:top-1/2 transform -translate-y-1/2 md:right-8 sm:right-0 top-[30%] w-12 h-12 bg-[#2334DE] rounded-full flex items-center justify-center shadow-lg">

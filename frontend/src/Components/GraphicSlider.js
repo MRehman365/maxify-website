@@ -179,7 +179,7 @@ const GraphicSlider = () => {
                 <p className="text-xl underline text-center mb-4">Build and Identity Design</p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513210/image_7_q9s5fm.png"
-                  alt=""
+                  alt="seo strategy for website"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
@@ -205,7 +205,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513208/image_6_wrvsh2.png"
-                  alt=""
+                  alt="seo for brand promotion"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>

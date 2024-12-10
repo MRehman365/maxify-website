@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="lg:w-1/2 p-4">
           <img
             src='https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp'
-            alt="Team meeting"
+            alt="app development company"
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
@@ -81,7 +81,7 @@ const Contact = () => {
             <div className="md:w-1/2 flex justify-end">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513310/Image_16_v7aies.webp"
-                alt="Team Working"
+                alt="app development agency in noida"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -121,12 +121,12 @@ const Contact = () => {
         <div className="flex justify-center items-center w-[80%] h-full relative">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
-            alt="Left Side"
+            alt="responsive app development"
             className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
           />
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
-            alt="Left Side"
+            alt="mobile app development"
             className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
           />
           </div>
@@ -260,7 +260,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 justify-start items-center relative px-2 bg-contact1">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/image-Photoroom_15_1_o8fpxg.png"
-            alt="Left Side"
+            alt="best app development company"
             className="w-[90%] object-cover h-auto"
           />
         </div>
@@ -273,7 +273,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
-            alt="Left Side"
+            alt="affordable app develpment company"
             className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
           />
         </div>
@@ -350,7 +350,7 @@ const Contact = () => {
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/image_hdddor.png"
-                  alt="SMO Icon"
+                  alt="smo services"
                   className="rounded-full w-full h-full block"
                 />
               </div>
@@ -363,7 +363,7 @@ const Contact = () => {
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513328/image_318_wsy1tu.webp"
-                alt="Social Media Icons"
+                alt="brand promotion by social media"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
@@ -412,7 +412,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_164554_rpbnsj.png"
-            alt="Left Side"
+            alt="custom app development"
             className="md:w-[80%] sm:w-full"
           />
         </div>
@@ -468,7 +468,7 @@ const Contact = () => {
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
-            alt="Left Side"
+            alt="mobile app development company in noida"
             className="md:w-[80%] sm:w-full"
           />
           </div>
@@ -481,7 +481,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
         <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512493/Group_164558_hgubrc.png"
-            alt="Left Side"
+            alt="well researched app development"
             className="md:w-[80%] sm:w-full"
           />
         </div>
@@ -521,7 +521,7 @@ const Contact = () => {
           />
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513341/stock-photo-photo-of-curious-inspired-lady-hold-big-one-like-pinata-stand-tiptoe-wear-plaid-shirt-isolated-2083936846-transformed-Photoroom_1_zc5mci.webp"
-            alt="Left Side"
+            alt="user friendly app"
             className=" mx-auto object-cover h-auto absolute"
           />
         </div>

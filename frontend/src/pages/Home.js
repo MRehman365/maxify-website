@@ -567,12 +567,12 @@ const Home = () => {
             </div>
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
-              alt="Left Side"
+              alt="web development company in noida, Delhi NCR"
               className="h-auto right-2 bottom-0 w-[40%] absolute"
             />
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
-              alt="Left Side"
+              alt="Digital Marketing Agency in Noida, Delhi NCR"
               className="w-[80%] object-cover h-auto"
             />
           </div>
@@ -816,19 +816,19 @@ const Home = () => {
             <div className="flex flex-col gap-3">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/7_b87xoc.webp"
-                alt={`${heading} Illustration`}
+                alt={`${heading} advanced ai technology for best results`}
                 className="sm:h-[200px] md:h-[350px] sm:w-[150px] rounded-lg object-cover md:w-[300px]"
               />
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/6_jtqi46.webp"
-                alt={`${heading} Illustration`}
+                alt={`${heading} social media optimization`}
                 className="sm:h-[200px] md:h-[350px] sm:w-[150px] md:w-[300px]"
               />
             </div>
             <div>
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/4_mlz0sf.webp"
-                alt={`${heading} Illustration`}
+                alt={`${heading} ROI-driven campaign optimization`}
                 className="sm:h-[200px] md:h-[400px] sm:w-[150px] rounded-lg object-cover md:w-[300px]"
               />
             </div>
@@ -915,7 +915,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 justify-center items-center relative flex">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/2_ryqv8n.webp"
-              alt="Left Side"
+              alt="cutting edge technology"
               className="w-[70%] object-cover h-[90%] rounded-lg"
             />
           </div>

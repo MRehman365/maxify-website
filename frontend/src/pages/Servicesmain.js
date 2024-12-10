@@ -140,7 +140,7 @@ const Servicesmain = () => {
             {!showVideo ? (
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512678/Property_1_Component_11_m3dted.png"
-                alt="Person using a tablet"
+                alt="best customer support at maxify solutions"
                 className="h-[80%] w-auto object-fit rounded-lg relative sm:bottom-4"
               />
             ) : (
@@ -398,7 +398,7 @@ const Servicesmain = () => {
               <div className="md:w-1/2 mb-6 md:mb-0">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512678/image_zm2kh5.png"
-                  alt="Smartphone with icons"
+                  alt="low cost web development company in delhi"
                   className="rounded-lg shadow-lg"
                 />
               </div>
@@ -422,7 +422,7 @@ const Servicesmain = () => {
                   <div className="mt-4 sm:hidden md:block">
                     <img
                       src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512675/image_1_ulsvqb.png"
-                      alt="Hands on keyboard"
+                      alt="it company in noida"
                       className="rounded-lg shadow-lg h-full w-auto object-cover"
                     />
                   </div>
@@ -459,7 +459,7 @@ const Servicesmain = () => {
               <div className="md:w-1/2 mb-6 md:mb-0">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335941/image_apxcob.png"
-                  alt="Smartphone with icons"
+                  alt="Affordable app development company in noida"
                   className="rounded-lg shadow-lg"
                 />
               </div>
@@ -483,7 +483,7 @@ const Servicesmain = () => {
                   <div className="mt-4 sm:hidden md:block">
                     <img
                       src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335939/image_1_kc8ira.png"
-                      alt="Hands on keyboard"
+                      alt="quick seo results  strategies"
                       className="rounded-lg shadow-lg h-full w-auto object-cover"
                     />
                   </div>
@@ -563,7 +563,7 @@ const Servicesmain = () => {
                 <div className="lg:w-1/2">
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512681/Group_1171275267_shsm2n.png"
-                    alt="AI Technology"
+                    alt="easy to use software"
                     className="rounded-lg"
                   />
                 </div>
@@ -619,7 +619,7 @@ const Servicesmain = () => {
                 <div className="lg:w-1/2">
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512742/Group_1171275258_rt9ncq.png"
-                    alt="AI Technology"
+                    alt="webdevelopment company in noida"
                     className="rounded-lg"
                   />
                 </div>
@@ -636,7 +636,7 @@ const Servicesmain = () => {
                 <div className="lg:w-1/2">
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512680/Group_1171275259_jrpfzh.png"
-                    alt="AI Technology"
+                    alt="User-friendly app development"
                     className="rounded-lg"
                   />
                 </div>
@@ -692,7 +692,7 @@ const Servicesmain = () => {
                 <div className="lg:w-1/2">
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512685/Property_1_2_2x_rffjaf.png"
-                    alt="AI Technology"
+                    alt="3d designing services in noida"
                     className="rounded-lg"
                   />
                 </div>
@@ -747,7 +747,7 @@ const Servicesmain = () => {
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-6">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512730/Figure_s2ftof.png"
-            alt="img2"
+            alt="custom app development"
           />
           <div className="py-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
@@ -851,7 +851,7 @@ const Servicesmain = () => {
           <img
             className="rounded-xl"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512679/Figure_educator-img12-500px.jpg_fc5wh2.png"
-            alt=""
+            alt="3d animation company"
           />
         </div>
       </div>
@@ -861,7 +861,7 @@ const Servicesmain = () => {
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png"
-            alt=""
+            alt="3d animation company in noida"
             className="sm:w-full md:w-[80%]"
           />
         </div>

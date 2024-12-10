@@ -24,7 +24,7 @@ function Graphic() {
           </p>
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513217/image_10_magoe1.png"
-            alt="Team meeting"
+            alt="best company seo ranking"
             className="rounded-lg h-full w-auto object-cover"
           />
           <div className="absolute bottom-0 left-[30%] max-w-[400px] bg-white rounded-xl px-4 py-2">
@@ -73,7 +73,8 @@ function Graphic() {
 
         {/* Middle Section for Services */}
         <div className="flex items-center gap-2  text-base sm:px-0 md:px-2 lg:px-5">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_3_mz0ptm.png" alt="" className="h-[4rem] w-auto" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_3_mz0ptm.png" 
+          alt="seo agency" className="h-[4rem] w-auto" />
           <p className="font-pop">
             <span className="font-semibold text-lg">
               Comprehensive Services :
@@ -84,7 +85,8 @@ function Graphic() {
         </div>
 
         {/* Section for Innovation */}
-        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513231/Section_ppckja.png" alt="" className="h-[300px] w-auto" />
+        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513231/Section_ppckja.png" 
+        alt="ai based rast ranking" className="h-[300px] w-auto" />
       </div>
 
       {/* slider section */}
@@ -123,7 +125,7 @@ function Graphic() {
         <div className="lg:w-[50%] p-4 relative">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513200/image_1_bghzft.png"
-            alt="Team meeting"
+            alt="seo online marketing"
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
@@ -151,7 +153,7 @@ function Graphic() {
             <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_329_vcmnfx.png"
-                alt=""
+                alt="search descovery"
                 className="md:w-[60%] md:h-auto h-[100px] w-auto"
               />
               </div>
@@ -163,7 +165,7 @@ function Graphic() {
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_2_i6vgog.png"
                 className="md:w-[80%] md:h-auto h-[100px] w-auto"
-                alt=""
+                alt="seo digital marketing cost"
               />
               </div>
             </div>
@@ -193,7 +195,7 @@ function Graphic() {
             <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513204/image_4_zdax9n.png"
-                alt=""
+                alt="seo packages pricing"
                 className=" md:w-[80%] md:h-auto h-[100px] w-auto"
               />
               </div>
@@ -205,7 +207,7 @@ function Graphic() {
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513206/image_5_gvypsd.png"
                 className="md:w-[80%] md:h-auto h-[100px] w-auto"
-                alt=""
+                alt="high quality content creation"
               />
               </div>
             </div>
@@ -271,7 +273,8 @@ function Graphic() {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513191/Group_427320841_zri9mt.png" alt="" className="sm:w-full md:w-[70%]" />
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513191/Group_427320841_zri9mt.png" 
+          alt="identifying relevant keywords" className="sm:w-full md:w-[70%]" />
         </div>
       </div>
 
@@ -304,7 +307,8 @@ function Graphic() {
           </div>
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513192/Group_164555_o6svkw.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513192/Group_164555_o6svkw.png" 
+            alt="high da pa seo backlink" className="md:w-[80%] sm:w-full" />
           </div>
         </div>
       </div>
@@ -313,12 +317,12 @@ function Graphic() {
         <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513230/image_xtopqm.png" alt="" className="w-full h-auto" />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513227/image_332_m1luyv.png"
-          alt=""
+          alt="brand visual identity seo"
           className="sm:w-[300px] md:w-[400px] absolute bottom-0 left-0 h-auto"
         />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513228/image_333_abb0jm.png"
-          alt=""
+          alt="color palette brand promotion"
           className="sm:w-[300px] md:w-[500px] absolute top-0 right-5 h-auto"
         />
         <div
@@ -341,7 +345,7 @@ function Graphic() {
         <div className=" rounded-lg shadow-lg  flex-1">
           <img
             undefinedhidden="true"
-            alt="Chat GPT"
+            alt="brand awareness brand recognition"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513187/blog_post_img_aytce4.png"
             className="rounded-t-lg object-cover w-full"
           />
@@ -358,7 +362,7 @@ function Graphic() {
         <div className=" rounded-lg shadow-lg flex-1">
           <img
             undefinedhidden="true"
-            alt="Clear Communication"
+            alt="brand recognition"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513186/blog_post_img_1_skvrp9.png"
             className="rounded-t-lg  object-cover w-full"
           />
@@ -375,7 +379,7 @@ function Graphic() {
         <div className=" rounded-lg shadow-lg flex-1">
           <img
             undefinedhidden="true"
-            alt="Dedicated Support"
+            alt="seo strategically growth strategy"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513187/blog_post_img_2_bi7khs.png"
             className="rounded-t-lg  object-cover w-full"
           />
@@ -422,7 +426,7 @@ function Graphic() {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative">
           <div className=" relative">
-            <img className="h-full w-full" alt="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513185/Background_Border_Shadow_occpga.png" />
+            <img className="h-full w-full" alt="advanced ai seo tool for promotion" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513185/Background_Border_Shadow_occpga.png" />
           </div>
         </div>
       </div>
@@ -435,7 +439,7 @@ function Graphic() {
         </p>
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513229/image_335_jy33gk.png"
-          alt=""
+          alt="seo company in delhi ncr"
           className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]"
         />
       </div>

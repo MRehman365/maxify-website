@@ -180,7 +180,7 @@ const HRMS = () => {
             <div className="h-[100%] sm:w-[100%] lg:w-[70%]: overflow-hidden flex justify-center items-center rounded-lg relative  z-10">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_18_rrdlc1.png"
-                alt="Person using a tablet"
+                alt="hrms software development company"
                 className="sm:h-full md:h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
             </div>
@@ -212,7 +212,7 @@ const HRMS = () => {
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_19_bfdges.png"
-                  alt="SMO Icon"
+                  alt="hrms development company in noida"
                   className="rounded-full w-full h-full block"
                 />
               </div>
@@ -225,7 +225,7 @@ const HRMS = () => {
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513147/image_336_rvftvt.png"
-                alt="Social Media Icons"
+                alt="hrms software save your time and money"
                 className="h-[50%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
@@ -279,7 +279,8 @@ const HRMS = () => {
       <div className="bg-hrms mt-5 font-manrope min-h-full">
         <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
           <div className="md:w-1/2 mb-6 md:mb-0 p-2">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png" alt="HRMS Illustration" className="rounded-lg" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png" 
+            alt="best hrms company in noida" className="rounded-lg" />
           </div>
           <div className="md:w-1/2 md:pl-6 min-h-[55vh] flex flex-col justify-center">
             <h2 className=" text-center text-[#635ad9] font-bold sm:text-2xl md:text-4xl lg:5xl">
@@ -317,7 +318,7 @@ const HRMS = () => {
         <div className="flex w-full md:w-1/2 justify-center h-auto items-center  relative px-2 bg-last">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513149/image_337_adpbaw.png"
-            alt="Left Side"
+            alt="expert team for hrms software"
             className=" mx-auto object-cover h-[70%]"
           />
         </div>
@@ -397,7 +398,7 @@ const HRMS = () => {
             <div className="md:w-1/2 flex justify-end">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513145/Image_22_vs1pxv.png"
-                alt="Team Working"
+                alt="best it company in noida for hrms"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -450,7 +451,7 @@ const HRMS = () => {
             </p>
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513146/image_23_orrp43.png"
-              alt=""
+              alt="easy to use hrms for no skilled employee also"
               className="h-[100px] sm:hidden md:block w-auto"
             />
           </div>
@@ -481,7 +482,7 @@ const HRMS = () => {
         <div className="lg:w-1/2 sm:mt-4 md:mt-0  flex sm:justify-center lg:justify-end">
           <img
             undefinedhidden="true"
-            alt="Customer support team"
+            alt="Human Resource Management System software"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/Group_164461_mebd4q.png"
             className=""
           />

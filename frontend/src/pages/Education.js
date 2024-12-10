@@ -49,7 +49,7 @@ const Education = () => {
       <div className="h-full object-cover w-[70%]">
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512880/image_39_jn7ke0.png"
-          alt="Futuristic classroom"
+          alt="Education web development company in noida"
           width={600}
           height={800}
           className="rounded-lg"
