@@ -4,48 +4,37 @@ import { MdImportantDevices } from "react-icons/md";
 import { AiOutlineSolution } from "react-icons/ai";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
-import { FaArrowLeft, FaArrowRight, FaLaptopCode } from "react-icons/fa";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { MdDeveloperMode } from "react-icons/md";
-import { MdWeb } from "react-icons/md";
-import { FaDigitalOcean } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+
 import { TbBrandDenodo, TbDeviceMobileCode, TbSeo } from "react-icons/tb";
-import { MdContentPasteSearch } from "react-icons/md";
-import { IoMdPlay } from "react-icons/io";
+
 import { IoIosPlay } from "react-icons/io";
 import { motion } from "framer-motion";
+
 import {
   FaHandHoldingMedical,
   FaStethoscope,
   FaHeartbeat,
 } from "react-icons/fa";
 import { LuFocus } from "react-icons/lu";
-import {
-  BsApple,
-  BsBadge3D,
-  BsGraphUpArrow,
-  BsLayers,
-  BsWatch,
-} from "react-icons/bs";
+import { BsBadge3D, BsGraphUpArrow } from "react-icons/bs";
 import { MdSupportAgent } from "react-icons/md";
 import { GoCodeReview } from "react-icons/go";
 
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation, Autoplay } from "swiper/modules";
+
 import { gsap } from "gsap";
 
 import v1 from "../Assets/VID-20241025-WA0042.mp4";
 import v2 from "../Assets/VID-20241025-WA0043.mp4";
 import v3 from "../Assets/VID-20241025-WA0045.mp4";
 import FAQs from "../Components/FAQs";
-import { FiSmartphone } from "react-icons/fi";
-import { BiCode, BiGlasses, BiWifi } from "react-icons/bi";
-import { GiTreeBranch } from "react-icons/gi";
+
 import { SiAltiumdesigner } from "react-icons/si";
 import { RiVoiceprintFill } from "react-icons/ri";
 import { GrResources } from "react-icons/gr";
+import SEOComponent from "../Components/SEOComponent";
 
 const services = [
   {
@@ -445,26 +434,34 @@ const Home = () => {
 
   return (
     <div className="mt-[80px] font-dm">
+      <div>
+        <SEOComponent
+          title="Maxify Web Solutions"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
+
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background relative">
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Path_4_1_satfqd.png"
           className="absolute -top-[80px] left-0 -z-20 sm:hidden lg:block"
-          alt=""
+          alt="maxify websolution"
         />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732109312/h3_banner_img02_kksuqv.webp"
           className="absolute top-[55%] left-[45%] -z-20 sm:hidden lg:block animate-pulse"
-          alt=""
+          alt="maxify websolution"
         />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732115044/h3_banner_img_shape_stusom.webp"
           className="absolute top-[15%] left-[35%] -z-20 sm:hidden lg:block  transition-[5s] "
-          alt=""
+          alt="maxify websolution"
         />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732115043/about_shape04_xudxbb.webp"
           className="absolute top-[100%] left-[90%] -z-20 sm:hidden lg:block  transition-[5s] "
-          alt=""
+          alt="maxify websolution"
         />
         <motion.div
           initial={{ opacity: 0, y: 100 }}
@@ -488,14 +485,14 @@ const Home = () => {
                   Maxify Solutions{" "}
                 </span>
               </h2>
-              <h1 className="text-7xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334DE] font-barlow"></h1>
+              <h5 className="text-7xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334DE] font-barlow"></h5>
               <p className="md:text-4xl sm:text-lg mt-4 font-semibold text-black font-barlow lg:ml-[20px] xl:ml-[100px]">
                 Your Partner For Digital Transformation
               </p>
               <Link to="/contact">
                 <button
                   className="mt-8 py-3 lg:ml-[20px] xl:ml-[100px] text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
+                 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
                 >
                   Get Started Now
                 </button>
@@ -582,9 +579,9 @@ const Home = () => {
             <p className="text-[18px] font-[500] text-[gray]">
               <span className="text-[#2334DE] font-dm">//</span> Get to Now
             </p>
-            <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4 font-manrope">
+            <h3 className="text-2xl md:text-4xl font-bold mb-4 mt-4 font-manrope">
               Maxify Solutions
-            </h1>
+            </h3>
             <p className="text-sm text-justify  text-gray-600 mb-6 font-dm">
               is a trustworthy partner for navigating the difficult realm of
               digital transformation. Based in Noida, we specialize in helping
@@ -699,66 +696,66 @@ const Home = () => {
 
       {/*  */}
       <div className=" bg-img">
-      <div className="max-w-6xl mx-auto  mt-6 p-2">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Planning and <span className="text-[#2334DE]"> Development </span>
-          Process
-        </h2>
+        <div className="max-w-6xl mx-auto  mt-6 p-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+            Planning and <span className="text-[#2334DE]"> Development </span>
+            Process
+          </h2>
 
-        <div className="">
-          <div className="relative">
-            {/* Vertical line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
+          <div className="">
+            <div className="relative">
+              {/* Vertical line */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
 
-            {steps.map((step, index) => (
-              <div key={index} className="mb-12 flex w-full">
-                {/* Left Side Content */}
-                <div
-                  className={`w-1/2 ${
-                    step.side === "right" ? "text-right pr-8" : "text-left"
-                  }`}
-                >
-                  {step.side === "left" && (
-                    <div className="bg-[#f3f6fd] p-2">
-                      <h3 className="font-semibold  text-[14px] md:text-lg text-center">
-                        {step.title}
-                      </h3>
-                      <p className="text-gray-600 text-[12px] md:text-sm text-justify mt-2">
-                        {step.description}
-                      </p>
+              {steps.map((step, index) => (
+                <div key={index} className="mb-12 flex w-full">
+                  {/* Left Side Content */}
+                  <div
+                    className={`w-1/2 ${
+                      step.side === "right" ? "text-right pr-8" : "text-left"
+                    }`}
+                  >
+                    {step.side === "left" && (
+                      <div className="bg-[#f3f6fd] p-2">
+                        <h3 className="font-semibold  text-[14px] md:text-lg text-center">
+                          {step.title}
+                        </h3>
+                        <p className="text-gray-600 text-[12px] md:text-sm text-justify mt-2">
+                          {step.description}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Step Number */}
+                  <div className="relative flex justify-center w-12">
+                    <div className="w-10 h-10 flex items-center justify-center bg-[#f3f6fd] text-[#2334DE] font-bold rounded-full">
+                      {String(index + 1).padStart(2, "0")}
                     </div>
-                  )}
-                </div>
+                  </div>
 
-                {/* Step Number */}
-                <div className="relative flex justify-center w-12">
-                  <div className="w-10 h-10 flex items-center justify-center bg-[#f3f6fd] text-[#2334DE] font-bold rounded-full">
-                    {String(index + 1).padStart(2, "0")}
+                  {/* Right Side Content */}
+                  <div
+                    className={`w-1/2 ${
+                      step.side === "left" ? "text-right pr-8" : "text-left"
+                    }`}
+                  >
+                    {step.side === "right" && (
+                      <div className="bg-[#f3f6fd] p-2">
+                        <h3 className="font-semibold md:text-lg text-center">
+                          {step.title}
+                        </h3>
+                        <p className="text-gray-600 text-sm text-justify mt-2">
+                          {step.description}
+                        </p>
+                      </div>
+                    )}
                   </div>
                 </div>
-
-                {/* Right Side Content */}
-                <div
-                  className={`w-1/2 ${
-                    step.side === "left" ? "text-right pr-8" : "text-left"
-                  }`}
-                >
-                  {step.side === "right" && (
-                    <div className="bg-[#f3f6fd] p-2">
-                      <h3 className="font-semibold md:text-lg text-center">
-                        {step.title}
-                      </h3>
-                      <p className="text-gray-600 text-sm text-justify mt-2">
-                        {step.description}
-                      </p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
       </div>
       {/*  */}
       <div className="">
@@ -774,9 +771,9 @@ const Home = () => {
             <h3 className="text-[#2334DE]">
               {/* <span className="text-white">What We Offer!</span> */}
             </h3>
-            <h1 className="text-2xl md:text-3xl font-bold mt-4 font-manrope">
+            <h3 className="text-2xl md:text-3xl font-bold mt-4 font-manrope">
               {heading}
-            </h1>
+            </h3>
             <div className="mt-8 space-y-8">
               {points.map((point, index) => (
                 <div key={index} className="flex items-start gap-3">
@@ -839,9 +836,9 @@ const Home = () => {
             <p className="text-[16px] font-[500] text-[gray]">
               <span className="text-[#ff0000]">//</span> Company Benifits
             </p>
-            <h1 className="text-2xl md:text-4xl font-bold mb-1 font-manrope">
+            <h3 className="text-2xl md:text-4xl font-bold mb-1 font-manrope">
               Industry Solutions and Expertise.
-            </h1>
+            </h3>
             <div>
               <p className="text-sm text-justify  text-gray-600 mb-2">
                 At Maxify Web Solutions, we know each industry faces its own
@@ -925,9 +922,9 @@ const Home = () => {
             <span className="text-[12px] font-[500] px-4 py-0 bg-[#2334DE] text-white">
               Why ------
             </span>
-            <h1 className="text-2xl md:text-4xl font-semibold mb-1 font-barlow">
+            <h3 className="text-2xl md:text-4xl font-semibold mb-1 font-barlow">
               Why Should You Choose Maxify Solutions?
-            </h1>
+            </h3>
             <p className="text-sm text-justify  text-gray-600 mb-6 leading-7">
               Experienced Team: Our team of experts has years of experience in
               technology and business strategy. We re dedicated to providing new

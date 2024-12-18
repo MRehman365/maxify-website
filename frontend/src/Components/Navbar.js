@@ -141,7 +141,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512809/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer_te3dhz.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -163,7 +163,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group_thna7x.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -185,7 +185,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512821/Group_1171275285_kj87kb.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -207,7 +207,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275284_gzfz45.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -227,7 +227,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275296_t6d3ot.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -249,7 +249,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group-1_ukuldn.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -269,7 +269,7 @@ const Navbar = () => {
                       <div className="h-auto w-[100px] mt-2">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275292_fy8jmy.png"
-                          alt=""
+                          alt="maxify websolution"
                         />
                       </div>
                       <div>
@@ -490,7 +490,11 @@ const Navbar = () => {
               {isOpen ? <FaTimes /> : <FaBars />}{" "}
             </button>
           </div>
-          <Link to="/" onClick={handlenavClick} className="block border-b-[1px] py-4">
+          <Link
+            to="/"
+            onClick={handlenavClick}
+            className="block border-b-[1px] py-4"
+          >
             Home
           </Link>
 
@@ -500,7 +504,10 @@ const Navbar = () => {
               className="flex items-center justify-between w-full border-b-[1px] py-4"
               onClick={() => toggleDropdown("services")}
             >
-             <Link to='/services' onClick={handlenavClick}> <span>Services</span></Link>
+              <Link to="/services" onClick={handlenavClick}>
+                {" "}
+                <span>Services</span>
+              </Link>
               <MdExpandMore
                 className={`ml-1 transform ${
                   activeDropdown === "services" ? "rotate-180" : ""
@@ -763,7 +770,11 @@ const Navbar = () => {
           </div>
 
           {/* Main Menu: Contact */}
-          <Link to="/contact" onClick={handlenavClick} className="block border-b-[1px] py-4">
+          <Link
+            to="/contact"
+            onClick={handlenavClick}
+            className="block border-b-[1px] py-4"
+          >
             Contact
           </Link>
 

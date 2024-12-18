@@ -13,6 +13,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi2";
 import { BsBarChartFill } from "react-icons/bs";
 import { IoIdCardSharp } from "react-icons/io5";
+import SEOComponent from "../Components/SEOComponent";
 
 const features = [
   {
@@ -111,13 +112,19 @@ const RealEstate = () => {
     return () => clearInterval(interval);
   }, []);
 
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="mt-[70px] font-pop">
+      <div>
+        <SEOComponent
+          title="Maxify-Realstate"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
@@ -151,13 +158,13 @@ const RealEstate = () => {
             up-to-date internet innovation to attract attention in an open
             market.
           </p>
-          <a href="https://wa.me/917428309119"  target="_blank">
-          <button
-            className="mt-8 rounded-full flex items-center relative px-8 py-2 text-white bg-[#f9c461] isolation-auto z-10 border-2 border-[#f8b948]
+          <a href="https://wa.me/917428309119" target="_blank">
+            <button
+              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-white bg-[#f9c461] isolation-auto z-10 border-2 border-[#f8b948]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#f8b948] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-          >
-            Contact Now
-          </button>
+            >
+              Contact Now
+            </button>
           </a>
         </div>
       </div>
@@ -167,11 +174,11 @@ const RealEstate = () => {
         <div className="flex flex-col lg:flex-row md:space-x-4 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full lg:w-1/2 py-4 md:p-8 sm:px-3 space-y-4">
-            <h1 className="sm:text-3xl md:text-5xl font-bold mt-4 mb-2 sm:text-center md:text-left font-sans">
+            <h3 className="sm:text-3xl md:text-5xl font-bold mt-4 mb-2 sm:text-center md:text-left font-sans">
               <span className="text-gray-700">
                 Why Select Maxify Solution for Real Estate Website Development?
               </span>
-            </h1>
+            </h3>
             <div className="md:flex justify-between bg-white rounded-xl p-3 sm:hidden lg:w-[800px] z-[5] relative">
               <div className="text-gray-400 font-[500] flex items-center text-xl gap-4">
                 <span>
@@ -232,15 +239,13 @@ const RealEstate = () => {
       {/* section 3 */}
       <div className="flex flex-col lg:flex-row items-center w-[100%] mx-auto md:w-[90%] lg:w-[90%]  px-4 py-8 gap-6">
         <div className=" lg:w-[30%] flex flex-col justify-center items-center px-4 text-3xl md:text-[38px] md:leading-[56px]">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
+          <h3 className="text-4xl md:text-5xl font-bold text-center mb-4">
             <span className="text-blue-600">Key Features</span>
-          </h1>
+          </h3>
           <h2 className=" text-center mb-2  font-semibold">
             of Our <span className="text-blue-600"> Real Estate </span>Website
           </h2>
-          <h3 className="font-[500] text-center ">
-            Development Providers:
-          </h3>
+          <h3 className="font-[500] text-center ">Development Providers:</h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:w-[70%] px-6">
@@ -269,9 +274,9 @@ const RealEstate = () => {
           <p className="text-lg md:text-xl font-semibold md:font-bold text-center text-[#F8B948]">
             Comprehensive
           </p>
-          <h1 className="text-3xl font-bold text-center py-2  text-[black]">
+          <h3 className="text-3xl font-bold text-center py-2  text-[black]">
             Real Estate Web Growth Solutions
-          </h1>
+          </h3>
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
@@ -291,7 +296,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513017/image_2_stmled.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513017/image_2_stmled.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -330,7 +339,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513025/image-1_hozzdq.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513025/image-1_hozzdq.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -366,7 +379,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513027/image-2_mvsrvr.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513027/image-2_mvsrvr.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -403,7 +420,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513030/image-3_sdka5a.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513030/image-3_sdka5a.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -438,7 +459,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513029/image-4_g5cwsy.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513029/image-4_g5cwsy.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-full text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -474,7 +499,11 @@ const RealEstate = () => {
             <SwiperSlide>
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
-                  <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513031/image-5_ssrw6c.png" alt="Real Estate" className=" inset-0" />
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513031/image-5_ssrw6c.png"
+                    alt="Real Estate"
+                    className=" inset-0"
+                  />
                 </div>
                 <div className="md:w-1/2 p-2 md:p-6 space-y-3">
                   <h2 className="text-2xl font-semibold lg:w-[100%] text-[#F8B948] mb-4 sm:text-center md:text-left">
@@ -507,25 +536,22 @@ const RealEstate = () => {
               </div>
             </SwiperSlide>
             <div className="absolute bottom-4 right-[100px]">
-            
-    <div className="swiper-button-prev-custom">
-      <FaLongArrowAltRight
-        size={34}
-        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
-      />
-    </div>
-  </div>
+              <div className="swiper-button-prev-custom">
+                <FaLongArrowAltRight
+                  size={34}
+                  className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+                />
+              </div>
+            </div>
             <div className="absolute bottom-4 right-2">
-            
-    <div className="swiper-button-next-custom">
-      <FaLongArrowAltLeft
-        size={34}
-        className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
-      />
-    </div>
-  </div>
+              <div className="swiper-button-next-custom">
+                <FaLongArrowAltLeft
+                  size={34}
+                  className="text-3xl sm:none md:block text-white bg-[#ffcb66] transform rotate-180 hover:shadow-lg p-2 rounded-lg"
+                />
+              </div>
+            </div>
           </Swiper>
-          
         </div>
       </div>
 
@@ -534,18 +560,22 @@ const RealEstate = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513015/Group_164554_pzaekb.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513015/Group_164554_pzaekb.png"
+            alt="Left Side"
+            className="md:w-[80%] sm:w-full"
+          />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 flex flex-col justify-around p-4 md:p-4 sm:px-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-[#F8B948] text-center mt-4 mb-2">
+          <h3 className="text-2xl md:text-3xl font-bold text-[#F8B948] text-center mt-4 mb-2">
             <span className="text-black font-[400]">
               {" "}
               Advanced Technologies We Make Use Of in{" "}
             </span>{" "}
             <br />
             Real Estate Website Development
-          </h1>
+          </h3>
           <div className=" border p-6 space-y-4">
             <p className="sm:text-sm md:text-base text-justify  text-gray-600 leading-8">
               At Maxify Option, we utilize the latest innovations to provide
@@ -568,7 +598,6 @@ const RealEstate = () => {
               </li>
             </ul>
           </div>
-        
         </div>
       </div>
 
@@ -581,15 +610,15 @@ const RealEstate = () => {
             Maxify Solution for Real Estate Website Development
           </h2>
           <Swiper
-                 slidesPerView={1}
-      spaceBetween={30}
-      loop={true}
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: true,
-      }}
-      speed={500}
-      slidesPerGroup={1}
+            slidesPerView={1}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: true,
+            }}
+            speed={500}
+            slidesPerGroup={1}
             breakpoints={{
               768: {
                 slidesPerView: 2,
@@ -619,7 +648,7 @@ const RealEstate = () => {
                   <img
                     src={service.img}
                     className="min-h-[100%] w-[100%] object-cover absolute"
-                    alt=""
+                    alt="maxify websolution"
                   />
                   <div className="text-white z-10 px-3">
                     <h2 className="text-[16px] font-semibold mb-4">
@@ -651,10 +680,10 @@ const RealEstate = () => {
       {/*  */}
       <section className="w-full md:w-[90%] mx-auto px-4 py-6 md:py-24">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-6">
+          <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-6">
             <span className="text-yellow-400">Maxify Solution:</span> You're
             Relied On Companion
-          </h1>
+          </h3>
           <h2 className="text-xl md:text-2xl lg:text-3xl text-center mb-12">
             in Real Estate Website Development
           </h2>

@@ -34,37 +34,43 @@ const EcomSlider = () => {
   const caseStudies = [
     {
       title: "Fashion Retailer",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
     },
     {
       title: "Electronics Store",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
     },
     {
       title: "Healthcare Products",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
     },
     {
       title: "Food Delivery Service",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "Developed a scalable and efficient platform for a food delivery service that optimized delivery times and improved user satisfaction.",
     },
     {
       title: "Home Decor Store",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Built a visually appealing e-commerce platform for a home decor brand that enhanced their customers' online shopping experience.",
     },
     {
       title: "Sports Goods Store",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "Helped a sports goods retailer streamline their online sales operations and reach a broader audience with a robust e-commerce platform.",
     },
@@ -99,9 +105,9 @@ const EcomSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true, 
+    fade: true,
     nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />, 
+    prevArrow: <PrevArrow />,
     waitForAnimate: false,
   };
 
@@ -144,7 +150,11 @@ const EcomSlider = () => {
                     key={index}
                     className="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-gray-600 hover:bg-[#635AD9] hover:text-white transition duration-300 ease-in-out"
                   >
-                    <img className="w-14" src={study.icone} alt="" />
+                    <img
+                      className="w-14"
+                      src={study.icone}
+                      alt="maxify websolution"
+                    />
                     <h3 className="text-lg md:text-xl font-bold text-purple-800 mb-2 mt-5">
                       {study.title}
                     </h3>
@@ -160,14 +170,27 @@ const EcomSlider = () => {
             <div className="md:w-[90%] w-full">
               <div className="bg-[#635AD9]  sm:py-2 md:py-0 flex sm:flex-col md:flex-row gap-5 justify-between md:pl-10 items-center text-white md:rounded-l-full">
                 {statistics.map((stat, statIndex) => (
-                  <div key={statIndex} className="text-center flex flex-col items-center">
-                    <img className="w-10 md:ml-5" src={stat.icon} alt="" />
-                    <div className="md:text-3xl sm:text-xl font-bold">{stat.number}</div>
+                  <div
+                    key={statIndex}
+                    className="text-center flex flex-col items-center"
+                  >
+                    <img
+                      className="w-10 md:ml-5"
+                      src={stat.icon}
+                      alt="maxify websolution"
+                    />
+                    <div className="md:text-3xl sm:text-xl font-bold">
+                      {stat.number}
+                    </div>
                     <div>{stat.text}</div>
                   </div>
                 ))}
                 <div className="sm:hidden md:block">
-                  <img className="w-60 h-[13rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png" alt="" />
+                  <img
+                    className="w-60 h-[13rem]"
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png"
+                    alt="maxify websolution"
+                  />
                 </div>
               </div>
             </div>
@@ -205,11 +228,17 @@ const EcomSlider = () => {
                     key={index}
                     className="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-gray-600 hover:bg-[#635AD9] hover:text-white transition duration-300 ease-in-out"
                   >
-                    <img className="w-14" src={study.icone} alt="" />
+                    <img
+                      className="w-14"
+                      src={study.icone}
+                      alt="maxify websolution"
+                    />
                     <h3 className="text-lg md:text-xl font-bold text-purple-800 mb-2 mt-5">
                       {study.title}
                     </h3>
-                    <p className="text-sm md:text-base text-justify">{study.description}</p>
+                    <p className="text-sm md:text-base text-justify">
+                      {study.description}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -219,19 +248,31 @@ const EcomSlider = () => {
             <div className="md:w-[90%] w-full">
               <div className="bg-[#635AD9]  sm:py-2 md:py-0 flex sm:flex-col md:flex-row gap-5 justify-between md:pl-10 items-center text-white md:rounded-l-full">
                 {statistics.map((stat, statIndex) => (
-                  <div key={statIndex} className="text-center flex flex-col items-center">
-                    <img className="w-10 md:ml-5" src={stat.icon} alt="" />
-                    <div className="md:text-3xl sm:text-xl font-bold">{stat.number}</div>
+                  <div
+                    key={statIndex}
+                    className="text-center flex flex-col items-center"
+                  >
+                    <img
+                      className="w-10 md:ml-5"
+                      src={stat.icon}
+                      alt="maxify websolution"
+                    />
+                    <div className="md:text-3xl sm:text-xl font-bold">
+                      {stat.number}
+                    </div>
                     <div>{stat.text}</div>
                   </div>
                 ))}
                 <div className="sm:hidden md:block">
-                  <img className="w-60 h-[13rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png" alt="" />
+                  <img
+                    className="w-60 h-[13rem]"
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png"
+                    alt="maxify websolution"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </Slider>
     </div>

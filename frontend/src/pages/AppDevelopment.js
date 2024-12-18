@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiUserGroup } from "react-icons/hi2";
 import { FaHandHoldingHeart } from "react-icons/fa";
-import { GoArrowRight } from "react-icons/go";
 import { FaCheckCircle } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
+import SEOComponent from "../Components/SEOComponent";
 
 const plans = [
   {
@@ -179,6 +179,13 @@ const AppDevelopment = () => {
   }, []);
   return (
     <div className="mt-[70px]">
+      <div>
+        <SEOComponent
+          title="Maxify-AppDevelopment"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="md:w-[90%] mx-auto bg-background rounded-lg flex flex-col-reverse lg:flex-row lg:items-center">
         <div className="lg:w-1/2 sm:px-4 md:px-4 lg:px-6">
           <h1 className="sm:text-2xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold text-foreground font-yan">
@@ -262,7 +269,7 @@ const AppDevelopment = () => {
                   <span className="text-[10px]">Verified by Google</span>
                   <img
                     src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/google-logo-png-google-sva-scholarship-20_j1e74q.png"
-                    alt=""
+                    alt="maxify websolution"
                     className="sm:w-[40px] md:w-[80px] h-auto"
                   />
                 </div>
@@ -360,7 +367,7 @@ const AppDevelopment = () => {
           </p>
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513399/2_ftzsf4.webp"
-            alt=""
+            alt="maxify websolution"
           />
         </div>
       </div>
@@ -378,13 +385,13 @@ const AppDevelopment = () => {
             </p>
           </div>
           <div>
-          <a href="https://wa.me/917428309119" target="blank">
-            <button
-              className="mt-8 rounded-full relative px-8 py-2 text-[#2334DE] bg-white bg-none isolation-auto z-10 border-2 border-[#2334DE]
+            <a href="https://wa.me/917428309119" target="blank">
+              <button
+                className="mt-8 rounded-full relative px-8 py-2 text-[#2334DE] bg-white bg-none isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-            >
-              Learn More
-            </button>
+              >
+                Learn More
+              </button>
             </a>
           </div>
         </div>
@@ -392,7 +399,7 @@ const AppDevelopment = () => {
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_29_lt4fj2.webp"
             className="w-[900px]"
-            alt=""
+            alt="maxify websolution"
           />
         </div>
       </div>
@@ -493,9 +500,9 @@ const AppDevelopment = () => {
             <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">
               Projects
             </h3>
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-yan">
+            <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-yan">
               The App Development Process
-            </h1>
+            </h3>
             <p className="text-gray-700 text-sm text-justify mb-8">
               Our app development process is designed to be efficient,
               transparent, and client-focused. Here's a step-by-step overview of
@@ -528,7 +535,6 @@ const AppDevelopment = () => {
                 </li>
               ))}
             </ul>
-         
           </div>
 
           {/* Right Section */}
@@ -576,9 +582,9 @@ const AppDevelopment = () => {
           <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">
             Consulting Excellence
           </h3>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-yan">
+          <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-yan">
             Why We Are the Best App Development Company in Noida
-          </h1>
+          </h3>
           <ul className="space-y-4 mb-8">
             {steps.map((step) => (
               <li
@@ -590,16 +596,16 @@ const AppDevelopment = () => {
               </li>
             ))}
           </ul>
-          <Link to='/about'>
-          <button
-            className="mt-8 flex items-center relative px-8 py-2 text-[#2334DE] rounded-full bg-white isolation-auto z-10 border-2 border-[#2334DE]
+          <Link to="/about">
+            <button
+              className="mt-8 flex items-center relative px-8 py-2 text-[#2334DE] rounded-full bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-          >
-            Learn More
-            <span className="ml-2">
-              <GoArrowUpRight />
-            </span>
-          </button>
+            >
+              Learn More
+              <span className="ml-2">
+                <GoArrowUpRight />
+              </span>
+            </button>
           </Link>
         </div>
         <div className="lg:w-1/2 mt-6">

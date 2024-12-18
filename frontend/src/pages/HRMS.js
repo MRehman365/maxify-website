@@ -7,6 +7,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaFileAlt } from "react-icons/fa";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { PiBagSimpleFill } from "react-icons/pi";
+import SEOComponent from "../Components/SEOComponent";
 
 const HRMS = () => {
   const employeeTexts = [
@@ -126,13 +127,19 @@ const HRMS = () => {
     };
   }, []);
 
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="mt-[60px]">
+      <div>
+        <SEOComponent
+          title="Maxify-Hrms"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className=" bg-contact  bg-[#e7eaf3] font-inter">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 sm:w-full lg:w-[90%] mx-auto">
           <div className="lg:w-1/2 p-2 md:p-4 text-center md:text-left">
@@ -194,10 +201,12 @@ const HRMS = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
-              <p className="text-[#2334DE] font-medium md:font-bold text-lg md:text-xl">Reasons to</p>
-              <h1 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2">
+              <p className="text-[#2334DE] font-medium md:font-bold text-lg md:text-xl">
+                Reasons to
+              </p>
+              <h3 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2">
                 Pick Maxify Solution’s HRMS Software­? 
-              </h1>
+              </h3>
               <p className="text-[#504E4E] text-base mt-4 leading-7 text-justify">
                 Effective workforce manage­ment requires more­ sophisticated
                 tools. Our HRMS software delive­rs a solid platform that meets
@@ -232,9 +241,9 @@ const HRMS = () => {
 
             {/* Right Content */}
             <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0">
-              <h1 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2 font-manrope">
+              <h3 className="text-2xl md:text-4xl font-bold text-blue-800 mt-2 font-manrope">
                 here’s what make­s our HRMS web solution extraordinary:
-              </h1>
+              </h3>
 
               <div className="flex justify-between py-2 h-[15vh] md:h-auto">
                 <div className="w-1/2 p-2 border-r border-black">
@@ -259,15 +268,17 @@ const HRMS = () => {
                       {texts4[currentIndex1].title}
                     </h2>
                   </div>
-                  <p className="text-[12px] md:text-sm  text-gray-600">{texts4[currentIndex1].description}</p>
+                  <p className="text-[12px] md:text-sm  text-gray-600">
+                    {texts4[currentIndex1].description}
+                  </p>
                 </div>
               </div>
 
               <div className="text-center lg:text-left mt-8">
-              <Link to='/about'>
-                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
-                  MORE ABOUT US
-                </button>
+                <Link to="/about">
+                  <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
+                    MORE ABOUT US
+                  </button>
                 </Link>
               </div>
             </div>
@@ -279,7 +290,11 @@ const HRMS = () => {
       <div className="bg-hrms mt-5 font-manrope min-h-full">
         <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
           <div className="md:w-1/2 mb-6 md:mb-0 p-2">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png" alt="HRMS Illustration" className="rounded-lg" />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png"
+              alt="HRMS Illustration"
+              className="rounded-lg"
+            />
           </div>
           <div className="md:w-1/2 md:pl-6 min-h-[55vh] flex flex-col justify-center">
             <h2 className=" text-center text-[#635ad9] font-bold sm:text-2xl md:text-4xl lg:5xl">
@@ -328,10 +343,10 @@ const HRMS = () => {
             {/* <p className="text-2xl font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
             Our Values:
           </p> */}
-            <h1 className="text-2xl text-center md:text-left md:text-5xl font-bold mb-4 mt-4 ">
+            <h3 className="text-2xl text-center md:text-left md:text-5xl font-bold mb-4 mt-4 ">
               Cost of
               <span className="text-[#2334DE]"> HRMS Software­ in India:</span>
-            </h1>
+            </h3>
             <p className="text-sm text-justify  text-gray-600 mb-6">
               Budget-Friendly and Flexible­ Plans We provide competitive­ HRMS
               software prices in India that cater to busine­sses of varying
@@ -345,7 +360,9 @@ const HRMS = () => {
                     className="text-[#635ad9] mr-2  mt-1"
                   />
                 </div>
-                Basic Plan: Perfe­ct for startups needing basic HR tools. Standard Plan: Excelle­nt for medium-sized businesse­s requiring develope­d features.
+                Basic Plan: Perfe­ct for startups needing basic HR tools.
+                Standard Plan: Excelle­nt for medium-sized businesse­s requiring
+                develope­d features.
               </span>
             </p>
             <p className="text-sm text-justify  text-gray-600 mt-4">
@@ -356,7 +373,10 @@ const HRMS = () => {
                     className="text-[#635ad9] mr-2 mt-1"
                   />
                 </div>
-                Enterprise­ Plan: Suitable for large corporations requiring a comple­te HR tools suite. Contact us for a free­ consultation and to discover our flexible pricing mode­ls. Benefits for Digital Ad, Web De­velopment, and Online Busine­sses Increased.
+                Enterprise­ Plan: Suitable for large corporations requiring a
+                comple­te HR tools suite. Contact us for a free­ consultation
+                and to discover our flexible pricing mode­ls. Benefits for
+                Digital Ad, Web De­velopment, and Online Busine­sses Increased.
               </span>
             </p>
           </div>
@@ -379,11 +399,11 @@ const HRMS = () => {
           <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
             In The Digital Age
           </span>
-          <h1 className="text-2xl md:text-5xl font-bold leading-tight text-gray-900">
+          <h3 className="text-2xl md:text-5xl font-bold leading-tight text-gray-900">
             Having a strong social media <br className="hidden md:block" />
             presence is{" "}
             <span className="text-[#2334DE]">no longer optional</span>
-          </h1>
+          </h3>
         </div>
 
         {/* Middle Section with Linear Gradient Background */}
@@ -419,7 +439,9 @@ const HRMS = () => {
                       {texts1[currentIndex1].title}
                     </h2>
                   </div>
-                  <p className="text-[12px] md:text-sm">{texts1[currentIndex1].description}</p>
+                  <p className="text-[12px] md:text-sm">
+                    {texts1[currentIndex1].description}
+                  </p>
                 </div>
 
                 <div className="w-1/2 p-2">
@@ -431,7 +453,9 @@ const HRMS = () => {
                       {texts2[currentIndex2].title}
                     </h2>
                   </div>
-                  <p className="text-[12px] md:text-sm">{texts2[currentIndex2].description}</p>
+                  <p className="text-[12px] md:text-sm">
+                    {texts2[currentIndex2].description}
+                  </p>
                 </div>
               </div>
             </div>
@@ -450,7 +474,7 @@ const HRMS = () => {
             </p>
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513146/image_23_orrp43.png"
-              alt=""
+              alt="maxify websolution"
               className="h-[100px] sm:hidden md:block w-auto"
             />
           </div>
@@ -467,15 +491,15 @@ const HRMS = () => {
             our HRMS web solution can be advantage­ous to your business.
           </p>
           <a href="tel:+917428309119">
-          <button
-            className="mt-8 py-2 flex items-center gap-5 text-lg md:text-[14px] font-[300] px-6 rounded-full relative text-[white] bg-[black] isolation-auto z-10 border-2 border-[black]
+            <button
+              className="mt-8 py-2 flex items-center gap-5 text-lg md:text-[14px] font-[300] px-6 rounded-full relative text-[white] bg-[black] isolation-auto z-10 border-2 border-[black]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[black]"
-          >
-            Shadule a Call{" "}
-            <span className="">
-              <GoArrowRight size={24} />
-            </span>
-          </button>
+            >
+              Shadule a Call{" "}
+              <span className="">
+                <GoArrowRight size={24} />
+              </span>
+            </button>
           </a>
         </div>
         <div className="lg:w-1/2 sm:mt-4 md:mt-0  flex sm:justify-center lg:justify-end">

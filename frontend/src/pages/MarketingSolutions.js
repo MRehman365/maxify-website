@@ -10,20 +10,25 @@ import {
 import { GoArrowRight } from "react-icons/go";
 import { BsArrowUpRight, BsPersonHearts } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import SEOComponent from "../Components/SEOComponent";
 
 const titlesAndDescriptions = [
   {
-    title1: 'Experience and Technology',
-    description1: 'Our group of knowledgeable 3D designers and animators brings creativity and technical competence to every job.',
-    title2: 'Customized Solutions',
-    description2: 'We understand that every business is distinct, and we produce tailored 3D versions and marketing options that align with your goals.'
+    title1: "Experience and Technology",
+    description1:
+      "Our group of knowledgeable 3D designers and animators brings creativity and technical competence to every job.",
+    title2: "Customized Solutions",
+    description2:
+      "We understand that every business is distinct, and we produce tailored 3D versions and marketing options that align with your goals.",
   },
   {
-    title1: 'Comprehensive Solution',
-    description1: 'Offering end-to-end solutions tailored to meet unique project needs with expertise and precision.',
-    title2: 'Client-Centric Technique',
-    description2: 'A dedicated focus on client requirements ensures personalized, impactful 3D solutions for every project.'
-  }
+    title1: "Comprehensive Solution",
+    description1:
+      "Offering end-to-end solutions tailored to meet unique project needs with expertise and precision.",
+    title2: "Client-Centric Technique",
+    description2:
+      "A dedicated focus on client requirements ensures personalized, impactful 3D solutions for every project.",
+  },
 ];
 
 const MarketingSolutions = () => {
@@ -34,13 +39,16 @@ const MarketingSolutions = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % titlesAndDescriptions.length);
+      setCurrentIndex(
+        (prevIndex) => (prevIndex + 1) % titlesAndDescriptions.length
+      );
     }, 1000);
 
     return () => clearInterval(interval); // Clear interval on component unmount
   }, []);
 
-  const { title1, description1, title2, description2 } = titlesAndDescriptions[currentIndex];
+  const { title1, description1, title2, description2 } =
+    titlesAndDescriptions[currentIndex];
 
   // Function to set the active section
   const handleSetActive = (section) => {
@@ -97,9 +105,12 @@ const MarketingSolutions = () => {
   const contentArray = [
     {
       title: "1. Online 3D Modeling",
-      description: "3D modeling is the structure of any type of 3D project, enabling you to visualize complicated principles and concepts genuinely.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512512/image_342_ulz1o4.png",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_341_vlimrl.png",
+      description:
+        "3D modeling is the structure of any type of 3D project, enabling you to visualize complicated principles and concepts genuinely.",
+      imageUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512512/image_342_ulz1o4.png",
+      overlayUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_341_vlimrl.png",
       list: [
         "Product Modeling: Premium 3D designs of items for shopping, advertising, and advertising purposes.",
         "Building Modeling: Detailed 3D models of real estate, architecture, and interior design projects.",
@@ -108,9 +119,12 @@ const MarketingSolutions = () => {
     },
     {
       title: "2. 3D Making and Visualization",
-      description: "3D making and visualization bring your principles to life with photorealistic photos and animations. We offer high-quality 3D-making solutions to display your designs and items in the most effective possible lighth",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335992/WhatsApp_Image_2024-10-27_at_10.44.51_PM_nuubdk.jpg",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335978/WhatsApp_Image_2024-10-27_at_10.44.51_PM_4_m8awty.jpg",
+      description:
+        "3D making and visualization bring your principles to life with photorealistic photos and animations. We offer high-quality 3D-making solutions to display your designs and items in the most effective possible lighth",
+      imageUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335992/WhatsApp_Image_2024-10-27_at_10.44.51_PM_nuubdk.jpg",
+      overlayUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335978/WhatsApp_Image_2024-10-27_at_10.44.51_PM_4_m8awty.jpg",
       list: [
         "Photorealistic Rendering: Ultra-realistic renderings for advertising, advertising, and product demonstration",
         "Exterior And Interior Visualization: Thorough 3D visuals of genuine estate, design, and interior decoration task.",
@@ -119,9 +133,12 @@ const MarketingSolutions = () => {
     },
     {
       title: "3. 3D Animation and Motion Graphics",
-      description: "3D computer animation is an effective tool to inform your brand name's tale engagingly and dynamically. Our 3D computer animation solutions cover everything from concept advancement to last manufacturing.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335966/WhatsApp_Image_2024-10-27_at_10.44.51_PM_1_xaor2f.jpg",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335983/WhatsApp_Image_2024-10-27_at_10.44.51_PM_5_yiwt5c.jpg",
+      description:
+        "3D computer animation is an effective tool to inform your brand name's tale engagingly and dynamically. Our 3D computer animation solutions cover everything from concept advancement to last manufacturing.",
+      imageUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335966/WhatsApp_Image_2024-10-27_at_10.44.51_PM_1_xaor2f.jpg",
+      overlayUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335983/WhatsApp_Image_2024-10-27_at_10.44.51_PM_5_yiwt5c.jpg",
       list: [
         "Item Animations: Engaging computer animations that show the features and benefits of your product.",
         "Explainer Videos: 3D computer-animated explainer video clips to streamline complicated principles and boost understanding.",
@@ -130,9 +147,12 @@ const MarketingSolutions = () => {
     },
     {
       title: "4. Digital and Enhanc ed Fact ( VR/ AR) Solutions",
-      description: "Online and Augmented Facts are transforming the means organizations interact with their consumers. We create customized virtual reality and AR experiences to boost your brand name and astound your target market.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335969/WhatsApp_Image_2024-10-27_at_10.44.51_PM_2_mtzp3e.jpg",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_6_kl79pi.jpg",
+      description:
+        "Online and Augmented Facts are transforming the means organizations interact with their consumers. We create customized virtual reality and AR experiences to boost your brand name and astound your target market.",
+      imageUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335969/WhatsApp_Image_2024-10-27_at_10.44.51_PM_2_mtzp3e.jpg",
+      overlayUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_6_kl79pi.jpg",
       list: [
         "Online Tours: Interactive digital excursions genuine estate, friendliness, and event place.",
         "AR Product Visualization: Increased Reality options for product visualization and client involvement.",
@@ -141,9 +161,12 @@ const MarketingSolutions = () => {
     },
     {
       title: "5. 3D Mark eting Solutions",
-      description: "Maxify Service uses specialized 3D marketing solutions to aid organizations stand apart in a congested digital landscape. Our 3D advertising and marketing solutions are designed to enhance brand exposure, drive involvement, and enhance conversion.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335973/WhatsApp_Image_2024-10-27_at_10.44.51_PM_3_ar3zm6.jpg",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_7_dnubgq.jpg",
+      description:
+        "Maxify Service uses specialized 3D marketing solutions to aid organizations stand apart in a congested digital landscape. Our 3D advertising and marketing solutions are designed to enhance brand exposure, drive involvement, and enhance conversion.",
+      imageUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335973/WhatsApp_Image_2024-10-27_at_10.44.51_PM_3_ar3zm6.jpg",
+      overlayUrl:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_7_dnubgq.jpg",
       list: [
         "3D Ad Creatives: Eye-catching 3D advertisements for electronic advertising and marketing campaign.",
         "3D Social Media Site Material: Compelling 3D visuals and computer animations for social media site systems like Instagram, Facebook, and LinkedIn.",
@@ -161,38 +184,44 @@ const MarketingSolutions = () => {
     return () => clearInterval(interval);
   }, [contentArray.length]);
 
-  const { title, description, imageUrl, overlayUrl, list } = contentArray[currentContent];
+  const { title, description, imageUrl, overlayUrl, list } =
+    contentArray[currentContent];
 
   const DataArray = [
     {
       datatitle: "Step 1: Discovery and Preparation",
       datadescription:
         "We start by learning more about your target audience, job requirements, and organizational goals. This step involves conceptualizing sessions, principle growth, and creating a task roadmap.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275263_yyuanz.png",
+      dataimage:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275263_yyuanz.png",
     },
     {
       datatitle: "Step 2: 3D Modeling and Design",
       datadescription:
         "Our gifted 3D developers and modelers bring your ideas to life by developing in-depth 3D models that record the essence of your vision. This phase consists of modeling, texturing, and shading.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335934/Group_1171275264_fucgmo.png",
+      dataimage:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335934/Group_1171275264_fucgmo.png",
     },
     {
       datatitle: "Step 3: Making and Animation",
       datadescription:
         "Once the 3D designs are completed, we proceed with rendering and animation. We utilize advanced rendering software applications and techniques to develop topquality visuals and animations.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335935/Group_1171275265_aje1ue.png",
+      dataimage:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335935/Group_1171275265_aje1ue.png",
     },
     {
       datatitle: "Step 4: Testimonial and Modification",
       datadescription:
         "We offer multiple rounds of revisions to ensure that the final product aligns with your assumptions and objectives. Your responses are critical at this phase, and we function very closely with you to make any kind of needed adjustments.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335930/Group_1171275266_ohsat6.png",
+      dataimage:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335930/Group_1171275266_ohsat6.png",
     },
     {
       datatitle: "Step 5: Shipment and Implementation",
       datadescription:
         "Upon final approval, we supply the last files in the required styles, ready for use throughout different systems and advertising channels.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335927/Group_1171275267_kx0xgg.png",
+      dataimage:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335927/Group_1171275267_kx0xgg.png",
     },
   ];
 
@@ -201,22 +230,31 @@ const MarketingSolutions = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent3d((prevIndex) => (prevIndex + 1) % DataArray.length);
-    }, 1000); 
+    }, 1000);
     return () => clearInterval(interval);
   }, [DataArray.length]);
-  
 
   const { datatitle, datadescription, dataimage } = DataArray[current3d];
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div className="mt-14 font-pop">
+      <div>
+        <SEOComponent
+          title="Maxify-Marketing-Solution"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       {/* 1st section */}
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[90%] mx-auto py-7 border-t-[2px] border-black font-Mulish">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-2 md:p-6">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png" alt="img2" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png"
+            alt="img2"
+          />
           <div className="py-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
               <div key={index} className="w-full max-w-lg mb-6">
@@ -236,38 +274,34 @@ const MarketingSolutions = () => {
             ))}
           </div>
           <div className="flex flex-row bg-background rounded-lg sm:h-[27vh]">
-      <div className="flex-1 p-4">
-        <div className="flex items-center mb-2">
-          <div>
-            <HiUserGroup size={25} className="text-[#2334DE]" />
-          </div>
-          <h2 className="text-[15px] ml-1 font-bold font-Mulish">
-            {title1}:
-          </h2>
-        </div>
-        <p className="text-[12px] text-justify">
-          {description1}
-        </p>
-      </div>
-      <div className="flex-1 p-4">
-        <div className="flex items-center mb-2">
-          <div>
-            <FaHandHoldingHeart size={25} className="text-[#2334DE]" />
-          </div>
-          <h2 className="text-[15px] ml-1 font-bold font-Mulish">
-            {title2}:
-          </h2>
-        </div>
-        <p className="text-[12px] text-justify">
-          {description2}
-        </p>
-      </div>
-    </div>
-    <div className="flex justify-end w-full">
-    <div className="h-10 w-10 bg-[#2334DE] text-[white] text-base flex justify-center items-center rounded-full">
-                  <BsArrowUpRight />
+            <div className="flex-1 p-4">
+              <div className="flex items-center mb-2">
+                <div>
+                  <HiUserGroup size={25} className="text-[#2334DE]" />
                 </div>
+                <h2 className="text-[15px] ml-1 font-bold font-Mulish">
+                  {title1}:
+                </h2>
+              </div>
+              <p className="text-[12px] text-justify">{description1}</p>
+            </div>
+            <div className="flex-1 p-4">
+              <div className="flex items-center mb-2">
+                <div>
+                  <FaHandHoldingHeart size={25} className="text-[#2334DE]" />
                 </div>
+                <h2 className="text-[15px] ml-1 font-bold font-Mulish">
+                  {title2}:
+                </h2>
+              </div>
+              <p className="text-[12px] text-justify">{description2}</p>
+            </div>
+          </div>
+          <div className="flex justify-end w-full">
+            <div className="h-10 w-10 bg-[#2334DE] text-[white] text-base flex justify-center items-center rounded-full">
+              <BsArrowUpRight />
+            </div>
+          </div>
         </div>
         <div className="lg:w-1/2 sm:w-full flex md:flex-col sm:flex-col-reverse gap-4 p-2 md:p-6 ">
           <div className="">
@@ -285,52 +319,59 @@ const MarketingSolutions = () => {
               visibility and increase engagement.
             </p>
           </div>
-          <img className="rounded-xl" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png" alt="" />
+          <img
+            className="rounded-xl"
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png"
+            alt="maxify websolution"
+          />
         </div>
       </div>
       {/* 2nd section */}
 
       <div className="flex flex-col lg:flex-row items-center justify-between bg-white md:p-12 sm:py-0">
-      {/* Image Section */}
-      <div className="lg:w-1/2 w-full flex justify-center relative">
-        <div className="px-10">
-          <img
-            src={imageUrl}
-            alt="3D Modeling"
-            className="rounded-lg shadow-md sm:h-[20rem] md:h-full"
-          />
-          <img
-            src={overlayUrl}
-            alt="3D Overlay"
-            className="absolute top-[50%] left-0 w-[40%] transform -translate-y-1/2 border-4 border-white rounded-lg shadow-lg"
-          />
+        {/* Image Section */}
+        <div className="lg:w-1/2 w-full flex justify-center relative">
+          <div className="px-10">
+            <img
+              src={imageUrl}
+              alt="3D Modeling"
+              className="rounded-lg shadow-md sm:h-[20rem] md:h-full"
+            />
+            <img
+              src={overlayUrl}
+              alt="3D Overlay"
+              className="absolute top-[50%] left-0 w-[40%] transform -translate-y-1/2 border-4 border-white rounded-lg shadow-lg"
+            />
+          </div>
         </div>
-      </div>
 
-      {/* Text Section */}
-      <div className="lg:w-1/2 w-full px-6 mt-10 lg:mt-0">
-        <h3 className="text-lg text-gray-500 mb-4">
-          Our 3D Services
-        </h3>
-        <h2 className="text-[#0F0F0F] md:text-[22px] sm:text-[18px] font-normal mb-6 font-manrope">
-          <span className="text-[#2334DE]"> Maxify </span>Option offers a
-          large variety of
-          <span className="text-[#2334DE]">
-            3D services to deal with numerous company demands
-          </span>.
-        </h2>
-        
-        <div className="font-dm text-justify md:px-10">
-          <h4 className="text-lg md:text-xl text-gray-600 font-bold mb-4">{title}</h4>
-          <p className="text-gray-500 text-sm md:text-lg mb-4">{description}</p>
-          <ul className="list-disc text-sm md:text-lg list-inside text-gray-500">
-            {list.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+        {/* Text Section */}
+        <div className="lg:w-1/2 w-full px-6 mt-10 lg:mt-0">
+          <h3 className="text-lg text-gray-500 mb-4">Our 3D Services</h3>
+          <h2 className="text-[#0F0F0F] md:text-[22px] sm:text-[18px] font-normal mb-6 font-manrope">
+            <span className="text-[#2334DE]"> Maxify </span>Option offers a
+            large variety of
+            <span className="text-[#2334DE]">
+              3D services to deal with numerous company demands
+            </span>
+            .
+          </h2>
+
+          <div className="font-dm text-justify md:px-10">
+            <h4 className="text-lg md:text-xl text-gray-600 font-bold mb-4">
+              {title}
+            </h4>
+            <p className="text-gray-500 text-sm md:text-lg mb-4">
+              {description}
+            </p>
+            <ul className="list-disc text-sm md:text-lg list-inside text-gray-500">
+              {list.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
       {/* 3rd section */}
 
       <div>
@@ -365,30 +406,30 @@ const MarketingSolutions = () => {
 
             {/* Second Section: Left Image, Right Content */}
             <div className="flex flex-col-reverse lg:flex-row justify-between gap-4 items-center mt-8">
-      {/* Left Image */}
-      <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
-        <img
-          src={dataimage}
-          alt=""
-          className="h-[50%] w-auto rounded-full"
-        />
-      </div>
+              {/* Left Image */}
+              <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
+                <img
+                  src={dataimage}
+                  alt="maxify websolution"
+                  className="h-[50%] w-auto rounded-full"
+                />
+              </div>
 
-      {/* Right Content */}
-      <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0 md:px-6">
-        <h1 className="m-s-h mt-2 sm:text-[20px] md:text-3xl sm:font-bold md:font-[900] font-manrope">
-          {datatitle}
-        </h1>
-        <p className="text-[#504E4E] sm:text-sm md:text-base mt-4 sm:mx-5 lg:mx-0 text-justify ">
-        {datadescription}
-        </p>
-      </div>
-    </div>
+              {/* Right Content */}
+              <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0 md:px-6">
+                <h3 className="m-s-h mt-2 sm:text-[20px] md:text-3xl sm:font-bold md:font-[900] font-manrope">
+                  {datatitle}
+                </h3>
+                <p className="text-[#504E4E] sm:text-sm md:text-base mt-4 sm:mx-5 lg:mx-0 text-justify ">
+                  {datadescription}
+                </p>
+              </div>
+            </div>
             <div className="flex justify-end mt-8">
-            <Link to='/about'>
-              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
-                MORE ABOUT US
-              </button>
+              <Link to="/about">
+                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
+                  MORE ABOUT US
+                </button>
               </Link>
             </div>
           </div>
@@ -402,11 +443,11 @@ const MarketingSolutions = () => {
           <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">
             Consulting Excellence
           </h3>
-          <h1 className="text-3xl md:text-[38px] sm:text-[25px] leading-12 yantramanav-bold font-bold mb-4 font-yan">
+          <h3 className="text-3xl md:text-[38px] sm:text-[25px] leading-12 yantramanav-bold font-bold mb-4 font-yan">
             Benefits of <br />
             <span className="text-[#2334DE]">3D Solutions </span>
             for Your Company
-          </h1>
+          </h3>
           <ul className="space-y-4 mb-8 font-dm">
             {steps.map((step) => (
               <li
@@ -419,15 +460,15 @@ const MarketingSolutions = () => {
             ))}
           </ul>
           <a href="https://wa.me/917428309119" target="blank">
-          <button
-            className="mt-8 flex items-center relative px-8 py-2 text-[#2334DE] rounded-full bg-white isolation-auto z-10 border-2 border-[#2334DE]
+            <button
+              className="mt-8 flex items-center relative px-8 py-2 text-[#2334DE] rounded-full bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-          >
-            Learn More{" "}
-            <span className="ml-2">
-              <GoArrowRight />
-            </span>
-          </button>
+            >
+              Learn More{" "}
+              <span className="ml-2">
+                <GoArrowRight />
+              </span>
+            </button>
           </a>
         </div>
         <div className="lg:w-1/2 mt-6">
@@ -513,25 +554,32 @@ const MarketingSolutions = () => {
             <li>Automotive and Production</li>
           </ul>
           <a href="https://wa.me/917428309119" target="blank">
-          <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+            <button
+              className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-          >
-            Learn More
-          </button>
+            >
+              Learn More
+            </button>
           </a>
         </div>
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex justify-end">
           <div className=" relative">
-            <img className="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png" alt="" />
+            <img
+              className=""
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png"
+              alt="maxify websolution"
+            />
 
             <div
               className="absolute bottom-0 text-[60px] bg-[#f9f9f9] px-5 text-[#2334DE]"
               style={{ borderRadius: "0px 20px 0px 0px" }}
             >
-              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/imgwatch_eico7g.png" alt="" />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/imgwatch_eico7g.png"
+                alt="maxify websolution"
+              />
             </div>
           </div>
         </div>
@@ -542,18 +590,22 @@ const MarketingSolutions = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png"
+            alt="Left Side"
+            className="md:w-[80%] sm:w-full"
+          />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
-          <h1 className="sm:text-2xl md:text-4xl text-center font-semibold mt-4 mb-2 font-manrope">
+          <h3 className="sm:text-2xl md:text-4xl text-center font-semibold mt-4 mb-2 font-manrope">
             Why
             <span className="text-[#2334DE]">
               {" "}
               Buy 3D Services with <br /> Maxify{" "}
             </span>
             Service ?.
-          </h1>
+          </h3>
           <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             Purchasing 3D services with Maxify Service supplies numerous
             advantages:
@@ -577,10 +629,10 @@ const MarketingSolutions = () => {
             </ul>
           </p>
           <div>
-          <Link to='/about'>
-            <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
-              MORE ABOUT US
-            </button>
+            <Link to="/about">
+              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
+                MORE ABOUT US
+              </button>
             </Link>
           </div>
         </div>
@@ -633,7 +685,10 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#2334DE]"
                     }`}
                   >
-                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group1_lvplle.svg" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group1_lvplle.svg"
+                      alt="maxify websolution"
+                    />
                   </div>
                   <h4 className=" font-bold roboto-bold text-[16px]">
                     Comprehensive Proficiency
@@ -662,7 +717,10 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group2_o4p5ez.svg" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group2_o4p5ez.svg"
+                      alt="maxify websolution"
+                    />
                   </div>
                   <h4 className="roboto-bold text-[16px]">
                     Personalized Solutions
@@ -691,7 +749,10 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group3_ejksob.svg" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group3_ejksob.svg"
+                      alt="maxify websolution"
+                    />
                   </div>
                   <h4 className="roboto-bold text-[16px]">
                     Premium Deliverables
@@ -720,7 +781,10 @@ const MarketingSolutions = () => {
                         : "bg-[#f4f4f4] text-[#FF7A59]"
                     }`}
                   >
-                    <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group4_nnws0f.svg" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group4_nnws0f.svg"
+                      alt="maxify websolution"
+                    />
                   </div>
                   <h4 className="roboto-bold text-[16px]">Affordable Rates</h4>
                 </div>
@@ -736,14 +800,14 @@ const MarketingSolutions = () => {
       {/* 8th section */}
 
       <div className="flex justify-center my-5">
-        {/* <img src={CTA} alt="" /> */}
+        {/* <img src={CTA} alt="maxify websolution" /> */}
 
         <div className="w-[90%] mx-auto">
           <div className=" mbg2 ">
             <div className="relative md:py-20 sm:py-10 text-white flex flex-col items-center justify-center w-[80%] mx-auto">
-              <h1 className="text-3xl md:text-[48px] sm:text-[17px] poppins-medium text-center mb-6 leading-tight">
+              <h3 className="text-3xl md:text-[48px] sm:text-[17px] poppins-medium text-center mb-6 leading-tight">
                 Transform Your Service with Maxify Service's 3D Services
-              </h1>
+              </h3>
               <p className="text-center md:text-[20px] sm:text-[10px] md:text-xl mb-8 poppins-regular">
                 At Maxify Service, we are committed to helping services harness
                 the power of 3D technology to drive development and attain their

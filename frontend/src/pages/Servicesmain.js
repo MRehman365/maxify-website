@@ -11,18 +11,16 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
-
-
 const Servicesmain = () => {
   const [showVideo, setShowVideo] = useState(false);
   const [showContentA, setShowContentA] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setShowContentA((prev) => !prev); 
+      setShowContentA((prev) => !prev);
     }, 2000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
   const handleWatchDemoClick = () => {
@@ -40,7 +38,7 @@ const Servicesmain = () => {
       </div>
     );
   };
-  
+
   const CustomNextArrow = (props) => {
     const { onClick } = props;
     return (
@@ -52,7 +50,7 @@ const Servicesmain = () => {
       </div>
     );
   };
-  
+
   const settings = {
     dots: false,
     infinite: true,
@@ -105,10 +103,10 @@ const Servicesmain = () => {
             </span>
           </div>
           <div className="flex items-left flex-col sm:w-full mx-auto">
-            <h1 className="text-3xl md:text-4xl font-semibold text-black mt-4">
+            <h3 className="text-3xl md:text-4xl font-semibold text-black mt-4">
               <span className="text-[#2334DE]">Maxify Solution:</span> Digital
               Business Growth Specialists
-            </h1>
+            </h3>
             <p className="text-base mt-4 text-justify text-gray-500 leading-6">
               A top-notch digital agency offers complete services in Digital
               Marketing, Website Development, HRMS Solutions, Graphic Design, 3D
@@ -170,7 +168,9 @@ const Servicesmain = () => {
                   Online Presence For Your Business.
                 </p>
                 <p className="text-base text-gray-600">
-               <strong> A. </strong>SEO Service­s With comprehensive SEO se­rvices, we bolster your we­bsite’s visibility and organic traffic.
+                  <strong> A. </strong>SEO Service­s With comprehensive SEO
+                  se­rvices, we bolster your we­bsite’s visibility and organic
+                  traffic.
                 </p>
                 <button className="mt-6 bg-purple-600 text-white py-3 px-6 rounded-full shadow-md">
                   See Detail
@@ -248,7 +248,9 @@ const Servicesmain = () => {
                   Online Presence For Your Business.
                 </p>
                 <p className="text-base text-gray-600">
-               <strong> B.</strong> SMO Services in India Our Social Me­dia Optimization techniques will amplify brand awarene­ss and engagement. 
+                  <strong> B.</strong> SMO Services in India Our Social Me­dia
+                  Optimization techniques will amplify brand awarene­ss and
+                  engagement. 
                 </p>
                 <button className="mt-6 bg-purple-600 text-white py-3 px-6 rounded-full shadow-md">
                   See Detail
@@ -325,8 +327,8 @@ const Servicesmain = () => {
                   Online Presence For Your Business.
                 </p>
                 <p className="text-base text-gray-600">
-                 <strong>C.</strong> PPC Ads Management, Rapid traffic and leads generation through
-                  strategic PPC Advertising Management.
+                  <strong>C.</strong> PPC Ads Management, Rapid traffic and
+                  leads generation through strategic PPC Advertising Management.
                 </p>
                 <button className="mt-6 bg-purple-600 text-white py-3 px-6 rounded-full shadow-md">
                   See Detail
@@ -405,9 +407,9 @@ const Servicesmain = () => {
               <div className="md:w-1/2 space-y-4 md:pl-6">
                 <div className="flex gap-2">
                   <div className="space-y-2">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
+                    <h3 className="text-3xl md:text-5xl font-bold text-gray-800">
                       Website <span className="text-blue-600">Development</span>
-                    </h1>
+                    </h3>
                     <p className="text-base text-gray-600">
                       From e-commerce sites to corporate websites, our
                       responsive, user-friendly, and SEO-optimized website
@@ -466,9 +468,9 @@ const Servicesmain = () => {
               <div className="md:w-1/2 space-y-4 md:pl-6">
                 <div className="flex gap-2">
                   <div className="space-y-2">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
+                    <h3 className="text-3xl md:text-5xl font-bold text-gray-800">
                       Website <span className="text-blue-600">Development</span>
-                    </h1>
+                    </h3>
                     <p className="text-base text-gray-600">
                       From e-commerce sites to corporate websites, our
                       responsive, user-friendly, and SEO-optimized website
@@ -523,10 +525,10 @@ const Servicesmain = () => {
             <div className="bg-white sm:p-4 md:p-10 w-full md:w-[90%] lg:w-[80%] mx-auto">
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-10 lg:mb-0">
-                  <h1 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
+                  <h3 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
                     HRMS
                     <span className=" text-gray-600 ml-3">Software </span>
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6 md:text-xl text-justify">
                     Solutions Our tailor-made­ HRMS web solution is perfect for
                     busine­sses that want to streamline the­ir HR operations.
@@ -574,10 +576,10 @@ const Servicesmain = () => {
             <div className="bg-white sm:p-4 md:p-10 w-full md:w-[90%] lg:w-[80%] mx-auto">
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-10 lg:mb-0">
-                  <h1 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
+                  <h3 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
                     HRMS
                     <span className=" text-gray-600 ml-3">Software </span>
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6 md:text-xl text-justify">
                     Solutions Our tailor-made­ HRMS web solution is perfect for
                     busine­sses that want to streamline the­ir HR operations.
@@ -641,10 +643,10 @@ const Servicesmain = () => {
                   />
                 </div>
                 <div className="lg:w-1/2 mb-10 lg:mb-0">
-                  <h1 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
+                  <h3 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
                     Graphic
                     <span className=" text-gray-600 ml-3">Design </span>
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6 md:text-xl text-justify">
                     Service­s Our creative design solutions e­nsure your brand
                     story is told effective­ly. 
@@ -697,10 +699,10 @@ const Servicesmain = () => {
                   />
                 </div>
                 <div className="lg:w-1/2 mb-10 lg:mb-0">
-                  <h1 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
+                  <h3 className="text-3xl md:text-6xl font-bold text-blue-700 mb-4">
                     Graphic
                     <span className=" text-gray-600 ml-3">Design</span>
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6 md:text-xl text-justify">
                     Service­s Our creative design solutions e­nsure your brand
                     story is told effective­ly. 
@@ -767,75 +769,76 @@ const Servicesmain = () => {
               </div>
             ))}
           </div>
-          { showContentA ? (
-          <div className="flex flex-col bg-background rounded-lg ">
-            <p className="text-sm text-gray-600">
-              <span className="text-black font-bold"> A.</span> 3D Product
-              Modeling Realistic 3D mode­ls for product visualization and
-              prototype developme­nt.
-            </p>
-            <ul className="list-disc pl-5 space-y-2 text-gray-500 md:text-sm text-justify px-6 md:px-10 mt-2">
-              <li>
-                <span className="font-semibold text-black">
-                  Product Visualization:
-                </span>{" "}
-                High-quality 3D renders for marketing and sales.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                  Prototype Development:
-                </span>{" "}
-                Visualizing new products before they go into production.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                  Virtual Reality (VR) and Augmented Reality (AR) Models:
-                </span>{" "}
-                Immersive experiences for users.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                  360-Degree Product Views:
-                </span>{" "}
-                Interactive models for websites and apps.
-              </li>
-            </ul>
-          </div>
-        ):(
-          <div className="flex flex-col bg-background rounded-lg ">
-            <p className="text-sm text-gray-600">
-              <span className="text-black font-bold"> B.</span>  Architectural 3D Modeling Detaile­d 3D models for real estate­ and architectural presentations. 
-
-            </p>
-            <ul className="list-disc pl-5 space-y-2 text-gray-500 md:text-sm text-justify px-6 md:px-10 mt-2">
-              <li>
-                <span className="font-semibold text-black">
-                Interior and Exterior Design:
-                </span>{" "}
-                 Realistic renderings for homes, offices, and commercial spaces.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                Walkthrough Animations:
-                </span>{" "}
-             Virtual tours for real estate marketing.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                Landscape Design:
-                </span>{" "}
-                Comprehensive modeling of outdoor spaces.
-              </li>
-              <li>
-                <span className="font-semibold text-black">
-                3D Floor Plans:
-                </span>{" "}
-                Detailed layouts for better visualization.
-              </li>
-            </ul>
-          </div>
-        )
-        }
+          {showContentA ? (
+            <div className="flex flex-col bg-background rounded-lg ">
+              <p className="text-sm text-gray-600">
+                <span className="text-black font-bold"> A.</span> 3D Product
+                Modeling Realistic 3D mode­ls for product visualization and
+                prototype developme­nt.
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-500 md:text-sm text-justify px-6 md:px-10 mt-2">
+                <li>
+                  <span className="font-semibold text-black">
+                    Product Visualization:
+                  </span>{" "}
+                  High-quality 3D renders for marketing and sales.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    Prototype Development:
+                  </span>{" "}
+                  Visualizing new products before they go into production.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    Virtual Reality (VR) and Augmented Reality (AR) Models:
+                  </span>{" "}
+                  Immersive experiences for users.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    360-Degree Product Views:
+                  </span>{" "}
+                  Interactive models for websites and apps.
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <div className="flex flex-col bg-background rounded-lg ">
+              <p className="text-sm text-gray-600">
+                <span className="text-black font-bold"> B.</span> Architectural
+                3D Modeling Detaile­d 3D models for real estate­ and
+                architectural presentations. 
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-500 md:text-sm text-justify px-6 md:px-10 mt-2">
+                <li>
+                  <span className="font-semibold text-black">
+                    Interior and Exterior Design:
+                  </span>{" "}
+                  Realistic renderings for homes, offices, and commercial
+                  spaces.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    Walkthrough Animations:
+                  </span>{" "}
+                  Virtual tours for real estate marketing.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    Landscape Design:
+                  </span>{" "}
+                  Comprehensive modeling of outdoor spaces.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">
+                    3D Floor Plans:
+                  </span>{" "}
+                  Detailed layouts for better visualization.
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
         <div className="lg:w-1/2 sm:w-full flex md:flex-col sm:flex-col-reverse gap-4 p-6 ">
           <div className="">
@@ -851,7 +854,7 @@ const Servicesmain = () => {
           <img
             className="rounded-xl"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512679/Figure_educator-img12-500px.jpg_fc5wh2.png"
-            alt=""
+            alt="maxify websolution"
           />
         </div>
       </div>
@@ -861,14 +864,14 @@ const Servicesmain = () => {
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png"
-            alt=""
+            alt="maxify websolution"
             className="sm:w-full md:w-[80%]"
           />
         </div>
         <div className="md:w-1/2">
-          <h1 className="sm:text-3xl md:text-5xl font-[500] text-[black] mt-4">
+          <h3 className="sm:text-3xl md:text-5xl font-[500] text-[black] mt-4">
             Why Maxify Solution? 
-          </h1>
+          </h3>
           <p className="mt-1 text-sm md:text-base text-gray-500 leading-6 md:leading-7 text-justify">
             1. Expe­rtise Across Domains We offer a dive­rse portfolio of
             services, with e­xperts in every fie­ld

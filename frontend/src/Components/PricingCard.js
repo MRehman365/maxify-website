@@ -45,7 +45,7 @@ const PricingCard = ({ title, price, features, index, features2, color }) => {
             <li key={index} className="flex items-center space-x-3">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335925/check_p3o63g.svg"
-                alt=""
+                alt="maxify websolution"
               />
               <span>{feature}</span>
             </li>
@@ -60,7 +60,7 @@ const PricingCard = ({ title, price, features, index, features2, color }) => {
               <li key={index} className="flex items-center space-x-3">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335925/check_p3o63g.svg"
-                  alt=""
+                  alt="maxify websolution"
                 />
                 <span>{feature}</span>
               </li>

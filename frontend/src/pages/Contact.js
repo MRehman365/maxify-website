@@ -12,19 +12,27 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa"; // for custom arrows
 import { Link } from "react-router-dom";
+import SEOComponent from "../Components/SEOComponent";
 
 const Contact = () => {
-  
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
   }, []);
   return (
     <div className="mt-[70px] bg-[#ffffff] font-plus">
+      <div>
+        <SEOComponent
+          title="Maxify-contect"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
+
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-1/2 p-4">
           <img
-            src='https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp'
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp"
             alt="Team meeting"
             className="rounded-lg h-full w-auto object-cover"
           />
@@ -115,102 +123,103 @@ const Contact = () => {
 
       {/* b */}
       <div className="bg-contact">
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
-        {/* Left Side - Hidden in Mobile View */}
-        <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
-        <div className="flex justify-center items-center w-[80%] h-full relative">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
-            alt="Left Side"
-            className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
-          />
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
-            alt="Left Side"
-            className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
-          />
-          </div>
-        </div>
-
-        {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
-          <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
-            About us
-          </p>
-
-          <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
-            Web Development — Building Websites That SELL
-          </h1>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            For Maxify Solutions, having websites developed means way more than
-            simply doing codes; it's about building an online experience that
-            engages and converts. Being one of the Top Web Designing Companies
-            in India, we possess expertise and experience to assure that your
-            web design looks good but also delivers optimum performance. During
-            development nothing is done sloppily to ensure whatever website we
-            create, it will be super SEO fast and responsive user-friendly web.
-          </p>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            We manage to be ahead of the curve by leveraging web dev best
-            practices and latest tech. Whether it is ecommerce, content
-            management systems or digital magazines; our team can create
-            websites for any industry and business model. With a focus on
-            quality and innovation, we are the best Web Design Company in India
-            for those who want to improve the digital experience for their
-            customers.{" "}
-          </p>
-
-          <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <LuFocus className="text-[30px] text-[#635ad9]" />
-              </div>
-              <div >
-                <h3 className="text-sm font-[500] text-black">
-                  Problem Solving
-                </h3>
-                <p className="text-[12px] text-gray-600 text-justify">
-                  Aliquam erat volutpat <br />Nullam imperdiet
-                </p>
-              </div>
-            </div>
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
-              </div>
-              <div>
-                <h3 className="text-sm font-[500]  text-black">
-                  Mission & Vision
-                </h3>
-                <p className="text-[12px] text-gray-600 text-justify">
-                  Ut vehiculadictumst.<br /> Maecenas ante.
-                </p>
-              </div>
+        <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
+          {/* Left Side - Hidden in Mobile View */}
+          <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
+            <div className="flex justify-center items-center w-[80%] h-full relative">
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
+                alt="Left Side"
+                className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
+              />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
+                alt="Left Side"
+                className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
+              />
             </div>
           </div>
 
-          <a
-  href="https://wa.me/917428309119"
-  target="_blank">
-            <button
-              className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
+          {/* Right Side - Visible in Mobile View */}
+          <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
+            <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
+              About us
+            </p>
+
+            <h3 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
+              Web Development — Building Websites That SELL
+            </h3>
+            <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+              For Maxify Solutions, having websites developed means way more
+              than simply doing codes; it's about building an online experience
+              that engages and converts. Being one of the Top Web Designing
+              Companies in India, we possess expertise and experience to assure
+              that your web design looks good but also delivers optimum
+              performance. During development nothing is done sloppily to ensure
+              whatever website we create, it will be super SEO fast and
+              responsive user-friendly web.
+            </p>
+            <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+              We manage to be ahead of the curve by leveraging web dev best
+              practices and latest tech. Whether it is ecommerce, content
+              management systems or digital magazines; our team can create
+              websites for any industry and business model. With a focus on
+              quality and innovation, we are the best Web Design Company in
+              India for those who want to improve the digital experience for
+              their customers.{" "}
+            </p>
+
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
+              <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                  <LuFocus className="text-[30px] text-[#635ad9]" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-[500] text-black">
+                    Problem Solving
+                  </h3>
+                  <p className="text-[12px] text-gray-600 text-justify">
+                    Aliquam erat volutpat <br />
+                    Nullam imperdiet
+                  </p>
+                </div>
+              </div>
+              <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                  <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-[500]  text-black">
+                    Mission & Vision
+                  </h3>
+                  <p className="text-[12px] text-gray-600 text-justify">
+                    Ut vehiculadictumst.
+                    <br /> Maecenas ante.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917428309119" target="_blank">
+              <button
+                className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-            >
-              Get Started Now
-            </button>
+              >
+                Get Started Now
+              </button>
             </a>
+          </div>
         </div>
-      </div>
       </div>
 
       {/* second section */}
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 py-4 md:p-8 sm:px-3">
-          <h1 className="text-3xl md:text-6xl font-bold mt-4 mb-2">
+          <h3 className="text-3xl md:text-6xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]">SEO </span>And{" "}
             <span className="text-[#2334DE]">Marketing:</span>
-          </h1>
+          </h3>
           <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
              Apparent In Extreme Traffic Boost And Conversions
           </p>
@@ -268,57 +277,63 @@ const Contact = () => {
 
       {/* PPC ads */}
       <div className="bg-contact">
-      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
-        {/* Left Side */}
-        <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
-            alt="Left Side"
-            className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
-          />
-        </div>
-        {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
-          <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
-            <span className="text-[#2334DE]">PPC </span>Ads :
-          </h1>
-          <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
-             How to get the most out of your marketing money
-          </p>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            One of the quickest traffic generating methods happens to be through
-            pay-per-click (PPC) advertising. Providing professionally managed
-            PPC campaigns, Maxify Solutions takes pride in securing the highest
-            ROI for you. Our team of PPC experts utilizes sophisticated
-            targeting methods to guarantee your advertisements are shown on the
-            right platform at the right time, driving conversions while
-            maximizing marketing budget
-          </p>
+        <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
+          {/* Left Side */}
+          <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
+              alt="Left Side"
+              className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
+            />
+          </div>
+          {/* Right Side - Visible in Mobile View */}
+          <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
+            <h3 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
+              <span className="text-[#2334DE]">PPC </span>Ads :
+            </h3>
+            <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
+               How to get the most out of your marketing money
+            </p>
+            <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+              One of the quickest traffic generating methods happens to be
+              through pay-per-click (PPC) advertising. Providing professionally
+              managed PPC campaigns, Maxify Solutions takes pride in securing
+              the highest ROI for you. Our team of PPC experts utilizes
+              sophisticated targeting methods to guarantee your advertisements
+              are shown on the right platform at the right time, driving
+              conversions while maximizing marketing budget
+            </p>
 
-          <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <LuFocus className="text-[30px] text-[#2334DE]" />
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
+              <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                  <LuFocus className="text-[30px] text-[#2334DE]" />
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-[700] text-black">
+                    99%
+                  </h3>
+                  <p className="text-sm font-[300] text-justify">
+                    SMS Marketing
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-xl md:text-2xl font-[700] text-black">99%</h3>
-                <p className="text-sm font-[300] text-justify">SMS Marketing</p>
-              </div>
-            </div>
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
-              </div>
-              <div>
-                <h3 className="text-xl md:text-2xl font-[700] text-black">65%</h3>
-                <p className="text-sm font-[300] text-justify">
-                  Cover Marketing
-                </p>
+              <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                  <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-[700] text-black">
+                    65%
+                  </h3>
+                  <p className="text-sm font-[300] text-justify">
+                    Cover Marketing
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
       {/*  */}
@@ -331,7 +346,9 @@ const Contact = () => {
               <p className="text-[#2334DE] font-bold text-xl">
                 CHECK THIS LINK:
               </p>
-              <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-800 mt-2">SMO :</h1>
+              <h3 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-800 mt-2">
+                SMO :
+              </h3>
               <p className="text-[#504E4E] text-sm md:text-base text-justify md:text-base mt-4 leading-7">
                 <span className="text-base text-justify md:text-xl">
                   {" "}
@@ -393,12 +410,10 @@ const Contact = () => {
               </div>
 
               <div className="text-center lg:text-left mt-8">
-              <a
-  href="https://wa.me/917428309119"
-  target="_blank">
-                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
-                  MORE ABOUT US
-                </button>
+                <a href="https://wa.me/917428309119" target="_blank">
+                  <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
+                    MORE ABOUT US
+                  </button>
                 </a>
               </div>
             </div>
@@ -418,9 +433,9 @@ const Contact = () => {
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 flex flex-col justify-around p-4 md:p-4 sm:px-3">
-          <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
+          <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             A <span className="text-[#2334DE]"> Track Record </span>of Success
-          </h1>
+          </h3>
           <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             Maxify Solutions has delivered numerous successful projects in the
             field of digital marketing and web development over time. Our client
@@ -431,15 +446,12 @@ const Contact = () => {
             world.{" "}
           </p>
           <div>
-          <a
-  href="https://wa.me/917428309119"
-  target="_blank">
-          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
-            MORE ABOUT US
-          </button>
-          </a>
+            <a href="https://wa.me/917428309119" target="_blank">
+              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
+                MORE ABOUT US
+              </button>
+            </a>
           </div>
-
         </div>
       </div>
 
@@ -447,9 +459,9 @@ const Contact = () => {
         <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
-            <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
+            <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
               A <span className="text-[#2334DE]"> Client-Centric </span>Approach
-            </h1>
+            </h3>
             <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
               Here at Maxify Solutions we pride ourselves on a human-centric
               approach. That is why we learn your business, goals and even
@@ -459,18 +471,18 @@ const Contact = () => {
               into digital world.{" "}
             </p>
             <div>
-            <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
-              MORE ABOUT US
-            </button>
-          </div>
+              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
+                MORE ABOUT US
+              </button>
+            </div>
           </div>
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
-            alt="Left Side"
-            className="md:w-[80%] sm:w-full"
-          />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
+              alt="Left Side"
+              className="md:w-[80%] sm:w-full"
+            />
           </div>
         </div>
       </div>
@@ -479,7 +491,7 @@ const Contact = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-        <img
+          <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512493/Group_164558_hgubrc.png"
             alt="Left Side"
             className="md:w-[80%] sm:w-full"
@@ -487,9 +499,9 @@ const Contact = () => {
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
-          <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
+          <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]"> Innovation </span>and Excellence
-          </h1>
+          </h3>
           <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             We operate driven by innovation and excellence. Who Says What We Do
             — Being an elite Web Design Company in India, we love to talk about
@@ -499,13 +511,11 @@ const Contact = () => {
             class offerings.{" "}
           </p>
           <div>
-          <a
-  href="https://wa.me/917428309119"
-  target="_blank">
-          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
-            MORE ABOUT US
-          </button>
-          </a>
+            <a href="https://wa.me/917428309119" target="_blank">
+              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
+                MORE ABOUT US
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -532,10 +542,10 @@ const Contact = () => {
             Our Values:
           </p>
 
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 mt-4">
+          <h3 className="text-3xl md:text-5xl font-bold mb-4 mt-4">
             <span className="text-[#2334DE]">Integrity, Innovation </span>and
             Impact
-          </h1>
+          </h3>
           <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
             Value Value The values of Maxify Solutions dictate our actions and
             decision making. Integrity: We conduct ourselves with integrity,

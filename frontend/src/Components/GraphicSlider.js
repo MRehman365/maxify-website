@@ -176,23 +176,29 @@ const GraphicSlider = () => {
             <div className="grid grid-cols-3 gap-6 items-end mt-[80px]">
               {/* Left Container (Images) */}
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
-                <p className="text-xl underline text-center mb-4">Build and Identity Design</p>
+                <p className="text-xl underline text-center mb-4">
+                  Build and Identity Design
+                </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513210/image_7_q9s5fm.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
 
               {/* Center Container (Auto-Changing Content) */}
               <div className="p-6 relative bg-[#37937e] flex flex-col items-start text-white rounded-2xl shadow-md h-[250px]">
-                <p className="font-bold text-3xl text-start mb-2">{caseStudies[currentIndex].title}</p>
-                <p  className="text-xl">{caseStudies[currentIndex].description}</p>
+                <p className="font-bold text-3xl text-start mb-2">
+                  {caseStudies[currentIndex].title}
+                </p>
+                <p className="text-xl">
+                  {caseStudies[currentIndex].description}
+                </p>
                 {/* Dots or Line indicating current slide */}
                 <div className="mt-4 absolute bottom-5 left-1/2 transform -translate-x-[50%]">
                   {caseStudies.map((_, index) => (
                     <span
-                     key={index}
+                      key={index}
                       className={`inline-block w-6 h-1 rounded-sm mx-1  ${
                         currentIndex === index ? "bg-white" : "bg-gray-400"
                       }`}
@@ -205,7 +211,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513208/image_6_wrvsh2.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>
@@ -219,23 +225,27 @@ const GraphicSlider = () => {
             <div className="grid grid-cols-3 gap-6 items-end mt-[70px]">
               {/* Left Container (Images) */}
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
-                <p className="text-xl underline text-center mb-4">Marketing Collateral Design</p>
+                <p className="text-xl underline text-center mb-4">
+                  Marketing Collateral Design
+                </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513211/image_8_ub1oc8.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
 
               {/* Center Container (Auto-Changing Content) */}
               <div className="p-6 relative bg-[#37937e] flex flex-col items-start text-white rounded-2xl shadow-md h-[250px]">
-                <p className="font-bold text-3xl text-start mb-2">{Slid2[currentIndex].title}</p>
+                <p className="font-bold text-3xl text-start mb-2">
+                  {Slid2[currentIndex].title}
+                </p>
                 <p className="text-xl">{Slid2[currentIndex].description}</p>
                 {/* Dots or Line indicating current slide */}
                 <div className="mt-4 absolute bottom-5 left-1/2 transform -translate-x-[50%]">
                   {Slid2.map((_, index) => (
                     <span
-                     key={index}
+                      key={index}
                       className={`inline-block w-6 h-1 rounded-sm mx-1  ${
                         currentIndex === index ? "bg-white" : "bg-gray-400"
                       }`}
@@ -248,7 +258,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513214/image_9_ewrt0g.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>
@@ -261,17 +271,21 @@ const GraphicSlider = () => {
             <div className="grid grid-cols-3 gap-6 items-end mt-[70px]">
               {/* Left Container (Images) */}
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
-                <p className="text-xl underline text-center mb-4">Website and Social Media Graphics</p>
+                <p className="text-xl underline text-center mb-4">
+                  Website and Social Media Graphics
+                </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513215/image_11_watuuf.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
 
               {/* Center Container (Auto-Changing Content) */}
               <div className="p-6 relative bg-[#37937e] flex flex-col items-start text-white rounded-2xl shadow-md h-[250px]">
-                <p className="font-bold text-3xl text-start mb-2">{Slid3[currentIndex].title}</p>
+                <p className="font-bold text-3xl text-start mb-2">
+                  {Slid3[currentIndex].title}
+                </p>
                 <p className="text-xl">{Slid3[currentIndex].description}</p>
                 {/* Dots or Line indicating current slide */}
                 <div className="mt-4 absolute bottom-5 left-1/2 transform -translate-x-[50%]">
@@ -290,7 +304,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513218/image_12_ehgg8a.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>
@@ -303,17 +317,21 @@ const GraphicSlider = () => {
             <div className="grid grid-cols-3 gap-6 items-end mt-[70px]">
               {/* Left Container (Images) */}
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
-                <p className="text-xl underline text-center mb-4"> UI/UX Design</p>
+                <p className="text-xl underline text-center mb-4">
+                   UI/UX Design
+                </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513220/image_13_v1ylie.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
 
               {/* Center Container (Auto-Changing Content) */}
               <div className="p-6 relative bg-[#37937e] flex flex-col items-start text-white rounded-2xl shadow-md h-[250px]">
-                <p className="font-bold text-3xl text-start mb-2">{Slid4[currentIndex].title}</p>
+                <p className="font-bold text-3xl text-start mb-2">
+                  {Slid4[currentIndex].title}
+                </p>
                 <p className="text-xl">{Slid4[currentIndex].description}</p>
                 {/* Dots or Line indicating current slide */}
                 <div className="mt-4 absolute bottom-5 left-1/2 transform -translate-x-[50%]">
@@ -332,7 +350,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513221/image_14_htfiky.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>
@@ -345,18 +363,22 @@ const GraphicSlider = () => {
             <div className="grid grid-cols-3 gap-6 items-end mt-[70px]">
               {/* Left Container (Images) */}
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-1 rounded-xl">
-                <p className="text-xl underline text-center mb-4">Packaging and Label Design</p>
+                <p className="text-xl underline text-center mb-4">
+                  Packaging and Label Design
+                </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513223/image_16_lh1p37.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
 
               {/* Center Container (Auto-Changing Content) */}
               <div className="p-6 relative bg-[#37937e] flex flex-col items-start text-white rounded-2xl shadow-md h-[250px]">
-                <p className="font-bold text-3xl text-start mb-2">{Slid6[currentIndex].title}</p>
-                <p  className="text-xl">{Slid6[currentIndex].description}</p>
+                <p className="font-bold text-3xl text-start mb-2">
+                  {Slid6[currentIndex].title}
+                </p>
+                <p className="text-xl">{Slid6[currentIndex].description}</p>
                 {/* Dots or Line indicating current slide */}
                 <div className="mt-4 absolute bottom-5 left-1/2 transform -translate-x-[50%]">
                   {Slid6.map((_, index) => (
@@ -374,7 +396,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_17_xq6oer.png"
-                  alt=""
+                  alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>

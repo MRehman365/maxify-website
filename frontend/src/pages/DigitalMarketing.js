@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { Autoplay } from "swiper/modules";
-
+import SEOComponent from "../Components/SEOComponent";
 
 const DigitalMarketing = () => {
   const slides = [
     "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512971/image_36_oo1rps.png",
     "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_38_hlp4zu.png",
-   "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_39_oupanc.png",
+    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_39_oupanc.png",
   ];
   const sliderSettings = {
     dots: true,
@@ -23,13 +23,19 @@ const DigitalMarketing = () => {
     slidesToScroll: 1,
   };
 
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="mt-[70px]">
+      <div>
+        <SEOComponent
+          title="Maxify-Digital-marketing"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-2 md:p-4 mt-6">
         <div className="md:w-[60%]">
           <h2 className="text-3xl md:text-6xl lg:text-7xl text-[#2334de] font-bold text-center md:px-10">
@@ -60,15 +66,18 @@ const DigitalMarketing = () => {
             generate more traffic with PPC ads, we have you covered.
           </p>
           <Link to="/contact">
-          <button className="bg-[#2563eb] text-white rounded-lg px-4 py-1 mt-4 ">
-            Get Start
-          </button>
+            <button className="bg-[#2563eb] text-white rounded-lg px-4 py-1 mt-4 ">
+              Get Start
+            </button>
           </Link>
         </div>
       </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
         <div className="w-full">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png" alt="img1" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png"
+            alt="img1"
+          />
         </div>
       </div>
       {/* 3rd section */}
@@ -112,7 +121,10 @@ const DigitalMarketing = () => {
                 </p>
               </li>
             </ul>
-            <Link to='/about' className="mt-6 inline-block border border-black text-black hover:bg-black hover:text-white px-4 py-2 rounded-2xl transition-colors">
+            <Link
+              to="/about"
+              className="mt-6 inline-block border border-black text-black hover:bg-black hover:text-white px-4 py-2 rounded-2xl transition-colors"
+            >
               Learn more
             </Link>
           </div>
@@ -159,10 +171,10 @@ const DigitalMarketing = () => {
               <p className="text-gray-600 mb-4 text-center">
                 Increases Your Online Visibility
               </p>
-              <Link to='/seo'>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white  py-2 px-4 rounded-2xl mt-auto">
-                Learn more
-              </button>
+              <Link to="/seo">
+                <button className="bg-blue-600 hover:bg-blue-700 text-white  py-2 px-4 rounded-2xl mt-auto">
+                  Learn more
+                </button>
               </Link>
             </div>
           </div>
@@ -182,10 +194,10 @@ const DigitalMarketing = () => {
                   Drive Immediate Results
                 </p>
               </div>
-              <Link to='/smo'>
-              <button className="border border-gray-300 text-gray-800  py-2 px-4 rounded-2xl hover:bg-gray-100 mt-auto">
-                Learn more
-              </button>
+              <Link to="/smo">
+                <button className="border border-gray-300 text-gray-800  py-2 px-4 rounded-2xl hover:bg-gray-100 mt-auto">
+                  Learn more
+                </button>
               </Link>
             </div>
           </div>
@@ -194,37 +206,45 @@ const DigitalMarketing = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png" alt="" className="sm:w-full md:w-[80%]" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png"
+            alt="maxify websolution"
+            className="sm:w-full md:w-[80%]"
+          />
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">
           {/* <span className="text-sm bg-[#e5e5ff] text-[black] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-3xl md:text-5xl font-[500] text-[black] mt-4 font-manrope">
+          <h3 className="sm:text-3xl md:text-5xl font-[500] text-[black] mt-4 font-manrope">
             Partner with the{" "}
             <span className="text-[#2334de] font-semibold">
               {" "}
               Best Digital Marketing Company
             </span>{" "}
             in Noida
-          </h1>
+          </h3>
           <p className="mt-4 text-sm md:text-base text-gray-500 leading-6 md:leading-7 text-justify font-manrope">
             Choosing the right digital marketing partner can make all the
             difference in your business's success. As the best Digital Marketing
             company in Noida, MaxifySolutions is committed to helping you
             achieve your marketing goals with our expertise, innovation, and
-            dedication. Whether you need <span className="text-black font-[500]"> SEO & SMM services, PPC ads,</span> or a
-            comprehensive digital marketing strategy, we're here to guide you
-            every step of the way.
+            dedication. Whether you need{" "}
+            <span className="text-black font-[500]">
+              {" "}
+              SEO & SMM services, PPC ads,
+            </span>{" "}
+            or a comprehensive digital marketing strategy, we're here to guide
+            you every step of the way.
           </p>
           <Link to="/contact">
-          <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] px-8 rounded-full relative text-[white] bg-[#2563EB] isolation-auto z-10 border-2 border-[#2563EB]
+            <button
+              className="mt-8 py-2 text-sm md:text-[14px] font-[300] px-8 rounded-full relative text-[white] bg-[#2563EB] isolation-auto z-10 border-2 border-[#2563EB]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2563EB]"
-          >
-            Get Start
-          </button>
+            >
+              Get Start
+            </button>
           </Link>
         </div>
       </div>

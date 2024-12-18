@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import SEOComponent from "../Components/SEOComponent";
 const benifits = [
   {
     title: "Full Service Digital expertise:",
@@ -35,65 +36,74 @@ const Healthcare = () => {
   const contentArray = [
     {
       title: "1. Custom Health Care Web Site Development",
-      description: "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
-      Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+      description:
+        "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
       points: [
         "Receptive and Mobile-Optimized Designs: We develop internet sites that supply a seamless individual experience across all devices—desktop computers, tablet computers, and smartphones.",
         "SEO-Friendly Style: Our web development technique consists of SEO ideal practices to ensure your internet site ranks high up on search engines, attracting more natural traffic.",
         "Integrated Client Portals: We create safe and secure personal websites that permit simple access to medical records, consultation organizing, and online consultations, improving person comfort and fulfillment.",
-      
-      ]
+      ],
     },
     {
       title: "2. Telemedicine Platform Development",
-      description: "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
-      Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
+      description:
+        "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
       points: [
         "Protect Video Clip Appointment: Top-notch, secure video clip conferencing abilities for effective remote client consultations.",
         "Visit Scheduling and Administration: Smooth assimilation of appointment organizing devices that sync with your internal systems, making it easier for both team and patients.",
-        "E-Prescription Combination: Structured e-prescription components that permit physicians to prescribe medicine digitally and safely."
-      ]
+        "E-Prescription Combination: Structured e-prescription components that permit physicians to prescribe medicine digitally and safely.",
+      ],
     },
     {
       title: " 3. Health Care Mobile Application Growth",
-      description: "In today's mobile-first globe, a dedicated healthcare app can significantly boost patient engagement. Our healthcare mobile application advancement services focus on producing user friendly, feature-rich applications that deal with the needs of both healthcare providers and people",
-      Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+      description:
+        "In today's mobile-first globe, a dedicated healthcare app can significantly boost patient engagement. Our healthcare mobile application advancement services focus on producing user friendly, feature-rich applications that deal with the needs of both healthcare providers and people",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
       points: [
         "Individual Administration Apps: Apps that help people manage their health and wellness documents, appointments, medicine tips, and a lot more.",
         "Doctor-Patient Communication Applications: Helping with real-time interaction between physicians and patients for far better healthcare distribution.",
-        "Wellness Monitoring and Keeping An Eye On Apps: Developing apps that aid in keeping an eye on patient's wellness specifications like heart rate, high blood pressure, etc., which are crucial for chronic disease monitoring."
-      ]
+        "Wellness Monitoring and Keeping An Eye On Apps: Developing apps that aid in keeping an eye on patient's wellness specifications like heart rate, high blood pressure, etc., which are crucial for chronic disease monitoring.",
+      ],
     },
     {
       title: "  4. Healthcare CRM Solutions",
-      description: "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
-      Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
+      description:
+        "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
       points: [
         "Person Data Administration: Centralized data storage space to manage patient history, therapy plans, and follow-ups effectively.",
         "Automated Interaction: Automated text and email reminders for visits, medicine, and follow-up checkouts.",
-        "Information Analytics and Reporting: Advanced analytics tools that help in comprehending patient's actions, enhancing treatment, and driving tactical decisions."
-      ]
+        "Information Analytics and Reporting: Advanced analytics tools that help in comprehending patient's actions, enhancing treatment, and driving tactical decisions.",
+      ],
     },
     {
       title: "5. E-Pharmacy and E-Prescription Solutions",
-      description: "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
-      Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
+      description:
+        "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
       points: [
         "Safeguard Online Purchases: Integrated settlement portals that make sure safe and secure online deals for buying medicines.",
         "Prescription Administration: Easy-to-use interfaces for handling and refilling prescriptions online.",
-        "Stock Monitoring: Effective stock administration systems for drug stores to track supply levels and manage orders."
-      ]
+        "Stock Monitoring: Effective stock administration systems for drug stores to track supply levels and manage orders.",
+      ],
     },
     // Add up to four more items here
   ];
-  
-  const [currentIndex, setCurrentIndex] = useState([0])
+
+  const [currentIndex, setCurrentIndex] = useState([0]);
   useEffect(() => {
-const Interval = setInterval(() => {
-  setCurrentIndex((prevIndex) => (prevIndex + 1) % (contentArray.length))
-}, 2000)
-return () => clearInterval(Interval)
-  },[contentArray.length])
+    const Interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % contentArray.length);
+    }, 2000);
+    return () => clearInterval(Interval);
+  }, [contentArray.length]);
   const { title, description, points, Images } = contentArray[currentIndex];
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -114,17 +124,19 @@ return () => clearInterval(Interval)
     return null;
   }
 
-
-
- 
-
-
   return (
     <div className="mt-[70px] font-pop">
+      <div>
+        <SEOComponent
+          title="Maxify-Helthcare"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 py-4 md:p-8 sm:px-3">
-          <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2 sm:text-center md:text-left">
+          <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-2 sm:text-center md:text-left">
             <span className="text-black  md:leading-[60px]">
               Healthcare Web Development Solutions By{" "}
             </span>
@@ -132,7 +144,7 @@ return () => clearInterval(Interval)
               {" "}
               Maxify Solution
             </span>
-          </h1>
+          </h3>
           <p className="sm:text-base md:text-xl text-justify  text-gray-600 mb-6 ">
             In the fast-evolving landscape of healthcare, the combination of
             electronic technology is no longer an option—it's a necessity. At
@@ -145,15 +157,15 @@ return () => clearInterval(Interval)
             operations, and drive growth for healthcare companies.
           </p>
           <a href="tel:+917428309119">
-          <button
-            className="mt-8 pl-2 rounded-full flex items-center justify-between gap-5 relative px-2 py-2 font-[500] text-black bg-gray-200 isolation-auto z-10
+            <button
+              className="mt-8 pl-2 rounded-full flex items-center justify-between gap-5 relative px-2 py-2 font-[500] text-black bg-gray-200 isolation-auto z-10
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700"
-          >
-            Get Your Design
-            <span className=" bg-white rounded-full p-2 transform -rotate-[45deg]">
-              <GoArrowRight />
-            </span>
-          </button>
+            >
+              Get Your Design
+              <span className=" bg-white rounded-full p-2 transform -rotate-[45deg]">
+                <GoArrowRight />
+              </span>
+            </button>
           </a>
         </div>
 
@@ -169,13 +181,17 @@ return () => clearInterval(Interval)
 
       {/* second section */}
       <div class="w-[100%] mx-auto md:w-[90%] lg:w-[90%] lg:p-6 mt-5">
-        <h1 class="text-3xl lg:text-6xl md:leading-[70px] font-bold text-center md:mb-4">
+        <h3 class="text-3xl lg:text-6xl md:leading-[70px] font-bold text-center md:mb-4">
           Why Select Maxify Solution for <br />
           <span class="text-blue-600">Healthcare Internet Development?</span>
-        </h1>
+        </h3>
         <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png" alt="Healthcare icons" class="rounded-lg" />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png"
+              alt="Healthcare icons"
+              class="rounded-lg"
+            />
           </div>
           <div class="md:w-1/2 px-6">
             <ul class="list-disc text-justify text-sm md:text-base space-y-3">
@@ -219,16 +235,16 @@ return () => clearInterval(Interval)
             Our Comprehensive Healthcare Web Development Services
           </h3>
           <h4 className="mt-4 text-base text-justify leading-6 font-semibold text-gray-700 font-dm">
-        {title}
-      </h4>
-      <p className="text-sm text-justify leading-6 text-[#6C6A72] font-dm">
-        {description}
-      </p>
-      <div className="text-sm text-justify leading-6 text-[#6C6A72] list-disc font-dm">
-        {points.map((point, index) => (
-          <li key={index}>{point}</li>
-        ))}
-      </div>
+            {title}
+          </h4>
+          <p className="text-sm text-justify leading-6 text-[#6C6A72] font-dm">
+            {description}
+          </p>
+          <div className="text-sm text-justify leading-6 text-[#6C6A72] list-disc font-dm">
+            {points.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </div>
         </div>
       </div>
       {/* 4th section */}
@@ -297,22 +313,32 @@ return () => clearInterval(Interval)
                 <span className="text-[#2334DE]"> Maxify Service</span>
               </h2>
               <Link to="/contact">
-              <button
-                className="mt-8 sm:mb-4 md:mb-0 py-3 text-[14px] font-[300] px-6 rounded-lg relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+                <button
+                  className="mt-8 sm:mb-4 md:mb-0 py-3 text-[14px] font-[300] px-6 rounded-lg relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-              >
-                Get Started
-              </button>
+                >
+                  Get Started
+                </button>
               </Link>
             </div>
             <div className="w-[30%] py-4 space-y-2 flex-col items-end sm:hidden md:flex">
-              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513058/image_2_dmpozw.png" className="h-[100px]" alt="" />
-              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513061/image_3_ld2myz.png" className="h-[100px]" alt="" />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513058/image_2_dmpozw.png"
+                className="h-[100px]"
+                alt="maxify websolution"
+              />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513061/image_3_ld2myz.png"
+                className="h-[100px]"
+                alt="maxify websolution"
+              />
             </div>
           </div>
           <div className="shadow-md bg-white p-4">
             <p className="text-sm md:text-base text-gray-600">
-              <span className="font-[600] text-sm md:text-base">{benifits[index].title}</span>{" "}
+              <span className="font-[600] text-sm md:text-base">
+                {benifits[index].title}
+              </span>{" "}
               {benifits[index].text}
             </p>
           </div>
@@ -322,10 +348,17 @@ return () => clearInterval(Interval)
       {/* 7th */}
       <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
         <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png" alt="Healthcare icons" class="rounded-lg" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png"
+            alt="Healthcare icons"
+            class="rounded-lg"
+          />
         </div>
         <div class="md:w-1/2 md:px-6">
-        <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10"><span className="text-[#2334DE]">Maxify Option:</span> Your Trusted Partner in Healthcare Web Growth</h2>
+          <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10">
+            <span className="text-[#2334DE]">Maxify Option:</span> Your Trusted
+            Partner in Healthcare Web Growth
+          </h2>
           <p class="list-disc text-justify text-sm md:text-base space-y-3 text-gray-500 leading-7">
             At Maxify Option, we are committed to supplying healthcare web
             development services that not only fulfill the present needs of the
@@ -340,27 +373,28 @@ return () => clearInterval(Interval)
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center bg-white md:py-12 px-6 md:px-16">
-      {/* Left Section: Image */}
-      <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
-          alt="Contact Us"
-          className="rounded-lg md:rounded-none w-full h-auto object-cover"
-        />
-      </div>
+        {/* Left Section: Image */}
+        <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
+            alt="Contact Us"
+            className="rounded-lg md:rounded-none w-full h-auto object-cover"
+          />
+        </div>
 
-      {/* Right Section: Text Content */}
-      <div className="bg-blue-600 md:w-1/2 w-full p-8 rounded-lg md:rounded-r-lg text-white">
-      
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center font-sans">Contact Us Today</h2>
-        <p className="md:text-lg leading-relaxed sm:text-base text-justify">
-          Ready to transform your medical care experiment into advanced digital
-          remedies? Call Maxify Remedy today to learn more about how our
-          healthcare web development services can aid you in accomplishing your
-          objectives and staying ahead in this rapidly advancing market.
-        </p>
+        {/* Right Section: Text Content */}
+        <div className="bg-blue-600 md:w-1/2 w-full p-8 rounded-lg md:rounded-r-lg text-white">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center font-sans">
+            Contact Us Today
+          </h2>
+          <p className="md:text-lg leading-relaxed sm:text-base text-justify">
+            Ready to transform your medical care experiment into advanced
+            digital remedies? Call Maxify Remedy today to learn more about how
+            our healthcare web development services can aid you in accomplishing
+            your objectives and staying ahead in this rapidly advancing market.
+          </p>
+        </div>
       </div>
-    </div>
     </div>
   );
 };

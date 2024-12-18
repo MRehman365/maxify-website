@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay"; // You may need this for the autoplay feature
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import PricingCard from "../Components/PricingCard";
+import SEOComponent from "../Components/SEOComponent";
 
 const plans = [
   {
@@ -45,6 +46,13 @@ const SEO = () => {
   }, []);
   return (
     <div className="mt-[70px]">
+      <div>
+        <SEOComponent
+          title="Maxify-SEO"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="flex flex-col-reverse bg-contact lg:flex-row items-center justify-between p-2 bg-[#e7eaf3]">
         <div className="lg:w-1/2 p-4">
           <div className=" flex items-center flex-col sm:w-full md:w-[500px] mx-auto">
@@ -138,10 +146,10 @@ const SEO = () => {
           <span className="text-sm bg-[#e5eeff] text-blue-500 rounded-lg px-3 py-1">
             Why
           </span>
-          <h1 className="text-3xl md:text-5xl font-bold text-[black] mt-4 font-sand">
+          <h3 className="text-3xl md:text-5xl font-bold text-[black] mt-4 font-sand">
             SEO is Essential for Your{" "}
             <span className="text-[#2334DE]">Business</span>
-          </h1>
+          </h3>
           <p className="mt-4 text-sm text-gray-500 text-justify font-roboto">
             In an era where most consumers start their buying journey with an
             online search, Search Engine Optimization (SEO) is crucial. SEO
@@ -154,12 +162,12 @@ const SEO = () => {
             generating genuine conversions.
           </p>
           <a href="https://wa.me/917428309119" target="blank">
-          <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+            <button
+              className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-          >
-            Learn More
-          </button>
+            >
+              Learn More
+            </button>
           </a>
         </div>
 
@@ -250,10 +258,10 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h3 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     On-Page SEO <br />
                     <span className="text-[#2334DE] mt-2">Optimization</span>
-                  </h1>
+                  </h3>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     On-page SEO is about optimizing the elements on your website
                     to improve its visibility and usability. This includes
@@ -325,9 +333,9 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h3 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     Technical <span className="text-[#2334DE] mt-2">Seo</span>
-                  </h1>
+                  </h3>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     Technical SEO involves optimizing the backend of your
                     website. This is crucial for ensuring that search engines
@@ -389,10 +397,10 @@ const SEO = () => {
                   <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
-                  <h1 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
+                  <h3 className=" sm:text-3xl md:text-5xl font-bold text-gray-900 mt-4">
                     Off-Page SEO &{" "}
                     <span className="text-[#2334DE] mt-2">Link Building</span>
-                  </h1>
+                  </h3>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     Off-page SEO refers to actions taken outside your website to
                     impact your rankings within search engine results pages
@@ -496,15 +504,15 @@ const SEO = () => {
               ))}
             </ul>
             <a href="https://wa.me/917428309119" target="blank">
-            <button
-              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+              <button
+                className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-            >
-              Learn More{" "}
-              <span className="ml-2">
-                <GoArrowRight />
-              </span>
-            </button>
+              >
+                Learn More{" "}
+                <span className="ml-2">
+                  <GoArrowRight />
+                </span>
+              </button>
             </a>
           </div>
           <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">

@@ -1,26 +1,29 @@
 import React, { useEffect } from "react";
 
-
 import EcomSlider from "../Components/EcomSlider";
 import { Link } from "react-router-dom";
+import SEOComponent from "../Components/SEOComponent";
 
 const Ecommerce = () => {
   const caseStudies = [
     {
       title: "Fashion Retailer",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
       description:
         "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
     },
     {
       title: "Electronics Store",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
       description:
         "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
     },
     {
       title: "Healthcare Products",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
       description:
         "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
     },
@@ -32,6 +35,13 @@ const Ecommerce = () => {
 
   return (
     <div className="mt-[60px] w-full">
+      <div>
+        <SEOComponent
+          title="Maxify-E-commerce"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div
         className={`top md:pt-20 py-3 flex sm:flex-col-reverse md:flex-col w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
       >
@@ -41,8 +51,7 @@ const Ecommerce = () => {
               <span>Transform </span>{" "}
               <span className="text-[#2334DE]">Your Business </span>{" "}
               <span>with Cutting-Edge</span>{" "}
-              <span className="text-[#2334DE]"> E-commerce Solutions
-              </span>
+              <span className="text-[#2334DE]"> E-commerce Solutions</span>
             </h2>
           </div>
           <div className="mt-2 md:flex gap-2">
@@ -57,22 +66,26 @@ const Ecommerce = () => {
               presence, our team of experts is here to help you succeed.
             </p>
             <div className="w-[40%] mt-3 sm:hidden md:block">
-            <Link to="/services">
-              <button className="p-2 w-[100%] rounded-full border-[#C21EFC] border-[1px]">
-                our services
-              </button>
+              <Link to="/services">
+                <button className="p-2 w-[100%] rounded-full border-[#C21EFC] border-[1px]">
+                  our services
+                </button>
               </Link>
             </div>
           </div>
         </div>
         <div className=" md:w-[90%] lg:h-auto sm:h-[300px] mx-auto md:mt-10">
-          <img className="md:w-[100%] lg:h-auto sm:h-[300px]" src="images/img2.png" alt="" />
+          <img
+            className="md:w-[100%] lg:h-auto sm:h-[300px]"
+            src="images/img2.png"
+            alt="maxify websolution"
+          />
         </div>
       </div>
 
       {/* second section */}
       <section>
-        <div className="bg-white w-full md:w-[90%] lg:w-[80%] mx-auto" >
+        <div className="bg-white w-full md:w-[90%] lg:w-[80%] mx-auto">
           <div className="flex flex-col md:flex-row items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
             <div className="sm:h-[80%] sm:w-auto md:w-[50%] relative flex sm:ml-0 md:mb-0 sm:justify-center md:justify-center">
@@ -101,7 +114,7 @@ const Ecommerce = () => {
                 </span>
               </h2>
               <div className="bg-white rounded-lg">
-                <h3 className="text-lg md:text-2xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left" >
+                <h3 className="text-lg md:text-2xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left">
                   Expertise You Can Trust
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm md:text-base text-justify ">
@@ -117,10 +130,10 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <a href="https://wa.me/917428309119" target="blank">
-                <button className="gradient-background px-6 text-white font-normal text-sm px-0 rounded-full py-3  hover:bg-[#2334DE] transition duration-300">
-                  EXPLORE MORE
-                </button>
+                <a href="https://wa.me/917428309119" target="blank">
+                  <button className="gradient-background px-6 text-white font-normal text-sm px-0 rounded-full py-3  hover:bg-[#2334DE] transition duration-300">
+                    EXPLORE MORE
+                  </button>
                 </a>
               </div>
             </div>
@@ -155,10 +168,10 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <a href="https://wa.me/917428309119" target="blank">
-                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  hover:bg-[#2334DE] transition duration-300">
-                  EXPLORE MORE
-                </button>
+                <a href="https://wa.me/917428309119" target="blank">
+                  <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  hover:bg-[#2334DE] transition duration-300">
+                    EXPLORE MORE
+                  </button>
                 </a>
               </div>
             </div>
@@ -281,7 +294,11 @@ const Ecommerce = () => {
       {/* image section */}
       <div className="imge w-[90%] lg:w-[80%] mx-auto md:border-2 rounded-t-3xl md:shadow-xl">
         <div className="">
-          <img className="w-full object-cover object-center h-[30rem]" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513262/img8_ekmraj.png" alt="" />
+          <img
+            className="w-full object-cover object-center h-[30rem]"
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513262/img8_ekmraj.png"
+            alt="maxify websolution"
+          />
         </div>
         <div>
           <div className="heading p-4 md:p-10">
@@ -336,9 +353,7 @@ const Ecommerce = () => {
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-10">
               <h2 className="text-3xl md:text-4xl lg:text-5xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2  sm:hidden md:block">
-                <span>
-                  Solid Development Framework
-                </span>
+                <span>Solid Development Framework</span>
               </h2>
               <div className="bg-white rounded-lg">
                 {/* <h3 className="text-xl font-semibold  mb-2 text-gray-600">
@@ -357,10 +372,10 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <a href="https://wa.me/917428309119" target="blank">
-                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  md:w-52 hover:bg-[#2334DE] transition duration-300">
-                  EXPLORE MORE
-                </button>
+                <a href="https://wa.me/917428309119" target="blank">
+                  <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3  md:w-52 hover:bg-[#2334DE] transition duration-300">
+                    EXPLORE MORE
+                  </button>
                 </a>
               </div>
             </div>
@@ -371,9 +386,7 @@ const Ecommerce = () => {
             {/* Left Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
               <h2 className="text-3xl md:text-4xl lg:text-5xl sm:text-xl font-bold text-gray-800 mb-6 sm:mb-2 sm:text-center md:text-left">
-                <span>
-                  Integrated Digital  Marketing Services
-                </span>
+                <span>Integrated Digital Marketing Services</span>
               </h2>
               <div className="bg-white rounded-lg">
                 <p className="text-gray-600 mb-4 text-sm md:text-lg text-justify">
@@ -389,10 +402,10 @@ const Ecommerce = () => {
               </div>
 
               <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <a href="https://wa.me/917428309119" target="blank">
-                <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3 md:w-52 hover:bg-[#2334DE] transition duration-300">
-                  EXPLORE MORE
-                </button>
+                <a href="https://wa.me/917428309119" target="blank">
+                  <button className="gradient-background text-white font-normal text-sm px-6 rounded-full py-3 md:w-52 hover:bg-[#2334DE] transition duration-300">
+                    EXPLORE MORE
+                  </button>
                 </a>
               </div>
             </div>

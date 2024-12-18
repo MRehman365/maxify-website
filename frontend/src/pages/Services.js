@@ -6,25 +6,26 @@ import PricingCard from "../Components/PricingCard";
 import { Link } from "react-router-dom";
 
 const Services = () => {
-
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const serviceData = [
     {
-      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513533/7_fw9kkj.webp",
+      imageSrc:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513533/7_fw9kkj.webp",
       title: "Custom Website Design And Development",
       description:
         "Our custom website design and development services set us apart as the best website development company in Noida. We do not believe in universally applicable solutions. Instead, we take the time to understand your company's goals, target audience, and brand identity while designing a website that represents your concept.",
       hoverText: "Learn More",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg",
       key1: "Tailored Designs: We create unique, visually appealing designs that resonate with your brand.",
       key2: "Responsive Development: Our websites are fully responsive, ensuring a seamless user experience across all devices.",
       key3: "User-Centric Approach: We focus on creating websites that are not only attractive but also easy to navigate, keeping your audience engaged.",
     },
     {
-      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513535/8_kfag4g.webp",
+      imageSrc:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513535/8_kfag4g.webp",
       title: "E-Commerce Website Development",
       description:
         "In the modern age of online purchasing, a reputable e-commerce platform is necessary. As the best web development company in Noida, we offer top-notch e-commerce website development services that help you sell your products online with ease.",
@@ -34,7 +35,8 @@ const Services = () => {
       key3: "Inventory Management: We build systems that help you manage your inventory efficiently, reducing the chances of stockouts or overstocking",
     },
     {
-      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513537/9_vhdrnm.webp",
+      imageSrc:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513537/9_vhdrnm.webp",
       title: "CMS Development",
       description:
         "Content Management Systems (CMS) make it easy for you to update your website content without needing technical expertise. At Maxify Solutions, the leading website development company in Noida, we specialize in CMS development that empowers you to manage your site effectively.",
@@ -44,7 +46,8 @@ const Services = () => {
       key3: "SEO-Friendly: Our CMS solutions are optimized for search engines, helping you rank higher in search results.",
     },
     {
-      imageSrc: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513539/10_zapx0w.webp",
+      imageSrc:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513539/10_zapx0w.webp",
       title: "Website Maintenance And Support",
       description:
         "A website is never truly finished; it requires regular updates and maintenance to stay relevant and functional. As the best web development company in Noida, we offer ongoing maintenance and support services to keep your website running smoothly.",
@@ -61,24 +64,30 @@ const Services = () => {
       title: "Proven Track Record",
       description:
         "Our success as the best website development company in Noida is backed by a strong portfolio of satisfied clients across various industries. We take pride in delivering websites that exceed our clients' expectations.",
-      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513523/2_ywmvhh.webp",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513517/1_mtulth.svg",
+      image:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513523/2_ywmvhh.webp",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513517/1_mtulth.svg",
     },
     {
       id: 2,
       title: "Client-Centric Approach",
       description:
         "At Maxify Solutions, we believe that your success is our success. We focus on understanding your needs and goals to deliver a website that is more than just a website; it is an invaluable resource for your company.",
-      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513526/3_fbenhs.webp",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513520/2_spdpmt.svg",
+      image:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513526/3_fbenhs.webp",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513520/2_spdpmt.svg",
     },
     {
       id: 3,
       title: "Cutting-Edge Technology",
       description:
         "We stay ahead of the curve by using the latest technologies and tools in web development. Our commitment to innovation ensures that your website is future-proof and ready to adapt to new trends and changes.",
-      image: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513531/6_dtqgzd.webp",
-      icone: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513524/3_fsmwyh.svg",
+      image:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513531/6_dtqgzd.webp",
+      icone:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513524/3_fsmwyh.svg",
     },
   ];
 
@@ -129,9 +138,9 @@ const Services = () => {
             delivers outstanding performance.
           </p>
           <Link to="/contact">
-          <button className="bg-[#2334DE] text-white font-semibold lg:px-6 lg:py-3 sm:px-4 sm:py-2 rounded-lg hover:bg-[#2334DE] transition duration-300">
-            Get Started Now
-          </button>
+            <button className="bg-[#2334DE] text-white font-semibold lg:px-6 lg:py-3 sm:px-4 sm:py-2 rounded-lg hover:bg-[#2334DE] transition duration-300">
+              Get Started Now
+            </button>
           </Link>
         </div>
 
@@ -211,10 +220,10 @@ const Services = () => {
               </p>
             </div>
             <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-            <Link to="/contact">
-              <button className="bg-[#2334DE] text-white font-normal text-sm px-6 py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
-                Discover More
-              </button>
+              <Link to="/contact">
+                <button className="bg-[#2334DE] text-white font-normal text-sm px-6 py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
+                  Discover More
+                </button>
               </Link>
               <div className="flex items-center text-[#2334DE] font-semibold space-x-2">
                 <span className="md:text-2xl sm:text-xl bg-[#2334DE] text-white p-3">
@@ -245,7 +254,7 @@ const Services = () => {
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <img
                   src={service.imageSrc}
-                  alt=""
+                  alt="maxify websolution"
                   className="w-full h-48 object-cover"
                 />
               </div>
@@ -272,7 +281,10 @@ const Services = () => {
                         {service.title}
                       </h3>
                       <div className="mt-[-10px]">
-                        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg" alt="" />
+                        <img
+                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
+                          alt="maxify websolution"
+                        />
                       </div>
                     </div>
                     <p className="text-gray-700 text-[12px] text-justify mb-6">
@@ -332,7 +344,7 @@ const Services = () => {
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <img
                   src={service.imageSrc}
-                  alt=""
+                  alt="maxify websolution"
                   className="w-full h-48 object-cover"
                 />
                 <div className="z-40 bg-white ">
@@ -352,7 +364,10 @@ const Services = () => {
                           {service.title}
                         </h3>
                         <div className="mt-[-10px]">
-                          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg" alt="" />
+                          <img
+                            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
+                            alt="maxify websolution"
+                          />
                         </div>
                       </div>
                       <p className="text-gray-700 text-[12px] text-justify mb-6">
@@ -421,7 +436,11 @@ const Services = () => {
               >
                 <div className="relative w-full">
                   <div className="p-2 bg-[#2334DE] text-white text-center absolute bottom-4 left-[40%] border-2">
-                    <img className="w-10 h-6" src={service.icone} alt="" />
+                    <img
+                      className="w-10 h-6"
+                      src={service.icone}
+                      alt="maxify websolution"
+                    />
                   </div>
                   <img
                     src={service.image}
@@ -466,10 +485,10 @@ const Services = () => {
               </span>
             </div>
             <div className="sm:hidden md:block">
-           <Link to='/digitalmarketing'>
-              <button className="bg-[#2334de] px-6 py-3 text-white text-sm">
-                Learn More
-              </button>
+              <Link to="/digitalmarketing">
+                <button className="bg-[#2334de] px-6 py-3 text-white text-sm">
+                  Learn More
+                </button>
               </Link>
             </div>
           </div>
@@ -614,7 +633,11 @@ const Services = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:w-[60%] mx-auto">
               {/* Card 1 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
-                <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp" alt="SEO" className="rounded-t-lg mb-6 h-full w-full object-cover" />
+                <img
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp"
+                  alt="SEO"
+                  className="rounded-t-lg mb-6 h-full w-full object-cover"
+                />
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-4">
                     Search Engine Optimization
@@ -626,9 +649,9 @@ const Services = () => {
                     your website.
                   </p>
                   <Link to="/seo">
-                  <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE]">
-                    Know More
-                  </button>
+                    <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE]">
+                      Know More
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -650,9 +673,9 @@ const Services = () => {
                     encouraged to take action.
                   </p>
                   <Link to="/graphic">
-                  <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE] items-center text-center">
-                    Know More
-                  </button>
+                    <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE] items-center text-center">
+                      Know More
+                    </button>
                   </Link>
                 </div>
               </div>

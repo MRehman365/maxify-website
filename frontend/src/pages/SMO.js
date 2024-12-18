@@ -18,12 +18,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
-
 const plans = [
-  { title: 'Experienced Team', description: 'Our team of SMO experts has years of experience in the industry, working with a diverse range of clients across various sectors. We stay up to date on the newest social media trends and analytics to keep your brand ahead of the competition.' },
-  { title: 'Customized Solutions', description: 'We understand that every business is unique. That’s why we offer customized SMO solutions that cater to your specific needs and objectives. Whether you’re a small business or a large enterprise, we have the expertise to help you succeed.' },
-  { title: 'Proven Track Record', description: 'Our proven track record speaks for itself. We have supported numerous companies in India and beyond in achieving their social media goals, resulting in increased traffic, higher engagement, and improved ROI.' },
-  { title: 'Testing and Quality Assurance', description: 'We offer affordable SMO packages that deliver value for money. Our transparent pricing ensures you know exactly what you’re paying for, with no hidden costs or surprises.' },
+  {
+    title: "Experienced Team",
+    description:
+      "Our team of SMO experts has years of experience in the industry, working with a diverse range of clients across various sectors. We stay up to date on the newest social media trends and analytics to keep your brand ahead of the competition.",
+  },
+  {
+    title: "Customized Solutions",
+    description:
+      "We understand that every business is unique. That’s why we offer customized SMO solutions that cater to your specific needs and objectives. Whether you’re a small business or a large enterprise, we have the expertise to help you succeed.",
+  },
+  {
+    title: "Proven Track Record",
+    description:
+      "Our proven track record speaks for itself. We have supported numerous companies in India and beyond in achieving their social media goals, resulting in increased traffic, higher engagement, and improved ROI.",
+  },
+  {
+    title: "Testing and Quality Assurance",
+    description:
+      "We offer affordable SMO packages that deliver value for money. Our transparent pricing ensures you know exactly what you’re paying for, with no hidden costs or surprises.",
+  },
 ];
 const SMO = () => {
   const [openItem, setOpenItem] = useState(null);
@@ -32,7 +47,7 @@ const SMO = () => {
     setOpenItem(openItem === index ? null : index);
   };
   const [hoveredStep, setHoveredStep] = useState(null);
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -55,15 +70,15 @@ const SMO = () => {
           success.
         </p>
         <a href="https://wa.me/917428309119" target="blank">
-        <button
-          className="mt-8 rounded-full flex items-center relative px-5 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+          <button
+            className="mt-8 rounded-full flex items-center relative px-5 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-        >
-          Read More{" "}
-          <span className="ml-2">
-            <GoArrowRight />
-          </span>
-        </button>
+          >
+            Read More{" "}
+            <span className="ml-2">
+              <GoArrowRight />
+            </span>
+          </button>
         </a>
       </div>
       {/* 2nd section */}
@@ -71,12 +86,12 @@ const SMO = () => {
         <span class="bg-[#e7effe] px-2 py-0 text-[#1351d8] rounded mb-3">
           Latest Service
         </span>
-        <h1 class="sm:text-3xl md:text-5xl font-bold mb-4 mt-4">
+        <h3 class="sm:text-3xl md:text-5xl font-bold mb-4 mt-4">
           Why SMO Is Essential For Your{" "}
           <span class="text-[#1351d8] border-[2px] px-5 border-[#1351d8] rounded-full">
             Business
           </span>
-        </h1>
+        </h3>
         <p class="sm:text-lg md:text-xl mb-6 text-[#1351d8]">
           Social Media Optimization is the process of optimizing your social
           media profiles and content to increase brand awareness, attract more
@@ -93,58 +108,70 @@ const SMO = () => {
         <div className="flex items-start space-x-4 p-4 hover:bg-white">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-start">
-              <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_dztrgm.png" alt="logo" />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_dztrgm.png"
+                alt="logo"
+              />
             </div>
             <li className="text-sm md:text-base text-justify text-gray-600">
-            <span >Enhanced Brand Awareness:</span>
-            <span>
-              SMO helps in creating a strong online presence, making your brand
-              more recognizable and trustworthy.
-            </span>
-            </li>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4 p-4 hover:bg-white">
-          <div >
-            <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Overlay_1_npzunk.png" alt="logo" />
-            </div>
-            <li className="text-sm md:text-base text-justify text-gray-600 mt-3">
-            <span >Increased Traffic: </span>
-            <span >
-              By optimizing your social media profiles and content, SMO drives
-              more traffic to your website, improving your search engine
-              rankings.
-            </span>
-            </li>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4 p-4 hover:bg-white">
-          <div className="">
-            <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_2_hus38k.png" alt="logo" />
-            </div>
-            <li className="text-sm md:text-base text-justify text-gray-600 mt-3">
-            <span >Better Engagement:</span>
-            <span >
-              SMO enables you to connect with your audience on a personal level,
-              fostering loyalty and long-term relationships.
-            </span>
+              <span>Enhanced Brand Awareness:</span>
+              <span>
+                SMO helps in creating a strong online presence, making your
+                brand more recognizable and trustworthy.
+              </span>
             </li>
           </div>
         </div>
         <div className="flex items-start space-x-4 p-4 hover:bg-white">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_3_piks45.png" alt="logo" />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Overlay_1_npzunk.png"
+                alt="logo"
+              />
             </div>
             <li className="text-sm md:text-base text-justify text-gray-600 mt-3">
-            <span >Cost-Effective Marketing:</span>
-            <span >
-              SMO is a budget-friendly marketing strategy that delivers high
-              returns on investment by reaching a larger audience with minimal
-              costs.
-            </span>
+              <span>Increased Traffic: </span>
+              <span>
+                By optimizing your social media profiles and content, SMO drives
+                more traffic to your website, improving your search engine
+                rankings.
+              </span>
+            </li>
+          </div>
+        </div>
+        <div className="flex items-start space-x-4 p-4 hover:bg-white">
+          <div className="">
+            <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_2_hus38k.png"
+                alt="logo"
+              />
+            </div>
+            <li className="text-sm md:text-base text-justify text-gray-600 mt-3">
+              <span>Better Engagement:</span>
+              <span>
+                SMO enables you to connect with your audience on a personal
+                level, fostering loyalty and long-term relationships.
+              </span>
+            </li>
+          </div>
+        </div>
+        <div className="flex items-start space-x-4 p-4 hover:bg-white">
+          <div>
+            <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_3_piks45.png"
+                alt="logo"
+              />
+            </div>
+            <li className="text-sm md:text-base text-justify text-gray-600 mt-3">
+              <span>Cost-Effective Marketing:</span>
+              <span>
+                SMO is a budget-friendly marketing strategy that delivers high
+                returns on investment by reaching a larger audience with minimal
+                costs.
+              </span>
             </li>
           </div>
         </div>
@@ -158,12 +185,12 @@ const SMO = () => {
             <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 mb-4 rounded-lg">
               About Us
             </span>
-            <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 mt-4">
+            <h3 className="text-3xl md:text-5xl font-semibold text-gray-900 mt-4">
               Our SMO <br /> Services{" "}
               <span className="text-[#2334DE] border-[2px] border-[#2334DE] px-4 rounded-full">
                 in India
               </span>
-            </h1>
+            </h3>
             <p className="text-gray-600 mt-5 text-justify">
               At Maxify Solution, we offer a comprehensive range of SMO services
               tailored to meet the unique needs of your business. Our team of
@@ -176,12 +203,12 @@ const SMO = () => {
             <button className="mb-[100px] inline-flex items-center bg-transparent text-[#2334DE] border border-[#2334DE] py-2 px-4 rounded-full hover:bg-[#2334DE] hover:text-white transition-all">
               Read More <span className="ml-2">→</span>
             </button>
-         </a>
+          </a>
         </div>
 
         <div className="md:w-1/2 grid items-center grid-cols-2 gap-4  md:mt-0">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h1p8fm.webp"
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h3p8fm.webp"
             alt="Laptop"
             className="col-span-1 row-span-2 "
           />
@@ -202,434 +229,552 @@ const SMO = () => {
 
       {/* section 5 */}
       <div className="bg-[#f4f7fb] relative max-h-fit">
-      <div className="absolute top-1/2 left-[10%] transform -translate-y-1/2 z-10 hidden md:block">
-        <FaArrowAltCircleLeft className="text-[#2334DE] cursor-pointer swiper-button-prev" />
-      </div>
-      <div className="absolute top-1/2 right-[10%] transform -translate-y-1/2 z-10 hidden md:block">
-        <FaArrowAltCircleRight className="text-[#2334DE] cursor-pointer swiper-button-next" />
-      </div>
-      <Swiper pagination={{ clickable: true }} modules={[Navigation]}  
-      onDurationChange={0}  
-      speed={500}
-      autoplay={true}
-      navigation={{
-          prevEl: ".swiper-button-prev",
-          nextEl: ".swiper-button-next",
-        }}>
-      {/* Left Side Slide */}
-      <SwiperSlide>
-  <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
-    {/* Left Side Content */}
-    <div className="w-full md:w-1/2 p-6">
-      <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
-        Ask Question
-      </button>
-      <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
-        Social Media <br /> Profile{" "}
-        <span className="text-[#2334DE]">Optimization</span>
-      </h1>
-      <p className="text-gray-600 mt-4 text-justify">
-        Your social media profiles are the first impression potential
-        customers have of your brand. We optimize your profiles on platforms
-        like Facebook, Instagram, Twitter, LinkedIn, and more, ensuring they
-        are complete, professional, and aligned with your brand identity.
-      </p>
-      <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
-          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
-            <FaAward className="text-white text-2xl" />
-          </div>
-          <p className="text-3xl font-semibold ml-4">Winning Award</p>
+        <div className="absolute top-1/2 left-[10%] transform -translate-y-1/2 z-10 hidden md:block">
+          <FaArrowAltCircleLeft className="text-[#2334DE] cursor-pointer swiper-button-prev" />
         </div>
-      </div>
-    </div>
+        <div className="absolute top-1/2 right-[10%] transform -translate-y-1/2 z-10 hidden md:block">
+          <FaArrowAltCircleRight className="text-[#2334DE] cursor-pointer swiper-button-next" />
+        </div>
+        <Swiper
+          pagination={{ clickable: true }}
+          modules={[Navigation]}
+          onDurationChange={0}
+          speed={500}
+          autoplay={true}
+          navigation={{
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
+          }}
+        >
+          {/* Left Side Slide */}
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
+              {/* Left Side Content */}
+              <div className="w-full md:w-1/2 p-6">
+                <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
+                  Ask Question
+                </button>
+                <h3 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
+                  Social Media <br /> Profile{" "}
+                  <span className="text-[#2334DE]">Optimization</span>
+                </h3>
+                <p className="text-gray-600 mt-4 text-justify">
+                  Your social media profiles are the first impression potential
+                  customers have of your brand. We optimize your profiles on
+                  platforms like Facebook, Instagram, Twitter, LinkedIn, and
+                  more, ensuring they are complete, professional, and aligned
+                  with your brand identity.
+                </p>
+                <div className="mt-6 rounded-lg p-4 flex items-center">
+                  <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+                    <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
+                      <FaAward className="text-white text-2xl" />
+                    </div>
+                    <p className="text-3xl font-semibold ml-4">Winning Award</p>
+                  </div>
+                </div>
+              </div>
 
-    {/* Right Side Accordion */}
-    <div className="w-full md:w-1/2 p-6 my-auto">
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(1)}
-        >
-          <h2 className="text-base md:text-lg font-semibold">
-            Keyword Integration:
-          </h2>
-          {openItem === 1 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 1 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 1 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            At Maxify Web Solutions, we optimize your website for search engines through strategic keyword integration. Our experts identify relevant keywords and incorporate them into your website's content, meta tags, and headings.
+              {/* Right Side Accordion */}
+              <div className="w-full md:w-1/2 p-6 my-auto">
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(1)}
+                  >
+                    <h2 className="text-base md:text-lg font-semibold">
+                      Keyword Integration:
+                    </h2>
+                    {openItem === 1 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 1
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 1 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        At Maxify Web Solutions, we optimize your website for
+                        search engines through strategic keyword integration.
+                        Our experts identify relevant keywords and incorporate
+                        them into your website's content, meta tags, and
+                        headings.
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Additional Accordion Items */}
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(2)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      How Do You Manage Consulting Effectively?
+                    </h2>
+                    {openItem === 2 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 2
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 2 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        Maxify Web Solutions' consulting management system
+                        streamlines your digital projects through efficient
+                        client communication, project planning, and time
+                        management.
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(3)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Bio And Description:
+                    </h2>
+                    {openItem === 3 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 3
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 3 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        Maxify Web Solutions Pvt Ltd is a leading digital agency
+                        providing end-to-end solutions to propel your business
+                        online. We empower your brand to thrive in the digital
+                        landscape.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          )}
-        </div>
-      </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
+              {/* Left Side Content */}
+              <div className="w-full md:w-1/2 p-6">
+                <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
+                  Ask Question
+                </button>
+                <h3 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
+                  Custom Content: Creation{" "}
+                  <span className="text-[#2334DE]">Optimization</span>
+                </h3>
+                <p className="text-gray-600 mt-4 text-justify">
+                  Content is king in the world of social media. Our creative
+                  skills generate required and shareable content that connects
+                  with your audience and promotes your business.
+                </p>
+                <div className="mt-6 rounded-lg p-4 flex items-center">
+                  <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+                    <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
+                      <FaAward className="text-white text-2xl" />
+                    </div>
+                    <p className="text-3xl font-semibold ml-4">Winning Award</p>
+                  </div>
+                </div>
+              </div>
 
-      {/* Additional Accordion Items */}
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(2)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-            How Do You Manage Consulting Effectively?
-          </h2>
-          {openItem === 2 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 2 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 2 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            Maxify Web Solutions' consulting management system streamlines your digital projects through efficient client communication, project planning, and time management.
+              {/* Right Side Accordion */}
+              <div className="w-full md:w-1/2 p-6 my-auto">
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(1)}
+                  >
+                    <h2 className="text-base md:text-lg font-semibold">
+                      Custom Content:
+                    </h2>
+                    {openItem === 1 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 1
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 1 && (
+                      <li className="text-gray-600 text-sm md:text-base">
+                        Our team crafts compelling content tailored to your
+                        audience's needs. At Maxify Web Solutions, we help tell
+                        your brand story through customized content solutions.
+                      </li>
+                    )}
+                  </div>
+                </div>
+
+                {/* Additional Accordion Items */}
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(2)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Content Scheduling:
+                    </h2>
+                    {openItem === 2 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 2
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 2 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        Maxify Web Solutions' content calendar helps you
+                        organize your content strategy. We schedule and
+                        regularly update your content to keep your audience
+                        engaged.
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(3)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Hashtag Strategy:
+                    </h2>
+                    {openItem === 3 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 3
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 3 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        Amplify your social media presence with our hashtag
+                        strategy. We identify relevant hashtags and integrate
+                        them into your posts to maximize visibility.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          )}
-        </div>
-      </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
+              {/* Left Side Content */}
+              <div className="w-full md:w-1/2 p-6">
+                <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
+                  Ask Question
+                </button>
+                <h3 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
+                  Social Media Campaign{" "}
+                  <span className="text-[#2334DE]">Management</span>
+                </h3>
+                <p className="text-gray-600 mt-4 text-justify">
+                  Effective social media campaigns can drive significant traffic
+                  and engagement. We create and manage specific promotions that
+                  meet up with your business goals and produce measurable
+                  outcomes.
+                </p>
+                <div className="mt-6 rounded-lg p-4 flex items-center">
+                  <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+                    <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
+                      <FaAward className="text-white text-2xl" />
+                    </div>
+                    <p className="text-3xl font-semibold ml-4">Winning Award</p>
+                  </div>
+                </div>
+              </div>
 
-      <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(3)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-            Bio And Description:
-          </h2>
-          {openItem === 3 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 3 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 3 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            Maxify Web Solutions Pvt Ltd is a leading digital agency providing end-to-end solutions to propel your business online. We empower your brand to thrive in the digital landscape.
+              {/* Right Side Accordion */}
+              <div className="w-full md:w-1/2 p-6 my-auto">
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(1)}
+                  >
+                    <h2 className="text-base md:text-lg font-semibold">
+                      Campaign Strategy:
+                    </h2>
+                    {openItem === 1 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 1
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 1 && (
+                      <li className="text-gray-600 text-sm md:text-base">
+                        Our campaign strategy is centered on providing
+                        data-driven, effective digital marketing solutions that
+                        are customized to meet your particular business
+                        objectives. To increase reach and brand visibility, we
+                        combine site development, app design, graphic design,
+                        and SEO best practices with targeted ad campaigns and
+                        engaging content creation. By analyzing customer
+                        preferences and market trends, we develop strategies
+                        that boost engagement, produce results, and guarantee a
+                        strong online presence—all of which help your company
+                        expand in the competitive digital market of today.
+                      </li>
+                    )}
+                  </div>
+                </div>
+
+                {/* Additional Accordion Items */}
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(2)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Ad Management:
+                    </h2>
+                    {openItem === 2 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 2
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 2 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        To optimize your digital reach and return on investment,
+                        Maxify Web Solutions PVT. LTD. provides full-service ad
+                        management services. Our team creates targeted
+                        advertising campaigns on Google, Facebook, Instagram,
+                        and other platforms by utilizing data-driven tactics and
+                        creative optimization. To make sure your advertisements
+                        reach the appropriate people and generate significant
+                        engagement for your company, we take care of everything
+                        from setup and audience targeting to continuous
+                        management and performance analysis.
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(3)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Performance Tracking:
+                    </h2>
+                    {openItem === 3 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 3
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 3 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        At Maxify Web Solutions, we think that results should be
+                        based on data. Using our performance tracking tools, you
+                        can keep an eye on the status of your project in real
+                        time, guaranteeing accountability, openness, and
+                        provable progress. We keep you updated at every stage,
+                        from digital marketing measurements to website
+                        analytics, assisting you in optimizing strategies and
+                        maximizing impact.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </div>
-</SwiperSlide>
-      <SwiperSlide>
-  <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
-    {/* Left Side Content */}
-    <div className="w-full md:w-1/2 p-6">
-      <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
-        Ask Question
-      </button>
-      <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
-      Custom Content: Creation{" "}
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
+              {/* Left Side Content */}
+              <div className="w-full md:w-1/2 p-6">
+                <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
+                  Ask Question
+                </button>
+                <h3 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
+                  Community Building and
+                  <span className="text-[#2334DE]">Engagement</span>
+                </h3>
+                <p className="text-gray-600 mt-4 text-justify">
+                  Building a loyal community around your brand is key to
+                  long-term success. We help you foster meaningful relationships
+                  with your audience through active engagement and interaction.
+                </p>
+                <div className="mt-6 rounded-lg p-4 flex items-center">
+                  <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+                    <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
+                      <FaAward className="text-white text-2xl" />
+                    </div>
+                    <p className="text-3xl font-semibold ml-4">Winning Award</p>
+                  </div>
+                </div>
+              </div>
 
+              {/* Right Side Accordion */}
+              <div className="w-full md:w-1/2 p-6 my-auto">
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(1)}
+                  >
+                    <h2 className="text-base md:text-lg font-semibold">
+                      Audience Interaction:
+                    </h2>
+                    {openItem === 1 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 1
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 1 && (
+                      <li className="text-gray-600 text-sm md:text-base">
+                        At Maxify Web Solutions, we foster meaningful
+                        interactions with your audience and address their
+                        queries promptly. Our customer support solutions
+                        prioritize your needs.
+                      </li>
+                    )}
+                  </div>
+                </div>
 
-        <span className="text-[#2334DE]">Optimization</span>
-      </h1>
-      <p className="text-gray-600 mt-4 text-justify">
-      Content is king in the world of social media. Our creative skills generate 
- required and shareable content that connects with your audience and 
-promotes your business.
-      </p>
-      <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
-          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
-            <FaAward className="text-white text-2xl" />
-          </div>
-          <p className="text-3xl font-semibold ml-4">Winning Award</p>
-        </div>
-      </div>
-    </div>
+                {/* Additional Accordion Items */}
+                <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(2)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Community Growth:
+                    </h2>
+                    {openItem === 2 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 2
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 2 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        We nurture community growth through engaging content,
+                        events, and campaigns. Maxify Web Solutions helps you
+                        build a loyal following and expand your online presence.
+                      </div>
+                    )}
+                  </div>
+                </div>
 
-    {/* Right Side Accordion */}
-    <div className="w-full md:w-1/2 p-6 my-auto">
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(1)}
-        >
-          <h2 className="text-base md:text-lg font-semibold">
-          Custom Content:
-          </h2>
-          {openItem === 1 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 1 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 1 && (
-            <li className="text-gray-600 text-sm md:text-base">
-            Our team crafts compelling content tailored to your audience's needs. At Maxify Web Solutions, we help tell your brand story through customized content solutions.
-            </li>
-          )}
-        </div>
-      </div>
-
-      {/* Additional Accordion Items */}
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(2)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Content Scheduling:
-          </h2>
-          {openItem === 2 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 2 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 2 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            Maxify Web Solutions' content calendar helps you organize your content strategy. We schedule and regularly update your content to keep your audience engaged.
+                <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
+                  <div
+                    className="flex justify-between items-center cursor-pointer"
+                    onClick={() => toggleAccordion(3)}
+                  >
+                    <h2 className="sm:text-base md:text-lg font-semibold">
+                      Influencer Collaboration:
+                    </h2>
+                    {openItem === 3 ? (
+                      <FiMinusCircle className="text-blue-500" />
+                    ) : (
+                      <GoPlusCircle />
+                    )}
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                      openItem === 3
+                        ? "max-h-screen bg-white p-4 rounded-lg mt-2"
+                        : "max-h-0"
+                    }`}
+                  >
+                    {openItem === 3 && (
+                      <div className="text-gray-600 text-sm md:text-base">
+                        Partner with influential voices in your industry through
+                        our strategic collaborations. Maxify Web Solutions
+                        identifies and connects you with relevant influencers to
+                        elevate your brand.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          )}
-        </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
-
-      <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(3)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Hashtag Strategy:
-          </h2>
-          {openItem === 3 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 3 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 3 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            Amplify your social media presence with our hashtag strategy. We identify relevant hashtags and integrate them into your posts to maximize visibility.
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </div>
-</SwiperSlide>
-      <SwiperSlide>
-  <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
-    {/* Left Side Content */}
-    <div className="w-full md:w-1/2 p-6">
-      <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
-        Ask Question
-      </button>
-      <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
-      Social Media 
-      Campaign {" "}
-
-
-        <span className="text-[#2334DE]">Management</span>
-      </h1>
-      <p className="text-gray-600 mt-4 text-justify">
-      Effective social media campaigns can drive significant traffic and 
- engagement. We create and manage specific promotions that meet up 
-with your business goals and produce measurable outcomes.
-      </p>
-      <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
-          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
-            <FaAward className="text-white text-2xl" />
-          </div>
-          <p className="text-3xl font-semibold ml-4">Winning Award</p>
-        </div>
-      </div>
-    </div>
-
-    {/* Right Side Accordion */}
-    <div className="w-full md:w-1/2 p-6 my-auto">
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(1)}
-        >
-          <h2 className="text-base md:text-lg font-semibold">
-          Campaign Strategy:
-          </h2>
-          {openItem === 1 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 1 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 1 && (
-            <li className="text-gray-600 text-sm md:text-base">
-            Our campaign strategy is centered on providing data-driven, effective digital marketing solutions that are customized to meet your particular business objectives. To increase reach and brand visibility, we combine site development, app design, graphic design, and SEO best practices with targeted ad campaigns and engaging content creation. By analyzing customer preferences and market trends, we develop strategies that boost engagement, produce results, and guarantee a strong online presence—all of which help your company expand in the competitive digital market of today.
-            </li>
-          )}
-        </div>
-      </div>
-
-      {/* Additional Accordion Items */}
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(2)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Ad Management:
-          </h2>
-          {openItem === 2 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 2 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 2 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            To optimize your digital reach and return on investment, Maxify Web Solutions PVT. LTD. provides full-service ad management services. Our team creates targeted advertising campaigns on Google, Facebook, Instagram, and other platforms by utilizing data-driven tactics and creative optimization. To make sure your advertisements reach the appropriate people and generate significant engagement for your company, we take care of everything from setup and audience targeting to continuous management and performance analysis.
-            </div>
-          )}
-        </div>
-      </div>
-
-      <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(3)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Performance Tracking:
-          </h2>
-          {openItem === 3 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 3 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 3 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            At Maxify Web Solutions, we think that results should be based on data. Using our performance tracking tools, you can keep an eye on the status of your project in real time, guaranteeing accountability, openness, and provable progress. We keep you updated at every stage, from digital marketing measurements to website analytics, assisting you in optimizing strategies and maximizing impact.
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </div>
-</SwiperSlide>
-      <SwiperSlide>
-  <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
-    {/* Left Side Content */}
-    <div className="w-full md:w-1/2 p-6">
-      <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
-        Ask Question
-      </button>
-      <h1 className="text-3xl lg:text-5xl font-bold mt-4 mb-4">
-      Community Building 
-and 
-
-
-        <span className="text-[#2334DE]">
-        Engagement</span>
-      </h1>
-      <p className="text-gray-600 mt-4 text-justify">
-      Building a loyal community around your brand is key to long-term 
- success. We help you foster meaningful relationships with your audience 
-through active engagement and interaction.
-      </p>
-      <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
-          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
-            <FaAward className="text-white text-2xl" />
-          </div>
-          <p className="text-3xl font-semibold ml-4">Winning Award</p>
-        </div>
-      </div>
-    </div>
-
-    {/* Right Side Accordion */}
-    <div className="w-full md:w-1/2 p-6 my-auto">
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(1)}
-        >
-          <h2 className="text-base md:text-lg font-semibold">
-          Audience Interaction:
-          </h2>
-          {openItem === 1 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 1 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 1 && (
-            <li className="text-gray-600 text-sm md:text-base">
-            At Maxify Web Solutions, we foster meaningful interactions with your audience and address their queries promptly. Our customer support solutions prioritize your needs.
-            </li>
-          )}
-        </div>
-      </div>
-
-      {/* Additional Accordion Items */}
-      <div className="border-b border-gray-200 py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(2)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Community Growth:
-          </h2>
-          {openItem === 2 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 2 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 2 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            We nurture community growth through engaging content, events, and campaigns. Maxify Web Solutions helps you build a loyal following and expand your online presence.
-            </div>
-          )}
-        </div>
-      </div>
-
-      <div className="py-4 transition duration-300 ease-in-out bg-white mt-4 px-2 rounded-md">
-        <div
-          className="flex justify-between items-center cursor-pointer"
-          onClick={() => toggleAccordion(3)}
-        >
-          <h2 className="sm:text-base md:text-lg font-semibold">
-          Influencer Collaboration:
-          </h2>
-          {openItem === 3 ? <FiMinusCircle className="text-blue-500" /> : <GoPlusCircle />}
-        </div>
-        <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            openItem === 3 ? "max-h-screen bg-white p-4 rounded-lg mt-2" : "max-h-0"
-          }`}
-        >
-          {openItem === 3 && (
-            <div className="text-gray-600 text-sm md:text-base">
-            Partner with influential voices in your industry through our strategic collaborations. Maxify Web Solutions identifies and connects you with relevant influencers to elevate your brand.
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  </div>
-</SwiperSlide>
-
-    </Swiper>
-    </div>
 
       {/* section 6 */}
       <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8 bg-background md:w-[94%] lg:w-[80%] mx-auto">
@@ -642,42 +787,42 @@ through active engagement and interaction.
             <span className="text-[#2334DE]">in India?</span>
           </h3>
           <ul className="space-y-4 text-sm  w-fit py-6">
-        {plans.map((step, index) => (
-          <li
-            key={index}
-            className="flex items-center text-base text-gray-700 cursor-pointer w-fit"
-            onMouseEnter={() => setHoveredStep(index)}
-            onMouseLeave={() => setHoveredStep(null)}
-          >
-            {hoveredStep === index ? (
-              <div className="flex items-left space-x-4 min-h-[150px]  flex-col">
-              <div className="flex items-center">
-                  <FaCheckCircle className="text-[#2334DE] mr-4" />
-                <span> {step.title}</span> 
-                </div>
-                <span className="text-gray-800">{step.description}</span>
-              </div>
-            ) : (
-              hoveredStep === null && (
-                <div className="flex items-center">
-                  <FaCheckCircle className="text-[#2334DE] mr-4" />
-                <span> {step.title}</span> 
-                </div>
-              )
-            )}
-          </li>
-        ))}
-      </ul>
-      <a href="https://wa.me/917428309119" target="blank">
-          <button
-            className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+            {plans.map((step, index) => (
+              <li
+                key={index}
+                className="flex items-center text-base text-gray-700 cursor-pointer w-fit"
+                onMouseEnter={() => setHoveredStep(index)}
+                onMouseLeave={() => setHoveredStep(null)}
+              >
+                {hoveredStep === index ? (
+                  <div className="flex items-left space-x-4 min-h-[150px]  flex-col">
+                    <div className="flex items-center">
+                      <FaCheckCircle className="text-[#2334DE] mr-4" />
+                      <span> {step.title}</span>
+                    </div>
+                    <span className="text-gray-800">{step.description}</span>
+                  </div>
+                ) : (
+                  hoveredStep === null && (
+                    <div className="flex items-center">
+                      <FaCheckCircle className="text-[#2334DE] mr-4" />
+                      <span> {step.title}</span>
+                    </div>
+                  )
+                )}
+              </li>
+            ))}
+          </ul>
+          <a href="https://wa.me/917428309119" target="blank">
+            <button
+              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
-          >
-            Learn More{" "}
-            <span className="ml-2">
-              <GoArrowRight />
-            </span>
-          </button>
+            >
+              Learn More{" "}
+              <span className="ml-2">
+                <GoArrowRight />
+              </span>
+            </button>
           </a>
         </div>
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
@@ -780,7 +925,7 @@ through active engagement and interaction.
                   "Facebook Story Creation",
                   "Video Posting (Provide By Client)",
                   "LinkedIn Management",
-                  "Thumbnail, Keywords Research"
+                  "Thumbnail, Keywords Research",
                 ]}
               />
             </div>
@@ -794,11 +939,11 @@ through active engagement and interaction.
           <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
             In The Digital Age
           </span>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
+          <h3 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
             Having a strong social media <br className="hidden md:block" />
             presence is{" "}
             <span className="text-[#2334DE]">no longer optional</span>
-          </h1>
+          </h3>
         </div>
 
         {/* Middle Section with Linear Gradient Background */}

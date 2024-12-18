@@ -5,6 +5,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import GraphicSlider from "../Components/GraphicSlider";
 import GraficsSlider from "../Components/GraficsSlider";
 import { Link } from "react-router-dom";
+import SEOComponent from "../Components/SEOComponent";
 
 function Graphic() {
   useEffect(() => {
@@ -12,6 +13,13 @@ function Graphic() {
   }, []);
   return (
     <div className="mt-[70px] font-pop">
+      <div>
+        <SEOComponent
+          title="Maxify-graphic-design"
+          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-[60%] p-4 relative">
           <p className="absolute top-5 right-5 text-[2rem] text-center sm:hidden lg:flex">
@@ -73,7 +81,11 @@ function Graphic() {
 
         {/* Middle Section for Services */}
         <div className="flex items-center gap-2  text-base sm:px-0 md:px-2 lg:px-5">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_3_mz0ptm.png" alt="" className="h-[4rem] w-auto" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_3_mz0ptm.png"
+            alt="maxify websolution"
+            className="h-[4rem] w-auto"
+          />
           <p className="font-pop">
             <span className="font-semibold text-lg">
               Comprehensive Services :
@@ -84,7 +96,11 @@ function Graphic() {
         </div>
 
         {/* Section for Innovation */}
-        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513231/Section_ppckja.png" alt="" className="h-[300px] w-auto" />
+        <img
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513231/Section_ppckja.png"
+          alt="maxify websolution"
+          className="h-[300px] w-auto"
+        />
       </div>
 
       {/* slider section */}
@@ -113,7 +129,6 @@ function Graphic() {
           </div>
         </div>
       </div>
-
 
       {/* Slider */}
       <GraphicSlider />
@@ -148,23 +163,23 @@ function Graphic() {
               </p>
             </div>
             <div className="w-1/2 flex justify-center items-center ">
-            <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
-              <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_329_vcmnfx.png"
-                alt=""
-                className="md:w-[60%] md:h-auto h-[100px] w-auto"
-              />
+              <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
+                <img
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_329_vcmnfx.png"
+                  alt="maxify websolution"
+                  className="md:w-[60%] md:h-auto h-[100px] w-auto"
+                />
               </div>
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 flex justify-center items-center">
-            <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
-              <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_2_i6vgog.png"
-                className="md:w-[80%] md:h-auto h-[100px] w-auto"
-                alt=""
-              />
+              <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
+                <img
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_2_i6vgog.png"
+                  className="md:w-[80%] md:h-auto h-[100px] w-auto"
+                  alt="maxify websolution"
+                />
               </div>
             </div>
             <div className="w-1/2 pl-2">
@@ -190,23 +205,23 @@ function Graphic() {
               </p>
             </div>
             <div className="w-1/2 flex justify-center items-center">
-            <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
-              <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513204/image_4_zdax9n.png"
-                alt=""
-                className=" md:w-[80%] md:h-auto h-[100px] w-auto"
-              />
+              <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
+                <img
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513204/image_4_zdax9n.png"
+                  alt="maxify websolution"
+                  className=" md:w-[80%] md:h-auto h-[100px] w-auto"
+                />
               </div>
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 flex justify-center items-center">
-            <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
-              <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513206/image_5_gvypsd.png"
-                className="md:w-[80%] md:h-auto h-[100px] w-auto"
-                alt=""
-              />
+              <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
+                <img
+                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513206/image_5_gvypsd.png"
+                  className="md:w-[80%] md:h-auto h-[100px] w-auto"
+                  alt="maxify websolution"
+                />
               </div>
             </div>
             <div className="w-1/2 pl-2">
@@ -229,11 +244,11 @@ function Graphic() {
           {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
-          <h1 className="sm:text-3xl md:text-5xl font-semibold text-[black] mt-4  font-manrope">
+          <h3 className="sm:text-3xl md:text-5xl font-semibold text-[black] mt-4  font-manrope">
             Benefits of Partnering with{" "}
-            <span className="text-[#37937e] font-bold">Maxify Solution</span> for{" "}
-            <span className="text-[#37937e] font-bold">Graphic</span> Design
-          </h1>
+            <span className="text-[#37937e] font-bold">Maxify Solution</span>{" "}
+            for <span className="text-[#37937e] font-bold">Graphic</span> Design
+          </h3>
           <ul className="text-[16px] leading-7  mt-3 text-[#6C6A72] text-justify">
             <li>
               Customized Solutions: Tailored graphic design solutions to meet
@@ -256,22 +271,26 @@ function Graphic() {
               businesses of all sizes, from startups to large enterprises.
             </li>
           </ul>
-          <a  href="tel:+917428309119">
-          <button
-            className="mt-8 py-2 flex items-center gap-5 text-lg md:text-[14px] font-[300] px-6 rounded-full relative text-[white] bg-[#37937e] isolation-auto z-10 border-2 border-[#37937e]
+          <a href="tel:+917428309119">
+            <button
+              className="mt-8 py-2 flex items-center gap-5 text-lg md:text-[14px] font-[300] px-6 rounded-full relative text-[white] bg-[#37937e] isolation-auto z-10 border-2 border-[#37937e]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#37937e]"
-          >
-            Shadule a Call{" "}
-            <span className="">
-              <GoArrowRight size={24} />
-            </span>
-          </button>
+            >
+              Shadule a Call{" "}
+              <span className="">
+                <GoArrowRight size={24} />
+              </span>
+            </button>
           </a>
         </div>
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513191/Group_427320841_zri9mt.png" alt="" className="sm:w-full md:w-[70%]" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513191/Group_427320841_zri9mt.png"
+            alt="maxify websolution"
+            className="sm:w-full md:w-[70%]"
+          />
         </div>
       </div>
 
@@ -279,9 +298,9 @@ function Graphic() {
         <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
-            <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2  font-manrope">
+            <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-2  font-manrope">
               Industries We Serve
-            </h1>
+            </h3>
             <p className="text-lg text-[#5f5f5f]">
               We have extensive experience working with clients across various
               industries, including:
@@ -295,30 +314,38 @@ function Graphic() {
               <li>Finance and Insurance</li>
             </ul>
             <div>
-            <Link to='/about'>
-              <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
-                MORE ABOUT US
-              </button>
+              <Link to="/about">
+                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
+                  MORE ABOUT US
+                </button>
               </Link>
             </div>
           </div>
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513192/Group_164555_o6svkw.png" alt="Left Side" className="md:w-[80%] sm:w-full" />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513192/Group_164555_o6svkw.png"
+              alt="Left Side"
+              className="md:w-[80%] sm:w-full"
+            />
           </div>
         </div>
       </div>
 
       <div className="mt-8 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%] hidden md:block">
-        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513230/image_xtopqm.png" alt="" className="w-full h-auto" />
+        <img
+          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513230/image_xtopqm.png"
+          alt="maxify websolution"
+          className="w-full h-auto"
+        />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513227/image_332_m1luyv.png"
-          alt=""
+          alt="maxify websolution"
           className="sm:w-[300px] md:w-[400px] absolute bottom-0 left-0 h-auto"
         />
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513228/image_333_abb0jm.png"
-          alt=""
+          alt="maxify websolution"
           className="sm:w-[300px] md:w-[500px] absolute top-0 right-5 h-auto"
         />
         <div
@@ -398,10 +425,10 @@ function Graphic() {
           <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Get in touch
           </span>
-          <h1 className="text-2xl md:text-4xl font-semibold text-[black] mt-4 font-sand">
+          <h3 className="text-2xl md:text-4xl font-semibold text-[black] mt-4 font-sand">
             Partner with Maxify Solution – Your Trusted
             <span className="text-[#2334DE]"> Graphic Design Agency</span>
-          </h1>
+          </h3>
           <p className="mt-4 text-[16px] leading-7 text-gray-500 text-justify font-roboto">
             At Maxify Solution, we are passionate about helping businesses
             succeed through innovative and strategic graphic design. Whether you
@@ -410,19 +437,23 @@ function Graphic() {
             exceptional results.
           </p>
           <a href="https://wa.me/917428309119" target="blank">
-          <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+            <button
+              className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-          >
-            Contact us
-          </button>
+            >
+              Contact us
+            </button>
           </a>
         </div>
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative">
           <div className=" relative">
-            <img className="h-full w-full" alt="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513185/Background_Border_Shadow_occpga.png" />
+            <img
+              className="h-full w-full"
+              alt="maxify websolution"
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513185/Background_Border_Shadow_occpga.png"
+            />
           </div>
         </div>
       </div>
@@ -435,7 +466,7 @@ function Graphic() {
         </p>
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513229/image_335_jy33gk.png"
-          alt=""
+          alt="maxify websolution"
           className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]"
         />
       </div>
