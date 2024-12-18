@@ -25,7 +25,7 @@ const Conservation = () => {
         <div className="lg:w-[35%] sm:w-full p-4">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_7_qfc85w.png"
-            alt="Team meeting"
+            alt="easy to share with others"
             className="rounded-lg w-full h-auto object-cover"
           />
         </div>
@@ -95,7 +95,7 @@ const Conservation = () => {
               </div>
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_5_mvgk34.png"
-                alt="How to Reach Us"
+                alt="Top web development company in noida"
                 className="  h-[230px] sm:hidden md:block w-auto"
               />
             </div>
@@ -144,7 +144,7 @@ const Conservation = () => {
               </div>
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_6_ydvtn2.png"
-                alt="How to Reach Us"
+                alt="Website development company Delhi"
                 className="  h-[200px] sm:hidden md:block w-auto"
               />
             </div>
@@ -181,11 +181,16 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
+<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png"
             alt="maxify websolution"
             className="sm:w-full md:w-[70%]"
           />
+=======
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png"
+          alt="Top 5 web development company in noida" className="sm:w-full md:w-[70%]" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
       </div>
 
@@ -193,11 +198,16 @@ const Conservation = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
+<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png"
             alt="maxify websolution"
             className="sm:w-full md:w-[70%]"
           />
+=======
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png"
+          alt="Affordable Website development company" className="sm:w-full md:w-[70%]" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">
@@ -255,11 +265,16 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
+<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png"
             alt="maxify websolution"
             className="sm:w-full md:w-[70%]"
           />
+=======
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png" 
+          alt="low cost web development company in delhi" className="sm:w-full md:w-[70%]" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
       </div>
 
@@ -303,7 +318,7 @@ const Conservation = () => {
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_311_hql7d6.png"
-                  alt="SMO Icon"
+                  alt="best customer support for beginners"
                   className="rounded-full w-full h-full block"
                 />
               </div>
@@ -316,7 +331,7 @@ const Conservation = () => {
             <div className="lg:w-1/2 py-3 flex justify-center lg:justify-start">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_8_fiyaq6.png"
-                alt="Social Media Icons"
+                alt="custom web solutions"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
@@ -352,7 +367,7 @@ const Conservation = () => {
         <div className="lg:w-1/2  flex sm:justify-center lg:justify-start">
           <img
             undefinedhidden="true"
-            alt="Customer support team"
+            alt="technical support for web development services"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_bpbapd.png"
             className=""
           />
@@ -375,11 +390,16 @@ const Conservation = () => {
         {/* Left Side: Image */}
         <div className="w-full md:w-3/5 flex justify-start mb-6 md:mb-0">
           <div className="relative">
+<<<<<<< HEAD
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png"
               alt="Checklist"
               className="rounded-lg"
             />
+=======
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png"
+            alt="quality check list " className="rounded-lg" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-full shadow-lg">
@@ -454,11 +474,16 @@ const Conservation = () => {
 
       {/*  */}
       <div className="mt-8 p-2 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
+<<<<<<< HEAD
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png"
           alt="maxify websolution"
           className="w-full h-auto"
         />
+=======
+        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png" 
+        alt="our commitment" className="w-full h-auto" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         <div
           className=" md:absolute p-6 sm:w-[100%] md:w-[60%] h-auto right-0 bottom-0 bg-gradient-to-tl to-[#430243] from-[black]"
           style={{ borderRadius: "20px 0px 20px 0px" }}
@@ -480,7 +505,7 @@ const Conservation = () => {
         <div className=" rounded-lg shadow-lg  flex-1">
           <img
             undefinedhidden="true"
-            alt="Chat GPT"
+            alt="chat gpt for quick service"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/blog_post_img_r2ukaz.png"
             className="rounded-t-lg object-cover w-full"
           />
@@ -497,7 +522,7 @@ const Conservation = () => {
         <div className=" rounded-lg shadow-lg flex-1">
           <img
             undefinedhidden="true"
-            alt="Clear Communication"
+            alt="teamwork for project"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_1_zlyjqq.png"
             className="rounded-t-lg  object-cover w-full"
           />
@@ -515,7 +540,7 @@ const Conservation = () => {
         <div className=" rounded-lg shadow-lg flex-1">
           <img
             undefinedhidden="true"
-            alt="Dedicated Support"
+            alt="teamwork for project"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_2_vh2moh.png"
             className="rounded-t-lg  object-cover w-full"
           />
@@ -552,7 +577,7 @@ const Conservation = () => {
         <div className="lg:w-1/2  flex sm:justify-center lg:justify-end">
           <img
             undefinedhidden="true"
-            alt="Customer support team"
+            alt="using ai coding"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164461_micubn.png"
             className=""
           />

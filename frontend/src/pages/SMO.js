@@ -208,20 +208,25 @@ const SMO = () => {
 
         <div className="md:w-1/2 grid items-center grid-cols-2 gap-4  md:mt-0">
           <img
+<<<<<<< HEAD
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h3p8fm.webp"
             alt="Laptop"
+=======
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h1p8fm.webp"
+            alt="best digital marketing strategies"
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             className="col-span-1 row-span-2 "
           />
 
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-2.png_axadi4.png"
-            alt="Phone"
+            alt="social media optimization"
             className="col-span-1 "
           />
 
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-3.png_m3k1ml.png"
-            alt="Social Media Icons"
+            alt="social media marketing"
             className="col-span-1 "
           />
         </div>
@@ -827,7 +832,7 @@ const SMO = () => {
         </div>
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
           <img
-            alt="Laptop displaying SMO services"
+            alt="social media for brand awarness"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512526/why-chose-us-two.png_1_nanin6.png"
           />
         </div>
@@ -957,7 +962,7 @@ const SMO = () => {
             <div className="md:w-1/2 flex justify-end">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512505/Image_13_txhljf.png"
-                alt="Team Working"
+                alt="digital marketing professional team"
                 className="rounded-lg shadow-lg"
               />
             </div>

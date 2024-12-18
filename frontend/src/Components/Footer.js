@@ -80,7 +80,8 @@ const Footer = () => {
         <div className="hidden md:block">
           <h3 className="font-semibold mb-4">Projects</h3>
           <div>
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_1_iq6pv3.webp" alt="img" />
+            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_1_iq6pv3.webp"
+            alt="reliable web development agency" />
           </div>
         </div>
       </div>

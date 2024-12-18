@@ -74,10 +74,15 @@ const DigitalMarketing = () => {
       </div>
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
         <div className="w-full">
+<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png"
             alt="img1"
           />
+=======
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png" 
+          alt="Affordable digital marketing agency in noida delhi ncr" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
       </div>
       {/* 3rd section */}
@@ -136,7 +141,7 @@ const DigitalMarketing = () => {
                 <div key={index}>
                   <img
                     src={slide}
-                    alt={`Digital Marketing Slide ${index + 1}`}
+                    alt={`altslides ${index + 1}`}
                     className="rounded-lgw-full h-auto"
                   />
                 </div>
@@ -161,7 +166,7 @@ const DigitalMarketing = () => {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] h-full p-6 flex flex-col">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512978/image_43_wyn2cv.png"
-              alt="SEO visualization"
+              alt="top digital markeing agency in delhi ncr"
               className="w-full h-48 object-cover rounded-lg"
             />
             <div className="flex flex-col items-center flex-grow">
@@ -182,7 +187,7 @@ const DigitalMarketing = () => {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] min-h-[400px] p-6 flex flex-col">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512977/image_42_lsytqj.png"
-              alt="PPC analytics on smartphone"
+              alt="ppc for paid advertisement brand promotion"
               className="w-full h-48 object-cover rounded-lg"
             />
             <div className="flex flex-col items-center justify-between  h-1/2">
@@ -206,11 +211,16 @@ const DigitalMarketing = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
+<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png"
             alt="maxify websolution"
             className="sm:w-full md:w-[80%]"
           />
+=======
+          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png" 
+          alt="online marketing agency" className="sm:w-full md:w-[80%]" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">

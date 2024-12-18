@@ -32,8 +32,13 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-1/2 p-4">
           <img
+<<<<<<< HEAD
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp"
             alt="Team meeting"
+=======
+            src='https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp'
+            alt="app development company"
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
@@ -89,7 +94,7 @@ const Contact = () => {
             <div className="md:w-1/2 flex justify-end">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513310/Image_16_v7aies.webp"
-                alt="Team Working"
+                alt="app development agency in noida"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -123,6 +128,7 @@ const Contact = () => {
 
       {/* b */}
       <div className="bg-contact">
+<<<<<<< HEAD
         <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
@@ -137,6 +143,79 @@ const Contact = () => {
                 alt="Left Side"
                 className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
               />
+=======
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
+        {/* Left Side - Hidden in Mobile View */}
+        <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
+        <div className="flex justify-center items-center w-[80%] h-full relative">
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
+            alt="responsive app development"
+            className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
+          />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
+            alt="mobile app development"
+            className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
+          />
+          </div>
+        </div>
+
+        {/* Right Side - Visible in Mobile View */}
+        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
+          <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
+            About us
+          </p>
+
+          <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
+            Web Development — Building Websites That SELL
+          </h1>
+          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+            For Maxify Solutions, having websites developed means way more than
+            simply doing codes; it's about building an online experience that
+            engages and converts. Being one of the Top Web Designing Companies
+            in India, we possess expertise and experience to assure that your
+            web design looks good but also delivers optimum performance. During
+            development nothing is done sloppily to ensure whatever website we
+            create, it will be super SEO fast and responsive user-friendly web.
+          </p>
+          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+            We manage to be ahead of the curve by leveraging web dev best
+            practices and latest tech. Whether it is ecommerce, content
+            management systems or digital magazines; our team can create
+            websites for any industry and business model. With a focus on
+            quality and innovation, we are the best Web Design Company in India
+            for those who want to improve the digital experience for their
+            customers.{" "}
+          </p>
+
+          <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                <LuFocus className="text-[30px] text-[#635ad9]" />
+              </div>
+              <div >
+                <h3 className="text-sm font-[500] text-black">
+                  Problem Solving
+                </h3>
+                <p className="text-[12px] text-gray-600 text-justify">
+                  Aliquam erat volutpat <br />Nullam imperdiet
+                </p>
+              </div>
+            </div>
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
+              </div>
+              <div>
+                <h3 className="text-sm font-[500]  text-black">
+                  Mission & Vision
+                </h3>
+                <p className="text-[12px] text-gray-600 text-justify">
+                  Ut vehiculadictumst.<br /> Maecenas ante.
+                </p>
+              </div>
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             </div>
           </div>
 
@@ -269,7 +348,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 justify-start items-center relative px-2 bg-contact1">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/image-Photoroom_15_1_o8fpxg.png"
-            alt="Left Side"
+            alt="best app development company"
             className="w-[90%] object-cover h-auto"
           />
         </div>
@@ -277,6 +356,7 @@ const Contact = () => {
 
       {/* PPC ads */}
       <div className="bg-contact">
+<<<<<<< HEAD
         <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Left Side */}
           <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
@@ -303,6 +383,34 @@ const Contact = () => {
               are shown on the right platform at the right time, driving
               conversions while maximizing marketing budget
             </p>
+=======
+      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
+        {/* Left Side */}
+        <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
+            alt="affordable app develpment company"
+            className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
+          />
+        </div>
+        {/* Right Side - Visible in Mobile View */}
+        <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
+          <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
+            <span className="text-[#2334DE]">PPC </span>Ads :
+          </h1>
+          <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
+             How to get the most out of your marketing money
+          </p>
+          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+            One of the quickest traffic generating methods happens to be through
+            pay-per-click (PPC) advertising. Providing professionally managed
+            PPC campaigns, Maxify Solutions takes pride in securing the highest
+            ROI for you. Our team of PPC experts utilizes sophisticated
+            targeting methods to guarantee your advertisements are shown on the
+            right platform at the right time, driving conversions while
+            maximizing marketing budget
+          </p>
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
 
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
               <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
@@ -367,7 +475,7 @@ const Contact = () => {
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/image_hdddor.png"
-                  alt="SMO Icon"
+                  alt="smo services"
                   className="rounded-full w-full h-full block"
                 />
               </div>
@@ -380,7 +488,7 @@ const Contact = () => {
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513328/image_318_wsy1tu.webp"
-                alt="Social Media Icons"
+                alt="brand promotion by social media"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
@@ -427,7 +535,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_164554_rpbnsj.png"
-            alt="Left Side"
+            alt="custom app development"
             className="md:w-[80%] sm:w-full"
           />
         </div>
@@ -478,11 +586,19 @@ const Contact = () => {
           </div>
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
+<<<<<<< HEAD
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
               alt="Left Side"
               className="md:w-[80%] sm:w-full"
             />
+=======
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
+            alt="mobile app development company in noida"
+            className="md:w-[80%] sm:w-full"
+          />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           </div>
         </div>
       </div>
@@ -493,7 +609,7 @@ const Contact = () => {
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512493/Group_164558_hgubrc.png"
-            alt="Left Side"
+            alt="well researched app development"
             className="md:w-[80%] sm:w-full"
           />
         </div>
@@ -531,7 +647,7 @@ const Contact = () => {
           />
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513341/stock-photo-photo-of-curious-inspired-lady-hold-big-one-like-pinata-stand-tiptoe-wear-plaid-shirt-isolated-2083936846-transformed-Photoroom_1_zc5mci.webp"
-            alt="Left Side"
+            alt="user friendly app"
             className=" mx-auto object-cover h-auto absolute"
           />
         </div>

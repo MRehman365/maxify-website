@@ -43,7 +43,7 @@ const AppDevelopment = () => {
   const [hoveredStep, setHoveredStep] = useState(null);
   const services = {
     "Android App Development": {
-      title: "Android App Development",
+      title: "simple coding app development",
       description:
         "As the leading Android app development company in Noida, we specialize in creating robust and scalable Android apps that meet your business requirements. Our developers are proficient in Java, Kotlin, and other Android development tools, ensuring that your app is compatible with the latest Android versions and devices.",
       features: [
@@ -56,7 +56,7 @@ const AppDevelopment = () => {
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513433/5_pskc4h.webp", // Replace with the actual image path
     },
     "iOS App Development": {
-      title: "iOS App Development",
+      title: "app development for ios and android",
       description:
         "Our iOS app development services are designed to help businesses create secure, scalable, and engaging applications for Apple devices. We ensure that your app meets the highest standards of quality and performance.",
       features: [
@@ -69,7 +69,7 @@ const AppDevelopment = () => {
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513385/6_o1yhbj.webp", // Replace with the actual image path
     },
     "Cross-Platform App Development": {
-      title: "Cross-Platform App Development",
+      title: "custom app development for android",
       description:
         "We develop cross-platform apps that run seamlessly on both Android and iOS devices. Our expertise in frameworks like React Native and Flutter ensures that your app delivers a consistent user experience across platforms.",
       features: [
@@ -82,7 +82,7 @@ const AppDevelopment = () => {
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513389/9_sdrh8y.webp", // Replace with the actual image path
     },
     "App Design and User Experience (UX)": {
-      title: "App Design and User Experience (UX)",
+      title: "ui/ux design app",
       description:
         "Our design team focuses on creating intuitive and user-friendly app interfaces. We ensure that your app is not only functional but also visually appealing, enhancing user satisfaction and engagement.",
       features: [
@@ -95,7 +95,7 @@ const AppDevelopment = () => {
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513388/7_jih0gm.webp", // Replace with the actual image path
     },
     "App Testing and Quality Assurance": {
-      title: "App Testing and Quality Assurance",
+      title: "aap for automation ",
       description:
         "We provide comprehensive app testing services to ensure that your app is bug-free and performs optimally. Our QA team conducts various tests, including functional, performance, and security testing, to deliver a reliable product.",
       features: [
@@ -222,7 +222,7 @@ const AppDevelopment = () => {
           <div className="bg-card  rounded-lg">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513377/1_i0qump.webp"
-              alt="App Development"
+              alt="best app development company in noida"
               className="rounded-lg w-full"
             />
           </div>
@@ -290,7 +290,7 @@ const AppDevelopment = () => {
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-4 md:p-6">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513401/3_pywoq4.webp"
-            alt="img2"
+            alt="cutting edge technology for app development"
           />
           <div className="p-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
@@ -367,7 +367,11 @@ const AppDevelopment = () => {
           </p>
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513399/2_ftzsf4.webp"
+<<<<<<< HEAD
             alt="maxify websolution"
+=======
+            alt="app development plan"
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           />
         </div>
       </div>
@@ -399,7 +403,11 @@ const AppDevelopment = () => {
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_29_lt4fj2.webp"
             className="w-[900px]"
+<<<<<<< HEAD
             alt="maxify websolution"
+=======
+            alt="app development strategy"
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           />
         </div>
       </div>
@@ -541,19 +549,19 @@ const AppDevelopment = () => {
           <div className="lg:w-1/2 sm:w-full flex gap-4 flex-col items-center md:flex-row items-center justify-between mt-10 lg:mt-10 sm:p-2 md:py-5 lg:py-12">
             {[
               {
-                title: "",
+                title: "ecommerce app development cost",
                 bgColor: "bg-black text-white",
                 image:
                   "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513400/4_umkgco.webp",
               },
               {
-                title: "Software as a Service integration",
+                title: "ios app development",
                 bgColor: "bg-gray-200 text-gray-800",
                 image:
                   "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513391/10_s3erfq.webp",
               },
               {
-                title: "Mobile Platform Development",
+                title: "custom mobile app development",
                 bgColor: "bg-gray-100 text-gray-800",
                 image:
                   "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513391/11_tniorw.webp",

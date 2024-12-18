@@ -94,7 +94,7 @@ const SEO = () => {
           <div className="h-[100%] w-[70%] overflow-hidden flex justify-center items-center rounded-lg right-seo relative  z-10">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513480/20_yjdn8u.webp"
-              alt="Person using a tablet"
+              alt="seo expert in noida, delhi ncr"
               className="h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
             />
           </div>
@@ -103,27 +103,27 @@ const SEO = () => {
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white"
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512526/Screenshot_2024-09-09_101724_e8npmd.png"
-                alt="Client 1"
+                alt="seo campany"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/person6_lnfxym.jpg"
-                alt="Client 2"
+                alt="seo professionals in noida"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/person2_hrxeaf.jpg"
-                alt="Client 3"
+                alt="seo services"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/images_ixjiwo.jpg"
-                alt="Client 4"
+                alt="seo optimization"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_ozglp8.jpg"
-                alt="Client 5"
+                alt="google my business seo"
               />
               <div className="bg-[#2334DE] text-white text-[10px]  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
                 12k+
@@ -180,6 +180,7 @@ const SEO = () => {
               controls={false}
               autoPlay={true}
               loop={true}
+            
             ></video>
             <div
               className="absolute bottom-3 text-[60px] bg-[#f9f9f9] py-6 px-[60px] text-[#2334DE]"
@@ -225,7 +226,7 @@ const SEO = () => {
             <div className=" mb flex justify-center items-center rounded-lg relative  z-10">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513489/25_psbmua.webp"
-                alt="Person using a tablet"
+                alt="affordable seo for small business"
                 className="sm:h-[300px] lg:h-[480px] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-0"
               />
             </div>
@@ -307,17 +308,17 @@ const SEO = () => {
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513450/2_vljukx.webp"
-                  alt="Laptop"
+                  alt="SEO services for website"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513461/7_jeemdq.webp"
-                  alt="Phone"
+                  alt="seo ranking for website"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513470/13_dt6hpj.webp"
-                  alt="Social Media Icons"
+                  alt="search engine optimization for higher ranking"
                   className="col-span-1 h-full object-cover"
                 />
               </div>
@@ -373,17 +374,17 @@ const SEO = () => {
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513452/3_zetzvf.webp"
-                  alt="Laptop"
+                  alt="seo company in noida"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513463/8_up40qt.webp"
-                  alt="Phone"
+                  alt="seo agency in delhi ncr"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513472/14_dvwpai.webp"
-                  alt="Social Media Icons"
+                  alt="fast ranking seo"
                   className="col-span-1 h-full object-cover"
                 />
               </div>
@@ -440,17 +441,17 @@ const SEO = () => {
               <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513454/4_fy1qhb.webp"
-                  alt="Laptop"
+                  alt="quality back links for seo ranking"
                   className="col-span-1 row-span-2 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513464/9_emd2hl.webp"
-                  alt="Phone"
+                  alt="seo analysis for website"
                   className="col-span-1 h-full object-cover"
                 />
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513473/15_kcb67f.webp"
-                  alt="Social Media Icons"
+                  alt="hi da pa backlinks creation"
                   className="col-span-1 h-full object-cover"
                 />
               </div>
@@ -517,7 +518,7 @@ const SEO = () => {
           </div>
           <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
             <img
-              alt="Laptop displaying SMO services"
+              alt="social media optimization"
               className="md:w-[500px] sm:w-[300px] h-auto"
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513491/26_x84wrr.webp"
             />
@@ -839,13 +840,13 @@ const SEO = () => {
           <div className="md:w-1/2 flex gap-3 sm:p-4 md:p-16 lg:p-20">
             <img
               undefinedhidden="true"
-              alt="SEO graphics"
+              alt="seo agency noida"
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513478/18_ub0bnc.webp"
               className="rounded-lg w-1/2"
             />
             <img
               undefinedhidden="true"
-              alt="SEO graphics"
+              alt="seo company"
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513477/17_qx9xpp.webp"
               className="rounded-lg w-1/2"
             />

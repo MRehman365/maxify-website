@@ -14,6 +14,7 @@ const Services = () => {
       imageSrc:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513533/7_fw9kkj.webp",
       title: "Custom Website Design And Development",
+      alt:"Website Design & Development Services",
       description:
         "Our custom website design and development services set us apart as the best website development company in Noida. We do not believe in universally applicable solutions. Instead, we take the time to understand your company's goals, target audience, and brand identity while designing a website that represents your concept.",
       hoverText: "Learn More",
@@ -27,6 +28,7 @@ const Services = () => {
       imageSrc:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513535/8_kfag4g.webp",
       title: "E-Commerce Website Development",
+      alt:"best website designing company in delhi",
       description:
         "In the modern age of online purchasing, a reputable e-commerce platform is necessary. As the best web development company in Noida, we offer top-notch e-commerce website development services that help you sell your products online with ease.",
       hoverText: "Discover More",
@@ -38,6 +40,7 @@ const Services = () => {
       imageSrc:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513537/9_vhdrnm.webp",
       title: "CMS Development",
+      alt:"cms website development cost",
       description:
         "Content Management Systems (CMS) make it easy for you to update your website content without needing technical expertise. At Maxify Solutions, the leading website development company in Noida, we specialize in CMS development that empowers you to manage your site effectively.",
       hoverText: "Explore Features",
@@ -49,6 +52,7 @@ const Services = () => {
       imageSrc:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513539/10_zapx0w.webp",
       title: "Website Maintenance And Support",
+      alt:"website maintenance services",
       description:
         "A website is never truly finished; it requires regular updates and maintenance to stay relevant and functional. As the best web development company in Noida, we offer ongoing maintenance and support services to keep your website running smoothly.",
       hoverText: "Check Details",
@@ -61,7 +65,7 @@ const Services = () => {
   const services1 = [
     {
       id: 1,
-      title: "Proven Track Record",
+      title: "responsive website design",
       description:
         "Our success as the best website development company in Noida is backed by a strong portfolio of satisfied clients across various industries. We take pride in delivering websites that exceed our clients' expectations.",
       image:
@@ -71,7 +75,7 @@ const Services = () => {
     },
     {
       id: 2,
-      title: "Client-Centric Approach",
+      title: "website design services",
       description:
         "At Maxify Solutions, we believe that your success is our success. We focus on understanding your needs and goals to deliver a website that is more than just a website; it is an invaluable resource for your company.",
       image:
@@ -81,7 +85,7 @@ const Services = () => {
     },
     {
       id: 3,
-      title: "Cutting-Edge Technology",
+      title: "website design services in delhi",
       description:
         "We stay ahead of the curve by using the latest technologies and tools in web development. Our commitment to innovation ensures that your website is future-proof and ready to adapt to new trends and changes.",
       image:
@@ -148,7 +152,7 @@ const Services = () => {
         <div className="md:w-1/2 flex justify-center">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513525/1_a07tse.webp"
-            alt="Team Planning"
+            alt="web development company in noida, Delhi NCR"
             className="rounded-lg shadow-md w-full h-auto"
           />
         </div>
@@ -163,17 +167,17 @@ const Services = () => {
             <div className="relative">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335925/Background_oa0a6s.png"
-                alt="Secondary"
+                alt="circle "
                 className=" w-[42%] h-auto absolute bottom-[50%] right-[20%] transform translate-x-[50%] translate-y-[50%] -z-[0]"
               />
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513530/5_xw0wov.webp"
-                alt="Main"
+                alt="web developer in delhi ncr"
                 className=" shadow-md w-[70%] h-full object-cover overflow-hidden mb-4 ml-2 z-[1] relative"
               />
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513528/4_wstawy.webp"
-                alt="Secondary"
+                alt="roi driven website development agency"
                 className=" shadow-md w-[52%] h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4 z-[2]"
               />
             </div>
@@ -254,7 +258,11 @@ const Services = () => {
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <img
                   src={service.imageSrc}
+<<<<<<< HEAD
                   alt="maxify websolution"
+=======
+                  alt={service.alt}
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                   className="w-full h-48 object-cover"
                 />
               </div>
@@ -633,11 +641,16 @@ const Services = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:w-[60%] mx-auto">
               {/* Card 1 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
+<<<<<<< HEAD
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp"
                   alt="SEO"
                   className="rounded-t-lg mb-6 h-full w-full object-cover"
                 />
+=======
+                <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp" 
+                alt="seo services" className="rounded-t-lg mb-6 h-full w-full object-cover" />
+>>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-4">
                     Search Engine Optimization
