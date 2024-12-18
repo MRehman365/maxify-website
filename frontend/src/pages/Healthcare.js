@@ -36,16 +36,9 @@ const Healthcare = () => {
   const contentArray = [
     {
       title: "1. Custom Health Care Web Site Development",
-<<<<<<< HEAD
-      description:
-        "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
-=======
       description: "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
       Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
       altImages:"best it company for healthcare idustries branding",
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
       points: [
         "Receptive and Mobile-Optimized Designs: We develop internet sites that supply a seamless individual experience across all devices—desktop computers, tablet computers, and smartphones.",
         "SEO-Friendly Style: Our web development technique consists of SEO ideal practices to ensure your internet site ranks high up on search engines, attracting more natural traffic.",
@@ -54,16 +47,9 @@ const Healthcare = () => {
     },
     {
       title: "2. Telemedicine Platform Development",
-<<<<<<< HEAD
-      description:
-        "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
-=======
       description: "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
       Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
       altImages:"healthcare web development ",
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
       points: [
         "Protect Video Clip Appointment: Top-notch, secure video clip conferencing abilities for effective remote client consultations.",
         "Visit Scheduling and Administration: Smooth assimilation of appointment organizing devices that sync with your internal systems, making it easier for both team and patients.",
@@ -84,16 +70,9 @@ const Healthcare = () => {
     },
     {
       title: "  4. Healthcare CRM Solutions",
-<<<<<<< HEAD
-      description:
-        "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
-=======
       description: "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
       Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
       altImages:"healthcare website development ",
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
       points: [
         "Person Data Administration: Centralized data storage space to manage patient history, therapy plans, and follow-ups effectively.",
         "Automated Interaction: Automated text and email reminders for visits, medicine, and follow-up checkouts.",

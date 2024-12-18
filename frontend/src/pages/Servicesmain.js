@@ -854,11 +854,7 @@ const Servicesmain = () => {
           <img
             className="rounded-xl"
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512679/Figure_educator-img12-500px.jpg_fc5wh2.png"
-<<<<<<< HEAD
-            alt="maxify websolution"
-=======
             alt="3d animation company"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           />
         </div>
       </div>
@@ -868,11 +864,7 @@ const Servicesmain = () => {
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png"
-<<<<<<< HEAD
-            alt="maxify websolution"
-=======
             alt="3d animation company in noida"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             className="sm:w-full md:w-[80%]"
           />
         </div>

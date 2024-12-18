@@ -258,11 +258,7 @@ const Services = () => {
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <img
                   src={service.imageSrc}
-<<<<<<< HEAD
-                  alt="maxify websolution"
-=======
                   alt={service.alt}
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                   className="w-full h-48 object-cover"
                 />
               </div>
@@ -641,16 +637,8 @@ const Services = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:w-[60%] mx-auto">
               {/* Card 1 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
-<<<<<<< HEAD
-                <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp"
-                  alt="SEO"
-                  className="rounded-t-lg mb-6 h-full w-full object-cover"
-                />
-=======
                 <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp" 
                 alt="seo services" className="rounded-t-lg mb-6 h-full w-full object-cover" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-4">
                     Search Engine Optimization

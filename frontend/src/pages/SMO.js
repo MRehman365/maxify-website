@@ -208,13 +208,8 @@ const SMO = () => {
 
         <div className="md:w-1/2 grid items-center grid-cols-2 gap-4  md:mt-0">
           <img
-<<<<<<< HEAD
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h3p8fm.webp"
-            alt="Laptop"
-=======
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h1p8fm.webp"
             alt="best digital marketing strategies"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             className="col-span-1 row-span-2 "
           />
 
