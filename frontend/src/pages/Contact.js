@@ -32,13 +32,8 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-1/2 p-4">
           <img
-<<<<<<< HEAD
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp"
-            alt="Team meeting"
-=======
-            src='https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513308/Container_11_qk43uv.webp'
             alt="app development company"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
@@ -128,94 +123,20 @@ const Contact = () => {
 
       {/* b */}
       <div className="bg-contact">
-<<<<<<< HEAD
         <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
             <div className="flex justify-center items-center w-[80%] h-full relative">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
-                alt="Left Side"
+                alt="responsive app development"
                 className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
               />
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
-                alt="Left Side"
+                alt="mobile app development"
                 className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
               />
-=======
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
-        {/* Left Side - Hidden in Mobile View */}
-        <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
-        <div className="flex justify-center items-center w-[80%] h-full relative">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_4_eyr7vt.png"
-            alt="responsive app development"
-            className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
-          />
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512498/image_3_qlttwq.png"
-            alt="mobile app development"
-            className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
-          />
-          </div>
-        </div>
-
-        {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
-          <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
-            About us
-          </p>
-
-          <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
-            Web Development — Building Websites That SELL
-          </h1>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            For Maxify Solutions, having websites developed means way more than
-            simply doing codes; it's about building an online experience that
-            engages and converts. Being one of the Top Web Designing Companies
-            in India, we possess expertise and experience to assure that your
-            web design looks good but also delivers optimum performance. During
-            development nothing is done sloppily to ensure whatever website we
-            create, it will be super SEO fast and responsive user-friendly web.
-          </p>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            We manage to be ahead of the curve by leveraging web dev best
-            practices and latest tech. Whether it is ecommerce, content
-            management systems or digital magazines; our team can create
-            websites for any industry and business model. With a focus on
-            quality and innovation, we are the best Web Design Company in India
-            for those who want to improve the digital experience for their
-            customers.{" "}
-          </p>
-
-          <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <LuFocus className="text-[30px] text-[#635ad9]" />
-              </div>
-              <div >
-                <h3 className="text-sm font-[500] text-black">
-                  Problem Solving
-                </h3>
-                <p className="text-[12px] text-gray-600 text-justify">
-                  Aliquam erat volutpat <br />Nullam imperdiet
-                </p>
-              </div>
-            </div>
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
-                <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
-              </div>
-              <div>
-                <h3 className="text-sm font-[500]  text-black">
-                  Mission & Vision
-                </h3>
-                <p className="text-[12px] text-gray-600 text-justify">
-                  Ut vehiculadictumst.<br /> Maecenas ante.
-                </p>
-              </div>
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             </div>
           </div>
 
@@ -225,9 +146,9 @@ const Contact = () => {
               About us
             </p>
 
-            <h3 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
+            <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
               Web Development — Building Websites That SELL
-            </h3>
+            </h1>
             <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
               For Maxify Solutions, having websites developed means way more
               than simply doing codes; it's about building an online experience
@@ -279,14 +200,75 @@ const Contact = () => {
               </div>
             </div>
 
-            <a href="https://wa.me/917428309119" target="_blank">
-              <button
-                className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
+            {/* Right Side - Visible in Mobile View */}
+            <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
+              <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
+                About us
+              </p>
+
+              <h3 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
+                Web Development — Building Websites That SELL
+              </h3>
+              <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+                For Maxify Solutions, having websites developed means way more
+                than simply doing codes; it's about building an online
+                experience that engages and converts. Being one of the Top Web
+                Designing Companies in India, we possess expertise and
+                experience to assure that your web design looks good but also
+                delivers optimum performance. During development nothing is done
+                sloppily to ensure whatever website we create, it will be super
+                SEO fast and responsive user-friendly web.
+              </p>
+              <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
+                We manage to be ahead of the curve by leveraging web dev best
+                practices and latest tech. Whether it is ecommerce, content
+                management systems or digital magazines; our team can create
+                websites for any industry and business model. With a focus on
+                quality and innovation, we are the best Web Design Company in
+                India for those who want to improve the digital experience for
+                their customers.{" "}
+              </p>
+
+              <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
+                <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                  <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                    <LuFocus className="text-[30px] text-[#635ad9]" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-[500] text-black">
+                      Problem Solving
+                    </h3>
+                    <p className="text-[12px] text-gray-600 text-justify">
+                      Aliquam erat volutpat <br />
+                      Nullam imperdiet
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+                  <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                    <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-[500]  text-black">
+                      Mission & Vision
+                    </h3>
+                    <p className="text-[12px] text-gray-600 text-justify">
+                      Ut vehiculadictumst.
+                      <br /> Maecenas ante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://wa.me/917428309119" target="_blank">
+                <button
+                  className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
-              >
-                Get Started Now
-              </button>
-            </a>
+                >
+                  Get Started Now
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -356,21 +338,20 @@ const Contact = () => {
 
       {/* PPC ads */}
       <div className="bg-contact">
-<<<<<<< HEAD
         <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Left Side */}
           <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
-              alt="Left Side"
+              alt="affordable app develpment company"
               className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
             />
           </div>
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
-            <h3 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
+            <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
               <span className="text-[#2334DE]">PPC </span>Ads :
-            </h3>
+            </h1>
             <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
                How to get the most out of your marketing money
             </p>
@@ -383,34 +364,6 @@ const Contact = () => {
               are shown on the right platform at the right time, driving
               conversions while maximizing marketing budget
             </p>
-=======
-      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
-        {/* Left Side */}
-        <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_2_srkrbv.png"
-            alt="affordable app develpment company"
-            className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
-          />
-        </div>
-        {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
-          <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
-            <span className="text-[#2334DE]">PPC </span>Ads :
-          </h1>
-          <p className="text-[15px] md:text-[18px] font-[500] text-[gray] mb-4">
-             How to get the most out of your marketing money
-          </p>
-          <p className="text-sm md:text-base text-justify  text-gray-600 mb-6">
-            One of the quickest traffic generating methods happens to be through
-            pay-per-click (PPC) advertising. Providing professionally managed
-            PPC campaigns, Maxify Solutions takes pride in securing the highest
-            ROI for you. Our team of PPC experts utilizes sophisticated
-            targeting methods to guarantee your advertisements are shown on the
-            right platform at the right time, driving conversions while
-            maximizing marketing budget
-          </p>
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
 
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
               <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
@@ -586,19 +539,11 @@ const Contact = () => {
           </div>
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-<<<<<<< HEAD
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
-              alt="Left Side"
+              alt="mobile app development company in noida"
               className="md:w-[80%] sm:w-full"
             />
-=======
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164555_hxpxk9.png"
-            alt="mobile app development company in noida"
-            className="md:w-[80%] sm:w-full"
-          />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           </div>
         </div>
       </div>

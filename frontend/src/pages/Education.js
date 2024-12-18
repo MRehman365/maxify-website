@@ -7,7 +7,6 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { Navigation, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import SEOComponent from "../Components/SEOComponent";
 
 const Education = () => {
   useEffect(() => {
@@ -15,13 +14,6 @@ const Education = () => {
   }, []);
   return (
     <div className="mt-[70px]">
-      <div>
-        <SEOComponent
-          title="Maxify-Education"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
-          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
-        />
-      </div>
       <div className="w-full font-sans md:w-[90%] lg:w-[80%] mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-[35%_65%] gap-8 items-start">
           {/* Left Side Content */}
@@ -52,13 +44,12 @@ const Education = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           {/* Right Side Content */}
           <div className="relative h-full">
             <div className="h-full object-cover w-[70%]">
               <img
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512880/image_39_jn7ke0.png"
-                alt="Futuristic classroom"
+                alt="Education web development company in noida"
                 width={600}
                 height={800}
                 className="rounded-lg"
@@ -88,27 +79,15 @@ const Education = () => {
             </div>
           </div>
         </div>
-=======
-    {/* Right Side Content */}
-    <div className="relative h-full">
-      <div className="h-full object-cover w-[70%]">
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512880/image_39_jn7ke0.png"
-          alt="Education web development company in noida"
-          width={600}
-          height={800}
-          className="rounded-lg"
-        />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
       </div>
 
       {/* section 2 */}
       <div className="w-full md:w-[70%] lg:w-[60%] mx-auto flex flex-col items-center gap-4 p-4">
         <div className="text-center">
           <p className="text-sm text-gray-400 mb-4">Education Services</p>
-          <h3 className="text-[#2334de] text-3xl md:text-5xl font-semibold font-syne">
+          <h1 className="text-[#2334de] text-3xl md:text-5xl font-semibold font-syne">
             Why Pick Maxify Service for Education Website Development?
-          </h3>
+          </h1>
         </div>
         <p className="text-base md:text-xl leading-7 text-[#807e85] text-justify md:px-20 font-dm">
           Maxify Service brings over 15 years of experience in electronic
@@ -555,12 +534,12 @@ const Education = () => {
       <div className="bg-white sm:p-4 md:p-10 w-full md:w-[90%] lg:w-[80%] mx-auto font-syne">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h3 className="text-2xl md:text-4xl font-bold text-blue-700 mb-4">
+            <h1 className="text-2xl md:text-4xl font-bold text-blue-700 mb-4">
               Advanced Technologies{" "}
               <span className="font-[500] text-gray-600">
                 We Make Use Of in Education Website Development
               </span>
-            </h3>
+            </h1>
             <p className="text-gray-700 mb-6 md:text-xl text-justify">
               At Maxify Service, we leverage the most up-to-date technical
               advancements to provide sophisticated education website
@@ -611,13 +590,13 @@ const Education = () => {
             />
           </div>
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h3 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
               Advantages of Partnering{" "}
               <span className="font-[500] text-gray-600">
                 {" "}
                 with Maxify Solution for Education Website Development
               </span>
-            </h3>
+            </h1>
             <ul className="list-disc pl-5 space-y-4 text-gray-500 md:text-xl text-justify px-6 md:px-10">
               <li>
                 <span className="font-semibold text-black">
@@ -678,13 +657,13 @@ const Education = () => {
             <p className="text-purple-500 font-semibold text-xl">
               MAXIFY SOLUTIONS
             </p>
-            <h3 className="text-3xl md:text-5xl font-bold leading-tight font-manrope">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight font-manrope">
               Your Trusted Partner
               <span className="text-gray-800 font-[500]">
                 {" "}
                 In Education Website Development
               </span>
-            </h3>
+            </h1>
 
             <p className="text-sm md:text-lg text-justify text-gray-500 leading-relaxed">
               At Maxify Service, we are dedicated to providing education website

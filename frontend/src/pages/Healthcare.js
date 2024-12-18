@@ -102,16 +102,9 @@ const Healthcare = () => {
     },
     {
       title: "5. E-Pharmacy and E-Prescription Solutions",
-<<<<<<< HEAD
-      description:
-        "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
-=======
       description: "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
       Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
       altImages:"healthcare designing development ",
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
       points: [
         "Safeguard Online Purchases: Integrated settlement portals that make sure safe and secure online deals for buying medicines.",
         "Prescription Administration: Easy-to-use interfaces for handling and refilling prescriptions online.",
@@ -123,21 +116,12 @@ const Healthcare = () => {
 
   const [currentIndex, setCurrentIndex] = useState([0]);
   useEffect(() => {
-<<<<<<< HEAD
-    const Interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % contentArray.length);
-    }, 2000);
-    return () => clearInterval(Interval);
-  }, [contentArray.length]);
-  const { title, description, points, Images } = contentArray[currentIndex];
-=======
 const Interval = setInterval(() => {
   setCurrentIndex((prevIndex) => (prevIndex + 1) % (contentArray.length))
 }, 2000)
 return () => clearInterval(Interval)
   },[contentArray.length])
   const { title, description, points, Images, altImages } = contentArray[currentIndex];
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -220,16 +204,8 @@ return () => clearInterval(Interval)
         </h3>
         <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
-<<<<<<< HEAD
-            <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png"
-              alt="Healthcare icons"
-              class="rounded-lg"
-            />
-=======
             <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png" 
             alt="hospital web development company in noida" class="rounded-lg" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           </div>
           <div class="md:w-1/2 px-6">
             <ul class="list-disc text-justify text-sm md:text-base space-y-3">
@@ -386,16 +362,8 @@ return () => clearInterval(Interval)
       {/* 7th */}
       <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
         <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
-<<<<<<< HEAD
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png"
-            alt="Healthcare icons"
-            class="rounded-lg"
-          />
-=======
           <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png" 
           alt="doctos website and designinc compnay " class="rounded-lg" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
         <div class="md:w-1/2 md:px-6">
           <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10">
@@ -416,16 +384,6 @@ return () => clearInterval(Interval)
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center bg-white md:py-12 px-6 md:px-16">
-<<<<<<< HEAD
-        {/* Left Section: Image */}
-        <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
-          <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
-            alt="Contact Us"
-            className="rounded-lg md:rounded-none w-full h-auto object-cover"
-          />
-        </div>
-=======
       {/* Left Section: Image */}
       <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
         <img
@@ -434,7 +392,6 @@ return () => clearInterval(Interval)
           className="rounded-lg md:rounded-none w-full h-auto object-cover"
         />
       </div>
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
 
         {/* Right Section: Text Content */}
         <div className="bg-blue-600 md:w-1/2 w-full p-8 rounded-lg md:rounded-r-lg text-white">

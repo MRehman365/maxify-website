@@ -181,16 +181,11 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png"
-            alt="maxify websolution"
+            alt="Top 5 web development company in noida"
             className="sm:w-full md:w-[70%]"
           />
-=======
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png"
-          alt="Top 5 web development company in noida" className="sm:w-full md:w-[70%]" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
       </div>
 
@@ -198,16 +193,11 @@ const Conservation = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
-<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png"
-            alt="maxify websolution"
+            alt="Affordable Website development company"
             className="sm:w-full md:w-[70%]"
           />
-=======
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png"
-          alt="Affordable Website development company" className="sm:w-full md:w-[70%]" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
         {/* Left side content */}
         <div className="md:w-1/2">
@@ -265,16 +255,11 @@ const Conservation = () => {
 
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
-<<<<<<< HEAD
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png"
-            alt="maxify websolution"
+            alt="low cost web development company in delhi"
             className="sm:w-full md:w-[70%]"
           />
-=======
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png" 
-          alt="low cost web development company in delhi" className="sm:w-full md:w-[70%]" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         </div>
       </div>
 
@@ -390,16 +375,11 @@ const Conservation = () => {
         {/* Left Side: Image */}
         <div className="w-full md:w-3/5 flex justify-start mb-6 md:mb-0">
           <div className="relative">
-<<<<<<< HEAD
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png"
-              alt="Checklist"
+              alt="quality check list "
               className="rounded-lg"
             />
-=======
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png"
-            alt="quality check list " className="rounded-lg" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-full shadow-lg">
@@ -474,16 +454,11 @@ const Conservation = () => {
 
       {/*  */}
       <div className="mt-8 p-2 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
-<<<<<<< HEAD
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png"
-          alt="maxify websolution"
+          alt="our commitment"
           className="w-full h-auto"
         />
-=======
-        <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png" 
-        alt="our commitment" className="w-full h-auto" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
         <div
           className=" md:absolute p-6 sm:w-[100%] md:w-[60%] h-auto right-0 bottom-0 bg-gradient-to-tl to-[#430243] from-[black]"
           style={{ borderRadius: "20px 0px 20px 0px" }}

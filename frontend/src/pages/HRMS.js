@@ -290,16 +290,11 @@ const HRMS = () => {
       <div className="bg-hrms mt-5 font-manrope min-h-full">
         <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
           <div className="md:w-1/2 mb-6 md:mb-0 p-2">
-<<<<<<< HEAD
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png"
-              alt="HRMS Illustration"
+              alt="best hrms company in noida"
               className="rounded-lg"
             />
-=======
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png" 
-            alt="best hrms company in noida" className="rounded-lg" />
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           </div>
           <div className="md:w-1/2 md:pl-6 min-h-[55vh] flex flex-col justify-center">
             <h2 className=" text-center text-[#635ad9] font-bold sm:text-2xl md:text-4xl lg:5xl">
@@ -479,11 +474,7 @@ const HRMS = () => {
             </p>
             <img
               src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513146/image_23_orrp43.png"
-<<<<<<< HEAD
-              alt="maxify websolution"
-=======
               alt="easy to use hrms for no skilled employee also"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
               className="h-[100px] sm:hidden md:block w-auto"
             />
           </div>

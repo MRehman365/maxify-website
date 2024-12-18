@@ -181,11 +181,7 @@ const GraphicSlider = () => {
                 </p>
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513210/image_7_q9s5fm.png"
-<<<<<<< HEAD
-                  alt="maxify websolution"
-=======
                   alt="seo strategy for website"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
               </div>
@@ -215,11 +211,7 @@ const GraphicSlider = () => {
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513208/image_6_wrvsh2.png"
-<<<<<<< HEAD
-                  alt="maxify websolution"
-=======
                   alt="seo for brand promotion"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
                   className="w-[80%] h-auto" // Consistent height and width
                 />
               </div>

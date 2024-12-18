@@ -367,11 +367,7 @@ const AppDevelopment = () => {
           </p>
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513399/2_ftzsf4.webp"
-<<<<<<< HEAD
-            alt="maxify websolution"
-=======
             alt="app development plan"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           />
         </div>
       </div>
@@ -403,11 +399,7 @@ const AppDevelopment = () => {
           <img
             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_29_lt4fj2.webp"
             className="w-[900px]"
-<<<<<<< HEAD
-            alt="maxify websolution"
-=======
             alt="app development strategy"
->>>>>>> 6f3742d81654c63597d83f3121d7a30dde569303
           />
         </div>
       </div>
