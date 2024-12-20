@@ -48,8 +48,8 @@ const SEO = () => {
     <div className="mt-[70px]">
       <div>
         <SEOComponent
-          title="Maxify-SEO"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best SEO Company in Noida - Achieve Fast Rankings on SERPs"
+          description="Boost your website’s visibility with the best SEO company in Noida. We deliver fast and effective rankings on SERPs with advanced SEO strategies. Get more traffic and leads today!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>
@@ -180,7 +180,6 @@ const SEO = () => {
               controls={false}
               autoPlay={true}
               loop={true}
-            
             ></video>
             <div
               className="absolute bottom-3 text-[60px] bg-[#f9f9f9] py-6 px-[60px] text-[#2334DE]"

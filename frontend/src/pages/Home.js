@@ -436,8 +436,8 @@ const Home = () => {
     <div className="mt-[80px] font-dm">
       <div>
         <SEOComponent
-          title="Maxify Web Solutions"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Top Digital Marketing Agency in Noida, Delhi NCR - Maximize Your Online Growth"
+          description="Partner with the best digital marketing agency in Noida, Delhi NCR. Specializing in SEO, PPC, social media marketing, and branding to boost your online presence and drive results."
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>
