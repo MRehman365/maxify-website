@@ -37,15 +37,21 @@ const Healthcare = () => {
     {
       title: "1. Custom Health Care Web Site Development",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       description: "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
       Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
       altImages:"best it company for healthcare idustries branding",
 =======
+=======
+>>>>>>> Stashed changes
       description:
         "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
       Images:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
       altImages: "best it company for healthcare idustries branding",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       points: [
         "Receptive and Mobile-Optimized Designs: We develop internet sites that supply a seamless individual experience across all devices—desktop computers, tablet computers, and smartphones.",
@@ -56,15 +62,21 @@ const Healthcare = () => {
     {
       title: "2. Telemedicine Platform Development",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       description: "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
       Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
       altImages:"healthcare web development ",
 =======
+=======
+>>>>>>> Stashed changes
       description:
         "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
       Images:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
       altImages: "healthcare web development ",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       points: [
         "Protect Video Clip Appointment: Top-notch, secure video clip conferencing abilities for effective remote client consultations.",
@@ -87,15 +99,21 @@ const Healthcare = () => {
     {
       title: "  4. Healthcare CRM Solutions",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       description: "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
       Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
       altImages:"healthcare website development ",
 =======
+=======
+>>>>>>> Stashed changes
       description:
         "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
       Images:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
       altImages: "healthcare website development ",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       points: [
         "Person Data Administration: Centralized data storage space to manage patient history, therapy plans, and follow-ups effectively.",
