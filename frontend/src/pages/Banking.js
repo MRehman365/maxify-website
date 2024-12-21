@@ -98,8 +98,8 @@ const Banking = () => {
     <div className="mt-[60px] font-pop">
       <div>
         <SEOComponent
-          title="Maxify-banking"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Leading Banking Website Development Company - Secure & User-Friendly Solutions"
+          description="Maxify Solutions is a top banking website development company, offering secure, responsive, and custom websites tailored for the financial sector. Enhance your digital banking services with our expert solutions!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

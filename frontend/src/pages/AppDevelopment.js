@@ -181,8 +181,8 @@ const AppDevelopment = () => {
     <div className="mt-[70px]">
       <div>
         <SEOComponent
-          title="Maxify-AppDevelopment"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best App Development Company in Noida, Delhi NCR - Maxify Solutions"
+          description="Maxify Solutions is the top app development company in Noida, Delhi NCR. Offering cutting-edge mobile and web app solutions tailored to your business needs. Contact us for innovative, user-friendly, and scalable applications today!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

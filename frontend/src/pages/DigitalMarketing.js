@@ -31,8 +31,8 @@ const DigitalMarketing = () => {
     <div className="mt-[70px]">
       <div>
         <SEOComponent
-          title="Maxify-Digital-marketing"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Branding Digital Marketing Agency in Noida, Maxify Solutions"
+          description="Maxify Solutions, Top leading digital marketing and branding agency in Noida, specializes in SEO, SMO, and creative branding strategies. Boost your brand's online presence with our expert solutions!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>
@@ -171,7 +171,7 @@ const DigitalMarketing = () => {
               <p className="text-gray-600 mb-4 text-center">
                 Increases Your Online Visibility
               </p>
-              <Link to="/seo">
+              <Link to="/seo-company-in-noida">
                 <button className="bg-blue-600 hover:bg-blue-700 text-white  py-2 px-4 rounded-2xl mt-auto">
                   Learn more
                 </button>
@@ -194,7 +194,7 @@ const DigitalMarketing = () => {
                   Drive Immediate Results
                 </p>
               </div>
-              <Link to="/smo">
+              <Link to="/social-media-agency-in-noida">
                 <button className="border border-gray-300 text-gray-800  py-2 px-4 rounded-2xl hover:bg-gray-100 mt-auto">
                   Learn more
                 </button>

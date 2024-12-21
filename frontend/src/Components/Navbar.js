@@ -111,7 +111,7 @@ const Navbar = () => {
                   </h2>
                   <div className="grid grid-cols-4 gap-4">
                     <Link
-                      to="/web"
+                      to="/web-development-company-in-noida"
                       onClick={handleNavClick}
                       className="p-2 bg-white  text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 rounded-lg flex gap-2"
                     >
@@ -134,7 +134,7 @@ const Navbar = () => {
                       </div>
                     </Link>
                     <Link
-                      to="/app"
+                      to="/app-development-company-in-noida"
                       onClick={handleNavClick}
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition flex duration-300 rounded-lg"
                     >
@@ -179,7 +179,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       onClick={handleNavClick}
-                      to="/marketingsolutions"
+                      to="/3d-modeling-agency-in-noida"
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                     >
                       <div className="h-auto w-[100px] mt-2">
@@ -201,7 +201,7 @@ const Navbar = () => {
                     {/* Second Row of 4 Boxes */}
                     <Link
                       onClick={handleNavClick}
-                      to="/seo"
+                      to="/seo-company-in-noida"
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                     >
                       <div className="h-auto w-[100px] mt-2">
@@ -221,7 +221,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       onClick={handleNavClick}
-                      to="/digitalmarketing"
+                      to="/digital-marketing-agency-noida"
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                     >
                       <div className="h-auto w-[100px] mt-2">
@@ -243,7 +243,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       onClick={handleNavClick}
-                      to="/smo"
+                      to="/social-media-agency-in-noida"
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                     >
                       <div className="h-auto w-[100px] mt-2">
@@ -263,7 +263,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       onClick={handleNavClick}
-                      to="/hrms"
+                      to="/hrms-software-development-company-in-noida"
                       className="p-2 bg-white text-gray-800 hover:bg-[#1AD079] hover:text-white hover:shadow-lg transition duration-300 flex rounded-lg"
                     >
                       <div className="h-auto w-[100px] mt-2">
@@ -517,7 +517,7 @@ const Navbar = () => {
             {activeDropdown === "services" && (
               <div className="grid grid-cols-1 gap-[0.6rem] mt-2 bg-gray-800 p-3 rounded-md">
                 <Link
-                  to="/web"
+                  to="/web-development-company-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -535,7 +535,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/app"
+                  to="/app-development-company-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -569,7 +569,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/marketingsolutions"
+                  to="/3d-modeling-agency-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -587,7 +587,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/seo"
+                  to="/seo-company-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -604,7 +604,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/digitalmarketing"
+                  to="/digital-marketing-agency-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -621,7 +621,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/smo"
+                  to="/social-media-agency-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
@@ -638,7 +638,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  to="/hrms"
+                  to="/hrms-software-development-company-in-noida"
                   onClick={handlenavClick}
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >

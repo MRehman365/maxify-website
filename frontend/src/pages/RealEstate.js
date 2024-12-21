@@ -120,8 +120,8 @@ const RealEstate = () => {
     <div className="mt-[70px] font-pop">
       <div>
         <SEOComponent
-          title="Maxify-Realstate"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best Real Estate Website Development Company - Build Your Online Presence"
+          description="Maxify Solutions specializes in real estate website development, offering custom, user-friendly, and SEO-optimized solutions to showcase properties and attract buyers. Transform your real estate business online today!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

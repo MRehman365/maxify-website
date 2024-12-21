@@ -7,6 +7,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { Navigation, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import SEOComponent from "../Components/SEOComponent";
 
 const Education = () => {
   useEffect(() => {
@@ -14,6 +15,13 @@ const Education = () => {
   }, []);
   return (
     <div className="mt-[70px]">
+         <div>
+        <SEOComponent
+          title="Best Education Web Development Company in Noida - Empowering e-Learning"
+          description="Maxify Solutions is a leading education web development company in Noida, creating innovative and user-friendly websites and platforms for schools, colleges, and e-learning businesses. Build your digital future with us!"
+          keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
+        />
+      </div>
       <div className="w-full font-sans md:w-[90%] lg:w-[80%] mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-[35%_65%] gap-8 items-start">
           {/* Left Side Content */}
@@ -120,7 +128,7 @@ const Education = () => {
               instructional approach of each institution, offering a seamless
               and engaging learning experience.
             </p>
-            <Link to="/web">
+            <Link to="/web-development-company-in-noida">
               <button className="bg-[#2334de] text-white text-secondary-foreground hover:bg-secondary/80 mt-4 rounded px-4 py-2">
                 Know More
               </button>
@@ -144,7 +152,7 @@ const Education = () => {
               We focus on ease of navigation to ensure trainees, educators, and
               parents can access information rapidly and effectively.
             </p>
-            <Link to="/web">
+            <Link to="/web-development-company-in-noida">
               <button className="bg-[#2334de] text-white text-secondary-foreground hover:bg-secondary/80 mt-4 rounded px-4 py-2">
                 Know More
               </button>
@@ -168,7 +176,7 @@ const Education = () => {
               We follow data security guidelines and execute sophisticated
               security procedures to guard sensitive pupil details.
             </p>
-            <Link to="/web">
+            <Link to="/web-development-company-in-noida">
               <button className="bg-[#2334de] text-white text-secondary-foreground hover:bg-secondary/80 mt-4 rounded px-4 py-2">
                 Know More
               </button>
@@ -192,7 +200,7 @@ const Education = () => {
               We follow data security guidelines and execute sophisticated
               security procedures to guard sensitive pupil details.
             </p>
-            <Link to="/web">
+            <Link to="/web-development-company-in-noida">
               <button className="bg-[#2334de] text-white text-secondary-foreground hover:bg-secondary/80 mt-4 rounded px-4 py-2">
                 Know More
               </button>

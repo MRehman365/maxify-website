@@ -135,8 +135,8 @@ const HRMS = () => {
     <div className="mt-[60px]">
       <div>
         <SEOComponent
-          title="Maxify-Hrms"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best HRMS Software Development Company - Streamline Your HR Processes"
+          description="Partner with the leading HRMS software development company for customized, scalable, and efficient HR solutions. Enhance payroll, recruitment, and employee management with innovative software tailored to your business needs!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

@@ -37,8 +37,8 @@ const Ecommerce = () => {
     <div className="mt-[60px] w-full">
       <div>
         <SEOComponent
-          title="Maxify-E-commerce"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best Ecommerce Website and App Development Company in Noida"
+          description="Maxify Solutions is a leading ecommerce website and app development company in Noida. We create scalable, secure, and user-friendly ecommerce solutions to help businesses thrive online."
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

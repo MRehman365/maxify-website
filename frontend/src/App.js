@@ -36,19 +36,19 @@ function App() {
           {/* Suspense with fallback for loading indication */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/web" element={<Services />} />
-            <Route path="/app" element={<AppDevelopment />} />
-            <Route path="/digitalmarketing" element={<DigitalMarketing />} />
-            <Route path="/smo" element={<SMO />} />
-            <Route path="/seo" element={<SEO />} />
+            <Route path="/web-development-company-in-noida" element={<Services />} />
+            <Route path="/app-development-company-in-noida" element={<AppDevelopment />} />
+            <Route path="/digital-marketing-agency-noida" element={<DigitalMarketing />} />
+            <Route path="/social-media-agency-in-noida" element={<SMO />} />
+            <Route path="/seo-company-in-noida" element={<SEO />} />
             <Route path="/contact" element={<Conservation />} />
             <Route path="/ecommerces" element={<Ecommerce />} />
             <Route path="/about" element={<Contact />} />
             <Route path="/graphic" element={<Graphic />} />
-            <Route path="/hrms" element={<HRMS />} />
+            <Route path="/hrms-software-development-company-in-noida" element={<HRMS />} />
             <Route path="/healthcare" element={<Healthcare />} />
             <Route
-              path="/marketingsolutions"
+              path="/3d-modeling-agency-in-noida"
               element={<MarketingSolutions />}
             />
             <Route path="/realestate" element={<RealEstate />} />

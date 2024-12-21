@@ -42,14 +42,14 @@ const services = [
     title: "Web Design & Development",
     description:
       "   Delivering responsive and dynamic websites tailored to your business needs.",
-    url: "/web",
+    url: "/web-development-company-in-noida",
   },
   {
     icon: TbDeviceMobileCode,
     title: "App Development",
     description:
       "Custom mobile app solutions for Android and iOS, designed to enhance engagement and drive business growth.",
-    url: "/app",
+    url: "/app-development-company-in-noida",
   },
   {
     icon: SiAltiumdesigner,
@@ -61,35 +61,35 @@ const services = [
   {
     icon: BsBadge3D,
     title: "3D Modeling",
-    url: "/marketingsolutions",
+    url: "/3d-modeling-agency-in-noida",
     description:
       "Innovative 3D modeling and animations that bring your ideas to life, perfect for presentations, product demos, and more. ",
   },
   {
     icon: TbSeo,
     title: "SEO",
-    url: "/seo",
+    url: "/seo-company-in-noida",
     description:
       "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
   },
   {
     icon: RiVoiceprintFill,
     title: "   Digital Marketing",
-    url: "/digitalmarketing",
+    url: "/digital-marketing-agency-noida",
     description:
       "Comprehensive strategies combining SEO, PPC, and content marketing to boost your online presence and conversions.",
   },
   {
     icon: TbBrandDenodo,
     title: "SMO",
-    url: "/smo",
+    url: "/social-media-agency-in-noida",
     description:
       "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
   },
   {
     icon: GrResources,
     title: "HRMS",
-    url: "/hrms",
+    url: "/hrms-software-development-company-in-noida",
     description:
       "Streamline HR processes with custom HRMS solutions, enhancing efficiency in recruitment, payroll, and employee management.",
   },
@@ -436,8 +436,8 @@ const Home = () => {
     <div className="mt-[80px] font-dm">
       <div>
         <SEOComponent
-          title="Maxify Web Solutions"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Top Digital Marketing Agency in Noida, Delhi NCR - Maximize Your Online Growth"
+          description="Partner with the best digital marketing agency in Noida, Delhi NCR. Specializing in SEO, PPC, social media marketing, and branding to boost your online presence and drive results."
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>

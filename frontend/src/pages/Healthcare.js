@@ -36,9 +36,19 @@ const Healthcare = () => {
   const contentArray = [
     {
       title: "1. Custom Health Care Web Site Development",
-      description: "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
-      Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
-      altImages:"best it company for healthcare idustries branding",
+
+      description:
+        "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+      altImages: "best it company for healthcare idustries branding",
+
+      description:
+        "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+      altImages: "best it company for healthcare idustries branding",
+
       points: [
         "Receptive and Mobile-Optimized Designs: We develop internet sites that supply a seamless individual experience across all devices—desktop computers, tablet computers, and smartphones.",
         "SEO-Friendly Style: Our web development technique consists of SEO ideal practices to ensure your internet site ranks high up on search engines, attracting more natural traffic.",
@@ -47,9 +57,19 @@ const Healthcare = () => {
     },
     {
       title: "2. Telemedicine Platform Development",
-      description: "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
-      Images: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
-      altImages:"healthcare web development ",
+
+      description:
+        "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
+      altImages: "healthcare web development ",
+
+      description:
+        "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
+      altImages: "healthcare web development ",
+
       points: [
         "Protect Video Clip Appointment: Top-notch, secure video clip conferencing abilities for effective remote client consultations.",
         "Visit Scheduling and Administration: Smooth assimilation of appointment organizing devices that sync with your internal systems, making it easier for both team and patients.",
@@ -70,9 +90,19 @@ const Healthcare = () => {
     },
     {
       title: "  4. Healthcare CRM Solutions",
-      description: "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
-      Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
-      altImages:"healthcare website development ",
+
+      description:
+        "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
+      altImages: "healthcare website development ",
+
+      description:
+        "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
+      altImages: "healthcare website development ",
+
       points: [
         "Person Data Administration: Centralized data storage space to manage patient history, therapy plans, and follow-ups effectively.",
         "Automated Interaction: Automated text and email reminders for visits, medicine, and follow-up checkouts.",
@@ -81,9 +111,11 @@ const Healthcare = () => {
     },
     {
       title: "5. E-Pharmacy and E-Prescription Solutions",
-      description: "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
-      Images:  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
-      altImages:"healthcare designing development ",
+      description:
+        "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
+      Images:
+        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
+      altImages: "healthcare designing development ",
       points: [
         "Safeguard Online Purchases: Integrated settlement portals that make sure safe and secure online deals for buying medicines.",
         "Prescription Administration: Easy-to-use interfaces for handling and refilling prescriptions online.",
@@ -95,12 +127,13 @@ const Healthcare = () => {
 
   const [currentIndex, setCurrentIndex] = useState([0]);
   useEffect(() => {
-const Interval = setInterval(() => {
-  setCurrentIndex((prevIndex) => (prevIndex + 1) % (contentArray.length))
-}, 2000)
-return () => clearInterval(Interval)
-  },[contentArray.length])
-  const { title, description, points, Images, altImages } = contentArray[currentIndex];
+    const Interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % contentArray.length);
+    }, 2000);
+    return () => clearInterval(Interval);
+  }, [contentArray.length]);
+  const { title, description, points, Images, altImages } =
+    contentArray[currentIndex];
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -124,8 +157,8 @@ return () => clearInterval(Interval)
     <div className="mt-[70px] font-pop">
       <div>
         <SEOComponent
-          title="Maxify-Helthcare"
-          description="Maxify Web Solutions offers digital marketing services in Noida and Delhi NCR. We help businesses grow with AI-powered marketing strategies."
+          title="Best Healthcare Web Development Company in Noida - Maxify Solutions"
+          description="Maxify Solutions is a top healthcare web development company in Noida, delivering innovative, secure, and user-friendly websites and applications for hospitals, clinics, and healthcare providers. Boost your online presence today!"
           keywords="Home, Digital Marketing, Noida, Delhi NCR, Maxify Web Solutions"
         />
       </div>
@@ -183,8 +216,11 @@ return () => clearInterval(Interval)
         </h3>
         <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
-            <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png" 
-            alt="hospital web development company in noida" class="rounded-lg" />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png"
+              alt="hospital web development company in noida"
+              class="rounded-lg"
+            />
           </div>
           <div class="md:w-1/2 px-6">
             <ul class="list-disc text-justify text-sm md:text-base space-y-3">
@@ -218,7 +254,7 @@ return () => clearInterval(Interval)
         <div className="lg:w-1/2 p-2 md:p-4 h-[300px] md:h-auto">
           <img
             src={Images}
-            alt={ altImages}
+            alt={altImages}
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
@@ -341,8 +377,11 @@ return () => clearInterval(Interval)
       {/* 7th */}
       <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
         <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png" 
-          alt="doctos website and designinc compnay " class="rounded-lg" />
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png"
+            alt="doctos website and designinc compnay "
+            class="rounded-lg"
+          />
         </div>
         <div class="md:w-1/2 md:px-6">
           <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold py-2 leading-10">
@@ -363,14 +402,14 @@ return () => clearInterval(Interval)
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center bg-white md:py-12 px-6 md:px-16">
-      {/* Left Section: Image */}
-      <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
-          alt="web development company in noida"
-          className="rounded-lg md:rounded-none w-full h-auto object-cover"
-        />
-      </div>
+        {/* Left Section: Image */}
+        <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
+            alt="web development company in noida"
+            className="rounded-lg md:rounded-none w-full h-auto object-cover"
+          />
+        </div>
 
         {/* Right Section: Text Content */}
         <div className="bg-blue-600 md:w-1/2 w-full p-8 rounded-lg md:rounded-r-lg text-white">

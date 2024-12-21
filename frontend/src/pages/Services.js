@@ -489,7 +489,7 @@ const Services = () => {
               </span>
             </div>
             <div className="sm:hidden md:block">
-              <Link to="/digitalmarketing">
+              <Link to="/digital-marketing-agency-noida">
                 <button className="bg-[#2334de] px-6 py-3 text-white text-sm">
                   Learn More
                 </button>
@@ -649,7 +649,7 @@ const Services = () => {
                     tags, and proper code standards to help search engines index
                     your website.
                   </p>
-                  <Link to="/seo">
+                  <Link to="/seo-company-in-noida">
                     <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE]">
                       Know More
                     </button>

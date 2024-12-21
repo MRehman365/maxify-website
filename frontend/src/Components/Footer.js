@@ -23,13 +23,13 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Services</h3>
           <ul>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/app">App Development</Link>
+              <Link to="/app-development-company-in-noida">App Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/web">Web Development</Link>
+              <Link to="/web-development-company-in-noida">Web Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/digitalmarketing">Digital Marketing</Link>
+              <Link to="/digital-marketing-agency-noida">Digital Marketing</Link>
             </li>
           </ul>
         </div>
@@ -52,13 +52,13 @@ const Footer = () => {
           <h3 className="font-semibold mb-4">Services</h3>
           <ul>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/app">App Development</Link>
+              <Link to="/app-development-company-in-noida">App Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/web">Web Development</Link>
+              <Link to="/web-development-company-in-noida">Web Development</Link>
             </li>
             <li className="text-[13px] mb-1 text-[#d4d4d4]">
-              <Link to="/digitalmarketing">Digital Marketing</Link>
+              <Link to="/digital-marketing-agency-noida">Digital Marketing</Link>
             </li>
           </ul>
         </div>
