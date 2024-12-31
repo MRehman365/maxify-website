@@ -820,3 +820,27 @@ input:focus {
   filter: invert(1) brightness(1);
 }
 
+.sticky-element {
+  position: sticky !important;
+  top: 100px; /* or any value to adjust its position */
+}
+.testimonial-swiper .swiper-pagination-bullet {
+  background: #FF6B2B;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.testimonial-swiper .swiper-pagination {
+  top: 100px;
+  position: relative;
+  margin-top: 2rem;
+}
+.swiper-pagination{
+bottom: -2px !important;
+} 
+

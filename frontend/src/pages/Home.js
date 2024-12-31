@@ -1,15 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { MdImportantDevices } from "react-icons/md";
-import { AiOutlineSolution } from "react-icons/ai";
+import { AiFillStar, AiOutlineSolution, AiOutlineStar } from "react-icons/ai";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 
 import { TbBrandDenodo, TbDeviceMobileCode, TbSeo } from "react-icons/tb";
-
+import { IoStar, IoStarHalf } from "react-icons/io5";
 import { IoIosPlay } from "react-icons/io";
-import { motion } from "framer-motion";
 
 import {
   FaHandHoldingMedical,
@@ -36,12 +35,24 @@ import { RiVoiceprintFill } from "react-icons/ri";
 import { GrResources } from "react-icons/gr";
 import SEOComponent from "../Components/SEOComponent";
 
+import { motion, AnimatePresence } from "framer-motion";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import PopupForm from "../Components/PopupForm";
+import ClientFeedback from "../Components/ClientFeedback";
+import CaseSudy from "../Components/CaseSudy";
+import { BiCheckCircle, BiChevronDown } from "react-icons/bi";
+
 const services = [
   {
     icon: FaLaptopCode,
     title: "Web Design & Development",
     description:
       "   Delivering responsive and dynamic websites tailored to your business needs.",
+    point: [
+      "Custom-designed websites that reflect your brand identity.",
+      "Responsive, user-friendly, and SEO-optimized designs.",
+      "Seamless integration of cutting-edge features to enhance performance and engagement.",
+    ],
     url: "/web-development-company-in-noida",
   },
   {
@@ -49,6 +60,11 @@ const services = [
     title: "App Development",
     description:
       "Custom mobile app solutions for Android and iOS, designed to enhance engagement and drive business growth.",
+    point: [
+      "Innovative mobile and web applications tailored to your business goals.",
+      "Intuitive designs with a focus on user experience and functionality.",
+      "Support for iOS, Android, and cross-platform app development.",
+    ],
     url: "/app-development-company-in-noida",
   },
   {
@@ -56,6 +72,11 @@ const services = [
     title: "  Graphic Design",
     description:
       "Creative design solutions, from logos to marketing collateral, ensuring your brand stands out with professional visuals.",
+    point: [
+      "Eye-catching graphics that captivate and communicate your message.",
+      "Designs for branding, marketing, and social media campaigns.",
+      "Professional logo design, brochures, and visual content.",
+    ],
     url: "/graphic",
   },
   {
@@ -64,34 +85,59 @@ const services = [
     url: "/3d-modeling-agency-in-noida",
     description:
       "Innovative 3D modeling and animations that bring your ideas to life, perfect for presentations, product demos, and more. ",
+    point: [
+      "High-quality 3D designs for product presentations, architectural visuals, and animations.",
+      "Realistic renders to bring your ideas to life.",
+      "Advanced modeling tools to meet industry-specific needs.",
+    ],
   },
-  {
-    icon: TbSeo,
-    title: "SEO",
-    url: "/seo-company-in-noida",
-    description:
-      "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
-  },
+  // {
+  //   icon: TbSeo,
+  //   title: "SEO",
+  //   url: "/seo-company-in-noida",
+  //   description:
+  //     "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
+  //   point: [
+  //     "Custom-designed websites that reflect your brand identity.",
+  //     "Responsive, user-friendly, and SEO-optimized designs.",
+  //     "Seamless integration of cutting-edge features to enhance performance and engagement.",
+  //   ],
+  // },
   {
     icon: RiVoiceprintFill,
     title: "   Digital Marketing",
     url: "/digital-marketing-agency-noida",
     description:
       "Comprehensive strategies combining SEO, PPC, and content marketing to boost your online presence and conversions.",
+    point: [
+      "Comprehensive online marketing strategies to grow your brand visibility.",
+      "Services include SEO, PPC, social media marketing, and content creation.",
+      "Data-driven campaigns that deliver measurable results.",
+    ],
   },
-  {
-    icon: TbBrandDenodo,
-    title: "SMO",
-    url: "/social-media-agency-in-noida",
-    description:
-      "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
-  },
+  // {
+  //   icon: TbBrandDenodo,
+  //   title: "SMO",
+  //   url: "/social-media-agency-in-noida",
+  //   description:
+  //     "Enhancing your brand’s presence on social platforms with creative and engaging content to drive interaction and growth.",
+  //   point: [
+  //     "Custom-designed websites that reflect your brand identity.",
+  //     "Responsive, user-friendly, and SEO-optimized designs.",
+  //     "Seamless integration of cutting-edge features to enhance performance and engagement.",
+  //   ],
+  // },
   {
     icon: GrResources,
-    title: "HRMS",
+    title: "HRMS Software Development",
     url: "/hrms-software-development-company-in-noida",
     description:
       "Streamline HR processes with custom HRMS solutions, enhancing efficiency in recruitment, payroll, and employee management.",
+    point: [
+      "Streamline your HR processes with custom Human Resource Management Systems.",
+      "Features include employee tracking, payroll management, performance evaluation, and more.",
+      "Scalable and secure software solutions tailored to your business requirements.",
+    ],
   },
 ];
 
@@ -297,11 +343,38 @@ const benifits = [
   },
 ];
 
+const slides = [
+  {
+    heading: "Website Designing & Development",
+    description: "The perfect way to show products and services",
+  },
+  {
+    heading: "Custom App Development",
+    description: "Meet your needs and improve customer mobile experience",
+  },
+  {
+    heading: "Graphic Designing Services",
+    description: "Designs That Speak with your audience",
+  },
+  {
+    heading: "3d modeling and animation",
+    description: "Bringing Concepts to screen ",
+  },
+  {
+    heading: "Digital Marketing",
+    description: "Boost Your Reach, let experience your targeted audience ",
+  },
+  {
+    heading: "HRMS Software Solutions",
+    description: "Streamline Your Business Workforce ",
+  },
+];
+
 const videos = [v1, v2, v3];
 const Home = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
 
@@ -309,6 +382,15 @@ const Home = () => {
   const [positions, setPositions] = useState([0, 1, 2]);
   const videoRefs = [useRef(null), useRef(null), useRef(null)];
   const animatedRefs = useRef([useRef(null), useRef(null), useRef(null)]); // To hold GSAP refs
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [curser, setCurser] = useState({ x: 0, y: 0 });
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const openModal = () => setIsModalVisible(true);
+  const closeModal = () => setIsModalVisible(false);
+
+  const CurserMove = (e) => {
+    setCurser({ x: e.clientX, y: e.clientY });
+  };
 
   useEffect(() => {
     // Play the center video and pause the others
@@ -367,6 +449,22 @@ const Home = () => {
   const { heading, points, image, bgColor } =
     sections[sectionKeys[currentSectionIndex]];
 
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + slides.length) % slides.length
+    );
+  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [slides.length]);
+
   // useEffect(() => {
   //   const intervalId = setInterval(() => {
   //     setCurrentSectionIndex(
@@ -389,51 +487,75 @@ const Home = () => {
   }
   const steps = [
     {
-      title: "Initial Consultation & Discovery",
+      title: "Understanding Client Needs",
+      points: [
+        "We start by engaging with you to understand your goals, challenges, and vision.",
+        "A detailed analysis is conducted to identify your business requirements and target audience.",
+        "We document your expectations to ensure clarity and alignment.",
+      ],
       description:
         "We begin by getting to know your business, goals, and the problems you face. This stage focuses on listening to you and learning about your brand and vision.",
       side: "left",
     },
     {
-      title: "Strategic Planning & Roadmap Creation",
+      title: "Research and Strategy",
+      points: [
+        "Our team conducts in-depth market research to analyze industry trends and competitors.",
+        "We develop a strategic plan tailored to your objectives, focusing on innovation and scalability.",
+        "Key deliverables and timelines are defined to set clear milestones.",
+      ],
       description:
         "After we grasp your requirements, we develop a strategic plan and a straightforward roadmap for your project. We establish achievable timelines crucial milestones and deliverables.",
       side: "right",
     },
     {
-      title: "Design & Prototyping",
+      title: "Conceptualization and Design",
+      points: [
+        "Creative brainstorming sessions lead to innovative design concepts.",
+        "Wireframes, prototypes, and mockups are developed for initial feedback.",
+        "User experience (UX) and user interface (UI) designs are refined for optimal usability and aesthetics.",
+      ],
       description:
         "Next, we bring your idea to life through design. Our team builds wireframes and clickable prototypes showing you a visual preview of your project.We make sure the design matches your brand identity and gives a smooth user experience.",
       side: "left",
     },
     {
-      title: "Development & Implementation",
+      title: "Development and Testing",
+      points: [
+        "Our expert developers turn concepts into reality using the latest technologies.",
+        "Rigorous testing is conducted to ensure functionality, performance, and security.",
+        "Client reviews and feedback are integrated to maintain quality and satisfaction.",
+      ],
       description:
         "Once you okay the design, we start developing. Our skilled developers build your solution keeping in mind speed, safety, and growth potential. We add the needed features and functions while keeping you in the loop",
       side: "right",
     },
     {
-      title: "Quality Checks & Tests",
+      title: "Deployment and Launch",
+      points: [
+        "Once the product is finalized, it is deployed to the live environment.",
+        "Our team ensures a smooth launch with minimal downtime.",
+        "Training and support are provided to help you get the most out of your solution.",
+      ],
       description:
         "Quality stands at the heart of all we do. We test your solution to check if it's easy to use, works well, and stays secure. Our quality team runs many tests, from checks across browsers to getting user approval.",
       side: "left",
     },
     {
-      title: " Start & Setup",
+      title: "Post-Launch Support and Maintenance",
+      points: [
+        "We offer on-going support to address any issues or updates.",
+        "Regular performance monitoring and optimization keep your solution running smoothly.",
+        "Scalability and enhancements are implemented as your business grows.",
+      ],
       description:
         "After we test and approve your project, we prepare it for launch. This applies to websites mobile apps, or software solutions. We make sure the rollout goes and the product works well.",
       side: "right",
     },
-    {
-      title: "Ongoing Support & Maintenance",
-      description:
-        "We don't stop caring about your success after launch. We keep supporting and maintaining your solution to keep it current and working at its best. We update, patch security holes, and boost performance.",
-      side: "left",
-    },
   ];
 
   return (
-    <div className="mt-[80px] font-dm">
+    <div className="mt-[60px] font-dm">
       <div>
         <SEOComponent
           title="Top Digital Marketing Agency in Noida, Delhi NCR - Maximize Your Online Growth"
@@ -442,56 +564,255 @@ const Home = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background relative">
+      <div
+        onMouseMove={CurserMove}
+        className="flex overflow-hidden flex-col-reverse lg:flex-col items-center justify-between px-2 bg-background relative p-2 md:p-10 lg:p-12"
+      >
         <img
           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Path_4_1_satfqd.png"
-          className="absolute -top-[80px] left-0 -z-20 sm:hidden lg:block"
+          className="absolute -top-[80px] left-0 -z-10 sm:h-[150px] md:h-auto"
           alt="maxify websolution"
         />
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732109312/h3_banner_img02_kksuqv.webp"
-          className="absolute top-[55%] left-[45%] -z-20 sm:hidden lg:block animate-pulse"
-          alt="maxify websolution"
-        />
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732115044/h3_banner_img_shape_stusom.webp"
-          className="absolute top-[15%] left-[35%] -z-20 sm:hidden lg:block  transition-[5s] "
-          alt="maxify websolution"
-        />
-        <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1732115043/about_shape04_xudxbb.webp"
-          className="absolute top-[100%] left-[90%] -z-20 sm:hidden lg:block  transition-[5s] "
-          alt="maxify websolution"
-        />
+
+        <motion.div
+          className="absolute hidden md:block left-[20%] bottom-[20%]"
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 3,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+            duration: 6,
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/store_jfhp9d.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block left-[80%] bottom-[20%]"
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 3,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/web_xvdgg1.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block left-[76%] top-[10%]"
+          transition={{
+            type: "spring",
+            stiffness: 500,
+            damping: 10,
+            duration: 6,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/graph_bpzptm.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block left-[16%] top-[10%]"
+          //  animate={{
+          //     x: (curser.x - window.innerWidth / 2) * 0.05, // Adjust the multiplier for subtle movement
+          //     y: (curser.y - window.innerHeight / 2) * 0.05, // Adjust the multiplier for subtle movement
+          //   }}
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 6,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/ai_xbq1om.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block left-[48%] top-[0%]"
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 3,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          {/* <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735554473/dev_zhjlx0.png" alt="Folder" className="h-auto w-auto" /> */}
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block left-[6%] top-[45%]"
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 3,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735554162/healthcare_tcpxpb.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
+        <motion.div
+          className="absolute hidden md:block right-[6%] top-[45%]"
+          transition={{
+            type: "spring",
+            stiffness: 300,
+            damping: 20,
+            duration: 3,
+          }}
+          whileHover={{
+            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
+            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553982/book_ndxyps.png"
+            alt="Folder"
+            className="h-auto w-auto"
+          />
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
           viewport={{ once: true }}
-          className="w-full lg:w-1/2"
+          className="w-full"
         >
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background">
-            <div className="sm:w-full  sm:p-2 md:p-4 sm:mt-0 md:mt-0">
-              <div className="bg-[#2334DE] lg:ml-[20px] xl:ml-[100px] uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
+            <div className="sm:w-full flex flex-col items-center sm:p-2 md:p-4 sm:mt-0 md:mt-0 text-center">
+              <div className="bg-[#2334DE] lg:ml-[20px]  uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
                 <span>IT SOLUTION </span>
                 <span className="w-10 mt-[6px]">
                   <hr />
                 </span>
               </div>
-              <h2 className="text-7xl md:text-5xl sm:text-4xl mt-3 md:mt-9 font-semibold text-black font-barlow lg:ml-[20px] xl:ml-[100px]">
+              <h2 className=" md:text-6xl sm:text-4xl mt-3 md:mt-9 font-semibold text-black font-barlow lg:ml-[20px] ">
                 Welcome To{" "}
-                <span className="text-7xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334DE] font-barlow">
+                <span className=" md:mt-2  font-semibold text-[#2334DE] font-barlow">
                   {" "}
                   Maxify Solutions{" "}
                 </span>
               </h2>
-              <h5 className="text-7xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334DE] font-barlow"></h5>
-              <p className="md:text-4xl sm:text-lg mt-4 font-semibold text-black font-barlow lg:ml-[20px] xl:ml-[100px]">
+              <p className="md:text-6xl sm:text-2xl mt-4 font-semibold text-black font-barlow lg:ml-[20px] ">
                 Your Partner For Digital Transformation
               </p>
+              <div className="relative w-full h-[220px]  max-w-3xl mx-auto rounded-lg overflow-hidden">
+                <div className="px-8 py-12 h-full flex flex-col justify-center item-center">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={currentIndex}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -20 }}
+                      transition={{ duration: 0.3 }}
+                      className="text-center"
+                    >
+                      <h2 className="text-xl md:text-3xl font-semibold text-gray-800 mb-4">
+                        {slides[currentIndex].heading}
+                      </h2>
+                      <p className="text-base md:text-xl text-gray-600">
+                        {slides[currentIndex].description}
+                      </p>
+                    </motion.div>
+                  </AnimatePresence>
+                </div>
+                <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
+                  {slides.map((_, index) => (
+                    <button
+                      key={index}
+                      className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                        index === currentIndex
+                          ? "bg-[#3f4ff9] w-4"
+                          : "bg-gray-300"
+                      }`}
+                      onClick={() => setCurrentIndex(index)}
+                    />
+                  ))}
+                </div>
+                <button
+                  onClick={prevSlide}
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors duration-300"
+                >
+                  <FaChevronLeft size={24} />
+                </button>
+                <button
+                  onClick={nextSlide}
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors duration-300"
+                >
+                  <FaChevronRight size={24} />
+                </button>
+              </div>
+              <div className="flex items-center justify-center gap-4 p-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735544418/Trustpilot-Logo-500x281_mftobw.png"
+                    className="h-[60px] w-auto"
+                    alt="trust pilot"
+                  />
+                  <div className="flex">
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStarHalf className="w-5 h-5 text-[orange]" />
+                  </div>
+                </div>
+                <div className="h-8 w-px bg-gray-500 mx-2" />
+                <div className="flex flex-col items-center gap-2">
+                  <img
+                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735544418/Google-Logo_ksucya.png"
+                    className="h-[60px] w-auto"
+                    alt="google"
+                  />
+                  <div className="flex">
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStar className="w-5 h-5 text-[orange]" />
+                    <IoStarHalf className="w-5 h-5 text-[orange]" />
+                  </div>
+                </div>
+              </div>
               <Link to="/contact">
                 <button
-                  className="mt-8 py-3 lg:ml-[20px] xl:ml-[100px] text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+                  className="mt-8 py-3 lg:ml-[20px]  text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
                  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
                 >
                   Get Started Now
@@ -500,60 +821,15 @@ const Home = () => {
             </div>
           </div>
         </motion.div>
-        <div className="sm:w-full lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px] md:mt-4">
-          {/* Center Video */}
-          <div
-            ref={(el) => (animatedRefs.current[0] = el)} // Attach ref for GSAP
-            className="h-[65%] md:w-[65%] w-[75%] overflow-hidden rounded-lg relative z-10"
-          >
-            <video
-              ref={videoRefs[positions[0]]}
-              src={videos[positions[0]]}
-              loop={false}
-              muted
-              onEnded={handleVideoEnd}
-              className="h-full w-full object-fill rounded-lg"
-            />
-          </div>
-
-          {/* Top Right Video */}
-          {/* Top Right Video */}
-          <div
-            ref={(el) => (animatedRefs.current[1] = el)} // Attach ref for GSAP
-            className="absolute top-0 right-0 z-0 h-[100px] w-[150px] md:h-[200px] md:w-[300px] rounded-lg"
-            style={{ backgroundColor: "#2334DE" }} // Set your desired color
-          >
-            <video
-              ref={videoRefs[positions[1]]}
-              src={videos[positions[1]]}
-              loop
-              muted
-              className="h-full w-full object-fill rounded-lg hidden"
-            />
-          </div>
-
-          {/* Bottom Left Video */}
-          <div
-            ref={(el) => (animatedRefs.current[2] = el)} // Attach ref for GSAP
-            className="absolute bottom-0 left-0 z-0 h-[100px] w-[150px] md:h-[200px] md:w-[300px] rounded-lg"
-            style={{ backgroundColor: "#2334DE" }} // Set another color
-          >
-            <video
-              ref={videoRefs[positions[2]]}
-              src={videos[positions[2]]}
-              loop
-              muted
-              className="h-full w-full object-fill rounded-lg hidden"
-            />
-          </div>
-        </div>
+        {/* <div className="sm:w-full lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px] md:mt-4">
+     
+        </div> */}
       </div>
 
-      {/* second section */}
-      <div className="bg-img">
-        <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
+      <div>
+        <div className="flex flex-col-reverse  md:space-x-4 mt-2 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
           {/* Left Side - Hidden in Mobile View */}
-          <div className="flex w-full md:w-1/2 justify-end relative px-2">
+          {/* <div className="flex w-full  justify-end relative px-2">
             <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
               <FaPeopleGroup size={30} />
               <p className="text-center text-sm">
@@ -572,6 +848,147 @@ const Home = () => {
               alt="Digital Marketing Agency in Noida, Delhi NCR"
               className="w-[80%] object-cover h-auto"
             />
+          </div> */}
+
+          {/* Right Side - Visible in Mobile View */}
+          <div className="w-full text-center p-4 md:p-8 sm:px-3 md:px-[50px] font-dm">
+            <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4 font-manrope">
+              Partner with the Best Digital Marketing Agency in Noida
+            </h1>
+            <p className="text-sm  text-gray-600 mb-6 font-dm">
+              Boost your online presence with advanced AI technology for web and
+              app development, Digital Marketing agency in Noida. Achieve
+              remarkable results and take your business to the next level.
+            </p>
+
+            {/* <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
+              <div className="flex-1 flex gap-3 items-center text-left p-4 rounded-md">
+                <div>
+                  <MdImportantDevices className="text-[30px] text-[#2334DE]" />
+                </div>
+                <p className="font-semibold lg:text-[16px] md:text-[16px]">
+                  Custom software development.
+                </p>
+              </div>
+              <div className="flex-1 flex gap-3 items-center text-left p-4 rounded-md">
+                <div>
+                  <AiOutlineSolution className="text-[30px] text-[#2334DE]" />
+                </div>
+                <p className="font-semibold lg:text-[16px] md:text-[16px]">
+                  Marketing Solution
+                </p>
+              </div>
+            </div> */}
+            {/* <p className="text-justify font-semibold text-sm">
+              Maxify Solutions - Improve Your Business with Innovative
+              Technology Solutions.
+            </p> */}
+            <div className="flex mt-2 w-full flex-col justify-center">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+                <div className=" flex justify-center items-center">
+                  <MdOutlinePhoneInTalk
+                    size={22}
+                    className="bg-[#f3f3f3] text-[#2334DE] size-[40px] p-2 rounded-full"
+                  />
+                  <div>
+                    <p className=" text-[12px] text-gray-400 font-semibold">
+                      Call us anytime
+                    </p>
+                    <a
+                      href="tel:+917428309119"
+                      className="text-[14px] font-bold"
+                    >
+                      +91 7428 309 119
+                    </a>
+                  </div>
+                </div>
+                <div className=" flex justify-center items-center gap-1">
+                  <span></span>
+                  <button onClick={openModal}>
+                    <button
+                      className=" px-6 py-2 rounded-sm relative w-full text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
+                    >
+                      Discus your business plan now
+                    </button>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* second section */}
+      <div className="bg-img">
+        <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+          {/* Left Side - Hidden in Mobile View */}
+          {/* <div className="flex w-full md:w-1/2 justify-end relative px-2">
+            <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
+              <FaPeopleGroup size={30} />
+              <p className="text-center text-sm">
+                Years of
+                <br />
+                experience
+              </p>
+            </div>
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
+              alt="web development company in noida, Delhi NCR"
+              className="h-auto right-2 bottom-0 w-[40%] absolute"
+            />
+            <img
+              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
+              alt="Digital Marketing Agency in Noida, Delhi NCR"
+              className="w-[80%] object-cover h-auto"
+            />
+          </div> */}
+          <div className="sm:w-[96%] mx-auto lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px] md:mt-4">
+            {/* Center Video */}
+            <div
+              ref={(el) => (animatedRefs.current[0] = el)} // Attach ref for GSAP
+              className="h-[65%] md:w-[65%] w-[75%] overflow-hidden rounded-lg relative z-10"
+            >
+              <video
+                ref={videoRefs[positions[0]]}
+                src={videos[positions[0]]}
+                loop={false}
+                muted
+                onEnded={handleVideoEnd}
+                className="h-full w-full object-fill rounded-lg"
+              />
+            </div>
+
+            {/* Top Right Video */}
+            {/* Top Right Video */}
+            <div
+              ref={(el) => (animatedRefs.current[1] = el)} // Attach ref for GSAP
+              className="absolute top-0 right-0 z-0 h-[100px] w-[150px] md:h-[200px] md:w-[300px] rounded-lg"
+              style={{ backgroundColor: "#2334DE" }} // Set your desired color
+            >
+              <video
+                ref={videoRefs[positions[1]]}
+                src={videos[positions[1]]}
+                loop
+                muted
+                className="h-full w-full object-fill rounded-lg hidden"
+              />
+            </div>
+
+            {/* Bottom Left Video */}
+            <div
+              ref={(el) => (animatedRefs.current[2] = el)} // Attach ref for GSAP
+              className="absolute bottom-0 left-0 z-0 h-[100px] w-[150px] md:h-[200px] md:w-[300px] rounded-lg"
+              style={{ backgroundColor: "#2334DE" }} // Set another color
+            >
+              <video
+                ref={videoRefs[positions[2]]}
+                src={videos[positions[2]]}
+                loop
+                muted
+                className="h-full w-full object-fill rounded-lg hidden"
+              />
+            </div>
           </div>
 
           {/* Right Side - Visible in Mobile View */}
@@ -579,18 +996,15 @@ const Home = () => {
             <p className="text-[18px] font-[500] text-[gray]">
               <span className="text-[#2334DE] font-dm">//</span> Get to Now
             </p>
-            <h3 className="text-2xl md:text-4xl font-bold mb-4 mt-4 font-manrope">
-              Maxify Solutions
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 mt-4 font-manrope">
+              Best Digital Marketing Agency in Noida
             </h3>
             <p className="text-sm text-justify  text-gray-600 mb-6 font-dm">
-              is a trustworthy partner for navigating the difficult realm of
-              digital transformation. Based in Noida, we specialize in helping
-              businesses like yours succeed and grow with the use of technology.
-              Whether you're looking for a reputable website development company
-              in Noida or a digital marketing services provider in Noida, we
-              have you covered. Our broad solutions are customized to your
-              requirements and offer visible outcomes. Allow us to help you take
-              your company to the next level with our unique solutions.
+              At Maxify Solutions, we are leading Web Development and Digital
+              Marketing agency in Noida, Delhi NCR, and India, thrive in the
+              digital landscape. As a full-service IT company, we combine
+              innovative strategies, cutting-edge technology, and a
+              customer-centric approach to deliver measurable Quick Results.
             </p>
 
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
@@ -644,33 +1058,50 @@ const Home = () => {
       </div>
 
       {/* Slider */}
-      <div className="bg-img">
-        <div className="w-full max-w-6xl mx-auto py-12 px-4 relative font-dm">
+      <div className="bg-img relative">
+        <div className="w-full md:w-[90%] mx-auto py-12 px-4 relative font-dm">
           <p className=" text-[17px] font-semibold text-center text-[gray] mb-5">
             <span className="text-[#2334DE]">//</span> What We’re Offering
           </p>
-          <h2 className="text-4xl font-bold text-center font-manrope">
+          <h2 className="text-3xl md:text-4xl font-bold text-center font-manrope">
             Services we’re offering to <br />
             our customers
           </h2>
           {/*  */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
-            {services.map((service, index) => (
-              <Link
-                to={service.url}
-                key={index}
-                className="relative p-6 hover:bg-white text-center transition duration-300 hover:shadow-[0_0_20px_#A1A6B3] group overflow-hidden"
-              >
-                {/* Top-right corner blue box */}
-                <div className="absolute transition duration-1000 -top-5 -right-5 h-2 w-2 group-hover:w-10 group-hover:h-10 transform rotate-45 bg-[#2334DE] "></div>
+          <div className="flex flex-col w-full h-full gap-6 mt-6">
+            {/* Services Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+              {services.map((service, index) => (
+                <Link
+                  to={service.url}
+                  key={index}
+                  className="relative p-6 bg-[#ffffff7f] hover:bg-[#ffffff0f] border border-gray-200 shadow-sm hover:shadow-lg transition duration-300 group overflow-hidden"
+                >
+                  {/* Icon Section */}
+                  <div className="flex justify-center items-center mb-4">
+                    <service.icon className="w-12 h-12 text-[#2334DE] group-hover:text-white" />
+                  </div>
 
-                <div className="mb-4 flex justify-center">
-                  <service.icon className="w-12 h-12 text-[#2334DE]" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-sm text-gray-600">{service.description}</p>
-              </Link>
-            ))}
+                  <h3 className="text-xl font-semibold mb-4 text-gray-800 group-hover:text-white transition text-center">
+                    {service.title}
+                  </h3>
+
+                  <ul className="text-sm text-gray-600 group-hover:text-white list-disc pl-5">
+                    {service.point.map((item, idx) => (
+                      <li key={idx} className="mb-2">
+                        {item}
+                      </li>
+                    ))}
+                    <p className="text-[#2334DE] group-hover:text-white">
+                      Learn More
+                    </p>
+                  </ul>
+
+                  {/* Decorative Hover Element */}
+                  <div className="absolute transition-transform duration-500 transform scale-0 group-hover:scale-100 -z-20 bg-[#2333def1] w-full h-full top-0 left-0"></div>
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/*  */}
@@ -695,64 +1126,201 @@ const Home = () => {
       </div>
 
       {/*  */}
-      <div className=" bg-img">
-        <div className="max-w-6xl mx-auto  mt-6 p-2">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            Planning and <span className="text-[#2334DE]"> Development </span>
+      <div className="bg-img">
+        <div className="max-w-6xl mx-auto p-4">
+          <motion.h2
+            className="text-4xl md:text-5xl font-bold text-center mb-8 text-gray-800"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            Maxify Solutions -{" "}
+            <span className="text-blue-600">Planning and Development</span>{" "}
             Process
-          </h2>
+          </motion.h2>
+          <motion.p
+            className="text-center mb-16 text-gray-600 text-lg leading-relaxed"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            At Maxify Solutions, we believe that a well-structured process is
+            the foundation of successful project delivery. Our Planning and
+            Development Process ensures that every project is executed with
+            precision, efficiency, and innovation.
+          </motion.p>
 
-          <div className="">
-            <div className="relative">
-              {/* Vertical line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
-
-              {steps.map((step, index) => (
-                <div key={index} className="mb-12 flex w-full">
-                  {/* Left Side Content */}
-                  <div
-                    className={`w-1/2 ${
-                      step.side === "right" ? "text-right pr-8" : "text-left"
-                    }`}
-                  >
-                    {step.side === "left" && (
-                      <div className="bg-[#f3f6fd] p-2">
-                        <h3 className="font-semibold  text-[14px] md:text-lg text-center">
-                          {step.title}
-                        </h3>
-                        <p className="text-gray-600 text-[12px] md:text-sm text-justify mt-2">
-                          {step.description}
-                        </p>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Step Number */}
-                  <div className="relative flex justify-center w-12">
-                    <div className="w-10 h-10 flex items-center justify-center bg-[#f3f6fd] text-[#2334DE] font-bold rounded-full">
+          <div className=" relative max-w-4xl mx-auto">
+            {steps.map((step, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="relative flex flex-col items-center group"
+              >
+                {/* Process Step Card */}
+                <div className="bg-white group-hover:bg-[#2334DE] transition-all rounded-lg shadow-[0px_0px_5px_#e1e1e1]  p-8 relative overflow-hidden w-full">
+                  <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#2334DE] transition-all group-hover:bg-[white]  rounded-full flex items-center justify-center transform -rotate-45">
+                    <span className="text-white group-hover:text-[#2334DE] transition-all font-bold text-2xl transform rotate-45">
                       {String(index + 1).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-semibold group-hover:text-[white] transition-all text-gray-800 mb-4 pl-16">
+                    {step.title}
+                  </h3>
+                  {step.points.map((point, i) => (
+                    <div key={i} className="flex items-start">
+                      <BiCheckCircle className="text-green-500 w-6 h-6 mr-4 flex-shrink-0 mt-1" />
+                      <p className="text-gray-600 group-hover:text-[#f1f1f1] transition-all">{point}</p>
                     </div>
-                  </div>
-
-                  {/* Right Side Content */}
-                  <div
-                    className={`w-1/2 ${
-                      step.side === "left" ? "text-right pr-8" : "text-left"
-                    }`}
-                  >
-                    {step.side === "right" && (
-                      <div className="bg-[#f3f6fd] p-2">
-                        <h3 className="font-semibold md:text-lg text-center">
-                          {step.title}
-                        </h3>
-                        <p className="text-gray-600 text-sm text-justify mt-2">
-                          {step.description}
-                        </p>
-                      </div>
-                    )}
-                  </div>
+                  ))}
                 </div>
-              ))}
+
+                {/* Connecting Line */}
+                {index < steps.length - 1 && (
+                  <div className="h-20 w-[2px] bg-gray-300"></div>
+                )}
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/*  */}
+      <div className="md:py-6 p-2 md:px-6 lg:px-8">
+        <div className="max-w-7xl md:w-[90%] mx-auto">
+          <div className="flex flex-col md:flex-row items-center md:items-center gap-8">
+            {/* Left Side - Hidden in Mobile View */}
+            <div className="flex w-full md:w-1/2 justify-end relative px-2">
+              <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
+                <FaPeopleGroup size={30} />
+                <p className="text-center text-sm">
+                  Years of
+                  <br />
+                  experience
+                </p>
+              </div>
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
+                alt="web development company in noida, Delhi NCR"
+                className="h-auto right-2 bottom-0 w-[40%] absolute"
+              />
+              <img
+                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
+                alt="Digital Marketing Agency in Noida, Delhi NCR"
+                className="w-[80%] object-cover h-auto"
+              />
+            </div>
+            <div className="w-full md:w-1/2">
+              <h1 className="text-3xl font-extrabold text-gray-900 mb-8">
+                Why Our Process Works
+              </h1>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <svg
+                    className="h-6 w-6 text-[#2334DE] mr-2"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-700">
+                    <span className="font-semibold">
+                      Client-Centric Approach:
+                    </span>{" "}
+                    Your input drives every stage of the process.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-6 w-6 text-[#2334DE] mr-2"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-700">
+                    <span className="font-semibold">Transparency:</span> We
+                    maintain open communication and provide regular progress
+                    updates.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-6 w-6 text-[#2334DE] mr-2"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-700">
+                    <span className="font-semibold">Efficiency:</span> Clear
+                    timelines and milestones ensure timely delivery.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-6 w-6 text-[#2334DE] mr-2"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-700">
+                    <span className="font-semibold">Innovation:</span> We
+                    leverage the latest technologies and trends to deliver
+                    exceptional results.
+                  </span>
+                </li>
+              </ul>
+
+              <p className="text-gray-700 mb-6 text-justify">
+                At Maxify Solutions, our Planning and Development Process
+                ensures that every project is a success. Whether you're building
+                a website, developing an app, or launching a branding campaign,
+                we're here to turn your vision into reality.
+              </p>
+
+              <p className="text-xl font-bold text-gray-900 mb-8">
+                Let's build something amazing together!
+              </p>
+
+              <div>
+                <a href="tel:+917428309119" target="blank">
+                  <button
+                    className=" px-6 py-2 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
+                  >
+                    Call now
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1007,7 +1575,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <CaseSudy />
+      <ClientFeedback />
       <FAQs />
+
+      {isModalVisible && <PopupForm onClose={closeModal} />}
     </div>
   );
 };
