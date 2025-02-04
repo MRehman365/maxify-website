@@ -41,6 +41,7 @@ import PopupForm from "../Components/PopupForm";
 import ClientFeedback from "../Components/ClientFeedback";
 import CaseSudy from "../Components/CaseSudy";
 import { BiCheckCircle, BiChevronDown } from "react-icons/bi";
+import BolgsSlider from "../Components/BolgsSlider";
 
 const services = [
   {
@@ -826,29 +827,8 @@ const Home = () => {
         </div> */}
       </div>
 
-      <div>
+      <div >
         <div className="flex flex-col-reverse  md:space-x-4 mt-2 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
-          {/* Left Side - Hidden in Mobile View */}
-          {/* <div className="flex w-full  justify-end relative px-2">
-            <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
-              <FaPeopleGroup size={30} />
-              <p className="text-center text-sm">
-                Years of
-                <br />
-                experience
-              </p>
-            </div>
-            <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
-              alt="web development company in noida, Delhi NCR"
-              className="h-auto right-2 bottom-0 w-[40%] absolute"
-            />
-            <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
-              alt="Digital Marketing Agency in Noida, Delhi NCR"
-              className="w-[80%] object-cover h-auto"
-            />
-          </div> */}
 
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full text-center p-4 md:p-8 sm:px-3 md:px-[50px] font-dm">
@@ -919,30 +899,9 @@ const Home = () => {
         </div>
       </div>
 
-      {/* second section */}
+      {/* video section */}
       <div className="bg-img">
         <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
-          {/* Left Side - Hidden in Mobile View */}
-          {/* <div className="flex w-full md:w-1/2 justify-end relative px-2">
-            <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
-              <FaPeopleGroup size={30} />
-              <p className="text-center text-sm">
-                Years of
-                <br />
-                experience
-              </p>
-            </div>
-            <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
-              alt="web development company in noida, Delhi NCR"
-              className="h-auto right-2 bottom-0 w-[40%] absolute"
-            />
-            <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
-              alt="Digital Marketing Agency in Noida, Delhi NCR"
-              className="w-[80%] object-cover h-auto"
-            />
-          </div> */}
           <div className="sm:w-[96%] mx-auto lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px] md:mt-4">
             {/* Center Video */}
             <div
@@ -1057,7 +1016,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Slider */}
+      {/* Services */}
       <div className="bg-img relative">
         <div className="w-full md:w-[90%] mx-auto py-12 px-4 relative font-dm">
           <p className=" text-[17px] font-semibold text-center text-[gray] mb-5">
@@ -1125,7 +1084,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/*  */}
+      {/* planing and Deveolpment */}
       <div className="bg-img">
         <div className="max-w-6xl mx-auto p-4">
           <motion.h2
@@ -1150,40 +1109,58 @@ const Home = () => {
             precision, efficiency, and innovation.
           </motion.p>
 
-          <div className=" relative max-w-4xl mx-auto">
-            {steps.map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="relative flex flex-col items-center group"
-              >
-                {/* Process Step Card */}
-                <div className="bg-white group-hover:bg-[#2334DE] transition-all rounded-lg shadow-[0px_0px_5px_#e1e1e1]  p-8 relative overflow-hidden w-full">
-                  <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#2334DE] transition-all group-hover:bg-[white]  rounded-full flex items-center justify-center transform -rotate-45">
-                    <span className="text-white group-hover:text-[#2334DE] transition-all font-bold text-2xl transform rotate-45">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-semibold group-hover:text-[white] transition-all text-gray-800 mb-4 pl-16">
-                    {step.title}
-                  </h3>
-                  {step.points.map((point, i) => (
-                    <div key={i} className="flex items-start">
-                      <BiCheckCircle className="text-green-500 w-6 h-6 mr-4 flex-shrink-0 mt-1" />
-                      <p className="text-gray-600 group-hover:text-[#f1f1f1] transition-all">{point}</p>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Connecting Line */}
-                {index < steps.length - 1 && (
-                  <div className="h-20 w-[2px] bg-gray-300"></div>
-                )}
-              </motion.div>
-            ))}
+     <div className="relative max-w-4xl mx-auto">
+  {steps.map((step, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="relative flex flex-col items-center group"
+    >
+      {/* Process Step Card */}
+      <div className="bg-white group-hover:bg-[#2334DE] transition-all rounded-lg shadow-[0px_0px_5px_#e1e1e1] p-8 relative overflow-hidden w-full">
+        <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#2334DE] transition-all group-hover:bg-[white] rounded-full flex items-center justify-center transform -rotate-45">
+          <span className="text-white group-hover:text-[#2334DE] transition-all font-bold text-2xl transform rotate-45">
+            {String(index + 1).padStart(2, "0")}
+          </span>
+        </div>
+        <h3 className="text-xl font-semibold group-hover:text-[white] transition-all text-gray-800 mb-4 pl-16">
+          {step.title}
+        </h3>
+        {step.points.map((point, i) => (
+          <div key={i} className="flex items-start">
+            <BiCheckCircle className="text-green-500 w-6 h-6 mr-4 flex-shrink-0 mt-1" />
+            <p className="text-gray-600 group-hover:text-[#f1f1f1] transition-all">{point}</p>
           </div>
+        ))}
+      </div>
+
+      {/* Arrow Image */}
+{index < steps.length - 1 && (
+  <div
+    className={`absolute top-1/2 transform hidden lg:block ${
+      index % 2 === 0
+        ? "right-[-110px] rotate-[305deg]" // Right-side arrow
+        : "left-[-110px] rotate-[235deg] scale-y-[-1]" // Downward-pointing left-side arrow
+    }`}
+  >
+    <img
+      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735905652/arrow-removebg-preview_2_lcpczc.png"
+      className="h-[170px] w-auto"
+      alt="arrow"
+    />
+  </div>
+)}
+
+      {/* Connecting Line */}
+      {index < steps.length - 1 && (
+        <div className="h-20 w-[2px] bg-gray-300 opacity-1 lg:opacity-0"></div>
+      )}
+    </motion.div>
+  ))}
+</div>
+
         </div>
       </div>
 
@@ -1327,13 +1304,6 @@ const Home = () => {
       </div>
       {/*  */}
       <div className="">
-        <div className="sm:hidden md:w-[45%] md:flex justify-end">
-          {/* <IoMdPlay size={14} className="bg-[red] text-white h-[80px] w-[80px]"/> */}
-          <IoIosPlay
-            size={20}
-            className="bg-[red] text-white h-[80px] w-[80px]"
-          />
-        </div>
         <div className="flex flex-col md:flex-row items-center bg-black text-white py-12 sm:px-3 md:px-0 relative">
           <div className="md:w-1/2 min-h-[400px] md:px-5">
             <h3 className="text-[#2334DE]">
@@ -1361,8 +1331,8 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div className="w-full lg:h-[600px] flex justify-center mt-8 md:mt-0 lg:absolute">
-            <div className="lg:absolute sm:w-full md:w-[55%] right-[0px] top-[-30px]">
+          <div className="w-full flex justify-end px-2 mt-8 md:mt-0">
+            <div className=" sm:w-full md:w-[70%] right-[0px] ">
               <img
                 src={image}
                 alt={`${heading} Illustration`}
@@ -1577,6 +1547,7 @@ const Home = () => {
       </div>
       <CaseSudy />
       <ClientFeedback />
+      <BolgsSlider />
       <FAQs />
 
       {isModalVisible && <PopupForm onClose={closeModal} />}
