@@ -126,3 +126,22 @@ text-transform: capitalize;
 }
 
 
+ 
+.sweet-loading{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sweet-loading img{
+  animation: rotate 0.2 linear;
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}

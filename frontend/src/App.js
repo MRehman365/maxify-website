@@ -32,8 +32,9 @@ function App() {
         <Router>
           <Navbar />
           <BacktoTop />
-
+         
           {/* Suspense with fallback for loading indication */}
+          {/* <LoadingSpinner /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/web-development-company-in-noida" element={<Services />} />
