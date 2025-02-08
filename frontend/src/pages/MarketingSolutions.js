@@ -319,10 +319,10 @@ const MarketingSolutions = () => {
       </div>
       {/* 2nd section */}
 
-      <div className="flex flex-col lg:flex-row items-center justify-between bg-white md:p-12 sm:py-0">
+      <div className="flex flex-col items-center w-full justify-between bg-white md:p-12 sm:py-0">
       {/* Image Section */}
-      <div className="lg:w-1/2 w-full flex justify-center relative">
-        <div className="px-10">
+      <div className="w-full flex justify-center relative">
+        <div className="px-10 lg:w-1/2 w-full ">
           <img
             src={imageUrl}
             alt={altimageUrl1}
@@ -788,7 +788,7 @@ const MarketingSolutions = () => {
 
         <div className="w-[90%] mx-auto">
           <div className=" mbg2 ">
-            <div className="relative md:py-20 sm:py-10 text-white flex flex-col items-center justify-center w-[80%] mx-auto">
+            <div className="relative md:py-20 sm:py-10  flex flex-col items-center justify-center w-[80%] mx-auto">
               <h3 className="text-3xl md:text-[48px] sm:text-[17px] poppins-medium text-center mb-6 leading-tight">
                 Transform Your Service with Maxify Service's 3D Services
               </h3>
