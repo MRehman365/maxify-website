@@ -53,7 +53,7 @@ const AppDevelopment = () => {
         "Rigorous testing to ensure a bug-free experience",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513433/5_pskc4h.webp", // Replace with the actual image path
+        "https://i.ibb.co/HDgThc41/5.webp", // Replace with the actual image path
     },
     "iOS App Development": {
       title: "app development for ios and android",
@@ -66,7 +66,7 @@ const AppDevelopment = () => {
         "Rigorous testing to ensure a seamless user experience",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513385/6_o1yhbj.webp", // Replace with the actual image path
+        "https://i.ibb.co/pBh0SfwB/6.webp", // Replace with the actual image path
     },
     "Cross-Platform App Development": {
       title: "custom app development for android",
@@ -79,7 +79,7 @@ const AppDevelopment = () => {
         "Cost-effective solution for multi-platform apps",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513389/9_sdrh8y.webp", // Replace with the actual image path
+        "https://i.ibb.co/Dgj6L9VP/9.webp", // Replace with the actual image path
     },
     "App Design and User Experience (UX)": {
       title: "ui/ux design app",
@@ -92,7 +92,7 @@ const AppDevelopment = () => {
         "Focus on accessibility and usability",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513388/7_jih0gm.webp", // Replace with the actual image path
+        "https://i.ibb.co/B2CdYHWF/7.webp", // Replace with the actual image path
     },
     "App Testing and Quality Assurance": {
       title: "aap for automation ",
@@ -105,7 +105,7 @@ const AppDevelopment = () => {
         "Continuous testing during development",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513388/8_k98pir.webp", // Replace with the actual image path
+        "https://i.ibb.co/mr9XHPLG/8.webp", // Replace with the actual image path
     },
   };
   const serviceList = [
@@ -221,7 +221,7 @@ const AppDevelopment = () => {
         <div className="lg:w-1/2 p-4 mt-8 lg:mt-0 relative">
           <div className="bg-card  rounded-lg">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513377/1_i0qump.webp"
+              src="https://i.ibb.co/pBMH1PSZ/1.webp"
               alt="best app development company in noida"
               className="rounded-lg w-full"
             />
@@ -239,22 +239,22 @@ const AppDevelopment = () => {
               <div className="bg-card w-1/2 py-6 px-4 rounded-lg shadow-md lg:mb-0 flex  justify-center items-center bg-white">
                 <div className="flex items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335944/small-img-4.png_z4avqf.png"
+                    src="https://i.ibb.co/hRMJpc0K/person6.jpg"
                     alt="Expert 1"
                     className="rounded-full md:size-[40px] sm:size-[20px] relative z-10 object-cover"
                   />
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/small-img-2.png_mdxkam.png"
+                    src="https://i.ibb.co/XxjsRJVN/person2.jpg"
                     alt="Expert 2"
                     className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-5 z-20 object-cover"
                   />
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/small-img-3.png_rdnuri.png"
+                    src="https://i.ibb.co/twqYRfqp/images.jpg"
                     alt="Expert 3"
                     className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-5 z-30 mr-2 object-cover"
                   />
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/small-img-1.png_f7wrel.png"
+                    src="https://i.ibb.co/20Lcr80D/image.jpg"
                     alt="Expert 3"
                     className="rounded-full relative md:size-[40px] sm:size-[20px] -ml-5 z-30 mr-2 object-cover"
                   />
@@ -268,7 +268,7 @@ const AppDevelopment = () => {
                 <div>
                   <span className="text-[10px]">Verified by Google</span>
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/google-logo-png-google-sva-scholarship-20_j1e74q.png"
+                    src="https://i.ibb.co/hRkHMWGj/google-logo-png-google-sva-scholarship-20.png"
                     alt="maxify websolution"
                     className="sm:w-[40px] md:w-[80px] h-auto"
                   />
@@ -289,7 +289,7 @@ const AppDevelopment = () => {
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[80%] mx-auto py-7 border-t-[2px] border-black">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-4 md:p-6">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513401/3_pywoq4.webp"
+            src="https://i.ibb.co/LX9CdrZt/3.webp"
             alt="cutting edge technology for app development"
           />
           <div className="p-4 space-y-4 w-full">
@@ -366,7 +366,7 @@ const AppDevelopment = () => {
             results. Here's why you should choose us:
           </p>
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513399/2_ftzsf4.webp"
+            src="https://i.ibb.co/fYHbhGc8/2.webp"
             alt="app development plan"
           />
         </div>
@@ -397,7 +397,7 @@ const AppDevelopment = () => {
         </div>
         <div className="flex lg:justify-end w-full">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512492/Group_29_lt4fj2.webp"
+            src="https://i.ibb.co/0yrHGpHZ/Group-29.webp"
             className="w-[900px]"
             alt="app development strategy"
           />
@@ -538,25 +538,25 @@ const AppDevelopment = () => {
           </div>
 
           {/* Right Section */}
-          <div className="lg:w-1/2 sm:w-full flex gap-4 flex-col items-center md:flex-row items-center justify-between mt-10 lg:mt-10 sm:p-2 md:py-5 lg:py-12">
+          <div className="lg:w-1/2 sm:w-full flex gap-4 flex-col items-center md:flex-row  justify-between mt-10 lg:mt-10 sm:p-2 md:py-5 lg:py-12">
             {[
               {
                 title: "ecommerce app development cost",
                 bgColor: "bg-black text-white",
                 image:
-                  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513400/4_umkgco.webp",
+                  "https://i.ibb.co/VcQDxbKx/4.webp",
               },
               {
                 title: "ios app development",
                 bgColor: "bg-gray-200 text-gray-800",
                 image:
-                  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513391/10_s3erfq.webp",
+                  "https://i.ibb.co/0yp3VSz2/10.webp",
               },
               {
                 title: "custom mobile app development",
                 bgColor: "bg-gray-100 text-gray-800",
                 image:
-                  "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513391/11_tniorw.webp",
+                  "https://i.ibb.co/6R8N924f/11.webp",
               },
             ].map((section, index) => (
               <div

@@ -180,7 +180,7 @@ const GraphicSlider = () => {
                   Build and Identity Design
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513210/image_7_q9s5fm.png"
+                  src="https://i.ibb.co/NdQ3mws1/image-7.png"
                   alt="seo strategy for website"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -210,7 +210,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513208/image_6_wrvsh2.png"
+                  src="https://i.ibb.co/Vc1Zt80Z/image-6.png"
                   alt="seo for brand promotion"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -229,7 +229,7 @@ const GraphicSlider = () => {
                   Marketing Collateral Design
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513211/image_8_ub1oc8.png"
+                  src="https://i.ibb.co/8tZ0tbY/image-8.png"
                   alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -257,7 +257,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513214/image_9_ewrt0g.png"
+                  src="https://i.ibb.co/RnhjML7/image-9.png"
                   alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -275,7 +275,7 @@ const GraphicSlider = () => {
                   Website and Social Media Graphics
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513215/image_11_watuuf.png"
+                  src="https://i.ibb.co/5xBLGwV7/image-11.png"
                   alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -303,7 +303,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513218/image_12_ehgg8a.png"
+                  src="https://i.ibb.co/L2f4nRn/image-12.png"
                   alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -321,7 +321,7 @@ const GraphicSlider = () => {
                    UI/UX Design
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513220/image_13_v1ylie.png"
+                  src="https://i.ibb.co/Y78fRRbP/image-13.png"
                   alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -338,7 +338,7 @@ const GraphicSlider = () => {
                   {Slid4.map((_, index) => (
                     <span
                       key={index}
-                      className={`inline-block w-6 h-1 rounded-sm mx-1 rounded-full ${
+                      className={`inline-block w-6 h-1 rounded-sm mx-1 ${
                         currentIndex === index ? "bg-white" : "bg-gray-400"
                       }`}
                     />
@@ -349,7 +349,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513221/image_14_htfiky.png"
+                  src="https://i.ibb.co/MxqXpYNP/image-14.png"
                   alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />
@@ -367,7 +367,7 @@ const GraphicSlider = () => {
                   Packaging and Label Design
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513223/image_16_lh1p37.png"
+                  src="https://i.ibb.co/s0ypdpp/image-16.png"
                   alt="maxify websolution"
                   className="w-[80%] mb-4 h-auto" // Consistent height and width
                 />
@@ -395,7 +395,7 @@ const GraphicSlider = () => {
               {/* Right Container (Images) */}
               <div className="flex flex-col justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_17_xq6oer.png"
+                  src="https://i.ibb.co/99GJH09x/image-17.png"
                   alt="maxify websolution"
                   className="w-[80%] h-auto" // Consistent height and width
                 />

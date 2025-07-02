@@ -186,7 +186,7 @@ const HRMS = () => {
           <div className="lg:w-1/2 mt-8 lg:mt-0 p-2 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
             <div className="h-[100%] sm:w-[100%] lg:w-[70%]: overflow-hidden flex justify-center items-center rounded-lg relative  z-10">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_18_rrdlc1.png"
+                src="https://i.ibb.co/HppTwQ28/image-18.png"
                 alt="hrms software development company"
                 className="sm:h-full md:h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
@@ -220,7 +220,7 @@ const HRMS = () => {
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513141/image_19_bfdges.png"
+                  src="https://i.ibb.co/93GcpwzW/image-19.png"
                   alt="hrms development company in noida"
                   className="rounded-full w-full h-full block"
                 />
@@ -233,7 +233,7 @@ const HRMS = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513147/image_336_rvftvt.png"
+                src="https://i.ibb.co/rGMTQpRG/image.png"
                 alt="hrms software save your time and money"
                 className="h-[50%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
@@ -291,7 +291,7 @@ const HRMS = () => {
         <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
           <div className="md:w-1/2 mb-6 md:mb-0 p-2">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/image_20_iebz8g.png"
+              src="https://i.ibb.co/7NjJfKBT/image-20.png"
               alt="best hrms company in noida"
               className="rounded-lg"
             />
@@ -331,7 +331,7 @@ const HRMS = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-center h-auto items-center  relative px-2 bg-last">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513149/image_337_adpbaw.png"
+            src="https://i.ibb.co/kvKG9S5/image-337.png"
             alt="expert team for hrms software"
             className=" mx-auto object-cover h-[70%]"
           />
@@ -416,7 +416,7 @@ const HRMS = () => {
           <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
             <div className="md:w-1/2 flex justify-end">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513145/Image_22_vs1pxv.png"
+                src="https://i.ibb.co/hJRtt9vK/Image-22.png"
                 alt="best it company in noida for hrms"
                 className="rounded-lg shadow-lg"
               />
@@ -473,7 +473,7 @@ const HRMS = () => {
               processes and he­lping you achieve operational e­xcellence.
             </p>
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513146/image_23_orrp43.png"
+              src="https://i.ibb.co/XxGPyXjq/Group-164461.png"
               alt="easy to use hrms for no skilled employee also"
               className="h-[100px] sm:hidden md:block w-auto"
             />

@@ -9,27 +9,27 @@ import 'swiper/css/pagination';
 
 const blogs = [
     {
-      image: 'https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512677/image_2_fcpwas.png',
+      image: 'https://i.ibb.co/0RJ1T8M6/image-3.png',
       quote: 'Maxify Solutions transformed our outdated website into a modern, user-friendly platform that perfectly reflects our brand. Their team was responsive, creative, and incredibly professional throughout the process. We have seen a significant increase in traffic and customer engagement since the redesign!',
       name: 'Amit Sharma, CEO of EcoNest Enterprises',
     },
     {
-      image: 'https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png',
+      image: 'https://i.ibb.co/WvdB51Tb/image-4.png',
       quote: 'The digital marketing strategy crafted by Maxify Solutions exceeded our expectations. From SEO to social media campaigns, they helped us grow our online presence and triple our website traffic within six months. Their data-driven approach and consistent updates kept us confident every step of the way!',
       name: 'Riya Malhotra, Founder of Fit & Well Studio',
     },
     {
-      image: 'https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png',
+      image: 'https://i.ibb.co/WvdB51Tb/image-4.png',
       quote: 'Maxify Solutions delivered a top-notch mobile app for our business. Their attention to detail and focus on user experience set them apart. Our customers love the seamless functionality, and we’ve seen a remarkable boost in app downloads and user retention.',
       name: 'Karan Singh, Director of GreenMart',
     },
     {
-      image: 'https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png',
+      image: 'https://i.ibb.co/WvdB51Tb/image-4.png',
       quote: 'Their graphic design team brought our brand to life! The logo and marketing materials they created have helped us stand out in a crowded market. Their designs are innovative, eye-catching, and perfectly aligned with our brand identity."',
       name: 'Priya Arora, Marketing Manager at Style & Co.',
     },
     {
-      image: 'https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512678/image_zm2kh5.png',
+      image: 'https://i.ibb.co/yF6h3t6D/image-5.png',
       quote: 'The 3D models created by Maxify Solutions were nothing short of stunning. Their precision and creativity helped us showcase our architectural designs to clients in a way we couldn’t before. Their work added immense value to our presentations',
       name: 'Rahul Verma, Architect at DreamScape Designs',
     },

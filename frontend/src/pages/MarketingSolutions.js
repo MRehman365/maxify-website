@@ -107,10 +107,10 @@ const MarketingSolutions = () => {
       title: "1. Online 3D Modeling",
       description:
         "3D modeling is the structure of any type of 3D project, enabling you to visualize complicated principles and concepts genuinely.",
-      imageUrl:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512512/image_342_ulz1o4.png",
+        imageUrl:
+        "https://i.ibb.co/9BnNKdv/bg7-550x550-jpg.png",
       overlayUrl:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_341_vlimrl.png",
+        "https://i.ibb.co/bMtPNzYs/Border.png",
       list: [
         "Product Modeling: Premium 3D designs of items for shopping, advertising, and advertising purposes.",
         "Building Modeling: Detailed 3D models of real estate, architecture, and interior design projects.",
@@ -120,9 +120,10 @@ const MarketingSolutions = () => {
     {
       title: "2. 3D Making and Visualization",
       description: "3D making and visualization bring your principles to life with photorealistic photos and animations. We offer high-quality 3D-making solutions to display your designs and items in the most effective possible lighth",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335992/WhatsApp_Image_2024-10-27_at_10.44.51_PM_nuubdk.jpg",
-      altimageUrl:"3d house architecture design",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335978/WhatsApp_Image_2024-10-27_at_10.44.51_PM_4_m8awty.jpg",
+         imageUrl:
+        "https://i.ibb.co/9BnNKdv/bg7-550x550-jpg.png",
+      overlayUrl:
+        "https://i.ibb.co/bMtPNzYs/Border.png",
       altoverlayUrl:"3d design architecture",
       list: [
         "Photorealistic Rendering: Ultra-realistic renderings for advertising, advertising, and product demonstration",
@@ -133,9 +134,10 @@ const MarketingSolutions = () => {
     {
       title: "3. 3D Animation and Motion Graphics",
       description: "3D computer animation is an effective tool to inform your brand name's tale engagingly and dynamically. Our 3D computer animation solutions cover everything from concept advancement to last manufacturing.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335966/WhatsApp_Image_2024-10-27_at_10.44.51_PM_1_xaor2f.jpg",
-      altimageUrl1:"professional 3d design software",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335983/WhatsApp_Image_2024-10-27_at_10.44.51_PM_5_yiwt5c.jpg",
+         imageUrl:
+        "https://i.ibb.co/9BnNKdv/bg7-550x550-jpg.png",
+      overlayUrl:
+        "https://i.ibb.co/bMtPNzYs/Border.png",
       altoverlayUrl:"expert team for 3d design works",
       list: [
         "Item Animations: Engaging computer animations that show the features and benefits of your product.",
@@ -146,10 +148,10 @@ const MarketingSolutions = () => {
     {
       title: "4. Digital and Enhanc ed Fact ( VR/ AR) Solutions",
       description: "Online and Augmented Facts are transforming the means organizations interact with their consumers. We create customized virtual reality and AR experiences to boost your brand name and astound your target market.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335969/WhatsApp_Image_2024-10-27_at_10.44.51_PM_2_mtzp3e.jpg",
-      altimageUrl1:"3D advertising and marketing services",
-
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_6_kl79pi.jpg",
+      imageUrl:
+        "https://i.ibb.co/9BnNKdv/bg7-550x550-jpg.png",
+      overlayUrl:
+        "https://i.ibb.co/bMtPNzYs/Border.png",
       altoverlayUrl:"3d advertising company in noida",
       list: [
         "Online Tours: Interactive digital excursions genuine estate, friendliness, and event place.",
@@ -160,9 +162,10 @@ const MarketingSolutions = () => {
     {
       title: "5. 3D Mark eting Solutions",
       description: "Maxify Service uses specialized 3D marketing solutions to aid organizations stand apart in a congested digital landscape. Our 3D advertising and marketing solutions are designed to enhance brand exposure, drive involvement, and enhance conversion.",
-      imageUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335973/WhatsApp_Image_2024-10-27_at_10.44.51_PM_3_ar3zm6.jpg",
-      altimageUrl1:"3d models for branding ",
-      overlayUrl: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335988/WhatsApp_Image_2024-10-27_at_10.44.51_PM_7_dnubgq.jpg",
+        imageUrl:
+        "https://i.ibb.co/9BnNKdv/bg7-550x550-jpg.png",
+      overlayUrl:
+        "https://i.ibb.co/bMtPNzYs/Border.png",
       altoverlayUrl:"3d designs creation",
       list: [
         "3D Ad Creatives: Eye-catching 3D advertisements for electronic advertising and marketing campaign.",
@@ -247,7 +250,7 @@ const MarketingSolutions = () => {
       {/* 1st section */}
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[90%] mx-auto py-7 border-t-[2px] border-black font-Mulish">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-2 md:p-6">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512509/image_339_uw22ph.png" 
+          <img src="https://i.ibb.co/s9fZ6TBS/educator-img13-jpg.png" 
           alt="3d modeling and 3d advertising company in noida" />
           <div className="py-4 space-y-4 w-full">
             {progressData.map((percentages, index) => (
@@ -313,7 +316,7 @@ const MarketingSolutions = () => {
               visibility and increase engagement.
             </p>
           </div>
-          <img className="rounded-xl" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512517/image_340_jvipgf.png" 
+          <img className="rounded-xl" src="https://i.ibb.co/SDCKwNxD/Figure-educator-img12-500px-jpg.png" 
           alt="3d modeling services" />
         </div>
       </div>
@@ -386,7 +389,7 @@ const MarketingSolutions = () => {
               <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
                 <div className="relative inline-block rounded-full p-[8px] bg-gradient-to-r  w-auto h-[50%] from-[#b300ff] to-[#2334DE]">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512520/m2_efsmxt.png"
+                    src="https://i.ibb.co/rGMTQpRG/image.png"
                     alt="d3 design services in delhi ncr"
                     className="rounded-full w-full h-[full] block"
                   />
@@ -399,7 +402,7 @@ const MarketingSolutions = () => {
       {/* Left Image */}
       <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
         <img
-          src={dataimage}
+          src="https://i.ibb.co/ffv7tTw/image-1.png"
           alt={altdataimage}
           className="h-[50%] w-auto rounded-full"
         />
@@ -556,10 +559,10 @@ const MarketingSolutions = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex justify-end">
           <div className=" relative">
-            <img className="" src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512518/image_349_oi57o4.png" 
+            <img className="" src="https://i.ibb.co/Xr63cJvP/Background-Border-Shadow.png" 
             alt="best companies for 3d animation" />
 
-            <div
+            {/* <div
               className="absolute bottom-0 text-[60px] bg-[#f9f9f9] px-5 text-[#2334DE]"
               style={{ borderRadius: "0px 20px 0px 0px" }}
             >
@@ -567,7 +570,7 @@ const MarketingSolutions = () => {
                 src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/imgwatch_eico7g.png"
                 alt="maxify websolution"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -577,7 +580,7 @@ const MarketingSolutions = () => {
         {" "}
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
-          <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/m3_qv91vf.png" 
+          <img src="https://i.ibb.co/5XWmcfYy/Group-164554.png" 
           alt="3d animation companies in noida" className="md:w-[80%] sm:w-full" />
         </div>
         {/* Right Side - Visible in Mobile View */}
@@ -639,7 +642,7 @@ const MarketingSolutions = () => {
             {/* Image with play button */}
             <div className="relative">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/m4_bvcyl7.png"
+                src="https://i.ibb.co/hx7sYK00/image-2.png"
                 alt="best it company in delhi ncr for 3d"
                 className="rounded-lg shadow-lg"
               />
@@ -670,7 +673,7 @@ const MarketingSolutions = () => {
                     }`}
                   >
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group1_lvplle.svg"
+                      src="https://i.ibb.co/MyhcSZgZ/Vector.png"
                       alt="maxify websolution"
                     />
                   </div>
@@ -702,7 +705,7 @@ const MarketingSolutions = () => {
                     }`}
                   >
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group2_o4p5ez.svg"
+                      src="https://i.ibb.co/jZH6LjWQ/Group-58.png"
                       alt="maxify websolution"
                     />
                   </div>
@@ -734,7 +737,7 @@ const MarketingSolutions = () => {
                     }`}
                   >
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group3_ejksob.svg"
+                      src="https://i.ibb.co/h3rbSbc/Vector-1.png"
                       alt="maxify websolution"
                     />
                   </div>
@@ -766,7 +769,7 @@ const MarketingSolutions = () => {
                     }`}
                   >
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group4_nnws0f.svg"
+                      src="https://i.ibb.co/Y7KnJpr9/Group-58-1.png"
                       alt="maxify websolution"
                     />
                   </div>

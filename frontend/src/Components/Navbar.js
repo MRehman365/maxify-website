@@ -62,7 +62,7 @@ const Navbar = () => {
         <Link to="/">
           <div className="flex items-center mr-2">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_1_uazqcb.png"
+              src="https://i.ibb.co/nsLpJJNx/image-1.png"
               className="h-[40px] w-auto"
               alt="Logo"
             />

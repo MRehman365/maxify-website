@@ -109,7 +109,7 @@ const SMO = () => {
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-start">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_dztrgm.png"
+                src="https://i.ibb.co/TBtNJFRm/Icon-2.png"
                 alt="logo"
               />
             </div>
@@ -126,7 +126,7 @@ const SMO = () => {
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Overlay_1_npzunk.png"
+                src="https://i.ibb.co/XZHLGHyN/Icon-1.png"
                 alt="logo"
               />
             </div>
@@ -144,7 +144,7 @@ const SMO = () => {
           <div className="">
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_2_hus38k.png"
+                src="https://i.ibb.co/r2YmRH1J/Overlay-1.png"
                 alt="logo"
               />
             </div>
@@ -161,7 +161,7 @@ const SMO = () => {
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Overlay_3_piks45.png"
+                src="https://i.ibb.co/XZHLGHyN/Icon-1.png"
                 alt="logo"
               />
             </div>
@@ -208,19 +208,19 @@ const SMO = () => {
 
         <div className="md:w-1/2 grid items-center grid-cols-2 gap-4  md:mt-0">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/about-three.png_h1p8fm.webp"
+            src="https://i.ibb.co/DHspy8x3/about-three-png-1.png"
             alt="best digital marketing strategies"
             className="col-span-1 row-span-2 "
           />
 
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-2.png_axadi4.png"
+            src="https://i.ibb.co/Ng84Zt9X/about-three-2-png.png"
             alt="social media optimization"
             className="col-span-1 "
           />
 
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/about-three-3.png_m3k1ml.png"
+            src="https://i.ibb.co/LXdf88g3/about-three-3-png.png"
             alt="social media marketing"
             className="col-span-1 "
           />
@@ -828,7 +828,7 @@ const SMO = () => {
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
           <img
             alt="social media for brand awarness"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512526/why-chose-us-two.png_1_nanin6.png"
+            src="https://i.ibb.co/r2dGvTrB/why-chose-us-two-png-1.png"
           />
         </div>
       </div>
@@ -956,7 +956,7 @@ const SMO = () => {
           <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
             <div className="md:w-1/2 flex justify-end">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512505/Image_13_txhljf.png"
+                src="https://i.ibb.co/ymbZPXMw/Image-13.png"
                 alt="digital marketing professional team"
                 className="rounded-lg shadow-lg"
               />

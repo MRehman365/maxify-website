@@ -9,9 +9,9 @@ import SEOComponent from "../Components/SEOComponent";
 
 const DigitalMarketing = () => {
   const slides = [
-    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512971/image_36_oo1rps.png",
-    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_38_hlp4zu.png",
-    "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512976/image_39_oupanc.png",
+    "https://i.ibb.co/6c6G4QkX/3.png",
+    "https://i.ibb.co/6c6G4QkX/3.png",
+    "https://i.ibb.co/6c6G4QkX/3.png",
   ];
   const sliderSettings = {
     dots: true,
@@ -75,7 +75,7 @@ const DigitalMarketing = () => {
       <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
         <div className="w-full">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512970/Frame_91_k7mbpu.png"
+            src="https://i.ibb.co/rfX8cwrj/Image.png"
             alt="Affordable digital marketing agency in noida delhi ncr"
           />
         </div>
@@ -160,7 +160,7 @@ const DigitalMarketing = () => {
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] h-full p-6 flex flex-col">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512978/image_43_wyn2cv.png"
+              src="https://i.ibb.co/XrvdT4Tg/4.png"
               alt="top digital markeing agency in delhi ncr"
               className="w-full h-48 object-cover rounded-lg"
             />
@@ -181,7 +181,7 @@ const DigitalMarketing = () => {
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full md:w-[340px] min-h-[400px] p-6 flex flex-col">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512977/image_42_lsytqj.png"
+              src="https://i.ibb.co/39GpnYd6/5.png"
               alt="ppc for paid advertisement brand promotion"
               className="w-full h-48 object-cover rounded-lg"
             />
@@ -207,7 +207,7 @@ const DigitalMarketing = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512969/image_37_lxejcx.png"
+            src="https://i.ibb.co/v6ZY38gb/6.png"
             alt="online marketing agency"
             className="sm:w-full md:w-[80%]"
           />

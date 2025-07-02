@@ -24,7 +24,7 @@ const Conservation = () => {
       <div className="flex flex-col lg:flex-row sm:p-2 md:p-6 bg-background rounded-lg h-full  sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
         <div className="lg:w-[35%] sm:w-full p-4">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_7_qfc85w.png"
+            src="https://i.ibb.co/QjYbmJkj/image-7.png"
             alt="easy to share with others"
             className="rounded-lg w-full h-auto object-cover"
           />
@@ -94,7 +94,7 @@ const Conservation = () => {
                 </div>
               </div>
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_5_mvgk34.png"
+                src="https://i.ibb.co/yF6h3t6D/image-5.png"
                 alt="Top web development company in noida"
                 className="  h-[230px] sm:hidden md:block w-auto"
               />
@@ -143,7 +143,7 @@ const Conservation = () => {
                 </div>
               </div>
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_6_ydvtn2.png"
+                src="https://i.ibb.co/Dg43j0Gz/image-6.png"
                 alt="Website development company Delhi"
                 className="  h-[200px] sm:hidden md:block w-auto"
               />
@@ -182,7 +182,7 @@ const Conservation = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320839_gkx80a.png"
+            src="https://i.ibb.co/HLf3rLHY/Group-427320839.png"
             alt="Top 5 web development company in noida"
             className="sm:w-full md:w-[70%]"
           />
@@ -194,7 +194,7 @@ const Conservation = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_427320840_jjjtwz.png"
+            src="https://i.ibb.co/yBMV3XM4/Group-427320840.png"
             alt="Affordable Website development company"
             className="sm:w-full md:w-[70%]"
           />
@@ -256,19 +256,19 @@ const Conservation = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512495/Group_427320841_hlnp0b.png"
+            src="https://i.ibb.co/qtJmP7K/Group-427320841.png"
             alt="low cost web development company in delhi"
             className="sm:w-full md:w-[70%]"
           />
         </div>
       </div>
 
-      <div className="w-full md:w-[80%] mx-auto mt-10">
+      {/* <div className="w-full md:w-[80%] mx-auto mt-10">
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335926/Group_427320851_yvhtcn.png"
+          src="https://i.ibb.co/0yrHGpHZ/Group-29.webp"
           alt="maxify websolution"
         />
-      </div>
+      </div> */}
 
       {/*  */}
       <section className="bg-gradient-to-r from-[#edd6fb] to-[#adadff] p-8 mt-4">
@@ -302,7 +302,7 @@ const Conservation = () => {
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
               <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_311_hql7d6.png"
+                  src="https://i.ibb.co/fVr2ZDHb/image-311.png"
                   alt="best customer support for beginners"
                   className="rounded-full w-full h-full block"
                 />
@@ -315,7 +315,7 @@ const Conservation = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 py-3 flex justify-center lg:justify-start">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512503/image_8_fiyaq6.png"
+                src="https://i.ibb.co/GyvzPZS/image-8.png"
                 alt="custom web solutions"
                 className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
@@ -353,7 +353,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="technical support for web development services"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512496/Group_bpbapd.png"
+            src="https://i.ibb.co/kVxVFcMZ/Group.png"
             className=""
           />
         </div>
@@ -376,7 +376,7 @@ const Conservation = () => {
         <div className="w-full md:w-3/5 flex justify-start mb-6 md:mb-0">
           <div className="relative">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512524/Rectangle_4601_uu3kzt.png"
+              src="https://i.ibb.co/d490wsxW/Rectangle-4601.png"
               alt="quality check list "
               className="rounded-lg"
             />
@@ -455,7 +455,7 @@ const Conservation = () => {
       {/*  */}
       <div className="mt-8 p-2 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_9_jn9yed.png"
+          src="https://i.ibb.co/SDs3qJz9/image-9.png"
           alt="our commitment"
           className="w-full h-auto"
         />
@@ -481,7 +481,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="chat gpt for quick service"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/blog_post_img_r2ukaz.png"
+            src="https://i.ibb.co/HphbQs0K/blog-post-img.png"
             className="rounded-t-lg object-cover w-full"
           />
           <div className="p-3">
@@ -498,7 +498,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="teamwork for project"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_1_zlyjqq.png"
+            src="https://i.ibb.co/vvcqrsCh/blog-post-img-1.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div className="p-3">
@@ -516,7 +516,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="teamwork for project"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/blog_post_img_2_vh2moh.png"
+            src="https://i.ibb.co/JFysBHRk/blog-post-img-2.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div className="p-3">
@@ -553,7 +553,7 @@ const Conservation = () => {
           <img
             undefinedhidden="true"
             alt="using ai coding"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512494/Group_164461_micubn.png"
+            src="https://i.ibb.co/hRfvxhMr/Group-164461.png"
             className=""
           />
         </div>

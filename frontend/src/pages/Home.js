@@ -570,7 +570,7 @@ const Home = () => {
         className="flex overflow-hidden flex-col-reverse lg:flex-col items-center justify-between px-2 bg-background relative p-2 md:p-10 lg:p-12"
       >
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Path_4_1_satfqd.png"
+          src="https://i.ibb.co/v6HFVxv1/about-shape04.webp"
           className="absolute -top-[80px] left-0 -z-10 sm:h-[150px] md:h-auto"
           alt="maxify websolution"
         />
@@ -590,7 +590,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/store_jfhp9d.png"
+            src="https://i.ibb.co/Tx7rWMGN/store.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -609,7 +609,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/web_xvdgg1.png"
+            src="https://i.ibb.co/X9m1Gds/web.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -628,7 +628,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/graph_bpzptm.png"
+            src="https://i.ibb.co/LzC110ML/graph.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -651,7 +651,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553402/ai_xbq1om.png"
+            src="https://i.ibb.co/Xk3PLBzv/ai.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -685,7 +685,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735554162/healthcare_tcpxpb.png"
+            src="https://i.ibb.co/zTYzb603/healthcare.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -704,7 +704,7 @@ const Home = () => {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735553982/book_ndxyps.png"
+            src="https://i.ibb.co/8g3fHr4h/book.png"
             alt="Folder"
             className="h-auto w-auto"
           />
@@ -783,7 +783,7 @@ const Home = () => {
               <div className="flex items-center justify-center gap-4 p-4">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735544418/Trustpilot-Logo-500x281_mftobw.png"
+                    src="https://i.ibb.co/nq0Ykxpg/Trustpilot-Logo-500x281.png"
                     className="h-[60px] w-auto"
                     alt="trust pilot"
                   />
@@ -798,7 +798,7 @@ const Home = () => {
                 <div className="h-8 w-px bg-gray-500 mx-2" />
                 <div className="flex flex-col items-center gap-2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735544418/Google-Logo_ksucya.png"
+                    src="https://i.ibb.co/9mvhRrmn/Google-Logo.png"
                     className="h-[60px] w-auto"
                     alt="google"
                   />
@@ -1146,7 +1146,7 @@ const Home = () => {
     }`}
   >
     <img
-      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735905652/arrow-removebg-preview_2_lcpczc.png"
+      src="https://i.ibb.co/PvZvCF8g/arrow-removebg-preview-2.png"
       className="h-[170px] w-auto"
       alt="arrow"
     />
@@ -1179,12 +1179,12 @@ const Home = () => {
                 </p>
               </div>
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/5_yswoho.webp"
+                src="https://i.ibb.co/5hmCx7tQ/5.webp"
                 alt="web development company in noida, Delhi NCR"
                 className="h-auto right-2 bottom-0 w-[40%] absolute"
               />
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/3_atcrny.webp"
+                src="https://i.ibb.co/twNPj3QB/3.webp"
                 alt="Digital Marketing Agency in Noida, Delhi NCR"
                 className="w-[80%] object-cover h-auto"
               />
@@ -1350,19 +1350,19 @@ const Home = () => {
           <div className="flex w-full md:w-1/2 justify-center md:justify-end items-center company-bg relative gap-3">
             <div className="flex flex-col gap-3">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512490/7_b87xoc.webp"
+                src="https://i.ibb.co/vMVXTqB/7.webp"
                 alt={`${heading} advanced ai technology for best results`}
                 className="sm:h-[200px] md:h-[350px] sm:w-[150px] rounded-lg object-cover md:w-[300px]"
               />
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/6_jtqi46.webp"
+                src="https://i.ibb.co/tPF8D42v/6.webp"
                 alt={`${heading} social media optimization`}
                 className="sm:h-[200px] md:h-[350px] sm:w-[150px] md:w-[300px]"
               />
             </div>
             <div>
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512488/4_mlz0sf.webp"
+                src="https://i.ibb.co/C4GbkmP/4.webp"
                 alt={`${heading} ROI-driven campaign optimization`}
                 className="sm:h-[200px] md:h-[400px] sm:w-[150px] rounded-lg object-cover md:w-[300px]"
               />
@@ -1449,7 +1449,7 @@ const Home = () => {
           {/* Left Side - Hidden in Mobile View */}
           <div className="w-full md:w-1/2 justify-center items-center relative flex">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512489/2_ryqv8n.webp"
+              src="https://i.ibb.co/qYgH6Fxn/2.webp"
               alt="cutting edge technology"
               className="w-[70%] object-cover h-[90%] rounded-lg"
             />

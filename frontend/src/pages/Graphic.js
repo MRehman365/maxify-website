@@ -31,7 +31,7 @@ function Graphic() {
             <br /> Service
           </p>
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513217/image_10_magoe1.png"
+            src="https://i.ibb.co/DfDYZSHr/image-10.png"
             alt="best company seo ranking"
             className="rounded-lg h-full w-auto object-cover"
           />
@@ -82,7 +82,7 @@ function Graphic() {
         {/* Middle Section for Services */}
         <div className="flex items-center gap-2  text-base sm:px-0 md:px-2 lg:px-5">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_3_mz0ptm.png"
+            src="https://i.ibb.co/FkXpfYWW/image-3.png"
             alt="seo agency"
             className="h-[4rem] w-auto"
           />
@@ -97,7 +97,7 @@ function Graphic() {
 
         {/* Section for Innovation */}
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513231/Section_ppckja.png"
+          src="https://i.ibb.co/3mxpNxBv/Section.png"
           alt="ai based rast ranking"
           className="h-[300px] w-auto"
         />
@@ -137,7 +137,7 @@ function Graphic() {
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-[50%] p-4 relative">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513200/image_1_bghzft.png"
+            src="https://i.ibb.co/fd9dwNwv/image-1.png"
             alt="seo online marketing"
             className="rounded-lg h-full w-auto object-cover"
           />
@@ -165,7 +165,7 @@ function Graphic() {
             <div className="w-1/2 flex justify-center items-center ">
               <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513225/image_329_vcmnfx.png"
+                  src="https://i.ibb.co/gZ19vPtJ/image-329.png"
                   alt="search descovery"
                   className="md:w-[60%] md:h-auto h-[100px] w-auto"
                 />
@@ -176,7 +176,7 @@ function Graphic() {
             <div className="w-1/2 flex justify-center items-center">
               <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513202/image_2_i6vgog.png"
+                  src="https://i.ibb.co/fV21Kvy8/image-2.png"
                   className="md:w-[80%] md:h-auto h-[100px] w-auto"
                   alt="seo digital marketing cost"
                 />
@@ -207,7 +207,7 @@ function Graphic() {
             <div className="w-1/2 flex justify-center items-center">
               <div className=" border-l-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513204/image_4_zdax9n.png"
+                  src="https://i.ibb.co/4Rc74QqY/image-4.png"
                   alt="seo packages pricing"
                   className=" md:w-[80%] md:h-auto h-[100px] w-auto"
                 />
@@ -218,7 +218,7 @@ function Graphic() {
             <div className="w-1/2 flex justify-center items-center">
               <div className=" border-r-4 border-[#ffba31] md:w-[80%] md:p-6 md:h-auto h-[100px] w-auto rounded-full">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513206/image_5_gvypsd.png"
+                  src="https://i.ibb.co/4wHwbMyD/image-5.png"
                   className="md:w-[80%] md:h-auto h-[100px] w-auto"
                   alt="high quality content creation"
                 />
@@ -287,7 +287,7 @@ function Graphic() {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513191/Group_427320841_zri9mt.png"
+            src="https://i.ibb.co/39jTtVkX/Group-427320841.png"
             alt="identifying relevant keywords"
             className="sm:w-full md:w-[70%]"
           />
@@ -324,7 +324,7 @@ function Graphic() {
           {/* Left Side - Hidden in Mobile View */}
           <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513192/Group_164555_o6svkw.png"
+              src="https://i.ibb.co/k2hdd6bV/Group-164555.png"
               alt="high da pa seo backlink"
               className="md:w-[80%] sm:w-full"
             />
@@ -334,17 +334,17 @@ function Graphic() {
 
       <div className="mt-8 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%] hidden md:block">
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513230/image_xtopqm.png"
+          src="https://i.ibb.co/dwfdPvDk/image.png"
           alt="maxify websolution"
           className="w-full h-auto"
         />
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513227/image_332_m1luyv.png"
+          src="https://i.ibb.co/v4X3msC7/image-332.png"
           alt="brand visual identity seo"
           className="sm:w-[300px] md:w-[400px] absolute bottom-0 left-0 h-auto"
         />
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513228/image_333_abb0jm.png"
+          src="https://i.ibb.co/pBXMfqqb/image-333.png"
           alt="color palette brand promotion"
           className="sm:w-[300px] md:w-[500px] absolute top-0 right-5 h-auto"
         />
@@ -369,7 +369,7 @@ function Graphic() {
           <img
             undefinedhidden="true"
             alt="brand awareness brand recognition"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513187/blog_post_img_aytce4.png"
+            src="https://i.ibb.co/k6mx8PXN/blog-post-img.png"
             className="rounded-t-lg object-cover w-full"
           />
           <div className="p-3">
@@ -386,7 +386,7 @@ function Graphic() {
           <img
             undefinedhidden="true"
             alt="brand recognition"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513186/blog_post_img_1_skvrp9.png"
+            src="https://i.ibb.co/HTw7BYvB/blog-post-img-1.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div className="p-3">
@@ -403,7 +403,7 @@ function Graphic() {
           <img
             undefinedhidden="true"
             alt="seo strategically growth strategy"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513187/blog_post_img_2_bi7khs.png"
+            src="https://i.ibb.co/p7Y4Pnf/blog-post-img-2.png"
             className="rounded-t-lg  object-cover w-full"
           />
           <div className="p-3">
@@ -452,7 +452,7 @@ function Graphic() {
             <img
               className="h-full w-full"
               alt="advanced ai seo tool for promotion"
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513185/Background_Border_Shadow_occpga.png"
+              src="https://i.ibb.co/d4HPQ9kG/Background-Border-Shadow.png"
             />
           </div>
         </div>
@@ -465,7 +465,7 @@ function Graphic() {
           elevate your brand to new heights.
         </p>
         <img
-          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513229/image_335_jy33gk.png"
+          src="https://i.ibb.co/Q7yBbm88/image-335.png"
           alt="seo company in delhi ncr"
           className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]"
         />

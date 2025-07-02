@@ -12,7 +12,7 @@ const Services = () => {
   const serviceData = [
     {
       imageSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513533/7_fw9kkj.webp",
+        "https://i.ibb.co/kg9qj7Z9/7.webp",
       title: "Custom Website Design And Development",
       alt:"Website Design & Development Services",
       description:
@@ -26,7 +26,7 @@ const Services = () => {
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513535/8_kfag4g.webp",
+        "https://i.ibb.co/twqJdGbq/8.webp",
       title: "E-Commerce Website Development",
       alt:"best website designing company in delhi",
       description:
@@ -38,7 +38,7 @@ const Services = () => {
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513537/9_vhdrnm.webp",
+        "https://i.ibb.co/1fx5pdYv/9.webp",
       title: "CMS Development",
       alt:"cms website development cost",
       description:
@@ -50,7 +50,7 @@ const Services = () => {
     },
     {
       imageSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513539/10_zapx0w.webp",
+        "https://i.ibb.co/hFcGGnh2/10.webp",
       title: "Website Maintenance And Support",
       alt:"website maintenance services",
       description:
@@ -69,7 +69,7 @@ const Services = () => {
       description:
         "Our success as the best website development company in Noida is backed by a strong portfolio of satisfied clients across various industries. We take pride in delivering websites that exceed our clients' expectations.",
       image:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513523/2_ywmvhh.webp",
+        "https://i.ibb.co/TMRRD9q9/2.webp",
       icone:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513517/1_mtulth.svg",
     },
@@ -79,7 +79,7 @@ const Services = () => {
       description:
         "At Maxify Solutions, we believe that your success is our success. We focus on understanding your needs and goals to deliver a website that is more than just a website; it is an invaluable resource for your company.",
       image:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513526/3_fbenhs.webp",
+        "https://i.ibb.co/69Rdypw/3.webp",
       icone:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513520/2_spdpmt.svg",
     },
@@ -89,7 +89,7 @@ const Services = () => {
       description:
         "We stay ahead of the curve by using the latest technologies and tools in web development. Our commitment to innovation ensures that your website is future-proof and ready to adapt to new trends and changes.",
       image:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513531/6_dtqgzd.webp",
+        "https://i.ibb.co/bpxFjz0/6.webp",
       icone:
         "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513524/3_fsmwyh.svg",
     },
@@ -151,7 +151,7 @@ const Services = () => {
         {/* Right Section */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513525/1_a07tse.webp"
+            src="https://i.ibb.co/BVKw3Xxj/1.webp"
             alt="web development company in noida, Delhi NCR"
             className="rounded-lg shadow-md w-full h-auto"
           />
@@ -171,12 +171,12 @@ const Services = () => {
                 className=" w-[42%] h-auto absolute bottom-[50%] right-[20%] transform translate-x-[50%] translate-y-[50%] -z-[0]"
               />
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513530/5_xw0wov.webp"
+                src="https://i.ibb.co/xN0HMrN/5.webp"
                 alt="web developer in delhi ncr"
                 className=" shadow-md w-[70%] h-full object-cover overflow-hidden mb-4 ml-2 z-[1] relative"
               />
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513528/4_wstawy.webp"
+                src="https://i.ibb.co/XkjcmyXG/4.webp"
                 alt="roi driven website development agency"
                 className=" shadow-md w-[52%] h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4 z-[2]"
               />
@@ -284,12 +284,12 @@ const Services = () => {
                       <h3 className="text-[10px] bg-[#2334DE] text-center text-white rounded-lg px-3 py-1 mb-4 w-[70%]">
                         {service.title}
                       </h3>
-                      <div className="mt-[-10px]">
+                      {/* <div className="mt-[-10px]">
                         <img
                           src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
                           alt="maxify websolution"
                         />
-                      </div>
+                      </div> */}
                     </div>
                     <p className="text-gray-700 text-[12px] text-justify mb-6">
                       {service.description}
@@ -368,10 +368,10 @@ const Services = () => {
                           {service.title}
                         </h3>
                         <div className="mt-[-10px]">
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
                             alt="maxify websolution"
-                          />
+                          /> */}
                         </div>
                       </div>
                       <p className="text-gray-700 text-[12px] text-justify mb-6">
@@ -439,13 +439,13 @@ const Services = () => {
                 className="bg-white border rounded-sm  flex flex-col items-center"
               >
                 <div className="relative w-full">
-                  <div className="p-2 bg-[#2334DE] text-white text-center absolute bottom-4 left-[40%] border-2">
+                  {/* <div className="p-2 bg-[#2334DE] text-white text-center absolute bottom-4 left-[40%] border-2">
                     <img
                       className="w-10 h-6"
                       src={service.icone}
                       alt="maxify websolution"
                     />
-                  </div>
+                  </div> */}
                   <img
                     src={service.image}
                     alt={service.title}
@@ -637,7 +637,7 @@ const Services = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:w-[60%] mx-auto">
               {/* Card 1 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
-                <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513544/13_qjoowb.webp" 
+                <img src="https://i.ibb.co/5xM4fRTT/13.webp" 
                 alt="seo services" className="rounded-t-lg mb-6 h-full w-full object-cover" />
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-4">
@@ -659,7 +659,7 @@ const Services = () => {
               {/* Card 2 */}
               <div className="bg-white text-gray-900 rounded-lg shadow-lg flex flex-col items-center">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513543/12_uybl6p.webp"
+                  src="https://i.ibb.co/Wv6FVhZ4/12.webp"
                   alt="User Experience"
                   className="rounded-t-lg mb-6 h-full w-full object-cover"
                 />
