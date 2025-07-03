@@ -43,7 +43,7 @@ const Ecommerce = () => {
         />
       </div>
       <div
-        className={`top md:pt-20 py-3 flex sm:flex-col-reverse md:flex-col w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
+        className={`top md:pt-20 py-3 flex sm:flex-col-reverse md:flex-col w-[100%] bg-cover `}
       >
         <div className="w-[80%] mx-auto">
           <div className="heading sm:mt-2 md:mt-0">
@@ -91,12 +91,12 @@ const Ecommerce = () => {
             <div className="sm:h-[80%] sm:w-auto md:w-[50%] relative flex sm:ml-0 md:mb-0 sm:justify-center md:justify-center">
               <div className="relative">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513246/img3_yh7om5.png"
+                  src="https://i.ibb.co/9mkdL6M5/img3.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4"
                 />
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513247/img4_okfo3a.png"
+                  src="https://i.ibb.co/TMZDs0rs/img4.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
@@ -180,12 +180,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-end">
               <div className="relative">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513249/img5_ubdsfv.png"
+                  src="https://i.ibb.co/xVdBCWc/img5.png"
                   alt="Main"
                   className="rounded-lg shadow-md w-full h-[25rem] mb-4 ml-2"
                 />
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513250/img6_jbbnr2.png"
+                  src="https://i.ibb.co/cjRbRY2/img6.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
@@ -199,7 +199,7 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start mt-20">
               <div className="">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513254/img7_mvly4u.png"
+                  src="https://i.ibb.co/6Jn7bVMm/img7.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4 ml-2"
                 />
@@ -296,7 +296,7 @@ const Ecommerce = () => {
         <div className="">
           <img
             className="w-full object-cover object-center h-[30rem]"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513262/img8_ekmraj.png"
+            src="https://i.ibb.co/yF4Ljftc/img8.png"
             alt="maxify websolution"
           />
         </div>
@@ -338,12 +338,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start">
               <div className="relative">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513255/img9_b80mgw.png"
+                  src="https://i.ibb.co/xt5rdKcd/img9.png"
                   alt="Main"
                   className="rounded-lg w-[90%]  mb-4 ml-2"
                 />
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513255/img10_zpojlo.png"
+                  src="https://i.ibb.co/6R1L8Tr1/img10.png"
                   alt="Secondary"
                   className=" shadow-md h-auto absolute bottom-[-18%] right-[50px] w-40"
                 />
@@ -414,12 +414,12 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-center sm:mt-10 md:mt-0">
               <div className="relative">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513259/img11_ixvin7.png"
+                  src="https://i.ibb.co/KHWP1Nn/img11.png"
                   alt="Main"
                   className="rounded-lg shadow-md w-full h-[25rem] mb-4 ml-2"
                 />
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513259/img12_oywrm6.png"
+                  src="https://i.ibb.co/cmgdv0X/img12.png"
                   alt="Secondary"
                   className=" shadow-md w-52 h-auto absolute bottom-0 right-0 transform translate-x-4 translate-y-4"
                 />
@@ -439,7 +439,7 @@ const Ecommerce = () => {
             <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start">
               <div className="">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513263/img14_vs7zy1.png"
+                  src="https://i.ibb.co/qMdL2DD0/img14.png"
                   alt="Main"
                   className="rounded-lg w-full h-[25rem] mb-4 ml-2"
                 />

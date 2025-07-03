@@ -99,7 +99,7 @@ const Navbar = () => {
               >
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512793/image_588254511_s0ehnn.png"
+                    src="https://i.ibb.co/xnZqcRy/image-588254511.png"
                     alt="img"
                     className="h-auto w-[800px]"
                   />
@@ -117,7 +117,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275282_uif7lm.png"
+                          src="https://i.ibb.co/fYWS6m2P/Group-1171275282.png"
                           alt="product"
                           className=""
                         />
@@ -140,7 +140,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512809/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer_te3dhz.png"
+                          src="https://i.ibb.co/Pv58Vk5X/x31-77-x2-C-frontend-x2-C-interface-x2-C-mobile-x2-C-phone-x2-C-developer.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -162,7 +162,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group_thna7x.png"
+                          src="https://i.ibb.co/d410fc7c/Group-1171275285.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -184,7 +184,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512821/Group_1171275285_kj87kb.png"
+                          src="https://i.ibb.co/v46skTqG/Rectangle-161124184.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -206,7 +206,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275284_gzfz45.png"
+                          src="https://i.ibb.co/0jms0zVk/Group-1171275284.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -226,7 +226,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275296_t6d3ot.png"
+                          src="https://i.ibb.co/nN7v5FZx/Group-1171275292.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -248,7 +248,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group-1_ukuldn.png"
+                          src="https://i.ibb.co/wNZbGzNS/Group-1171275296.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -268,7 +268,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275292_fy8jmy.png"
+                          src="https://i.ibb.co/nN7v5FZx/Group-1171275292.png"
                           alt="maxify websolution"
                         />
                       </div>
@@ -305,7 +305,7 @@ const Navbar = () => {
               >
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512825/image_588254512_ozjavx.png"
+                    src="https://i.ibb.co/LXXz4Dm0/image-588254512.png"
                     alt="industries-img"
                     className="h-auto w-[800px]"
                   />
@@ -319,7 +319,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512823/Group_1171275300_toremg.png"
+                          src="https://i.ibb.co/WWWPDJsx/Group-1171275300.png"
                           alt="Icon 1"
                         />
                       </div>
@@ -340,7 +340,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275302_mktyz0.png"
+                          src="https://i.ibb.co/4DHPXWp/Group-1171275302.png"
                           alt="Icon 2"
                         />
                       </div>
@@ -361,7 +361,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275304_pqkqy7.png"
+                          src="https://i.ibb.co/gMJXt8YX/Vector.png"
                           alt="Icon 3"
                         />
                       </div>
@@ -384,7 +384,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector-1_oaxx9k.png"
+                          src="https://i.ibb.co/6JB6VWM9/Group-1171275304.png"
                           alt="Icon 4"
                         />
                       </div>
@@ -405,7 +405,7 @@ const Navbar = () => {
                     >
                       <div className="h-auto w-[100px] mt-2">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector_k4qu9s.png"
+                          src="https://i.ibb.co/PvpsLvJ6/Vector-1.png"
                           alt="Icon 5"
                         />
                       </div>
@@ -479,7 +479,7 @@ const Navbar = () => {
             <Link to="/">
               <div className="flex items-center mr-2">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512504/image_1_uazqcb.png"
+                  src="https://i.ibb.co/nsLpJJNx/image-1.png"
                   className="h-[40px] w-auto"
                   onClick={handlenavClick}
                   alt="Logo"
@@ -522,7 +522,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275282_uif7lm.png"
+                    src="https://i.ibb.co/fYWS6m2P/Group-1171275282.png"
                     alt="Web Development"
                     className="h-[2rem] w-[2rem] mr-4"
                   />
@@ -540,7 +540,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512809/_x31_77_x2C__frontend_x2C__interface_x2C__mobile_x2C__phone_x2C__developer_te3dhz.png"
+                    src="https://i.ibb.co/Pv58Vk5X/x31-77-x2-C-frontend-x2-C-interface-x2-C-mobile-x2-C-phone-x2-C-developer.png"
                     alt="App Development"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -557,7 +557,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group_thna7x.png"
+                    src="https://i.ibb.co/d410fc7c/Group-1171275285.png"
                     alt="Graphic Design"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -574,7 +574,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512821/Group_1171275285_kj87kb.png"
+                    src="https://i.ibb.co/v46skTqG/Rectangle-161124184.png"
                     alt="3D Modeling"
                     className="h-[2rem] w-[2rem] mr-4"
                   />
@@ -592,7 +592,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512810/Group_1171275284_gzfz45.png"
+                    src="https://i.ibb.co/0jms0zVk/Group-1171275284.png"
                     alt="SEO"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -609,7 +609,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275296_t6d3ot.png"
+                    src="https://i.ibb.co/wNZbGzNS/Group-1171275296.png"
                     alt="Digital Marketing"
                     className="h-[2rem] w-[2rem] mr-4"
                   />
@@ -626,7 +626,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512792/Group-1_ukuldn.png"
+                    src="https://i.ibb.co/wNZbGzNS/Group-1171275296.png"
                     alt="SMO"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -643,7 +643,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512791/Group_1171275292_fy8jmy.png"
+                    src="https://i.ibb.co/nN7v5FZx/Group-1171275292.png"
                     alt="HRMS"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -681,7 +681,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512823/Group_1171275300_toremg.png"
+                    src="https://i.ibb.co/WWWPDJsx/Group-1171275300.png"
                     alt="HRMS"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -699,7 +699,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512823/Group_1171275300_toremg.png"
+                    src="https://i.ibb.co/WWWPDJsx/Group-1171275300.png"
                     alt="HRMS"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -717,7 +717,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512824/Group_1171275304_pqkqy7.png"
+                    src="https://i.ibb.co/gMJXt8YX/Vector.png"
                     alt="realestate"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -734,7 +734,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector-1_oaxx9k.png"
+                    src="https://i.ibb.co/6JB6VWM9/Group-1171275304.png"
                     alt="realestate"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />
@@ -752,7 +752,7 @@ const Navbar = () => {
                   className="flex items-center text-white hover:shadow-lg transition duration-300 rounded-lg"
                 >
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512826/Vector_k4qu9s.png"
+                    src="https://i.ibb.co/PvpsLvJ6/Vector-1.png"
                     alt="realestate"
                     className="h-[2rem] w-[2rem] mr-4 nav-icon"
                   />

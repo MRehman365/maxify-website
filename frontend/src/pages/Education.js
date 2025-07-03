@@ -43,7 +43,7 @@ const Education = () => {
             </Link>
             <div className="mt-8">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512876/image_38_veynfo.png"
+                src="https://i.ibb.co/wN2T3vrn/image.png"
                 alt="Primary school website design"
                 width={500}
                 height={300}
@@ -56,7 +56,7 @@ const Education = () => {
           <div className="relative h-full">
             <div className="h-full object-cover w-[70%]">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512880/image_39_jn7ke0.png"
+                src="https://i.ibb.co/kspKFjm9/image-1.png"
                 alt="Education web development company in noida"
                 width={600}
                 height={800}
@@ -65,7 +65,7 @@ const Education = () => {
             </div>
             <div className="absolute top-4 right-0 w-[30%] -mr-4 sm:hidden md:block">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512881/image_40_tca8a9.png"
+                src="https://i.ibb.co/1fsM5gwJ/image-2.png"
                 alt="Students collaborating"
                 width={200}
                 height={200}
@@ -115,7 +115,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="Custom-made Designs"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_13_b5ew8f.png"
+            src="https://i.ibb.co/23mp7JrR/Container.png"
             className="rounded-t-lg"
           />
 
@@ -141,7 +141,7 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="User-Friendly Interfaces"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_12_mr9hxn.png"
+            src="https://i.ibb.co/GvqLvTCd/Container-3.png"
             className="rounded-t-lg"
           />
           <div className="flex flex-col justify-between items-center h-full p-4">
@@ -165,35 +165,11 @@ const Education = () => {
           <img
             aria-hidden="true"
             alt="Safe and Certified Platforms"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512867/bg34.jpg_1_sqdrf0.png"
+            src="https://i.ibb.co/d02xpcYD/Container-2.png"
             className="rounded-t-lg"
           />
           <div className="flex flex-col justify-between items-center p-4 h-full">
             <h2 className="text-xl text-center font-semibold mt-2 font-syne">
-              Safe and Certified Platforms:
-            </h2>
-            <p className="text-sm text-gray-500 text-center mt-1">
-              We follow data security guidelines and execute sophisticated
-              security procedures to guard sensitive pupil details.
-            </p>
-            <Link to="/web-development-company-in-noida">
-              <button className="bg-[#2334de] text-white text-secondary-foreground hover:bg-secondary/80 mt-4 rounded px-4 py-2">
-                Know More
-              </button>
-            </Link>
-          </div>
-        </div>
-
-        {/* Card 4 */}
-        <div className="bg-white rounded-lg shadow-md flex flex-col">
-          <img
-            aria-hidden="true"
-            alt="Safe and Certified Platforms"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512868/Container_12_mr9hxn.png"
-            className="rounded-t-lg"
-          />
-          <div className="flex flex-col justify-between items-center p-4">
-            <h2 className="text-xl text-center font-semibold mt-2">
               Safe and Certified Platforms:
             </h2>
             <p className="text-sm text-gray-500 text-center mt-1">
@@ -283,7 +259,7 @@ const Education = () => {
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512883/image11_ztasxk.png"
+                    src="https://i.ibb.co/B56zQjNZ/image-3.png"
                     alt="Real Estate"
                     className=" inset-0 h-[80%] w-[80%]"
                   />
@@ -338,7 +314,7 @@ const Education = () => {
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512884/image22_eniezw.png"
+                    src="https://i.ibb.co/B56zQjNZ/image-3.png"
                     alt="Real Estate"
                     className=" inset-0 h-[80%] w-[80%]"
                   />
@@ -395,7 +371,7 @@ const Education = () => {
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512887/image44_kb518h.png"
+                    src="https://i.ibb.co/B56zQjNZ/image-3.png"
                     alt="Real Estate"
                     className=" inset-0 h-[80%] w-[80%]"
                   />
@@ -452,7 +428,7 @@ const Education = () => {
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512885/image33_ncddbp.png"
+                    src="https://i.ibb.co/B56zQjNZ/image-3.png"
                     alt="Real Estate"
                     className=" inset-0 h-[80%] w-[80%]"
                   />
@@ -510,7 +486,7 @@ const Education = () => {
                 </div>
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512889/image66_cvirav.png"
+                    src="https://i.ibb.co/B56zQjNZ/image-3.png"
                     alt="Real Estate"
                     className=" inset-0 h-[80%] w-[80%]"
                   />
@@ -580,7 +556,7 @@ const Education = () => {
           </div>
           <div className="lg:w-1/2">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512875/Group_1171275258_g95ze4.png"
+              src="https://i.ibb.co/BHnrgPPq/Group-1171275258.png"
               alt="AI Technology"
               className="rounded-lg"
             />
@@ -592,7 +568,7 @@ const Education = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512870/Frame_1707481776_yvbswb.png"
+              src="https://i.ibb.co/LDdqVx1W/Frame-1707481776.png"
               alt="AI Technology"
               className="rounded-lg"
             />
@@ -653,7 +629,7 @@ const Education = () => {
           <div className="w-full md:w-1/2 relative space-y-8">
             <div className="h-full w-full">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512889/image-Photoroom_17_1_jpo5b5.png"
+                src="https://i.ibb.co/1fJkL4jT/image-Photoroom-17-1.png"
                 alt="img"
                 className="h-[100%] w-[100%] z-10"
               />

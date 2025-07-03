@@ -8,12 +8,12 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    image: 'https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg',
+    image: 'https://i.ibb.co/twqYRfqp/images.jpg',
     quote: 'Maxify Solutions transformed our outdated website into a modern, user-friendly platform that perfectly reflects our brand. Their team was responsive, creative, and incredibly professional throughout the process. We have seen a significant increase in traffic and customer engagement since the redesign!',
     name: 'Amit Sharma, CEO of EcoNest Enterprises',
   },
   {
-    image: 'https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg',
+    image: 'https://i.ibb.co/XxjsRJVN/person2.jpg',
     quote: 'The digital marketing strategy crafted by Maxify Solutions exceeded our expectations. From SEO to social media campaigns, they helped us grow our online presence and triple our website traffic within six months. Their data-driven approach and consistent updates kept us confident every step of the way!',
     name: 'Riya Malhotra, Founder of Fit & Well Studio',
   },
@@ -23,12 +23,12 @@ const testimonials = [
     name: 'Karan Singh, Director of GreenMart',
   },
   {
-    image: 'https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg',
+    image: 'https://i.ibb.co/20Lcr80D/image.jpg',
     quote: 'Their graphic design team brought our brand to life! The logo and marketing materials they created have helped us stand out in a crowded market. Their designs are innovative, eye-catching, and perfectly aligned with our brand identity."',
     name: 'Priya Arora, Marketing Manager at Style & Co.',
   },
   {
-    image: 'https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person.jpg',
+    image: 'https://i.ibb.co/hRMJpc0K/person6.jpg',
     quote: 'The 3D models created by Maxify Solutions were nothing short of stunning. Their precision and creativity helped us showcase our architectural designs to clients in a way we couldn’t before. Their work added immense value to our presentations',
     name: 'Rahul Verma, Architect at DreamScape Designs',
   },

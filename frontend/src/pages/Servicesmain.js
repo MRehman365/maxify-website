@@ -116,7 +116,7 @@ const Servicesmain = () => {
             </p>
             <div className="flex gap-5 md:mt-[60px]">
               <Link to="/contact">
-                <button className="mt-8 py-3 text-base font-[500] md:text-[14px] sm:px-6 md:px-6 rounded-full relative text-white bg-[#a62fce] isolation-auto z-10 border-2 border-[#a62fce] hover:text-[#a62fce]">
+                <button className="mt-8 py-3 text-base font-[500] md:text-[14px] sm:px-6 md:px-6 rounded-full relative text-white bg-[#a62fce] isolation-auto z-10 border-2 border-[#a62fce] ">
                   Get Started
                 </button>
               </Link>
@@ -137,7 +137,7 @@ const Servicesmain = () => {
             {/* Conditionally render the image or video */}
             {!showVideo ? (
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512678/Property_1_Component_11_m3dted.png"
+                src="https://i.ibb.co/G3ss2svD/services-first.png"
                 alt="best customer support at maxify solutions"
                 className="h-[80%] w-auto object-fit rounded-lg relative sm:bottom-4"
               />
@@ -399,7 +399,7 @@ const Servicesmain = () => {
             <div className="flex flex-col md:flex-row items-center justify-between w-[90%] mx-auto py-10 px-4 bg-white">
               <div className="md:w-1/2 mb-6 md:mb-0">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512678/image_zm2kh5.png"
+                  src="https://i.ibb.co/4gTJDfbT/image.png"
                   alt="low cost web development company in delhi"
                   className="rounded-lg shadow-lg"
                 />
@@ -423,7 +423,7 @@ const Servicesmain = () => {
                   </div>
                   <div className="mt-4 sm:hidden md:block">
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512675/image_1_ulsvqb.png"
+                      src="https://i.ibb.co/nsymKQvm/image-1.png"
                       alt="it company in noida"
                       className="rounded-lg shadow-lg h-full w-auto object-cover"
                     />
@@ -460,7 +460,7 @@ const Servicesmain = () => {
             <div className="flex flex-col md:flex-row items-center justify-between w-[90%] mx-auto py-10 px-4 bg-white">
               <div className="md:w-1/2 mb-6 md:mb-0">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335941/image_apxcob.png"
+                  src="https://i.ibb.co/4gTJDfbT/image.png"
                   alt="Affordable app development company in noida"
                   className="rounded-lg shadow-lg"
                 />
@@ -484,7 +484,7 @@ const Servicesmain = () => {
                   </div>
                   <div className="mt-4 sm:hidden md:block">
                     <img
-                      src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335939/image_1_kc8ira.png"
+                      src="https://i.ibb.co/nsymKQvm/image-1.png"
                       alt="quick seo results  strategies"
                       className="rounded-lg shadow-lg h-full w-auto object-cover"
                     />
@@ -564,7 +564,7 @@ const Servicesmain = () => {
                 </div>
                 <div className="lg:w-1/2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512681/Group_1171275267_shsm2n.png"
+                    src="https://i.ibb.co/7x1tdRHp/Group-1171275267.png"
                     alt="easy to use software"
                     className="rounded-lg"
                   />
@@ -620,7 +620,7 @@ const Servicesmain = () => {
                 </div>
                 <div className="lg:w-1/2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512742/Group_1171275258_rt9ncq.png"
+                    src="https://i.ibb.co/xtG6mC5J/Group-1171275258.png"
                     alt="webdevelopment company in noida"
                     className="rounded-lg"
                   />
@@ -637,7 +637,7 @@ const Servicesmain = () => {
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512680/Group_1171275259_jrpfzh.png"
+                    src="https://i.ibb.co/j9K7pwNQ/Group-1171275259.png"
                     alt="User-friendly app development"
                     className="rounded-lg"
                   />
@@ -693,7 +693,7 @@ const Servicesmain = () => {
               <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512685/Property_1_2_2x_rffjaf.png"
+                    src="https://i.ibb.co/j9K7pwNQ/Group-1171275259.png"
                     alt="3d designing services in noida"
                     className="rounded-lg"
                   />
@@ -748,7 +748,7 @@ const Servicesmain = () => {
       <div className="flex lg:flex-row sm:flex-col-reverse sm:w-[100%] md:w-[90%] lg:w-[80%] mx-auto py-7">
         <div className="lg:w-1/2 sm:w-full items-start flex flex-col p-6">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512730/Figure_s2ftof.png"
+            src="https://i.ibb.co/5hGtrx5r/Figure.png"
             alt="custom app development"
           />
           <div className="py-4 space-y-4 w-full">
@@ -853,7 +853,7 @@ const Servicesmain = () => {
           </div>
           <img
             className="rounded-xl"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512679/Figure_educator-img12-500px.jpg_fc5wh2.png"
+            src="https://i.ibb.co/zVLw4p1y/Figure-educator-img12-500px-jpg.png"
             alt="3d animation company"
           />
         </div>
@@ -863,7 +863,7 @@ const Servicesmain = () => {
       <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512676/image_4_vpcrbk.png"
+            src="https://i.ibb.co/35tb5wZS/image-2.png"
             alt="3d animation company in noida"
             className="sm:w-full md:w-[80%]"
           />

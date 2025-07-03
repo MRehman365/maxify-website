@@ -174,13 +174,10 @@ const SEO = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative">
           <div className=" relative">
-            <video
+            <img
               className="w-[500px] h-[500px]"
-              src="https://res.cloudinary.com/dzt3r5a2b/video/upload/v1729512546/WhatsApp_Video_2024-09-04_at_11.34.30_PM_frdpjf.mp4"
-              controls={false}
-              autoPlay={true}
-              loop={true}
-            ></video>
+              src="https://i.ibb.co/svnXD03x/image-31.webp"
+            />
             <div
               className="absolute bottom-3 text-[60px] bg-[#f9f9f9] py-6 px-[60px] text-[#2334DE]"
               style={{ borderRadius: "0px 20px 0px 0px" }}

@@ -20,7 +20,7 @@ const Banking = () => {
         "Email Advertising Campaigns: Create tailored email marketing campaigns to support leads and retain clients within the banking and finance industry.",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/image_36_a071tl.png", // Replace with the actual image path
+        "https://i.ibb.co/0y91j1mS/image.png", // Replace with the actual image path
     },
     "iOS App Development": {
       title: "Web Site Advancement for Financial and Financial Institutions",
@@ -33,7 +33,7 @@ const Banking = () => {
         "Assimilation with Monetary Devices: Seamlessly incorporate financial and economic tools, such as funding calculators, stock market updates, and money converters, to enhance user experience in banking and finance.",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512933/image_40_syswdq.png", // Replace with the actual image path
+        "https://i.ibb.co/0y91j1mS/image.png", // Replace with the actual image path
     },
     "Cross-Platform App Development": {
       title: "E-Commerce Solutions And Marketing for Banking and Finance",
@@ -46,7 +46,7 @@ const Banking = () => {
         "Financial Product Catalogs: Develop digital catalogs for financial products such as loans, insurance policies, and investment strategies, making it easier for customers to explore and buy in the banking and finance industry.",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512927/image_39_cuqd45.png", // Replace with the actual image path
+        "https://i.ibb.co/0y91j1mS/image.png", // Replace with the actual image path
     },
     "App Design and User Experience (UX)": {
       title: "Custom Software Application Growth for Financial and Finance",
@@ -59,7 +59,7 @@ const Banking = () => {
         "Financial Reporting Tools: Create financial reporting tools to provide real-time information and analytics, aiding organizations to make informed business decisions in the banking and finance industry.",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512925/image_38_anwh1j.png", // Replace with the actual image path
+        "https://i.ibb.co/0y91j1mS/image.png", // Replace with the actual image path
     },
     "App Testing and Quality Assurance": {
       title: "Digital Makeover for Financial Institutions",
@@ -72,7 +72,7 @@ const Banking = () => {
         "Blockchain Solutions: Develop blockchain-based solutions for secure and transparent financial transactions in the banking and finance industry.",
       ],
       imgSrc:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512931/image_41_qjy0sg.png", // Replace with the actual image path
+        "https://i.ibb.co/0y91j1mS/image.png", // Replace with the actual image path
     },
   };
   const serviceKeys = Object.keys(services);
@@ -109,7 +109,7 @@ const Banking = () => {
           <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start lg:h-[70vh] w-full ">
             <div className="w-[70%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512929/image-Photoroom_18_1_mgecit.png"
+              src="https://i.ibb.co/HD9BCb2z/image-Photoroom-18-1.png"
               alt="maxify websolution"
               className="sm:w-full h-full top-0 right-0 z-10 absolute"
             />
@@ -211,7 +211,7 @@ const Banking = () => {
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-center h-full">
           <div className="relative sm:h-[330px] sm:w-[330px] md:h-[400px] md:w-[400px]  bg-gradient-to-b from-[#1ad079] to-[#ffffff] flex justify-center items-center bg-gray-400 rounded-[50%]">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512935/image-Photoroom_19_1_kdfs3m.png"
+              src="https://i.ibb.co/WpFKDmN1/image-Photoroom-19-1.png"
               alt="maxify websolution"
               className="sm:h-full mx-auto absolute -top-[90px] -right-[48px]"
             />
@@ -358,7 +358,7 @@ const Banking = () => {
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-end">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/feature-img-1.png_2_crvjkl.png"
+            src="https://i.ibb.co/Kxk98pFJ/Group-1171275260.png"
             alt="img"
             className="sm:w-full md:w-[70%]"
           />
@@ -370,7 +370,7 @@ const Banking = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="w-full">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_12_yvudfq.png"
+              src="https://i.ibb.co/jPYFyNTB/Container.png"
               alt="Banking Digital Solutions"
               className="rounded-lg  object-cover w-full h-full"
             />
@@ -420,7 +420,7 @@ const Banking = () => {
         {/* Client-Centric Method Card */}
         <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_13_k9sanb.png"
+            src="https://i.ibb.co/Tx5DsKyv/Container-1.png"
             alt="Client-Centric Method"
             className="rounded-md w-full h-52 object-cover mb-4"
           />
@@ -463,7 +463,7 @@ const Banking = () => {
 
         <div className="bg-[#eff3fe] rounded-lg shadow-lg p-6">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512922/Container_14_fe6hja.png"
+            src="https://i.ibb.co/C5xYWFJY/Container-2.png"
             alt="Competitive Pricing"
             className="rounded-md w-full h-52 object-cover mb-4"
           />
@@ -508,13 +508,13 @@ const Banking = () => {
           <img
             undefinedhidden="true"
             alt="SEO graphics"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512926/feature-img-1.png_2_crvjkl.png"
+            src="https://i.ibb.co/S4SmcWcV/feature-img-1-png.png"
             className="rounded-lg w-1/2"
           />
           <img
             undefinedhidden="true"
             alt="SEO graphics"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512923/feature-img-2.png_3_njssfi.png"
+            src="https://i.ibb.co/4yHDbHh/feature-img-2-png.png"
             className="rounded-lg w-1/2"
           />
         </div>
@@ -554,7 +554,7 @@ const Banking = () => {
       <section className="max-w-7xl mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="w-full">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512925/image_37_fo9tqe.png"
+            src="https://i.ibb.co/JwW6QkcZ/image-1.png"
             alt="Contact us"
             className="rounded-lg w-[80%] mx-auto"
           />

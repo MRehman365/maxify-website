@@ -59,36 +59,36 @@ const features = [
 
 const services = [
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_3_lawiaz.png",
+    img: "https://i.ibb.co/8n7F7L8w/Group-63.png",
     title: "Improved Customer Experience:",
     description: `Offer a seamless and interesting customer experience that maintains visitors on your website longer.`,
   },
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_4_ozybgp.png",
+    img: "https://i.ibb.co/Vp9VT9pq/image-4.png",
     title: "List Building and Conversion:",
     description: `Use effective devices and functions to bring in and transform even more leads.`,
   },
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513032/Mask_group_d2wswy.png",
+    img: "https://i.ibb.co/Cpv7jMnJ/image-3.png",
     title: "Increased Presence:",
     description: `With an SEO-optimized website, you can accomplish higher exposure in search engine results.`,
   },
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_3_lawiaz.png",
+    img: "https://i.ibb.co/8n7F7L8w/Group-63.png",
     title: "Improved Customer Experience:",
     description: `Offer a seamless and interesting 
 customer experience that maintains 
 visitors on your website longer.`,
   },
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513018/image_4_ozybgp.png",
+    img: "https://i.ibb.co/Vp9VT9pq/image-4.png",
     title: "Data Safety and Compliance:",
     description: `Our sites abide by the current safety 
 criteria to protect sensitive customer 
 data.`,
   },
   {
-    img: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513032/Mask_group_d2wswy.png",
+    img: "https://i.ibb.co/Cpv7jMnJ/image-3.png",
     title: "Future-Ready Solutions:",
     description: `We develop websites that are not only 
 functional today but likewise versatile 
@@ -129,7 +129,7 @@ const RealEstate = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513021/image_5_oifij8.png"
+            src="https://i.ibb.co/60jK5XfL/Group-3415.png"
             alt="Left Side"
             className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
@@ -223,12 +223,12 @@ const RealEstate = () => {
               </div>
             </div>
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513024/image_bf7suu.png"
+              src="https://i.ibb.co/tpN2YrcT/image.png"
               alt="Left Side"
               className=" object-cover mt-[100px] h-auto rounded-xl mx-auto overflow-hidden"
             />
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513016/image_1_vk4vrd.png"
+              src="https://i.ibb.co/n8tjfvmq/image-1.png"
               alt="Left Side"
               className=" object-cover mb-[100px] h-auto rounded-xl mx-auto overflow-hidden"
             />
@@ -297,7 +297,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513017/image_2_stmled.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -340,7 +340,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513025/image-1_hozzdq.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -380,7 +380,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513027/image-2_mvsrvr.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -421,7 +421,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513030/image-3_sdka5a.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -460,7 +460,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513029/image-4_g5cwsy.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -500,7 +500,7 @@ const RealEstate = () => {
               <div className="flex flex-col md:flex-row mt-2 items-center">
                 <div className="md:w-1/2  flex justify-center items-center">
                   <img
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513031/image-5_ssrw6c.png"
+                    src="https://i.ibb.co/qMZd7S4v/image-2.png"
                     alt="Real Estate"
                     className=" inset-0"
                   />
@@ -561,7 +561,7 @@ const RealEstate = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513015/Group_164554_pzaekb.png"
+            src="https://i.ibb.co/rRy3rjpP/Group-164554.png"
             alt="Left Side"
             className="md:w-[80%] sm:w-full"
           />
@@ -691,7 +691,7 @@ const RealEstate = () => {
             <div className="w-full md:w-1/2 relative">
               <div className="bg-[#37937e] rounded-tr-[100px] rounded-bl-[100px] p-4 md:p-8">
                 <img
-                  src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513022/image_6_sa9jil.png"
+                  src="https://i.ibb.co/NgSyYjfH/image-5.png"
                   alt="Real estate website development"
                   width={500}
                   height={300}
@@ -746,7 +746,7 @@ const RealEstate = () => {
         <div className="md:w-1/3">
           <div className=" rounded-lg p-4 relative">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513022/image_7_ubi61u.png"
+              src="https://i.ibb.co/DmwY7ZQ/image-6.png"
               alt="Hand holding smartphone"
               className="w-full h-auto rounded"
             />

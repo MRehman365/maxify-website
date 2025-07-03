@@ -40,7 +40,7 @@ const CaseSudy = () => {
       <div className="mx-auto grid md:grid-cols-2 gap-4 md:gap-8  items-center">
         {/* Left side with image */}
         <div className="border border-gray-600 aspect-square flex items-center justify-center">
-      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513525/1_a07tse.webp" className='h-full w-full' alt="" />
+      <img src="https://i.ibb.co/ynB4nKxd/BUSINESS-BOOST-REVENUE.jpg" className='h-full w-full' alt="" />
         </div>
 
         {/* Right side with content */}
@@ -78,7 +78,7 @@ const CaseSudy = () => {
       <div className="mx-auto grid md:grid-cols-2 gap-4 md:gap-8  items-center">
         {/* Left side with image */}
         <div className="border border-gray-600 aspect-square flex items-center justify-center">
-      <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513525/1_a07tse.webp" className='h-full w-full' alt="" />
+      <img src="https://i.ibb.co/j9PhsqXq/BUSINESS-BOOST-REVENUE2.jpg" className='h-full w-full' alt="" />
         </div>
 
         {/* Right side with content */}

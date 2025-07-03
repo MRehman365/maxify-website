@@ -40,13 +40,7 @@ const Healthcare = () => {
       description:
         "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
       Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
-      altImages: "best it company for healthcare idustries branding",
-
-      description:
-        "A well-designed, user-friendly website is essential for any kind of doctor. Our custom-made healthcare web development solutions ensure that your internet site is not simply a digital presence but a powerful device for individual acquisition, interaction, and retention.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+        "https://i.ibb.co/JRhw1LQf/img1.png",
       altImages: "best it company for healthcare idustries branding",
 
       points: [
@@ -61,13 +55,7 @@ const Healthcare = () => {
       description:
         "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
       Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
-      altImages: "healthcare web development ",
-
-      description:
-        "Telemedicine has changed the method of healthcare delivery. Our group specializes in constructing robust telemedicine systems that make it possible for remote examinations, video clip phone calls, and safe communication between healthcare providers and patients.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335936/Group_1171275269_h1dglo.png",
+        "https://i.ibb.co/m5zkzTFT/img3.png",
       altImages: "healthcare web development ",
 
       points: [
@@ -81,7 +69,7 @@ const Healthcare = () => {
       description:
         "In today's mobile-first globe, a dedicated healthcare app can significantly boost patient engagement. Our healthcare mobile application advancement services focus on producing user friendly, feature-rich applications that deal with the needs of both healthcare providers and people",
       Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275270_hwyh5r.png",
+        "https://i.ibb.co/MDqJdrBp/img2.png",
       points: [
         "Individual Administration Apps: Apps that help people manage their health and wellness documents, appointments, medicine tips, and a lot more.",
         "Doctor-Patient Communication Applications: Helping with real-time interaction between physicians and patients for far better healthcare distribution.",
@@ -94,13 +82,7 @@ const Healthcare = () => {
       description:
         "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
       Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
-      altImages: "healthcare website development ",
-
-      description:
-        "Efficient individual administration is crucial to a successful healthcare technique. Our medical care Consumer Relationship Administration (CRM) solutions help you handle client relationships better, simplify processes, and enhance total solution quality.",
-      Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335943/Group_1171275271_k7w6og.png",
+        "https://i.ibb.co/FkN9GJVc/img4.png",
       altImages: "healthcare website development ",
 
       points: [
@@ -114,7 +96,7 @@ const Healthcare = () => {
       description:
         "With the increase of digital healthcare, e-pharmacy and e prescription services are becoming significantly preferred. Maxify Solution supplies detailed e-pharmacy services that allow individuals to buy medicines online securely.",
       Images:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335942/Group_1171275271_1_ccqbps.png",
+        "https://i.ibb.co/m5zkzTFT/img3.png",
       altImages: "healthcare designing development ",
       points: [
         "Safeguard Online Purchases: Integrated settlement portals that make sure safe and secure online deals for buying medicines.",
@@ -201,7 +183,7 @@ const Healthcare = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_350_tmpbbj.png"
+            src="https://i.ibb.co/DPmx7n2p/image-350.png"
             alt="healthcare web development company in noida"
             className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
@@ -217,7 +199,7 @@ const Healthcare = () => {
         <div class="flex flex-col lg:flex-row items-center justify-between md:mt-2 space-x-4">
           <div class="md:w-1/2 mb-6 md:mb-0 mt-6 px-6">
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513072/image_351_suj5ua.png"
+              src="https://i.ibb.co/35tMb7Mt/Mask-group.png"
               alt="hospital web development company in noida"
               class="rounded-lg"
             />
@@ -313,12 +295,12 @@ const Healthcare = () => {
 
         <div class="lg:w-1/2 mb-6 md:mb-0 mt-6 px-6 relative sm:h-[320px] md:h-[300px] w-full">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513075/Vector_v8ojeh.png"
+            src="https://i.ibb.co/PvnnMdkD/Vector.png"
             alt="best website designing company for healthcare"
             class=" absolute sm:w-[80%] lg:w-[65%] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513073/image_vsgi2q.png"
+            src="https://i.ibb.co/2Yn5gTzL/image.png"
             alt="portfolio website for doctors"
             class=" absolute sm:w-[80%] lg:w-[65%] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
@@ -329,7 +311,7 @@ const Healthcare = () => {
       <div class="flex flex-col lg:flex-row items-center justify-between space-x-4 sm:w-full md:w-[90%] mx-auto mt-10 p-6">
         <div class="lg:w-1/2 relative sm:h-[320px] md:h-[400px] w-full">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513060/image_1_mkmwi5.png"
+            src="https://i.ibb.co/jPwdN1Dt/image-1.png"
             alt="hearthcare need top it company for solutions"
             className=" object-cover h-full w-full rounded-xl mx-auto overflow-hidden"
           />
@@ -352,12 +334,12 @@ const Healthcare = () => {
             </div>
             <div className="w-[30%] py-4 space-y-2 flex-col items-end sm:hidden md:flex">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513058/image_2_dmpozw.png"
+                src="https://i.ibb.co/LXnQBY0J/image-2.png"
                 className="h-[100px]"
                 alt="maxify websolution"
               />
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513061/image_3_ld2myz.png"
+                src="https://i.ibb.co/svgNwdqY/image-3.png"
                 className="h-[100px]"
                 alt="maxify websolution"
               />
@@ -378,7 +360,7 @@ const Healthcare = () => {
       <div class="flex flex-col lg:flex-row items-center justify-between sm:w-full md:w-[90%] mx-auto mt-10 p-4 md:p-6">
         <div class="md:w-1/2 mb-6 md:mb-0 mt-6 md:px-6">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513063/image_4_acwa3p.png"
+            src="https://i.ibb.co/rV50MVn/image-4.png"
             alt="doctos website and designinc compnay "
             class="rounded-lg"
           />
@@ -405,7 +387,7 @@ const Healthcare = () => {
         {/* Left Section: Image */}
         <div className="relative md:w-1/2 w-full flex justify-center items-center md:rounded-l-lg">
           <img
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513078/Mask_group_m9advu.png"
+            src="https://i.ibb.co/fVZMnBfS/Group-1933.png"
             alt="web development company in noida"
             className="rounded-lg md:rounded-none w-full h-auto object-cover"
           />

@@ -35,42 +35,42 @@ const EcomSlider = () => {
     {
       title: "Fashion Retailer",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
+        "https://i.ibb.co/KjMs1gpz/fashion-retailer.jpg",
       description:
         "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
     },
     {
       title: "Electronics Store",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
+        "https://i.ibb.co/s9BHgYrn/electronic-store.jpg",
       description:
         "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
     },
     {
       title: "Healthcare Products",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
+        "https://i.ibb.co/qFxFGNVb/Healthcareproduct.jpg",
       description:
         "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
     },
     {
       title: "Food Delivery Service",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
+        "https://i.ibb.co/cjRbRY2/img6.png",
       description:
         "Developed a scalable and efficient platform for a food delivery service that optimized delivery times and improved user satisfaction.",
     },
     {
       title: "Home Decor Store",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
+        "https://i.ibb.co/j9PhsqXq/BUSINESS-BOOST-REVENUE2.jpg",
       description:
         "Built a visually appealing e-commerce platform for a home decor brand that enhanced their customers' online shopping experience.",
     },
     {
       title: "Sports Goods Store",
       icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
+        "https://i.ibb.co/ynB4nKxd/BUSINESS-BOOST-REVENUE.jpg",
       description:
         "Helped a sports goods retailer streamline their online sales operations and reach a broader audience with a robust e-commerce platform.",
     },
@@ -174,11 +174,11 @@ const EcomSlider = () => {
                     key={statIndex}
                     className="text-center flex flex-col items-center"
                   >
-                    <img
+                    {/* <img
                       className="w-10 md:ml-5"
                       src={stat.icon}
                       alt="maxify websolution"
-                    />
+                    /> */}
                     <div className="md:text-3xl sm:text-xl font-bold">
                       {stat.number}
                     </div>
@@ -188,7 +188,7 @@ const EcomSlider = () => {
                 <div className="sm:hidden md:block">
                   <img
                     className="w-60 h-[13rem]"
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png"
+                    src="https://i.ibb.co/DHxrMMCJ/img13.png"
                     alt="maxify websolution"
                   />
                 </div>
@@ -266,7 +266,7 @@ const EcomSlider = () => {
                 <div className="sm:hidden md:block">
                   <img
                     className="w-60 h-[13rem]"
-                    src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513261/img13_ixwutp.png"
+                    src="https://i.ibb.co/DHxrMMCJ/img13.png"
                     alt="maxify websolution"
                   />
                 </div>

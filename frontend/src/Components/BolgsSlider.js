@@ -14,12 +14,12 @@ const blogs = [
       name: 'Amit Sharma, CEO of EcoNest Enterprises',
     },
     {
-      image: 'https://i.ibb.co/WvdB51Tb/image-4.png',
+      image: 'https://i.ibb.co/p7Y4Pnf/blog-post-img-2.png',
       quote: 'The digital marketing strategy crafted by Maxify Solutions exceeded our expectations. From SEO to social media campaigns, they helped us grow our online presence and triple our website traffic within six months. Their data-driven approach and consistent updates kept us confident every step of the way!',
       name: 'Riya Malhotra, Founder of Fit & Well Studio',
     },
     {
-      image: 'https://i.ibb.co/WvdB51Tb/image-4.png',
+      image: 'https://i.ibb.co/HTw7BYvB/blog-post-img-1.png',
       quote: 'Maxify Solutions delivered a top-notch mobile app for our business. Their attention to detail and focus on user experience set them apart. Our customers love the seamless functionality, and we’ve seen a remarkable boost in app downloads and user retention.',
       name: 'Karan Singh, Director of GreenMart',
     },
