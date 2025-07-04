@@ -147,7 +147,7 @@ const sections = {
     heading: "Custom Software Development",
     bgColor: "#2334DE",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731336049/Web_Design_and_Development_5_xuuean.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -173,7 +173,7 @@ const sections = {
     heading: "Digital Marketing",
     bgColor: "#6b64ec",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731336049/Web_Design_and_Development_5_xuuean.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -199,7 +199,7 @@ const sections = {
     heading: "Web Development",
     bgColor: "#44b88c",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335999/Web_Design_and_Development_wb6hhm.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -225,7 +225,7 @@ const sections = {
     heading: "IT Consulting",
     bgColor: "#ffad05",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731336019/Web_Design_and_Development_1_y7rffp.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -251,7 +251,7 @@ const sections = {
     heading: "Cloud Solutions",
     bgColor: "#a1a6b3",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335962/Web_Design_and_Development_2_wgdytz.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -277,7 +277,7 @@ const sections = {
     heading: "Cybersecurity",
     bgColor: "#ff0000",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335983/Web_Design_and_Development_3_pqhwpk.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
@@ -303,7 +303,7 @@ const sections = {
     heading: "Business Intelligence and Analytics",
     bgColor: "#946e4d",
     image:
-      "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731336021/Web_Design_and_Development_4_quavha.gif",
+      "https://i.ibb.co/BKZ1sgZf/2157f9a7-1221-4ad0-b3d2-67511d479505.gif",
     points: [
       {
         number: "01",
