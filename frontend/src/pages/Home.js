@@ -657,21 +657,6 @@ const Home = () => {
           />
         </motion.div>
         <motion.div
-          className="absolute hidden md:block left-[48%] top-[0%]"
-          transition={{
-            type: "spring",
-            stiffness: 300,
-            damping: 20,
-            duration: 3,
-          }}
-          whileHover={{
-            x: Math.random() > 0.5 ? 20 : -20, // Randomly move left or right
-            y: Math.random() > 0.5 ? 20 : -20, // Randomly move up or down
-          }}
-        >
-          {/* <img src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1735554473/dev_zhjlx0.png" alt="Folder" className="h-auto w-auto" /> */}
-        </motion.div>
-        <motion.div
           className="absolute hidden md:block left-[6%] top-[45%]"
           transition={{
             type: "spring",

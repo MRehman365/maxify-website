@@ -506,7 +506,7 @@ const HRMS = () => {
           <img
             undefinedhidden="true"
             alt="Human Resource Management System software"
-            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513142/Group_164461_mebd4q.png"
+            src="https://i.ibb.co/fd6vSQd8/Group-164461.png"
             className=""
           />
         </div>

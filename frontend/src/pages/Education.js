@@ -659,7 +659,7 @@ const Education = () => {
               and experience to change your vision into truth.
             </p>
             <img
-              src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512875/image_36_owjg9b.png"
+              src="https://i.ibb.co/WNT8bmV7/image.png"
               className="w-full h-[100px] object-cover rounded-lg rou"
               alt="img here"
             />

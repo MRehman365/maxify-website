@@ -5,30 +5,6 @@ import { Link } from "react-router-dom";
 import SEOComponent from "../Components/SEOComponent";
 
 const Ecommerce = () => {
-  const caseStudies = [
-    {
-      title: "Fashion Retailer",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg3_okqwh5.svg",
-      description:
-        "We helped a leading fashion brand launch an e-commerce store that increased their online sales by 200% within the first six months.",
-    },
-    {
-      title: "Electronics Store",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513273/svg1_sfuj8q.svg",
-      description:
-        "Our team developed a robust e-commerce platform for an electronics retailer, enabling them to handle high-order volumes during peak shopping seasons.",
-    },
-    {
-      title: "Healthcare Products",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513272/svg2_txpjyi.svg",
-      description:
-        "We designed and developed an e-commerce website for a healthcare company, ensuring compliance with industry regulations while providing a user-friendly shopping experience.",
-    },
-  ];
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

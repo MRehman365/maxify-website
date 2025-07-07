@@ -78,22 +78,22 @@ const EcomSlider = () => {
 
   const statistics = [
     {
-      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513238/icone5_fa9rtc.svg",
+      icon: "https://i.ibb.co/4Z83KLHJ/Group.png",
       number: "1000+",
       text: "Satisfied Clients",
     },
     {
-      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513239/icone6_oorcjg.svg",
+      icon: "https://i.ibb.co/0jg8zqMM/Vector.png",
       number: "600+",
       text: "Finished Projects",
     },
     {
-      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513240/icone7_oxwakt.svg",
+      icon: "https://i.ibb.co/DPbgDVgg/Group-1.png",
       number: "100+",
       text: "Skilled Experts",
     },
     {
-      icon: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513242/icone8_afghju.svg",
+      icon: "https://i.ibb.co/v46ZpT94/Group-2.png",
       number: "5,90+",
       text: "Media Posts",
     },
@@ -174,11 +174,11 @@ const EcomSlider = () => {
                     key={statIndex}
                     className="text-center flex flex-col items-center"
                   >
-                    {/* <img
-                      className="w-10 md:ml-5"
+                    <img
+                      className="w-10 "
                       src={stat.icon}
                       alt="maxify websolution"
-                    /> */}
+                    />
                     <div className="md:text-3xl sm:text-xl font-bold">
                       {stat.number}
                     </div>
@@ -253,7 +253,7 @@ const EcomSlider = () => {
                     className="text-center flex flex-col items-center"
                   >
                     <img
-                      className="w-10 md:ml-5"
+                      className="w-10 "
                       src={stat.icon}
                       alt="maxify websolution"
                     />
