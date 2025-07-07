@@ -17,7 +17,7 @@
 }
 
 .bg-images {
-  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513546/bg-image_lws9jy.png");
+  background-image: url("https://i.ibb.co/gqy1xZR/Image-1.png");
   background-color: #162235;
   position: relative;
   height: 30.5rem;
@@ -43,7 +43,7 @@
 }
 
 .bg-image {
-  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513237/bg-image_y5kxd4.png");
+  background-image: url("");
 }
 
 .text3d{
@@ -108,7 +108,7 @@ text-transform: capitalize;
 }
 
 .mbg {
-  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512521/mbg_z93l3z.png");
+  background-image: url("");
   background-repeat: no-repeat; /* Prevents the image from repeating */
   width: 100%; /* Full width */
   height: 100%;
@@ -117,10 +117,11 @@ text-transform: capitalize;
 }
 
 .mbg2{
-  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512491/CTA_hvcpk9.png");
+  background-image: url("");
   background-repeat: no-repeat; /* Prevents the image from repeating */
   width: 100%; /* Full width */
   height: 100%;
+  background-color: #2334DE;
   margin: auto; /* Centers the section */
   /* padding: 0px 100px; */
 }

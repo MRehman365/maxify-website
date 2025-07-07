@@ -10,8 +10,8 @@ import SEOComponent from "../Components/SEOComponent";
 const DigitalMarketing = () => {
   const slides = [
     "https://i.ibb.co/6c6G4QkX/3.png",
-    "https://i.ibb.co/6c6G4QkX/3.png",
-    "https://i.ibb.co/6c6G4QkX/3.png",
+    "https://i.ibb.co/gMdhQKnN/image.png",
+    "https://i.ibb.co/bjW2CN8W/Property-1-Frame-179.png",
   ];
   const sliderSettings = {
     dots: true,

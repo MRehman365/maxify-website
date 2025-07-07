@@ -18,8 +18,6 @@ const Services = () => {
       description:
         "Our custom website design and development services set us apart as the best website development company in Noida. We do not believe in universally applicable solutions. Instead, we take the time to understand your company's goals, target audience, and brand identity while designing a website that represents your concept.",
       hoverText: "Learn More",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg",
       key1: "Tailored Designs: We create unique, visually appealing designs that resonate with your brand.",
       key2: "Responsive Development: Our websites are fully responsive, ensuring a seamless user experience across all devices.",
       key3: "User-Centric Approach: We focus on creating websites that are not only attractive but also easy to navigate, keeping your audience engaged.",
@@ -70,8 +68,6 @@ const Services = () => {
         "Our success as the best website development company in Noida is backed by a strong portfolio of satisfied clients across various industries. We take pride in delivering websites that exceed our clients' expectations.",
       image:
         "https://i.ibb.co/TMRRD9q9/2.webp",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513517/1_mtulth.svg",
     },
     {
       id: 2,
@@ -80,8 +76,6 @@ const Services = () => {
         "At Maxify Solutions, we believe that your success is our success. We focus on understanding your needs and goals to deliver a website that is more than just a website; it is an invaluable resource for your company.",
       image:
         "https://i.ibb.co/69Rdypw/3.webp",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513520/2_spdpmt.svg",
     },
     {
       id: 3,
@@ -90,8 +84,6 @@ const Services = () => {
         "We stay ahead of the curve by using the latest technologies and tools in web development. Our commitment to innovation ensures that your website is future-proof and ready to adapt to new trends and changes.",
       image:
         "https://i.ibb.co/bpxFjz0/6.webp",
-      icone:
-        "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513524/3_fsmwyh.svg",
     },
   ];
 
@@ -166,7 +158,7 @@ const Services = () => {
             <div className="absolute left-0 top-0 bg-[#2334DE] w-2 h-full"></div>
             <div className="relative">
               <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335925/Background_oa0a6s.png"
+                src="https://i.ibb.co/hRNfXf9K/Background.png"
                 alt="circle "
                 className=" w-[42%] h-auto absolute bottom-[50%] right-[20%] transform translate-x-[50%] translate-y-[50%] -z-[0]"
               />
@@ -286,7 +278,7 @@ const Services = () => {
                       </h3>
                       {/* <div className="mt-[-10px]">
                         <img
-                          src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
+                          src="h"
                           alt="maxify websolution"
                         />
                       </div> */}
@@ -369,7 +361,7 @@ const Services = () => {
                         </h3>
                         <div className="mt-[-10px]">
                           {/* <img
-                            src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513548/icon_ewh8b1.svg"
+                            src=""
                             alt="maxify websolution"
                           /> */}
                         </div>

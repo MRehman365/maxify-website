@@ -331,11 +331,6 @@ body {
   background-size: 70%;
   background-position: left;
 }
-.bg-slide {
-  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512513/Image_1111_l2kra6.png');
-  background-repeat: no-repeat;
-  background-position: left top;
-}
 .bg-contact1 {
   background-image: url('https://i.ibb.co/HTP7Ty3s/Group-164551.png');
   background-repeat: no-repeat;
@@ -349,7 +344,7 @@ body {
   background-size: cover;
 }
 .bg-con {
-  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512522/Rectangle_4485_qqtcmx.png');
+  background-image: url('https://i.ibb.co/PsHtgLYM/Rectangle-4485.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -361,7 +356,7 @@ body {
   background-position: center;
 }
 .bg-contact{
-  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512508/image_316_1_blotff.png');
+  background-image: url('https://i.ibb.co/ZpsBws3J/image-316.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -376,13 +371,13 @@ body {
 }
 .bg-hrms{
   
-  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513138/Background_1_tb1vzc.png');
+  background-image: url('https://i.ibb.co/YJZgpP3/Background-1.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .bg-realestate{
-  background-image: url('https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729513033/Rectangle_19_ul8gwg.png');
+  background-image: url('https://i.ibb.co/6LRNMvJ/Group-164461.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -694,7 +689,7 @@ input:focus {
   background-image: url("https://i.ibb.co/607tzMts/Whats-App-Image-2024-09-04-at-12-53-53-AM.jpg");
 }
 .bg-app {
-  background-image: url("https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/line_circle_ydk4lc.svg");
+  background-image: url("https://i.ibb.co/N27vbN78/bg-shape-1-svg.png");
   background-repeat: no-repeat;
 }
 .right-seo {

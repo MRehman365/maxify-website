@@ -191,35 +191,30 @@ const MarketingSolutions = () => {
       datatitle: "Step 1: Discovery and Preparation",
       datadescription:
         "We start by learning more about your target audience, job requirements, and organizational goals. This step involves conceptualizing sessions, principle growth, and creating a task roadmap.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335937/Group_1171275263_yyuanz.png",
       altdataimage:"marketing strategy for 3d",
     },
     {
       datatitle: "Step 2: 3D Modeling and Design",
       datadescription:
         "Our gifted 3D developers and modelers bring your ideas to life by developing in-depth 3D models that record the essence of your vision. This phase consists of modeling, texturing, and shading.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335934/Group_1171275264_fucgmo.png",
       altdataimage:"3d modeling app sculpt & draw",
     },
     {
       datatitle: "Step 3: Making and Animation",
       datadescription:
         "Once the 3D designs are completed, we proceed with rendering and animation. We utilize advanced rendering software applications and techniques to develop topquality visuals and animations.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335935/Group_1171275265_aje1ue.png",
       altdataimage:"3d caracter creation",
     },
     {
       datatitle: "Step 4: Testimonial and Modification",
       datadescription:
         "We offer multiple rounds of revisions to ensure that the final product aligns with your assumptions and objectives. Your responses are critical at this phase, and we function very closely with you to make any kind of needed adjustments.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335930/Group_1171275266_ohsat6.png",
       altdataimage:"custom 3d designing",
     },
     {
       datatitle: "Step 5: Shipment and Implementation",
       datadescription:
         "Upon final approval, we supply the last files in the required styles, ready for use throughout different systems and advertising channels.",
-      dataimage: "https://res.cloudinary.com/dzt3r5a2b/image/upload/v1731335927/Group_1171275267_kx0xgg.png",
       altdataimage:"easy to implementation",
     },
   ];
@@ -561,16 +556,6 @@ const MarketingSolutions = () => {
           <div className=" relative">
             <img className="" src="https://i.ibb.co/Xr63cJvP/Background-Border-Shadow.png" 
             alt="best companies for 3d animation" />
-
-            {/* <div
-              className="absolute bottom-0 text-[60px] bg-[#f9f9f9] px-5 text-[#2334DE]"
-              style={{ borderRadius: "0px 20px 0px 0px" }}
-            >
-              <img
-                src="https://res.cloudinary.com/dzt3r5a2b/image/upload/v1729512519/imgwatch_eico7g.png"
-                alt="maxify websolution"
-              />
-            </div> */}
           </div>
         </div>
       </div>
