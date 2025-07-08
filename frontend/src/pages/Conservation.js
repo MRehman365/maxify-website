@@ -455,7 +455,7 @@ const Conservation = () => {
       {/*  */}
       <div className="mt-8 p-2 text-white relative mx-auto sm:w-full md:w-[90%] lg:w-[80%]">
         <img
-          src="https://i.ibb.co/SDs3qJz9/image-9.png"
+          src="https://i.ibb.co/Y7tCCsq2/our-commitment.png"
           alt="our commitment"
           className="w-full h-auto"
         />

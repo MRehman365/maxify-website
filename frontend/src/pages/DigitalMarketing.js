@@ -66,15 +66,19 @@ const DigitalMarketing = () => {
             generate more traffic with PPC ads, we have you covered.
           </p>
           <Link to="/contact">
-            <button className="bg-[#2563eb] text-white rounded-lg px-4 py-1 mt-4 ">
-              Get Start
-            </button>
+               <button
+                  className="mt-8 py-3 lg:ml-[20px]  text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+                 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
+                >
+                  Get Started Now
+                </button>
           </Link>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4 mt-6">
+      <div className="flex md:flex-row flex-col w-full md:w-[90%] lg:w-[80%] mx-auto p-4">
         <div className="w-full">
           <img
+          className="w-full h-[400px] object-cover rounded-2xl"
             src="https://i.ibb.co/rfX8cwrj/Image.png"
             alt="Affordable digital marketing agency in noida delhi ncr"
           />

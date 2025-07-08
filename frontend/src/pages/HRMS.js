@@ -186,7 +186,7 @@ const HRMS = () => {
           <div className="lg:w-1/2 mt-8 lg:mt-0 p-2 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
             <div className="h-[100%] sm:w-[100%] lg:w-[70%]: overflow-hidden flex justify-center items-center rounded-lg relative  z-10">
               <img
-                src="https://i.ibb.co/HppTwQ28/image-18.png"
+                src="https://i.ibb.co/prP5YsjR/hrms.png"
                 alt="hrms software development company"
                 className="sm:h-full md:h-[80%] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />

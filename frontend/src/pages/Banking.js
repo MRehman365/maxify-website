@@ -107,11 +107,11 @@ const Banking = () => {
         <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background min-h-max rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
           {/* Right side with video */}
           <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start lg:h-[70vh] w-full ">
-            <div className="w-[70%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
+            <div className="w-[80%] h-full mx-auto  bg-gradient-to-b from-[#1ad079] to-[#0d0d1d] rounded-lg"></div>
             <img
               src="https://i.ibb.co/HD9BCb2z/image-Photoroom-18-1.png"
               alt="maxify websolution"
-              className="sm:w-full h-full top-0 right-0 z-10 absolute"
+              className="sm:w-full h-full object-cover top-0 -right-20 z-10 absolute"
             />
           </div>
           {/* Left side content */}

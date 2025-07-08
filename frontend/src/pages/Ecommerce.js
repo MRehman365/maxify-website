@@ -53,7 +53,7 @@ const Ecommerce = () => {
         <div className=" md:w-[90%] lg:h-auto sm:h-[300px] mx-auto md:mt-10">
           <img
             className="md:w-[100%] lg:h-auto sm:h-[300px]"
-            src="images/img2.png"
+            src="https://i.ibb.co/7dvqYf2F/Untitled-1500-x-700-px.png"
             alt="maxify websolution"
           />
         </div>

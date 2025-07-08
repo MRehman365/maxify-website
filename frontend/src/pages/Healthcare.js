@@ -183,9 +183,9 @@ const Healthcare = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src="https://i.ibb.co/DPmx7n2p/image-350.png"
+            src="https://i.ibb.co/Q324RLmK/HEALTHCARE.png"
             alt="healthcare web development company in noida"
-            className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
+            className="w-[90%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
         </div>
       </div>

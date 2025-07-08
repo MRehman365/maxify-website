@@ -27,17 +27,17 @@ const Education = () => {
           {/* Left Side Content */}
           <div className="space-y-6 text-center">
             <h1 className="text-4xl md:text-6xl font-bold">
-              <span className="text-blue-600">Education</span>
+              <span className="text-[#2334DE]">Education</span>
               <br />
-              <span className="text-blue-600">Internet Site</span>
+              <span className="text-[#2334DE]">Internet Site</span>
               <br />
-              <span className="text-blue-600">Growth</span>
+              <span className="text-[#2334DE]">Growth</span>
             </h1>
             <p className="text-2xl md:text-5xl font-[300]">
               by Maxify Solution
             </p>
             <Link to="/contact">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg rounded-md">
+              <button className="bg-[#2334DE] hover:bg-blue-700 mt-6 text-white px-8 py-3 text-lg rounded">
                 Get started
               </button>
             </Link>

@@ -129,9 +129,9 @@ const RealEstate = () => {
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-start items-center relative p-2">
           <img
-            src="https://i.ibb.co/60jK5XfL/Group-3415.png"
+            src="https://i.ibb.co/XZmdvmKr/real-estate.png"
             alt="Left Side"
-            className="w-[80%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
+            className="w-[90%] object-cover h-[90%] rounded-xl mx-auto overflow-hidden"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}

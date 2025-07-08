@@ -106,7 +106,7 @@ const Services = () => {
   return (
     <div>
       {/* hero section */}
-      <div className="flex flex-col md:flex-row items-center bg-gray-50 min-h-screen sm:flex-col-reverse">
+      <div className="flex flex-col md:flex-row items-center bg-gray-50 min-h-screen sm:flex-col-reverse mt-[60px] md:mt-[70px]">
         {/* Left Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 lg:px-10 sm:px-5 sm:mt-5 lg:mt-0">
           <div className="bg-[#2334DE] uppercase text-white tracking-wider mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
@@ -141,11 +141,11 @@ const Services = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center p-2 md:p-4">
           <img
             src="https://i.ibb.co/BVKw3Xxj/1.webp"
             alt="web development company in noida, Delhi NCR"
-            className="rounded-lg shadow-md w-full h-auto"
+            className="rounded-2xl  w-full h-auto"
           />
         </div>
       </div>
